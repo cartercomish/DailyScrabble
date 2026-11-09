@@ -5,8 +5,7 @@ import {
   buildGameResult,
   cloneBoard,
   evaluateRound,
-  findBestPlay,
-  placeTilesOnBoard,
+  findBestSolutionPath,
   puzzleRefillBag,
   refillRack,
   remainingRack,
@@ -79,7 +78,7 @@ export function GameClient({ puzzle }: GameClientProps) {
   const [hydrated, setHydrated] = useState(false);
   const [showSolution, setShowSolution] = useState(false);
   const [solutionPlays, setSolutionPlays] = useState<SolutionPlayView[]>([]);
-  const [rackMode, setRackMode] = useState<RackMode>("refresh");
+  const [rackMode, setRackMode] = useState<RackMode>("refill");
   const [bagIndex, setBagIndex] = useState(0);
   const suppressClickRef = useRef(false);
   const refillBag = useMemo(() => puzzleRefillBag(puzzle), [puzzle]);
@@ -364,7 +363,14 @@ export function GameClient({ puzzle }: GameClientProps) {
     }
 
     if (roundIndex >= 2) {
-      const gameResult = buildGameResult(puzzle, nextResults);
+      const bestPath = dict
+        ? findBestSolutionPath(puzzle, dict, rackMode)
+        : null;
+      const gameResult = buildGameResult(
+        puzzle,
+        nextResults,
+        bestPath?.total,
+      );
       const streakCount = updateStreakOnFinish(puzzle.id, puzzle.date);
       setBoard(nextBoard);
       setRoundResults(nextResults);
@@ -421,20 +427,8 @@ export function GameClient({ puzzle }: GameClientProps) {
       setSolutionPlays([]);
       return;
     }
-    let b = boardFromPuzzle(puzzle);
-    const plays: SolutionPlayView[] = [];
-    for (let i = 0; i < 3; i++) {
-      const best = findBestPlay(b, puzzle.rounds[i].rack, dict);
-      if (!best) break;
-      plays.push({
-        word: best.mainWord,
-        score: best.score,
-        tiles: best.tilesPlaced,
-        round: i + 1,
-      });
-      b = placeTilesOnBoard(b, best.tilesPlaced, true);
-    }
-    setSolutionPlays(plays);
+    const path = findBestSolutionPath(puzzle, dict, rackMode);
+    setSolutionPlays(path.plays);
     setShowSolution(true);
   }
 

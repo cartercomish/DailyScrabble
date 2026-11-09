@@ -2,6 +2,7 @@ import { applySeed, createEmptyBoard, placeTilesOnBoard } from "./board";
 import type { Dictionary } from "./dictionary";
 import { commitTentative } from "./play";
 import { puzzleBestTotal, scoreEmoji } from "./rating";
+import { findBestPlay } from "./solver";
 import type {
   BoardCell,
   DailyPuzzle,
@@ -9,6 +10,15 @@ import type {
   PlacedTile,
   RoundResult,
 } from "./types";
+
+export type RackMode = "refresh" | "refill";
+
+export interface SolutionPlay {
+  word: string;
+  score: number;
+  tiles: PlacedTile[];
+  round: number;
+}
 
 export function boardFromPuzzle(puzzle: DailyPuzzle): BoardCell[][] {
   const board = createEmptyBoard(puzzle.size);
@@ -47,9 +57,9 @@ export function evaluateRound(
 export function buildGameResult(
   puzzle: DailyPuzzle,
   rounds: RoundResult[],
+  bestTotal = puzzleBestTotal(puzzle),
 ): GameResult {
   const totalScore = rounds.reduce((s, r) => s + r.score, 0);
-  const bestTotal = puzzleBestTotal(puzzle);
   return {
     puzzleId: puzzle.id,
     puzzleNumber: puzzle.number,
@@ -60,6 +70,60 @@ export function buildGameResult(
     emoji: scoreEmoji(totalScore, bestTotal),
     rounds,
     bestWordHits: rounds.filter((r) => r.hitBestWord).length,
+  };
+}
+
+/**
+ * Greedy best line for the active rack mode.
+ * refresh: each round uses that round's full rack.
+ * refill: unused letters stay; draws come from later-round racks as a bag.
+ */
+export function findBestSolutionPath(
+  puzzle: DailyPuzzle,
+  dict: Dictionary,
+  mode: RackMode = "refresh",
+): { plays: SolutionPlay[]; total: number } {
+  let board = boardFromPuzzle(puzzle);
+  const plays: SolutionPlay[] = [];
+
+  if (mode === "refresh") {
+    for (let i = 0; i < puzzle.rounds.length; i++) {
+      const best = findBestPlay(board, puzzle.rounds[i].rack, dict);
+      if (!best) break;
+      plays.push({
+        word: best.mainWord,
+        score: best.score,
+        tiles: best.tilesPlaced,
+        round: i + 1,
+      });
+      board = placeTilesOnBoard(board, best.tilesPlaced, true);
+    }
+  } else {
+    let rack = puzzle.rounds[0].rack.toUpperCase();
+    const bag = puzzleRefillBag(puzzle);
+    let bagIndex = 0;
+    for (let i = 0; i < puzzle.rounds.length; i++) {
+      const best = findBestPlay(board, rack, dict);
+      if (!best) break;
+      plays.push({
+        word: best.mainWord,
+        score: best.score,
+        tiles: best.tilesPlaced,
+        round: i + 1,
+      });
+      board = placeTilesOnBoard(board, best.tilesPlaced, true);
+      if (i < puzzle.rounds.length - 1) {
+        const kept = remainingRack(rack, best.tilesPlaced);
+        const next = refillRack(kept, bag, bagIndex, 7);
+        rack = next.rack;
+        bagIndex = next.nextBagIndex;
+      }
+    }
+  }
+
+  return {
+    plays,
+    total: plays.reduce((s, p) => s + p.score, 0),
   };
 }
 

@@ -73,7 +73,7 @@ export function HowToPlay({ mode, onModeChange }: HowToPlayProps) {
                 <li>Make a valid connected word, then hit Submit.</li>
                 <li>
                   {mode === "refill"
-                    ? "Letters you don&apos;t use stay; used ones get replaced."
+                    ? "Letters you don't use stay; used ones get replaced."
                     : "After each submit you get a new rack — three rounds total."}
                 </li>
                 <li>

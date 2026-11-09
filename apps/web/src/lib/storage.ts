@@ -26,12 +26,12 @@ export interface DayProgress {
 }
 
 export function loadRackMode(): RackMode {
-  if (typeof window === "undefined") return "refresh";
+  if (typeof window === "undefined") return "refill";
   try {
     const raw = localStorage.getItem(RACK_MODE_KEY);
-    return raw === "refill" ? "refill" : "refresh";
+    return raw === "refresh" ? "refresh" : "refill";
   } catch {
-    return "refresh";
+    return "refill";
   }
 }
 
