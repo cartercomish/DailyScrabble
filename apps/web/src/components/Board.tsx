@@ -46,13 +46,13 @@ export function Board({
   showSolution = false,
 }: BoardProps) {
   const size = board.length;
-  const tentativeMap = new Map(
+  const tentativeMap = new Map<string, string>(
     tentative.map((t) => [`${t.row},${t.col}`, t.letter]),
   );
-  const seedSet = new Set(seed.map((t) => `${t.row},${t.col}`));
-  const solutionMap = new Map(
+  const seedSet = new Set<string>(seed.map((t) => `${t.row},${t.col}`));
+  const solutionMap = new Map<string, string>(
     solutionPlays.flatMap((p) =>
-      p.tiles.map((t) => [`${t.row},${t.col}`, t.letter] as const),
+      p.tiles.map((t) => [`${t.row},${t.col}`, t.letter]),
     ),
   );
 
