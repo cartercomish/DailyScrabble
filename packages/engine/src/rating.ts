@@ -14,9 +14,9 @@ export function puzzleBestTotal(puzzle: DailyPuzzle): number {
 export function scoreEmoji(score: number, best: number): ScoreEmoji {
   if (best <= 0) return "📦";
   const ratio = score / best;
-  if (ratio >= 0.95) return "🏆";
-  if (ratio >= 0.8) return "⭐";
-  if (ratio >= 0.6) return "📦";
+  if (ratio >= 0.85) return "🏆";
+  if (ratio >= 0.65) return "⭐";
+  if (ratio >= 0.45) return "📦";
   return "🌊";
 }
 
