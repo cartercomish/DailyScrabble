@@ -65,23 +65,23 @@ export function HowToPlay({ mode, onModeChange }: HowToPlayProps) {
                 Manifest
               </h2>
               <p className="mt-2 font-[family-name:var(--font-ui)] text-sm font-semibold leading-relaxed text-ink-soft">
-                Same dock. Three loads. Stow connected words and beat today&apos;s
-                cargo quota.
+                Everyone gets the same board and letters. Play three rounds and
+                try for a high score.
               </p>
               <ol className="mt-4 list-decimal space-y-2 pl-5 font-[family-name:var(--font-ui)] text-sm font-semibold leading-relaxed text-ink-soft">
-                <li>Tap or drag crates from your hold onto empty berths.</li>
-                <li>Form a valid connected word, then submit the manifest.</li>
+                <li>Tap or drag letters from your rack onto the board.</li>
+                <li>Make a valid connected word, then hit Submit.</li>
                 <li>
                   {mode === "refill"
-                    ? "Unused crates stay; only spent ones are replaced."
-                    : "You get a fresh hold after each submit — three loads total."}
+                    ? "Letters you don&apos;t use stay; used ones get replaced."
+                    : "After each submit you get a new rack — three rounds total."}
                 </li>
                 <li>
-                  Score uses classic crate values and premiums. Finish strong for
-                  a better share emoji.
+                  Scoring works like Scrabble (letter values + bonuses). Better
+                  scores get a better share emoji.
                 </li>
                 <li>
-                  Hit a load&apos;s top mark for a gold square on your share.
+                  Hit a round&apos;s best word for a gold square on your share.
                 </li>
               </ol>
 
