@@ -77,8 +77,8 @@ export function HowToPlay({ mode, onModeChange }: HowToPlayProps) {
                     : "After each submit you get a new rack — three rounds total."}
                 </li>
                 <li>
-                  Scoring works like Scrabble (letter values + bonuses). Better
-                  scores get a better share emoji.
+                  Scoring uses letter values and bonus squares. Better scores
+                  get a better share emoji.
                 </li>
                 <li>
                   Hit a round&apos;s best word for a gold square on your share.
