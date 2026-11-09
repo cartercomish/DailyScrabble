@@ -1,0 +1,132 @@
+{
+  "id": "2026-11-12",
+  "date": "2026-11-12",
+  "number": 215,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 3
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AFLIAON",
+      "bestWord": {
+        "word": "FINAL",
+        "score": 36
+      }
+    },
+    {
+      "rack": "PTADEEN",
+      "bestWord": {
+        "word": "DEEP",
+        "score": 29
+      }
+    },
+    {
+      "rack": "SOIWUOT",
+      "bestWord": {
+        "word": "TWO",
+        "score": 26
+      }
+    }
+  ],
+  "par": 59
+}

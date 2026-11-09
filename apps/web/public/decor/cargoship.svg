@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 40" shape-rendering="crispEdges">
+  <!-- hull -->
+  <rect x="4" y="24" width="52" height="8" fill="#3D5A80"/>
+  <rect x="6" y="32" width="48" height="3" fill="#2A4060"/>
+  <rect x="8" y="35" width="44" height="2" fill="#1E3048"/>
+  <!-- bow slope hint -->
+  <rect x="52" y="24" width="4" height="6" fill="#4A6A90"/>
+  <rect x="56" y="24" width="2" height="4" fill="#5A7AA0"/>
+  <!-- deck -->
+  <rect x="8" y="20" width="44" height="4" fill="#C4A574"/>
+  <rect x="8" y="20" width="44" height="1" fill="#E0C898"/>
+  <!-- cargo containers -->
+  <rect x="10" y="14" width="8" height="6" fill="#E85D4C"/>
+  <rect x="10" y="14" width="8" height="1" fill="#F08070"/>
+  <rect x="19" y="12" width="8" height="8" fill="#3D8EC8"/>
+  <rect x="19" y="12" width="8" height="1" fill="#6AB0E0"/>
+  <rect x="28" y="14" width="8" height="6" fill="#E8B84A"/>
+  <rect x="28" y="14" width="8" height="1" fill="#F0D070"/>
+  <rect x="37" y="13" width="8" height="7" fill="#5A9A6A"/>
+  <rect x="37" y="13" width="8" height="1" fill="#7CBC8A"/>
+  <!-- bridge / cabin -->
+  <rect x="46" y="10" width="10" height="10" fill="#F2F6FA"/>
+  <rect x="46" y="10" width="10" height="2" fill="#E85D4C"/>
+  <rect x="48" y="13" width="3" height="3" fill="#7EC8E3"/>
+  <rect x="52" y="13" width="3" height="3" fill="#7EC8E3"/>
+  <!-- funnel -->
+  <rect x="48" y="4" width="5" height="6" fill="#E85D4C"/>
+  <rect x="48" y="4" width="5" height="2" fill="#2A3340"/>
+  <!-- steam puffs -->
+  <rect x="50" y="1" width="3" height="2" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="54" y="0" width="4" height="2" fill="#FFFFFF" opacity="0.75"/>
+  <rect x="58" y="2" width="3" height="2" fill="#FFFFFF" opacity="0.55"/>
+  <!-- portholes -->
+  <rect x="12" y="26" width="2" height="2" fill="#FFCC33"/>
+  <rect x="18" y="26" width="2" height="2" fill="#FFCC33"/>
+  <rect x="24" y="26" width="2" height="2" fill="#FFCC33"/>
+  <rect x="30" y="26" width="2" height="2" fill="#FFCC33"/>
+  <rect x="36" y="26" width="2" height="2" fill="#FFCC33"/>
+  <!-- waterline foam -->
+  <rect x="6" y="37" width="6" height="1" fill="#FFFFFF" opacity="0.5"/>
+  <rect x="16" y="38" width="8" height="1" fill="#FFFFFF" opacity="0.35"/>
+  <rect x="30" y="37" width="10" height="1" fill="#FFFFFF" opacity="0.45"/>
+</svg>

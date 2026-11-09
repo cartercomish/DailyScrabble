@@ -1,0 +1,132 @@
+{
+  "id": "2026-11-14",
+  "date": "2026-11-14",
+  "number": 217,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "V",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "LDAITEX",
+      "bestWord": {
+        "word": "DETAIL",
+        "score": 72
+      }
+    },
+    {
+      "rack": "HOUNEOG",
+      "bestWord": {
+        "word": "OOH",
+        "score": 28
+      }
+    },
+    {
+      "rack": "BRTECOI",
+      "bestWord": {
+        "word": "CIDER",
+        "score": 24
+      }
+    }
+  ],
+  "par": 81
+}

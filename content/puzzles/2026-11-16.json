@@ -1,0 +1,137 @@
+{
+  "id": "2026-11-16",
+  "date": "2026-11-16",
+  "number": 219,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AIXADRE",
+      "bestWord": {
+        "word": "AXES",
+        "score": 33
+      }
+    },
+    {
+      "rack": "TUUPUOE",
+      "bestWord": {
+        "word": "POSE",
+        "score": 31
+      }
+    },
+    {
+      "rack": "OONYMEJ",
+      "bestWord": {
+        "word": "ENJOY",
+        "score": 59
+      }
+    }
+  ],
+  "par": 80
+}

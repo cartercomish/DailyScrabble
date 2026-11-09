@@ -1,0 +1,122 @@
+{
+  "id": "2026-11-13",
+  "date": "2026-11-13",
+  "number": 216,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 1
+    },
+    {
+      "letter": "O",
+      "row": 9,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "SXLEYEO",
+      "bestWord": {
+        "word": "LEX",
+        "score": 79
+      }
+    },
+    {
+      "rack": "NEIAOWM",
+      "bestWord": {
+        "word": "MAE",
+        "score": 32
+      }
+    },
+    {
+      "rack": "TNDELCU",
+      "bestWord": {
+        "word": "LUCENT",
+        "score": 29
+      }
+    }
+  ],
+  "par": 91
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Manifest",
+  "short_name": "Manifest",
+  "description": "A daily harbor word puzzle. Load the dock. Beat the quota.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#8ec8f0",
+  "theme_color": "#8ec8f0",
+  "icons": []
+}

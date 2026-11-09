@@ -1,0 +1,117 @@
+{
+  "id": "2026-11-11",
+  "date": "2026-11-11",
+  "number": 214,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "P",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "VETVBEN",
+      "bestWord": {
+        "word": "BEEN",
+        "score": 39
+      }
+    },
+    {
+      "rack": "TPOURIN",
+      "bestWord": {
+        "word": "PISTON",
+        "score": 33
+      }
+    },
+    {
+      "rack": "GYUEODO",
+      "bestWord": {
+        "word": "GUY",
+        "score": 36
+      }
+    }
+  ],
+  "par": 70
+}

@@ -1,0 +1,3 @@
+﻿# Extra everyday words that should always be playable (merged into play list by tooling if needed).
+# Full ENABLE already includes most of these; keep this for future gaps.
+TOFU

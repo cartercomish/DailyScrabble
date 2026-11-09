@@ -1,0 +1,117 @@
+{
+  "id": "2026-11-15",
+  "date": "2026-11-15",
+  "number": 218,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "Y",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 9
+    },
+    {
+      "letter": "L",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AEOJDFH",
+      "bestWord": {
+        "word": "FEDORA",
+        "score": 28
+      }
+    },
+    {
+      "rack": "EZELYIN",
+      "bestWord": {
+        "word": "EYE",
+        "score": 30
+      }
+    },
+    {
+      "rack": "SASRLOU",
+      "bestWord": {
+        "word": "ORAL",
+        "score": 22
+      }
+    }
+  ],
+  "par": 52
+}
