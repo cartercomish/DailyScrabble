@@ -441,7 +441,7 @@ export function GameClient({ puzzle }: GameClientProps) {
   if (loading || !hydrated) {
     return (
       <div className="flex min-h-dvh items-center justify-center font-[family-name:var(--font-ui)] font-bold text-ink/60">
-        Clearing the dock…
+        Loading…
       </div>
     );
   }
