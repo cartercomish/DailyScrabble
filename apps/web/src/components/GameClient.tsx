@@ -570,7 +570,7 @@ export function GameClient({ puzzle }: GameClientProps) {
               className="pixel-btn flex-1 py-3 font-[family-name:var(--font-ui)] font-extrabold tracking-wide text-ink"
               style={{ background: "#ffcc33" }}
             >
-              Submit manifest
+              Submit
             </button>
           </div>
         </div>

@@ -40,10 +40,11 @@ export function Results({
 }: ResultsProps) {
   const [copied, setCopied] = useState(false);
   const emoji = resultEmoji(puzzle, result);
+  // Always share the live daily URL — dated links reopen that day's saved game.
   const url =
     typeof window !== "undefined"
-      ? `${window.location.origin}/${puzzle.date}`
-      : `https://manifest.game/${puzzle.date}`;
+      ? window.location.origin
+      : "https://manifest.game";
 
   const shareText = formatShare(
     result.puzzleNumber,
