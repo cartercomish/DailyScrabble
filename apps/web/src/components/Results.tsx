@@ -135,15 +135,6 @@ export function Results({
                 >
                   {round.score}
                 </p>
-                <p
-                  className={`mt-1 font-[family-name:var(--font-ui)] text-xs font-bold ${
-                    round.hitBestWord ? "text-proof" : "text-ink-soft/60"
-                  }`}
-                >
-                  {round.hitBestWord
-                    ? "Top mark"
-                    : `Mark: ${puzzle.rounds[i].bestWord.word}`}
-                </p>
               </div>
             </li>
           ))}

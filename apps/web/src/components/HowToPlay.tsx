@@ -80,9 +80,6 @@ export function HowToPlay({ mode, onModeChange }: HowToPlayProps) {
                   Scoring uses letter values and bonus squares. Better scores
                   get a better share emoji.
                 </li>
-                <li>
-                  Hit a round&apos;s best word to earn a Top mark on your results.
-                </li>
               </ol>
 
               <label className="mt-5 flex cursor-pointer items-center justify-between gap-3 border-2 border-ink px-3 py-3">
