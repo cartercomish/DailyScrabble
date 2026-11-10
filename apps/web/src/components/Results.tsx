@@ -50,7 +50,7 @@ export function Results({
     result.puzzleNumber,
     result.totalScore,
     emoji,
-    result.rounds.map((r) => r.hitBestWord),
+    result.rounds.map((r) => r.score),
     url,
   );
 

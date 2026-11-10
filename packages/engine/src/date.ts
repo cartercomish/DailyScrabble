@@ -22,9 +22,9 @@ export function formatShare(
   puzzleNumber: number,
   totalScore: number,
   emoji: string,
-  hitBest: boolean[],
+  roundScores: number[],
   url: string,
 ): string {
-  const row = hitBest.map((h) => (h ? "🟨" : "⬜")).join("");
-  return `Manifest #${String(puzzleNumber).padStart(3, "0")}\n${totalScore} ${emoji}\n${row}\n${url}`;
+  const rounds = roundScores.join(" · ");
+  return `Manifest #${String(puzzleNumber).padStart(3, "0")}\nTotal: ${totalScore} ${emoji}\n${rounds}\n${url}`;
 }

@@ -81,7 +81,7 @@ export function HowToPlay({ mode, onModeChange }: HowToPlayProps) {
                   get a better share emoji.
                 </li>
                 <li>
-                  Hit a round&apos;s best word for a gold square on your share.
+                  Hit a round&apos;s best word to earn a Top mark on your results.
                 </li>
               </ol>
 
