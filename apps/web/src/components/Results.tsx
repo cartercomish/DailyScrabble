@@ -49,7 +49,7 @@ export function Results({
   showingSolution,
   onViewSolution,
 }: ResultsProps) {
-  const boardRef = useRef<HTMLDivElement>(null);
+  const shareCardRef = useRef<HTMLDivElement>(null);
   const [copied, setCopied] = useState(false);
   const [sharingBoard, setSharingBoard] = useState(false);
   const emoji = resultEmoji(puzzle, result);
@@ -93,16 +93,17 @@ export function Results({
     }
   }
 
-  async function shareBoard() {
-    if (!boardRef.current || sharingBoard) return;
+  async function shareManifestImage() {
+    if (!shareCardRef.current || sharingBoard) return;
     setSharingBoard(true);
     try {
-      const blob = await toBlob(boardRef.current, {
+      // Image-only share — no score text; people already sent that separately.
+      const blob = await toBlob(shareCardRef.current, {
         pixelRatio: 2,
         cacheBust: true,
         backgroundColor: "#fff8e8",
       });
-      if (!blob) throw new Error("Could not capture board");
+      if (!blob) throw new Error("Could not capture manifest");
 
       const file = new File(
         [blob],
@@ -118,7 +119,6 @@ export function Results({
         await navigator.share({
           files: [file],
           title: `Manifest #${result.puzzleNumber}`,
-          text: shareText,
         });
       } else {
         const href = URL.createObjectURL(blob);
@@ -141,24 +141,39 @@ export function Results({
       animate={{ opacity: 1, y: 0 }}
       className="mx-auto w-full max-w-lg px-3 pb-8 sm:px-4"
     >
-      <div className="pixel-panel p-3 text-ink sm:p-4" style={{ background: "#fff8e8" }}>
-        <p className="font-[family-name:var(--font-ui)] text-center text-[0.7rem] font-extrabold uppercase tracking-[0.16em] text-ink-soft">
-          Manifest {String(puzzle.number).padStart(3, "0")}
-          {streak > 0 ? ` · ${streak}-day run` : ""}
-        </p>
+      <div className="pixel-panel overflow-visible p-3 text-ink sm:p-4" style={{ background: "#fff8e8" }}>
+        {/* Capture target: title + board only, with room for score tags */}
+        <div
+          ref={shareCardRef}
+          className="overflow-visible"
+          style={{ background: "#fff8e8", padding: "4px 8px 12px" }}
+        >
+          <p className="font-[family-name:var(--font-ui)] text-center text-[0.7rem] font-extrabold uppercase tracking-[0.16em] text-ink-soft">
+            Manifest {String(puzzle.number).padStart(3, "0")}
+            {streak > 0 ? ` · ${streak}-day run` : ""}
+          </p>
 
-        <div ref={boardRef} className="mt-3">
-          <Board
-            board={board}
-            tentative={[]}
-            selectedCell={null}
-            onCellClick={() => {}}
-            seed={puzzle.seed}
-            showSolution={showingSolution}
-            solutionPlays={solutionPlays}
-            reviewPlays={showingSolution ? [] : reviewPlays}
-            embedded
-          />
+          <div
+            className="mt-3 overflow-visible"
+            style={{
+              paddingTop: "1.25rem",
+              paddingLeft: "1.1rem",
+              paddingRight: "1.1rem",
+              paddingBottom: "0.35rem",
+            }}
+          >
+            <Board
+              board={board}
+              tentative={[]}
+              selectedCell={null}
+              onCellClick={() => {}}
+              seed={puzzle.seed}
+              showSolution={showingSolution}
+              solutionPlays={solutionPlays}
+              reviewPlays={showingSolution ? [] : reviewPlays}
+              embedded
+            />
+          </div>
         </div>
 
         <div className="mt-5 grid grid-cols-1 gap-2 sm:grid-cols-3">
@@ -172,7 +187,7 @@ export function Results({
           </button>
           <button
             type="button"
-            onClick={shareBoard}
+            onClick={shareManifestImage}
             disabled={sharingBoard}
             className="pixel-btn bg-paper py-3 text-center font-[family-name:var(--font-ui)] font-extrabold tracking-wide text-ink disabled:opacity-60"
           >
