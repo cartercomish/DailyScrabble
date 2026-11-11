@@ -453,38 +453,40 @@ export function GameClient({ puzzle }: GameClientProps) {
       <DockScene />
 
       <header className="relative z-10 px-4 pb-2 pt-[max(0.75rem,env(safe-area-inset-top))]">
-        <div className="flex items-end justify-between gap-3">
+        <div
+          className={`flex justify-between gap-3 ${finished ? "items-start" : "items-end"}`}
+        >
           <div>
             <div className="flex items-center gap-2.5">
               <h1 className="font-[family-name:var(--font-display)] text-[2rem] font-bold leading-none tracking-wide text-ink sm:text-[2.25rem]">
                 Manifest
               </h1>
               <CargoShipMark />
-              <HowToPlay mode={rackMode} onModeChange={handleRackModeChange} />
+              {!finished && (
+                <HowToPlay mode={rackMode} onModeChange={handleRackModeChange} />
+              )}
             </div>
             <p className="mt-1.5 font-[family-name:var(--font-ui)] text-[0.75rem] font-bold uppercase tracking-[0.14em] text-ink/45">
               #{String(puzzle.number).padStart(3, "0")} · {puzzle.date}
             </p>
           </div>
-          <div
-            className="pixel-panel px-3 py-1.5 text-right"
-            style={{ background: showSolution ? "#ffcc33" : "#fff8e8" }}
-          >
-            <p className="font-[family-name:var(--font-ui)] text-[0.65rem] font-extrabold uppercase tracking-[0.12em] text-ink/45">
-              {showSolution
-                ? "Best"
-                : finished
-                  ? "Score"
-                  : `Load ${roundIndex + 1} / 3`}
-            </p>
-            <p className="font-[family-name:var(--font-display)] text-3xl font-bold leading-none text-ink">
-              {showSolution
-                ? solutionTotal
-                : finished && result
-                  ? result.totalScore
-                  : runningScore}
-            </p>
-          </div>
+          {finished ? (
+            <div className="pt-1">
+              <HowToPlay mode={rackMode} onModeChange={handleRackModeChange} />
+            </div>
+          ) : (
+            <div
+              className="pixel-panel px-3 py-1.5 text-right"
+              style={{ background: "#fff8e8" }}
+            >
+              <p className="font-[family-name:var(--font-ui)] text-[0.65rem] font-extrabold uppercase tracking-[0.12em] text-ink/45">
+                {`Load ${roundIndex + 1} / 3`}
+              </p>
+              <p className="font-[family-name:var(--font-display)] text-3xl font-bold leading-none text-ink">
+                {runningScore}
+              </p>
+            </div>
+          )}
         </div>
       </header>
 
@@ -589,6 +591,7 @@ export function GameClient({ puzzle }: GameClientProps) {
             }))}
             solutionPlays={solutionPlays}
             showingSolution={showSolution}
+            solutionTotal={solutionTotal}
             onViewSolution={revealBestSolution}
           />
         </div>

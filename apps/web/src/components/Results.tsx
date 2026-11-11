@@ -9,6 +9,7 @@ import {
   formatShare,
   puzzleBestTotal,
   scoreEmoji,
+  scoreEmojiLabel,
   type ScoreEmoji,
 } from "@daily-rack/engine";
 import { motion } from "framer-motion";
@@ -24,6 +25,7 @@ interface ResultsProps {
   reviewPlays: SolutionPlayView[];
   solutionPlays: SolutionPlayView[];
   showingSolution: boolean;
+  solutionTotal: number;
   onViewSolution?: () => void;
 }
 
@@ -47,6 +49,7 @@ export function Results({
   reviewPlays,
   solutionPlays,
   showingSolution,
+  solutionTotal,
   onViewSolution,
 }: ResultsProps) {
   const shareCardRef = useRef<HTMLDivElement>(null);
@@ -97,7 +100,6 @@ export function Results({
     if (!shareCardRef.current || sharingBoard) return;
     setSharingBoard(true);
     try {
-      // Image-only share — no score text; people already sent that separately.
       const blob = await toBlob(shareCardRef.current, {
         pixelRatio: 2,
         cacheBust: true,
@@ -141,8 +143,10 @@ export function Results({
       animate={{ opacity: 1, y: 0 }}
       className="mx-auto w-full max-w-lg px-3 pb-8 sm:px-4"
     >
-      <div className="pixel-panel overflow-visible p-3 text-ink sm:p-4" style={{ background: "#fff8e8" }}>
-        {/* Capture target: title + board only, with room for score tags */}
+      <div
+        className="pixel-panel overflow-visible p-3 text-ink sm:p-4"
+        style={{ background: "#fff8e8" }}
+      >
         <div
           ref={shareCardRef}
           className="overflow-visible"
@@ -150,7 +154,28 @@ export function Results({
         >
           <p className="font-[family-name:var(--font-ui)] text-center text-[0.7rem] font-extrabold uppercase tracking-[0.16em] text-ink-soft">
             Manifest {String(puzzle.number).padStart(3, "0")}
-            {streak > 0 ? ` · ${streak}-day run` : ""}
+          </p>
+
+          <h2
+            className="mt-3 flex items-center justify-center gap-3 font-[family-name:var(--font-display)] font-bold text-ink"
+            style={{ fontSize: "3rem", lineHeight: 1, letterSpacing: "0.06em" }}
+          >
+            <span>
+              {showingSolution && solutionTotal > 0
+                ? solutionTotal
+                : result.totalScore}
+            </span>
+            {!showingSolution && (
+              <span style={{ fontSize: "2.6rem", lineHeight: 1 }}>{emoji}</span>
+            )}
+          </h2>
+          <p
+            className="mt-2 text-center font-[family-name:var(--font-display)] font-bold text-ink"
+            style={{ fontSize: "1.1rem", letterSpacing: "0.05em" }}
+          >
+            {showingSolution
+              ? "Best solution"
+              : `${scoreEmojiLabel(emoji)}${streak > 0 ? ` · ${streak}-day run` : ""}`}
           </p>
 
           <div
