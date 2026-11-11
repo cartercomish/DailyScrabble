@@ -501,6 +501,16 @@ export function GameClient({ puzzle }: GameClientProps) {
           seed={puzzle.seed}
           showSolution={showSolution}
           solutionPlays={solutionPlays}
+          reviewPlays={
+            finished && !showSolution
+              ? (result?.rounds ?? roundResults).map((r, i) => ({
+                  word: r.mainWord,
+                  score: r.score,
+                  tiles: r.tilesPlaced,
+                  round: i + 1,
+                }))
+              : []
+          }
         />
         <AnimatePresence>
           {scorePopup !== null && (

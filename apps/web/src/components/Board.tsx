@@ -27,11 +27,72 @@ interface BoardProps {
   seed?: SeedTile[];
   solutionPlays?: SolutionPlayView[];
   showSolution?: boolean;
+  /** Finished-game highlight of the player's own plays + score tags. */
+  reviewPlays?: SolutionPlayView[];
 }
 
 function premiumLabel(p: BoardCell["premium"]): string {
   if (!p) return "";
   return p;
+}
+
+const PLAYER_ACCENT = "#7ec8e3";
+const SOLUTION_ACCENT = "#ffcc33";
+
+function PlayLeaders({
+  plays,
+  size,
+  accent,
+}: {
+  plays: SolutionPlayView[];
+  size: number;
+  accent: string;
+}) {
+  const pad = 4;
+  return (
+    <>
+      {plays.map((play, i) => {
+        if (play.tiles.length === 0) return null;
+        const rows = play.tiles.map((t) => t.row);
+        const cols = play.tiles.map((t) => t.col);
+        const minR = Math.min(...rows);
+        const minC = Math.min(...cols);
+        const maxC = Math.max(...cols);
+        const maxR = Math.max(...rows);
+        const horizontal = minR === maxR;
+        const leftPct = (minC / size) * 100;
+        const widthPct = horizontal
+          ? ((maxC - minC + 1) / size) * 100
+          : (1 / size) * 100;
+        const topPct = (minR / size) * 100;
+
+        return (
+          <div
+            key={`leader-${i}-${play.round}-${play.word}`}
+            className="pointer-events-none absolute z-30 flex justify-center"
+            style={{
+              left: `calc(${pad}px + (100% - ${pad * 2}px) * ${leftPct / 100})`,
+              width: `calc((100% - ${pad * 2}px) * ${widthPct / 100})`,
+              top: `calc(${pad}px + (100% - ${pad * 2}px) * ${topPct / 100} - 1.05rem)`,
+            }}
+          >
+            <span
+              className="whitespace-nowrap px-1.5 py-0.5 font-[family-name:var(--font-display)] font-bold leading-none text-ink"
+              style={{
+                background: accent,
+                border: "2px solid #2a3340",
+                fontSize: "0.85rem",
+                letterSpacing: "0.04em",
+                boxShadow: "2px 2px 0 rgba(42,51,64,0.2)",
+              }}
+            >
+              R{play.round} · {play.score} pts
+            </span>
+          </div>
+        );
+      })}
+    </>
+  );
 }
 
 export function Board({
@@ -44,6 +105,7 @@ export function Board({
   seed = [],
   solutionPlays = [],
   showSolution = false,
+  reviewPlays = [],
 }: BoardProps) {
   const size = board.length;
   const tentativeMap = new Map<string, string>(
@@ -55,6 +117,11 @@ export function Board({
       p.tiles.map((t) => [`${t.row},${t.col}`, t.letter]),
     ),
   );
+  const reviewSet = new Set<string>(
+    reviewPlays.flatMap((p) => p.tiles.map((t) => `${t.row},${t.col}`)),
+  );
+  const leaderPlays = showSolution ? solutionPlays : reviewPlays;
+  const highlightAccent = showSolution ? SOLUTION_ACCENT : PLAYER_ACCENT;
 
   const dropRow =
     drag?.moved && drag.over?.type === "cell" ? drag.over.row : null;
@@ -84,6 +151,7 @@ export function Board({
               const playerLetter = tentativeLetter ?? cell.letter;
               const isPlayerOnly =
                 Boolean(playerLetter) && !isSeed && !tentativeLetter;
+              const inReview = !showSolution && reviewSet.has(key);
 
               const draggingThis =
                 drag?.moved &&
@@ -92,7 +160,8 @@ export function Board({
                 drag.source.col === c;
 
               let displayLetter: string | null = null;
-              let displayMode: "solid" | "ghost" | "solution" | null = null;
+              let displayMode: "solid" | "ghost" | "solution" | "review" | null =
+                null;
 
               if (showSolution) {
                 if (solutionLetter) {
@@ -107,7 +176,7 @@ export function Board({
                 }
               } else if (playerLetter && !draggingThis) {
                 displayLetter = playerLetter;
-                displayMode = "solid";
+                displayMode = inReview ? "review" : "solid";
               }
 
               const isTentative = Boolean(tentativeLetter) && !showSolution;
@@ -125,6 +194,10 @@ export function Board({
                   drag.source.row === r &&
                   drag.source.col === c
                 );
+              const tileAccent =
+                displayMode === "solution" ? SOLUTION_ACCENT : PLAYER_ACCENT;
+              const highlighted =
+                displayMode === "solution" || displayMode === "review";
 
               return (
                 <button
@@ -133,7 +206,7 @@ export function Board({
                   data-board-cell={`${r},${c}`}
                   onClick={() => onCellClick(r, c)}
                   onPointerDown={(e) => {
-                    if (showSolution) return;
+                    if (showSolution || reviewPlays.length > 0) return;
                     if (!isTentative || !onPointerDownTentative || !playerLetter)
                       return;
                     e.preventDefault();
@@ -149,15 +222,17 @@ export function Board({
                       isDropTarget,
                     ),
                     boxShadow: isDropTarget
-                      ? "inset 0 0 0 2px #ffcc33"
+                      ? `inset 0 0 0 2px ${SOLUTION_ACCENT}`
                       : isSelected
                         ? "inset 0 0 0 2px #2a3340"
-                        : displayMode === "solution"
-                          ? "inset 0 0 0 2px #ffcc33"
+                        : highlighted
+                          ? `inset 0 0 0 2px ${tileAccent}`
                           : "inset 1px 1px 0 rgba(255,255,255,0.25), inset -1px -1px 0 rgba(0,0,0,0.12)",
                     cursor:
-                      isTentative && !showSolution ? "grab" : undefined,
-                    zIndex: displayMode === "solution" ? 2 : 1,
+                      isTentative && !showSolution && reviewPlays.length === 0
+                        ? "grab"
+                        : undefined,
+                    zIndex: highlighted ? 2 : 1,
                   }}
                   aria-label={
                     displayLetter
@@ -177,10 +252,9 @@ export function Board({
                     >
                       <TypeBlock
                         letter={displayLetter}
-                        provisional={
-                          isTentative || displayMode === "solution"
-                        }
+                        provisional={isTentative || highlighted}
                         dimmed={displayMode === "ghost"}
+                        accent={tileAccent}
                         size="board"
                       />
                     </motion.span>
@@ -198,47 +272,13 @@ export function Board({
           )}
         </div>
 
-        {showSolution &&
-          solutionPlays.map((play, i) => {
-            const rows = play.tiles.map((t) => t.row);
-            const cols = play.tiles.map((t) => t.col);
-            const minR = Math.min(...rows);
-            const minC = Math.min(...cols);
-            const maxC = Math.max(...cols);
-            const maxR = Math.max(...rows);
-            const horizontal = minR === maxR;
-            const pad = 4; // matches grid p-[4px]
-            const leftPct = (minC / size) * 100;
-            const widthPct = horizontal
-              ? ((maxC - minC + 1) / size) * 100
-              : (1 / size) * 100;
-            const topPct = (minR / size) * 100;
-
-            return (
-              <div
-                key={`leader-${i}-${play.word}`}
-                className="pointer-events-none absolute z-30 flex justify-center"
-                style={{
-                  left: `calc(${pad}px + (100% - ${pad * 2}px) * ${leftPct / 100})`,
-                  width: `calc((100% - ${pad * 2}px) * ${widthPct / 100})`,
-                  top: `calc(${pad}px + (100% - ${pad * 2}px) * ${topPct / 100} - 1.05rem)`,
-                }}
-              >
-                <span
-                  className="whitespace-nowrap px-1.5 py-0.5 font-[family-name:var(--font-display)] font-bold leading-none text-ink"
-                  style={{
-                    background: "#ffcc33",
-                    border: "2px solid #2a3340",
-                    fontSize: "0.85rem",
-                    letterSpacing: "0.04em",
-                    boxShadow: "2px 2px 0 rgba(42,51,64,0.2)",
-                  }}
-                >
-                  R{play.round} · {play.score} pts
-                </span>
-              </div>
-            );
-          })}
+        {leaderPlays.length > 0 && (
+          <PlayLeaders
+            plays={leaderPlays}
+            size={size}
+            accent={highlightAccent}
+          />
+        )}
       </div>
     </div>
   );

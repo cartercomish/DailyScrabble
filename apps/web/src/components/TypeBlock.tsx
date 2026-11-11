@@ -7,6 +7,8 @@ interface TypeBlockProps {
   selected?: boolean;
   provisional?: boolean;
   dimmed?: boolean;
+  /** Highlight rim when selected/provisional (player blue vs solution yellow). */
+  accent?: string;
   size?: "board" | "rack" | "ghost";
   className?: string;
   style?: React.CSSProperties;
@@ -28,6 +30,7 @@ export function TypeBlock({
   selected = false,
   provisional = false,
   dimmed = false,
+  accent = "#ffcc33",
   size = "rack",
   className = "",
   style,
@@ -35,6 +38,7 @@ export function TypeBlock({
   const isBoard = size === "board";
   const isGhost = size === "ghost";
   const face = crateFor(letter);
+  const highlight = selected || provisional;
 
   return (
     <span
@@ -45,9 +49,9 @@ export function TypeBlock({
         backgroundSize: "100% 100%",
         backgroundRepeat: "no-repeat",
         imageRendering: "pixelated",
-        border: selected || provisional ? "2px solid #ffcc33" : "2px solid #2a3340",
+        border: highlight ? `2px solid ${accent}` : "2px solid #2a3340",
         boxShadow: selected
-          ? "0 0 0 2px #fff8e8, 3px 3px 0 rgba(42,51,64,0.25)"
+          ? `0 0 0 2px #fff8e8, 3px 3px 0 rgba(42,51,64,0.25)`
           : "2px 2px 0 rgba(42,51,64,0.18)",
         filter: dimmed ? "grayscale(0.55) brightness(1.08)" : undefined,
         opacity: dimmed ? 0.55 : undefined,
