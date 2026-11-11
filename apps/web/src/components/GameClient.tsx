@@ -474,7 +474,7 @@ export function GameClient({ puzzle }: GameClientProps) {
               {showSolution
                 ? "Best"
                 : finished
-                  ? "Sealed"
+                  ? "Score"
                   : `Load ${roundIndex + 1} / 3`}
             </p>
             <p className="font-[family-name:var(--font-display)] text-3xl font-bold leading-none text-ink">

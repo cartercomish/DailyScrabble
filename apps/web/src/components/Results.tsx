@@ -9,11 +9,11 @@ import {
   formatShare,
   puzzleBestTotal,
   scoreEmoji,
-  scoreEmojiLabel,
   type ScoreEmoji,
 } from "@daily-rack/engine";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { toBlob } from "html-to-image";
+import { useRef, useState } from "react";
 import { Board, type SolutionPlayView } from "./Board";
 
 interface ResultsProps {
@@ -49,7 +49,9 @@ export function Results({
   showingSolution,
   onViewSolution,
 }: ResultsProps) {
+  const boardRef = useRef<HTMLDivElement>(null);
   const [copied, setCopied] = useState(false);
+  const [sharingBoard, setSharingBoard] = useState(false);
   const emoji = resultEmoji(puzzle, result);
   const url =
     typeof window !== "undefined"
@@ -86,8 +88,50 @@ export function Results({
           text: shareText,
         });
       } catch {
-        /* user cancelled share sheet */
+        /* cancelled */
       }
+    }
+  }
+
+  async function shareBoard() {
+    if (!boardRef.current || sharingBoard) return;
+    setSharingBoard(true);
+    try {
+      const blob = await toBlob(boardRef.current, {
+        pixelRatio: 2,
+        cacheBust: true,
+        backgroundColor: "#fff8e8",
+      });
+      if (!blob) throw new Error("Could not capture board");
+
+      const file = new File(
+        [blob],
+        `manifest-${String(result.puzzleNumber).padStart(3, "0")}.png`,
+        { type: "image/png" },
+      );
+
+      const canShareFiles =
+        typeof navigator.canShare === "function" &&
+        navigator.canShare({ files: [file] });
+
+      if (canShareFiles && typeof navigator.share === "function") {
+        await navigator.share({
+          files: [file],
+          title: `Manifest #${result.puzzleNumber}`,
+          text: shareText,
+        });
+      } else {
+        const href = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = href;
+        a.download = file.name;
+        a.click();
+        URL.revokeObjectURL(href);
+      }
+    } catch {
+      /* cancelled or unsupported */
+    } finally {
+      setSharingBoard(false);
     }
   }
 
@@ -99,10 +143,11 @@ export function Results({
     >
       <div className="pixel-panel p-3 text-ink sm:p-4" style={{ background: "#fff8e8" }}>
         <p className="font-[family-name:var(--font-ui)] text-center text-[0.7rem] font-extrabold uppercase tracking-[0.16em] text-ink-soft">
-          Manifest {String(puzzle.number).padStart(3, "0")} · sealed
+          Manifest {String(puzzle.number).padStart(3, "0")}
+          {streak > 0 ? ` · ${streak}-day run` : ""}
         </p>
 
-        <div className="mt-3">
+        <div ref={boardRef} className="mt-3">
           <Board
             board={board}
             tentative={[]}
@@ -116,35 +161,28 @@ export function Results({
           />
         </div>
 
-        <h2
-          className="mt-4 flex items-center justify-center gap-3 font-[family-name:var(--font-display)] font-bold text-ink"
-          style={{ fontSize: "3rem", lineHeight: 1, letterSpacing: "0.06em" }}
-        >
-          <span>{result.totalScore}</span>
-          <span style={{ fontSize: "2.6rem", lineHeight: 1 }}>{emoji}</span>
-        </h2>
-        <p
-          className="mt-2 text-center font-[family-name:var(--font-display)] font-bold text-ink"
-          style={{ fontSize: "1.1rem", letterSpacing: "0.05em" }}
-        >
-          {scoreEmojiLabel(emoji)}
-          {streak > 0 ? ` · ${streak}-day run` : ""}
-        </p>
-
-        <div className="mt-5 flex flex-col gap-2 sm:flex-row">
+        <div className="mt-5 grid grid-cols-1 gap-2 sm:grid-cols-3">
           <button
             type="button"
             onClick={shareScore}
-            className="pixel-btn flex-1 py-3 text-center font-[family-name:var(--font-ui)] font-extrabold tracking-wide text-paper"
+            className="pixel-btn py-3 text-center font-[family-name:var(--font-ui)] font-extrabold tracking-wide text-paper"
             style={{ background: "#2a3340" }}
           >
             {copied ? "Copied" : "Share score"}
+          </button>
+          <button
+            type="button"
+            onClick={shareBoard}
+            disabled={sharingBoard}
+            className="pixel-btn bg-paper py-3 text-center font-[family-name:var(--font-ui)] font-extrabold tracking-wide text-ink disabled:opacity-60"
+          >
+            {sharingBoard ? "Saving…" : "Share board"}
           </button>
           {onViewSolution && (
             <button
               type="button"
               onClick={onViewSolution}
-              className="pixel-btn flex-1 bg-paper py-3 text-center font-[family-name:var(--font-ui)] font-extrabold tracking-wide text-ink"
+              className="pixel-btn bg-paper py-3 text-center font-[family-name:var(--font-ui)] font-extrabold tracking-wide text-ink"
             >
               {showingSolution ? "Hide solution" : "Show best solution"}
             </button>
