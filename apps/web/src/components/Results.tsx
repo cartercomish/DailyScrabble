@@ -1,6 +1,10 @@
 "use client";
 
-import type { DailyPuzzle, GameResult } from "@daily-rack/engine";
+import type {
+  BoardCell,
+  DailyPuzzle,
+  GameResult,
+} from "@daily-rack/engine";
 import {
   formatShare,
   puzzleBestTotal,
@@ -10,13 +14,17 @@ import {
 } from "@daily-rack/engine";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { Board, type SolutionPlayView } from "./Board";
 
 interface ResultsProps {
   puzzle: DailyPuzzle;
   result: GameResult;
   streak: number;
+  board: BoardCell[][];
+  reviewPlays: SolutionPlayView[];
+  solutionPlays: SolutionPlayView[];
+  showingSolution: boolean;
   onViewSolution?: () => void;
-  showingSolution?: boolean;
 }
 
 function resultEmoji(puzzle: DailyPuzzle, result: GameResult): ScoreEmoji {
@@ -35,12 +43,14 @@ export function Results({
   puzzle,
   result,
   streak,
-  onViewSolution,
+  board,
+  reviewPlays,
+  solutionPlays,
   showingSolution,
+  onViewSolution,
 }: ResultsProps) {
   const [copied, setCopied] = useState(false);
   const emoji = resultEmoji(puzzle, result);
-  // Always share the live daily URL — dated links reopen that day's saved game.
   const url =
     typeof window !== "undefined"
       ? window.location.origin
@@ -66,7 +76,7 @@ export function Results({
     }
   }
 
-  async function shareManifest() {
+  async function shareScore() {
     await copyShare();
 
     if (typeof navigator.share === "function") {
@@ -85,69 +95,50 @@ export function Results({
     <motion.div
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
-      className="mx-auto w-full max-w-md px-4 pb-8"
+      className="mx-auto w-full max-w-lg px-3 pb-8 sm:px-4"
     >
-      <div className="pixel-panel p-5 text-ink" style={{ background: "#fff8e8" }}>
+      <div className="pixel-panel p-3 text-ink sm:p-4" style={{ background: "#fff8e8" }}>
         <p className="font-[family-name:var(--font-ui)] text-center text-[0.7rem] font-extrabold uppercase tracking-[0.16em] text-ink-soft">
           Manifest {String(puzzle.number).padStart(3, "0")} · sealed
         </p>
+
+        <div className="mt-3">
+          <Board
+            board={board}
+            tentative={[]}
+            selectedCell={null}
+            onCellClick={() => {}}
+            seed={puzzle.seed}
+            showSolution={showingSolution}
+            solutionPlays={solutionPlays}
+            reviewPlays={showingSolution ? [] : reviewPlays}
+            embedded
+          />
+        </div>
+
         <h2
-          className="mt-3 flex items-center justify-center gap-3 font-[family-name:var(--font-display)] font-bold text-ink"
-          style={{ fontSize: "3.5rem", lineHeight: 1, letterSpacing: "0.06em" }}
+          className="mt-4 flex items-center justify-center gap-3 font-[family-name:var(--font-display)] font-bold text-ink"
+          style={{ fontSize: "3rem", lineHeight: 1, letterSpacing: "0.06em" }}
         >
           <span>{result.totalScore}</span>
-          <span style={{ fontSize: "3rem", lineHeight: 1 }}>{emoji}</span>
+          <span style={{ fontSize: "2.6rem", lineHeight: 1 }}>{emoji}</span>
         </h2>
         <p
           className="mt-2 text-center font-[family-name:var(--font-display)] font-bold text-ink"
-          style={{ fontSize: "1.15rem", letterSpacing: "0.05em" }}
+          style={{ fontSize: "1.1rem", letterSpacing: "0.05em" }}
         >
           {scoreEmojiLabel(emoji)}
           {streak > 0 ? ` · ${streak}-day run` : ""}
         </p>
 
-        <ul className="mt-5 space-y-2">
-          {result.rounds.map((round, i) => (
-            <li
-              key={i}
-              className="flex items-center justify-between px-3 py-2.5"
-              style={{
-                background: "#ffe9b8",
-                border: "2px solid #2a3340",
-              }}
-            >
-              <div>
-                <p className="font-[family-name:var(--font-ui)] text-[0.65rem] font-extrabold uppercase tracking-[0.12em] text-ink-soft">
-                  Load {i + 1}
-                </p>
-                <p
-                  className="font-[family-name:var(--font-display)] font-bold text-ink"
-                  style={{ fontSize: "1.35rem", letterSpacing: "0.06em" }}
-                >
-                  {round.mainWord}
-                  {round.bingo ? " ★" : ""}
-                </p>
-              </div>
-              <div className="text-right">
-                <p
-                  className="font-[family-name:var(--font-display)] font-bold text-ink"
-                  style={{ fontSize: "1.6rem", letterSpacing: "0.04em", lineHeight: 1 }}
-                >
-                  {round.score}
-                </p>
-              </div>
-            </li>
-          ))}
-        </ul>
-
-        <div className="mt-5 flex gap-2">
+        <div className="mt-5 flex flex-col gap-2 sm:flex-row">
           <button
             type="button"
-            onClick={shareManifest}
+            onClick={shareScore}
             className="pixel-btn flex-1 py-3 text-center font-[family-name:var(--font-ui)] font-extrabold tracking-wide text-paper"
             style={{ background: "#2a3340" }}
           >
-            {copied ? "Copied" : "Share"}
+            {copied ? "Copied" : "Share score"}
           </button>
           {onViewSolution && (
             <button

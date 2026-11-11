@@ -488,110 +488,108 @@ export function GameClient({ puzzle }: GameClientProps) {
         </div>
       </header>
 
-      <div className="relative z-10 px-3 pt-2 sm:px-6">
-        <Board
-          board={board}
-          tentative={finished ? [] : tentative}
-          selectedCell={null}
-          onCellClick={onCellClick}
-          drag={drag}
-          onPointerDownTentative={(row, col, letter, e) =>
-            startDrag({ type: "board", row, col, letter }, e)
-          }
-          seed={puzzle.seed}
-          showSolution={showSolution}
-          solutionPlays={solutionPlays}
-          reviewPlays={
-            finished && !showSolution
-              ? (result?.rounds ?? roundResults).map((r, i) => ({
-                  word: r.mainWord,
-                  score: r.score,
-                  tiles: r.tilesPlaced,
-                  round: i + 1,
-                }))
-              : []
-          }
-        />
-        <AnimatePresence>
-          {scorePopup !== null && (
-            <motion.div
-              initial={{ opacity: 0, y: 8, scale: 0.9 }}
-              animate={{ opacity: 1, y: -12, scale: 1 }}
-              exit={{ opacity: 0 }}
-              className="pointer-events-none absolute inset-x-0 top-1/3 z-20 text-center"
-            >
-              <span
-                className="pixel-btn inline-block px-4 py-2 font-[family-name:var(--font-display)] text-3xl font-bold tracking-wide text-ink"
+      {!finished ? (
+        <>
+          <div className="relative z-10 px-3 pt-2 sm:px-6">
+            <Board
+              board={board}
+              tentative={tentative}
+              selectedCell={null}
+              onCellClick={onCellClick}
+              drag={drag}
+              onPointerDownTentative={(row, col, letter, e) =>
+                startDrag({ type: "board", row, col, letter }, e)
+              }
+              seed={puzzle.seed}
+            />
+            <AnimatePresence>
+              {scorePopup !== null && (
+                <motion.div
+                  initial={{ opacity: 0, y: 8, scale: 0.9 }}
+                  animate={{ opacity: 1, y: -12, scale: 1 }}
+                  exit={{ opacity: 0 }}
+                  className="pointer-events-none absolute inset-x-0 top-1/3 z-20 text-center"
+                >
+                  <span
+                    className="pixel-btn inline-block px-4 py-2 font-[family-name:var(--font-display)] text-3xl font-bold tracking-wide text-ink"
+                    style={{ background: "#ffcc33" }}
+                  >
+                    +{scorePopup}
+                  </span>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+
+          <DragGhost drag={drag} />
+
+          <div className="relative z-10 mt-auto space-y-3 px-2 pb-[max(1rem,env(safe-area-inset-bottom))] pt-2">
+            <Rack
+              letters={rackOrder.split("")}
+              selectedIndex={selectedRackIndex}
+              disabledIndices={usedRackIndices}
+              drag={drag}
+              onPointerDownTile={(index, letter, e) =>
+                startDrag({ type: "rack", index, letter }, e)
+              }
+            />
+            <AnimatePresence>
+              {message && (
+                <motion.p
+                  key={message}
+                  initial={{ opacity: 0, y: 4 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0 }}
+                  className={`px-2 text-center font-[family-name:var(--font-ui)] text-sm font-extrabold ${
+                    messageTone === "err" ? "text-proof" : "text-ink"
+                  }`}
+                >
+                  {message}
+                </motion.p>
+              )}
+            </AnimatePresence>
+            <div className="flex gap-2 px-2">
+              <button
+                type="button"
+                onClick={shuffle}
+                className="pixel-btn bg-paper px-4 py-3 font-[family-name:var(--font-ui)] text-sm font-extrabold tracking-wide text-ink"
+              >
+                Shuffle
+              </button>
+              <button
+                type="button"
+                onClick={recall}
+                className="pixel-btn bg-paper px-4 py-3 font-[family-name:var(--font-ui)] text-sm font-extrabold tracking-wide text-ink"
+              >
+                Return
+              </button>
+              <button
+                type="button"
+                onClick={submit}
+                className="pixel-btn flex-1 py-3 font-[family-name:var(--font-ui)] font-extrabold tracking-wide text-ink"
                 style={{ background: "#ffcc33" }}
               >
-                +{scorePopup}
-              </span>
-            </motion.div>
-          )}
-        </AnimatePresence>
-      </div>
-
-      <DragGhost drag={drag} />
-
-      {!finished ? (
-        <div className="relative z-10 mt-auto space-y-3 px-2 pb-[max(1rem,env(safe-area-inset-bottom))] pt-2">
-          <Rack
-            letters={rackOrder.split("")}
-            selectedIndex={selectedRackIndex}
-            disabledIndices={usedRackIndices}
-            drag={drag}
-            onPointerDownTile={(index, letter, e) =>
-              startDrag({ type: "rack", index, letter }, e)
-            }
-          />
-          <AnimatePresence>
-            {message && (
-              <motion.p
-                key={message}
-                initial={{ opacity: 0, y: 4 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0 }}
-                className={`px-2 text-center font-[family-name:var(--font-ui)] text-sm font-extrabold ${
-                  messageTone === "err" ? "text-proof" : "text-ink"
-                }`}
-              >
-                {message}
-              </motion.p>
-            )}
-          </AnimatePresence>
-          <div className="flex gap-2 px-2">
-            <button
-              type="button"
-              onClick={shuffle}
-              className="pixel-btn bg-paper px-4 py-3 font-[family-name:var(--font-ui)] text-sm font-extrabold tracking-wide text-ink"
-            >
-              Shuffle
-            </button>
-            <button
-              type="button"
-              onClick={recall}
-              className="pixel-btn bg-paper px-4 py-3 font-[family-name:var(--font-ui)] text-sm font-extrabold tracking-wide text-ink"
-            >
-              Return
-            </button>
-            <button
-              type="button"
-              onClick={submit}
-              className="pixel-btn flex-1 py-3 font-[family-name:var(--font-ui)] font-extrabold tracking-wide text-ink"
-              style={{ background: "#ffcc33" }}
-            >
-              Submit
-            </button>
+                Submit
+              </button>
+            </div>
           </div>
-        </div>
+        </>
       ) : result ? (
-        <div className="relative z-10 mt-4">
+        <div className="relative z-10 mt-3">
           <Results
             puzzle={puzzle}
             result={result}
             streak={streak}
-            onViewSolution={revealBestSolution}
+            board={board}
+            reviewPlays={(result.rounds ?? roundResults).map((r, i) => ({
+              word: r.mainWord,
+              score: r.score,
+              tiles: r.tilesPlaced,
+              round: i + 1,
+            }))}
+            solutionPlays={solutionPlays}
             showingSolution={showSolution}
+            onViewSolution={revealBestSolution}
           />
         </div>
       ) : null}

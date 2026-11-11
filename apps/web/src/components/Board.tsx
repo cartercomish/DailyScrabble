@@ -29,6 +29,8 @@ interface BoardProps {
   showSolution?: boolean;
   /** Finished-game highlight of the player's own plays + score tags. */
   reviewPlays?: SolutionPlayView[];
+  /** Skip outer panel chrome when nested inside the sealed manifest. */
+  embedded?: boolean;
 }
 
 function premiumLabel(p: BoardCell["premium"]): string {
@@ -106,6 +108,7 @@ export function Board({
   solutionPlays = [],
   showSolution = false,
   reviewPlays = [],
+  embedded = false,
 }: BoardProps) {
   const size = board.length;
   const tentativeMap = new Map<string, string>(
@@ -128,8 +131,7 @@ export function Board({
   const dropCol =
     drag?.moved && drag.over?.type === "cell" ? drag.over.col : null;
 
-  return (
-    <div className="pixel-panel mx-auto w-full max-w-[min(100%,520px)] p-2">
+  const grid = (
       <div className="relative">
         <div
           className="grid gap-[3px] p-[4px]"
@@ -280,6 +282,15 @@ export function Board({
           />
         )}
       </div>
+  );
+
+  if (embedded) {
+    return <div className="mx-auto w-full">{grid}</div>;
+  }
+
+  return (
+    <div className="pixel-panel mx-auto w-full max-w-[min(100%,520px)] p-2">
+      {grid}
     </div>
   );
 }
