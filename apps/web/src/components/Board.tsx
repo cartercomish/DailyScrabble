@@ -2,6 +2,7 @@
 
 import type { BoardCell, PlacedTile, SeedTile } from "@daily-rack/engine";
 import { motion } from "framer-motion";
+import type { CSSProperties } from "react";
 import type { DragState } from "../lib/useTileDrag";
 import { TypeBlock } from "./TypeBlock";
 
@@ -45,6 +46,7 @@ const SOLUTION_ACCENT = "#ffcc33";
 const TAG_W = 2.6;
 const TAG_H = 0.75;
 const TAG_GAP = 0.08;
+const INK = "#2a3340";
 
 type TagSide = "above" | "below" | "left" | "right";
 
@@ -57,9 +59,16 @@ interface TagBox {
 
 interface TagPlacement {
   side: TagSide;
+  /** Cell this tag points at — never shared across plays. */
+  anchorRow: number;
+  anchorCol: number;
   cx: number;
   cy: number;
   box: TagBox;
+}
+
+function cellKey(row: number, col: number): string {
+  return `${row},${col}`;
 }
 
 function boxesOverlap(a: TagBox, b: TagBox): boolean {
@@ -74,7 +83,7 @@ function tagOverlapsLetters(box: TagBox, occupied: Set<string>): number {
   let hits = 0;
   for (let r = r0; r <= r1; r++) {
     for (let c = c0; c <= c1; c++) {
-      if (!occupied.has(`${r},${c}`)) continue;
+      if (!occupied.has(cellKey(r, c))) continue;
       if (boxesOverlap(box, { x0: c, y0: r, x1: c + 1, y1: r + 1 })) hits++;
     }
   }
@@ -85,90 +94,130 @@ function tagOverlapsReserved(box: TagBox, reserved: TagBox[]): boolean {
   return reserved.some((r) => boxesOverlap(box, r));
 }
 
-function candidatesForPlay(
-  minR: number,
-  maxR: number,
-  minC: number,
-  maxC: number,
-): TagPlacement[] {
-  const midC = (minC + maxC + 1) / 2;
-  const midR = (minR + maxR + 1) / 2;
+/** Candidates relative to one exclusive placed tile (not the word bbox mid). */
+function candidatesForAnchor(row: number, col: number): TagPlacement[] {
+  const midC = col + 0.5;
+  const midR = row + 0.5;
   return [
     {
       side: "above",
+      anchorRow: row,
+      anchorCol: col,
       cx: midC,
-      cy: minR - TAG_GAP,
+      cy: row - TAG_GAP,
       box: {
         x0: midC - TAG_W / 2,
-        y0: minR - TAG_GAP - TAG_H,
+        y0: row - TAG_GAP - TAG_H,
         x1: midC + TAG_W / 2,
-        y1: minR - TAG_GAP,
+        y1: row - TAG_GAP,
       },
     },
     {
       side: "below",
+      anchorRow: row,
+      anchorCol: col,
       cx: midC,
-      cy: maxR + 1 + TAG_GAP,
+      cy: row + 1 + TAG_GAP,
       box: {
         x0: midC - TAG_W / 2,
-        y0: maxR + 1 + TAG_GAP,
+        y0: row + 1 + TAG_GAP,
         x1: midC + TAG_W / 2,
-        y1: maxR + 1 + TAG_GAP + TAG_H,
+        y1: row + 1 + TAG_GAP + TAG_H,
       },
     },
     {
       side: "left",
-      cx: minC - TAG_GAP,
+      anchorRow: row,
+      anchorCol: col,
+      cx: col - TAG_GAP,
       cy: midR,
       box: {
-        x0: minC - TAG_GAP - TAG_W,
+        x0: col - TAG_GAP - TAG_W,
         y0: midR - TAG_H / 2,
-        x1: minC - TAG_GAP,
+        x1: col - TAG_GAP,
         y1: midR + TAG_H / 2,
       },
     },
     {
       side: "right",
-      cx: maxC + 1 + TAG_GAP,
+      anchorRow: row,
+      anchorCol: col,
+      cx: col + 1 + TAG_GAP,
       cy: midR,
       box: {
-        x0: maxC + 1 + TAG_GAP,
+        x0: col + 1 + TAG_GAP,
         y0: midR - TAG_H / 2,
-        x1: maxC + 1 + TAG_GAP + TAG_W,
+        x1: col + 1 + TAG_GAP + TAG_W,
         y1: midR + TAG_H / 2,
       },
     },
   ];
 }
 
+function minDistToOtherPlays(
+  row: number,
+  col: number,
+  otherTiles: Set<string>,
+): number {
+  if (otherTiles.size === 0) return Number.POSITIVE_INFINITY;
+  let best = Number.POSITIVE_INFINITY;
+  for (const key of otherTiles) {
+    const [or, oc] = key.split(",").map(Number);
+    const d = Math.abs(or - row) + Math.abs(oc - col);
+    if (d < best) best = d;
+  }
+  return best;
+}
+
+/**
+ * Prefer this play's own placed tiles, never a letter already claimed by
+ * another tag, and favor tiles farthest from other rounds' tiles.
+ */
+function orderedAnchorTiles(
+  play: SolutionPlayView,
+  claimedAnchors: Set<string>,
+  otherTiles: Set<string>,
+): PlacedTile[] {
+  return [...play.tiles]
+    .filter((t) => !claimedAnchors.has(cellKey(t.row, t.col)))
+    .sort((a, b) => {
+      const da = minDistToOtherPlays(a.row, a.col, otherTiles);
+      const db = minDistToOtherPlays(b.row, b.col, otherTiles);
+      if (db !== da) return db - da;
+      if (a.row !== b.row) return a.row - b.row;
+      return a.col - b.col;
+    });
+}
+
 function pickTagPlacement(
   play: SolutionPlayView,
   occupied: Set<string>,
   reserved: TagBox[],
+  claimedAnchors: Set<string>,
+  otherTiles: Set<string>,
 ): TagPlacement | null {
   if (play.tiles.length === 0) return null;
-  const rows = play.tiles.map((t) => t.row);
-  const cols = play.tiles.map((t) => t.col);
-  const minR = Math.min(...rows);
-  const maxR = Math.max(...rows);
-  const minC = Math.min(...cols);
-  const maxC = Math.max(...cols);
 
-  const candidates = candidatesForPlay(minR, maxR, minC, maxC);
+  const anchors = orderedAnchorTiles(play, claimedAnchors, otherTiles);
+  if (anchors.length === 0) return null;
+
   let best: TagPlacement | null = null;
   let bestHits = Number.POSITIVE_INFINITY;
 
-  for (const candidate of candidates) {
-    if (tagOverlapsReserved(candidate.box, reserved)) continue;
-    const hits = tagOverlapsLetters(candidate.box, occupied);
-    if (hits === 0) return candidate;
-    if (hits < bestHits) {
-      bestHits = hits;
-      best = candidate;
+  for (const tile of anchors) {
+    const candidates = candidatesForAnchor(tile.row, tile.col);
+    for (const candidate of candidates) {
+      if (tagOverlapsReserved(candidate.box, reserved)) continue;
+      const hits = tagOverlapsLetters(candidate.box, occupied);
+      if (hits === 0) return candidate;
+      if (hits < bestHits) {
+        bestHits = hits;
+        best = candidate;
+      }
     }
   }
 
-  return best ?? candidates[0] ?? null;
+  return best;
 }
 
 function tagTransform(side: TagSide): string {
@@ -184,6 +233,135 @@ function tagTransform(side: TagSide): string {
   }
 }
 
+function LeaderTriangle({ side, fill }: { side: TagSide; fill: string }) {
+  const edge = 7;
+  const base: CSSProperties = {
+    position: "absolute",
+    width: 0,
+    height: 0,
+    pointerEvents: "none",
+  };
+
+  if (side === "above") {
+    return (
+      <>
+        <span
+          aria-hidden
+          style={{
+            ...base,
+            left: "50%",
+            bottom: -edge,
+            marginLeft: -edge,
+            borderLeft: `${edge}px solid transparent`,
+            borderRight: `${edge}px solid transparent`,
+            borderTop: `${edge}px solid ${INK}`,
+          }}
+        />
+        <span
+          aria-hidden
+          style={{
+            ...base,
+            left: "50%",
+            bottom: -(edge - 2),
+            marginLeft: -(edge - 2),
+            borderLeft: `${edge - 2}px solid transparent`,
+            borderRight: `${edge - 2}px solid transparent`,
+            borderTop: `${edge - 2}px solid ${fill}`,
+          }}
+        />
+      </>
+    );
+  }
+  if (side === "below") {
+    return (
+      <>
+        <span
+          aria-hidden
+          style={{
+            ...base,
+            left: "50%",
+            top: -edge,
+            marginLeft: -edge,
+            borderLeft: `${edge}px solid transparent`,
+            borderRight: `${edge}px solid transparent`,
+            borderBottom: `${edge}px solid ${INK}`,
+          }}
+        />
+        <span
+          aria-hidden
+          style={{
+            ...base,
+            left: "50%",
+            top: -(edge - 2),
+            marginLeft: -(edge - 2),
+            borderLeft: `${edge - 2}px solid transparent`,
+            borderRight: `${edge - 2}px solid transparent`,
+            borderBottom: `${edge - 2}px solid ${fill}`,
+          }}
+        />
+      </>
+    );
+  }
+  if (side === "left") {
+    return (
+      <>
+        <span
+          aria-hidden
+          style={{
+            ...base,
+            top: "50%",
+            right: -edge,
+            marginTop: -edge,
+            borderTop: `${edge}px solid transparent`,
+            borderBottom: `${edge}px solid transparent`,
+            borderLeft: `${edge}px solid ${INK}`,
+          }}
+        />
+        <span
+          aria-hidden
+          style={{
+            ...base,
+            top: "50%",
+            right: -(edge - 2),
+            marginTop: -(edge - 2),
+            borderTop: `${edge - 2}px solid transparent`,
+            borderBottom: `${edge - 2}px solid transparent`,
+            borderLeft: `${edge - 2}px solid ${fill}`,
+          }}
+        />
+      </>
+    );
+  }
+  return (
+    <>
+      <span
+        aria-hidden
+        style={{
+          ...base,
+          top: "50%",
+          left: -edge,
+          marginTop: -edge,
+          borderTop: `${edge}px solid transparent`,
+          borderBottom: `${edge}px solid transparent`,
+          borderRight: `${edge}px solid ${INK}`,
+        }}
+      />
+      <span
+        aria-hidden
+        style={{
+          ...base,
+          top: "50%",
+          left: -(edge - 2),
+          marginTop: -(edge - 2),
+          borderTop: `${edge - 2}px solid transparent`,
+          borderBottom: `${edge - 2}px solid transparent`,
+          borderRight: `${edge - 2}px solid ${fill}`,
+        }}
+      />
+    </>
+  );
+}
+
 function PlayLeaders({
   plays,
   size,
@@ -197,9 +375,25 @@ function PlayLeaders({
 }) {
   const pad = 4;
   const reserved: TagBox[] = [];
+  const claimedAnchors = new Set<string>();
+  const allTiles = plays.flatMap((p) =>
+    p.tiles.map((t) => cellKey(t.row, t.col)),
+  );
+
   const placed = plays.map((play, i) => {
-    const placement = pickTagPlacement(play, occupied, reserved);
-    if (placement) reserved.push(placement.box);
+    const own = new Set(play.tiles.map((t) => cellKey(t.row, t.col)));
+    const otherTiles = new Set(allTiles.filter((k) => !own.has(k)));
+    const placement = pickTagPlacement(
+      play,
+      occupied,
+      reserved,
+      claimedAnchors,
+      otherTiles,
+    );
+    if (placement) {
+      reserved.push(placement.box);
+      claimedAnchors.add(cellKey(placement.anchorRow, placement.anchorCol));
+    }
     return { play, i, placement };
   });
 
@@ -221,17 +415,17 @@ function PlayLeaders({
             }}
           >
             <span
-              className="whitespace-nowrap px-1.5 py-0.5 font-[family-name:var(--font-display)] font-bold leading-none text-ink"
+              className="relative inline-block whitespace-nowrap px-1.5 py-0.5 font-[family-name:var(--font-display)] font-bold leading-none text-ink"
               style={{
-                display: "inline-block",
                 background: accent,
-                border: "2px solid #2a3340",
+                border: `2px solid ${INK}`,
                 fontSize: "0.85rem",
                 letterSpacing: "0.04em",
                 boxShadow: "2px 2px 0 rgba(42,51,64,0.2)",
               }}
             >
               R{play.round} · {play.score} pts
+              <LeaderTriangle side={placement.side} fill={accent} />
             </span>
           </div>
         );
