@@ -1,6 +1,7 @@
 "use client";
 
 import { letterValue } from "@daily-rack/engine";
+import type { CSSProperties } from "react";
 
 interface TypeBlockProps {
   letter: string;
@@ -11,7 +12,7 @@ interface TypeBlockProps {
   accent?: string;
   size?: "board" | "rack" | "ghost";
   className?: string;
-  style?: React.CSSProperties;
+  style?: CSSProperties;
 }
 
 const CRATES = [
@@ -44,6 +45,7 @@ export function TypeBlock({
     <span
       className={`relative flex h-full w-full flex-col items-center justify-center overflow-hidden ${className}`}
       style={{
+        containerType: isBoard ? "size" : undefined,
         backgroundColor: "#f3e0b0",
         backgroundImage: `url(${face})`,
         backgroundSize: "100% 100%",
@@ -62,12 +64,13 @@ export function TypeBlock({
         className="relative font-[family-name:var(--font-ui)] font-extrabold leading-none"
         style={{
           fontSize: isBoard
-            ? "clamp(0.78rem, 3.8vw, 1.12rem)"
+            ? "clamp(0.7rem, 48cqmin, 1.12rem)"
             : isGhost
               ? "1.55rem"
               : "clamp(1.35rem, 4.6vw, 1.6rem)",
           color: "#1a2230",
           letterSpacing: "0.01em",
+          transform: isBoard ? "translateY(-8%)" : undefined,
         }}
       >
         {letter}
@@ -76,11 +79,9 @@ export function TypeBlock({
       <span
         className="absolute font-[family-name:var(--font-ui)] font-black"
         style={{
-          bottom: isBoard ? 1 : 2,
-          right: isBoard ? 2 : 3,
-          fontSize: isBoard
-            ? "clamp(0.48rem, 2vw, 0.68rem)"
-            : "0.72rem",
+          bottom: isBoard ? "4%" : 2,
+          right: isBoard ? "5%" : 3,
+          fontSize: isBoard ? "clamp(0.34rem, 24cqmin, 0.58rem)" : "0.72rem",
           color: "#1a2230",
           lineHeight: 1,
         }}

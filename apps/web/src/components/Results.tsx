@@ -175,16 +175,16 @@ export function Results({
           >
             {showingSolution
               ? "Best solution"
-              : `${scoreEmojiLabel(emoji)}${streak > 0 ? ` · ${streak}-day run` : ""}`}
+              : `${scoreEmojiLabel(emoji)}${streak > 0 ? ` · ${streak}-day streak` : ""}`}
           </p>
 
           <div
             className="mt-3 overflow-visible"
             style={{
-              paddingTop: "2rem",
-              paddingLeft: "2rem",
-              paddingRight: "2rem",
-              paddingBottom: "1.85rem",
+              paddingTop: "1.35rem",
+              paddingLeft: "1.25rem",
+              paddingRight: "1.25rem",
+              paddingBottom: "1.25rem",
             }}
           >
             <Board
