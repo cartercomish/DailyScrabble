@@ -56,17 +56,18 @@ export function Results({
   const [copied, setCopied] = useState(false);
   const [sharingBoard, setSharingBoard] = useState(false);
   const emoji = resultEmoji(puzzle, result);
-  const url =
+  // Bare host (no https://) so chats don't unfurl a big link preview — MapTap-style.
+  const shareHost =
     typeof window !== "undefined"
-      ? window.location.origin
-      : "https://manifest.game";
+      ? window.location.host
+      : "manifest.game";
 
   const shareText = formatShare(
     result.puzzleNumber,
     result.totalScore,
     emoji,
     result.rounds.map((r) => r.score),
-    url,
+    shareHost,
   );
 
   async function copyShare() {
@@ -82,18 +83,16 @@ export function Results({
   }
 
   async function shareScore() {
-    await copyShare();
-
     if (typeof navigator.share === "function") {
       try {
-        await navigator.share({
-          title: `Manifest #${result.puzzleNumber}`,
-          text: shareText,
-        });
+        await navigator.share({ text: shareText });
+        return;
       } catch {
         /* cancelled */
+        return;
       }
     }
+    await copyShare();
   }
 
   async function shareManifestImage() {

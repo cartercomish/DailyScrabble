@@ -23,8 +23,9 @@ export function formatShare(
   totalScore: number,
   emoji: string,
   roundScores: number[],
+  /** Bare host preferred (e.g. manifest.game) so chats skip rich link previews. */
   url: string,
 ): string {
   const rounds = roundScores.join(" · ");
-  return `Manifest #${String(puzzleNumber).padStart(3, "0")}\nTotal: ${totalScore} ${emoji}\n${rounds}\n${url}`;
+  return `${url}\nManifest #${String(puzzleNumber).padStart(3, "0")}\n${rounds}\nTotal: ${totalScore} ${emoji}`;
 }
