@@ -181,10 +181,10 @@ export function Results({
           <div
             className="mt-3 overflow-visible"
             style={{
-              paddingTop: "1.25rem",
-              paddingLeft: "1.1rem",
-              paddingRight: "1.1rem",
-              paddingBottom: "0.35rem",
+              paddingTop: "2rem",
+              paddingLeft: "2rem",
+              paddingRight: "2rem",
+              paddingBottom: "1.85rem",
             }}
           >
             <Board

@@ -94,6 +94,16 @@ function tagOverlapsReserved(box: TagBox, reserved: TagBox[]): boolean {
   return reserved.some((r) => boxesOverlap(box, r));
 }
 
+/** How far a tag AABB sticks past the board in cell units. */
+function tagOverhang(box: TagBox, size: number): number {
+  let o = 0;
+  if (box.x0 < 0) o += -box.x0;
+  if (box.y0 < 0) o += -box.y0;
+  if (box.x1 > size) o += box.x1 - size;
+  if (box.y1 > size) o += box.y1 - size;
+  return o;
+}
+
 /** Candidates relative to one exclusive placed tile (not the word bbox mid). */
 function candidatesForAnchor(row: number, col: number): TagPlacement[] {
   const midC = col + 0.5;
@@ -195,6 +205,7 @@ function pickTagPlacement(
   reserved: TagBox[],
   claimedAnchors: Set<string>,
   otherTiles: Set<string>,
+  size: number,
 ): TagPlacement | null {
   if (play.tiles.length === 0) return null;
 
@@ -203,15 +214,20 @@ function pickTagPlacement(
 
   let best: TagPlacement | null = null;
   let bestHits = Number.POSITIVE_INFINITY;
+  let bestOverhang = Number.POSITIVE_INFINITY;
 
   for (const tile of anchors) {
     const candidates = candidatesForAnchor(tile.row, tile.col);
     for (const candidate of candidates) {
       if (tagOverlapsReserved(candidate.box, reserved)) continue;
       const hits = tagOverlapsLetters(candidate.box, occupied);
-      if (hits === 0) return candidate;
-      if (hits < bestHits) {
+      const overhang = tagOverhang(candidate.box, size);
+      if (
+        hits < bestHits ||
+        (hits === bestHits && overhang < bestOverhang)
+      ) {
         bestHits = hits;
+        bestOverhang = overhang;
         best = candidate;
       }
     }
@@ -389,6 +405,7 @@ function PlayLeaders({
       reserved,
       claimedAnchors,
       otherTiles,
+      size,
     );
     if (placement) {
       reserved.push(placement.box);
@@ -462,6 +479,8 @@ export function Board({
   );
   const leaderPlays = showSolution ? solutionPlays : reviewPlays;
   const highlightAccent = showSolution ? SOLUTION_ACCENT : PLAYER_ACCENT;
+  const readOnly =
+    embedded || showSolution || reviewPlays.length > 0;
   const occupiedLetters = new Set<string>();
   for (let r = 0; r < size; r++) {
     for (let c = 0; c < size; c++) {
@@ -556,14 +575,16 @@ export function Board({
                   data-board-cell={`${r},${c}`}
                   onClick={() => onCellClick(r, c)}
                   onPointerDown={(e) => {
-                    if (showSolution || reviewPlays.length > 0) return;
+                    if (readOnly) return;
                     if (!isTentative || !onPointerDownTentative || !playerLetter)
                       return;
                     e.preventDefault();
                     e.stopPropagation();
                     onPointerDownTentative(r, c, playerLetter, e);
                   }}
-                  className="relative aspect-square touch-none overflow-visible text-center active:scale-95"
+                  className={`relative aspect-square overflow-visible text-center active:scale-95${
+                    readOnly ? "" : " touch-none"
+                  }`}
                   style={{
                     background: squareBg(
                       cell,
