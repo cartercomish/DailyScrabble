@@ -1,0 +1,132 @@
+{
+  "id": "2026-11-21",
+  "date": "2026-11-21",
+  "number": 224,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "C",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "ASUFQYW",
+      "bestWord": {
+        "word": "FA",
+        "score": 35
+      }
+    },
+    {
+      "rack": "BXWIUHG",
+      "bestWord": {
+        "word": "WAX",
+        "score": 34
+      }
+    },
+    {
+      "rack": "IAPEONZ",
+      "bestWord": {
+        "word": "ZETA",
+        "score": 26
+      }
+    }
+  ],
+  "par": 62
+}

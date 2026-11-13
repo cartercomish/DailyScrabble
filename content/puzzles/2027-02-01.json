@@ -1,0 +1,132 @@
+{
+  "id": "2027-02-01",
+  "date": "2027-02-01",
+  "number": 296,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IUPOEXA",
+      "bestWord": {
+        "word": "APEX",
+        "score": 36
+      }
+    },
+    {
+      "rack": "EAEODPD",
+      "bestWord": {
+        "word": "DEEP",
+        "score": 27
+      }
+    },
+    {
+      "rack": "TILIYNW",
+      "bestWord": {
+        "word": "TINY",
+        "score": 48
+      }
+    }
+  ],
+  "par": 72
+}

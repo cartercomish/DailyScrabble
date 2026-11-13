@@ -1,0 +1,132 @@
+{
+  "id": "2027-01-16",
+  "date": "2027-01-16",
+  "number": 280,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "F",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "M",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "KDOIWTA",
+      "bestWord": {
+        "word": "WORK",
+        "score": 38
+      }
+    },
+    {
+      "rack": "ILOMHNS",
+      "bestWord": {
+        "word": "HIM",
+        "score": 33
+      }
+    },
+    {
+      "rack": "ZOTRFUI",
+      "bestWord": {
+        "word": "FRITZ",
+        "score": 46
+      }
+    }
+  ],
+  "par": 76
+}

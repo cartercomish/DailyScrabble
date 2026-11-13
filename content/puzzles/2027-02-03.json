@@ -1,0 +1,132 @@
+{
+  "id": "2027-02-03",
+  "date": "2027-02-03",
+  "number": 298,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "C",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "FEIEIAI",
+      "bestWord": {
+        "word": "FEE",
+        "score": 24
+      }
+    },
+    {
+      "rack": "ONEGTFO",
+      "bestWord": {
+        "word": "FOG",
+        "score": 21
+      }
+    },
+    {
+      "rack": "AOTEWEJ",
+      "bestWord": {
+        "word": "JET",
+        "score": 35
+      }
+    }
+  ],
+  "par": 52
+}

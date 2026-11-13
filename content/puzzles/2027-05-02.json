@@ -1,0 +1,137 @@
+{
+  "id": "2027-05-02",
+  "date": "2027-05-02",
+  "number": 386,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NFTYULA",
+      "bestWord": {
+        "word": "AFT",
+        "score": 35
+      }
+    },
+    {
+      "rack": "NSEITOO",
+      "bestWord": {
+        "word": "STONE",
+        "score": 23
+      }
+    },
+    {
+      "rack": "TUGSOHI",
+      "bestWord": {
+        "word": "SHOUTING",
+        "score": 76
+      }
+    }
+  ],
+  "par": 87
+}

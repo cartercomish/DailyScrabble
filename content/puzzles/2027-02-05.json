@@ -1,0 +1,127 @@
+{
+  "id": "2027-02-05",
+  "date": "2027-02-05",
+  "number": 300,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "Y",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "U",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NIODZOP",
+      "bestWord": {
+        "word": "DOZEN",
+        "score": 45
+      }
+    },
+    {
+      "rack": "WINOEID",
+      "bestWord": {
+        "word": "DEW",
+        "score": 35
+      }
+    },
+    {
+      "rack": "RAYOQXV",
+      "bestWord": {
+        "word": "OX",
+        "score": 29
+      }
+    }
+  ],
+  "par": 71
+}

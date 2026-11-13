@@ -1,0 +1,127 @@
+{
+  "id": "2027-04-03",
+  "date": "2027-04-03",
+  "number": 357,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "M",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 10
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "CIFOEDE",
+      "bestWord": {
+        "word": "FIERCE",
+        "score": 42
+      }
+    },
+    {
+      "rack": "IINJRYA",
+      "bestWord": {
+        "word": "JAY",
+        "score": 27
+      }
+    },
+    {
+      "rack": "EUEARIS",
+      "bestWord": {
+        "word": "SIRE",
+        "score": 21
+      }
+    }
+  ],
+  "par": 59
+}

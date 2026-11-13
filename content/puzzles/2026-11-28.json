@@ -1,0 +1,117 @@
+{
+  "id": "2026-11-28",
+  "date": "2026-11-28",
+  "number": 231,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "V",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "M",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EUADAKC",
+      "bestWord": {
+        "word": "CAKE",
+        "score": 32
+      }
+    },
+    {
+      "rack": "OCTTILX",
+      "bestWord": {
+        "word": "COX",
+        "score": 36
+      }
+    },
+    {
+      "rack": "REAIEFE",
+      "bestWord": {
+        "word": "FREE",
+        "score": 29
+      }
+    }
+  ],
+  "par": 63
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2027-02-27",
+  "date": "2027-02-27",
+  "number": 322,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "C",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IVERGEN",
+      "bestWord": {
+        "word": "GENRE",
+        "score": 26
+      }
+    },
+    {
+      "rack": "BOEIAOO",
+      "bestWord": {
+        "word": "BIO",
+        "score": 30
+      }
+    },
+    {
+      "rack": "ERLADLJ",
+      "bestWord": {
+        "word": "DULL",
+        "score": 22
+      }
+    }
+  ],
+  "par": 51
+}

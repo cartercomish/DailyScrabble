@@ -1,0 +1,132 @@
+{
+  "id": "2026-11-26",
+  "date": "2026-11-26",
+  "number": 229,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "HEFVBEE",
+      "bestWord": {
+        "word": "BEEF",
+        "score": 29
+      }
+    },
+    {
+      "rack": "AUEBSQL",
+      "bestWord": {
+        "word": "BASQUE",
+        "score": 153
+      }
+    },
+    {
+      "rack": "AZIIWSU",
+      "bestWord": {
+        "word": "AW",
+        "score": 24
+      }
+    }
+  ],
+  "par": 134
+}

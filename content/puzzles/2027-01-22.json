@@ -1,0 +1,132 @@
+{
+  "id": "2027-01-22",
+  "date": "2027-01-22",
+  "number": 286,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "F",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OVGTOFR",
+      "bestWord": {
+        "word": "FORGOT",
+        "score": 48
+      }
+    },
+    {
+      "rack": "DINPTEC",
+      "bestWord": {
+        "word": "EPIC",
+        "score": 24
+      }
+    },
+    {
+      "rack": "EJYNUWD",
+      "bestWord": {
+        "word": "DENY",
+        "score": 47
+      }
+    }
+  ],
+  "par": 77
+}

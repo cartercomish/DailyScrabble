@@ -1,0 +1,127 @@
+{
+  "id": "2027-05-03",
+  "date": "2027-05-03",
+  "number": 387,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 10
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "LXAOUEI",
+      "bestWord": {
+        "word": "AXLE",
+        "score": 29
+      }
+    },
+    {
+      "rack": "IERPFCG",
+      "bestWord": {
+        "word": "EPIC",
+        "score": 34
+      }
+    },
+    {
+      "rack": "RONIFTS",
+      "bestWord": {
+        "word": "FOREST",
+        "score": 38
+      }
+    }
+  ],
+  "par": 66
+}

@@ -1,0 +1,122 @@
+{
+  "id": "2027-03-29",
+  "date": "2027-03-29",
+  "number": 352,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EDTBZSE",
+      "bestWord": {
+        "word": "BORED",
+        "score": 28
+      }
+    },
+    {
+      "rack": "ETYRQIC",
+      "bestWord": {
+        "word": "YE",
+        "score": 29
+      }
+    },
+    {
+      "rack": "NTDGUII",
+      "bestWord": {
+        "word": "PLANTING",
+        "score": 36
+      }
+    }
+  ],
+  "par": 60
+}

@@ -1,0 +1,137 @@
+{
+  "id": "2027-04-18",
+  "date": "2027-04-18",
+  "number": 372,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "G",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "W",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "CAILINU",
+      "bestWord": {
+        "word": "NUCLEI",
+        "score": 81
+      }
+    },
+    {
+      "rack": "LGEAOAI",
+      "bestWord": {
+        "word": "GLORIA",
+        "score": 63
+      }
+    },
+    {
+      "rack": "ARQSINE",
+      "bestWord": {
+        "word": "SENIOR",
+        "score": 31
+      }
+    }
+  ],
+  "par": 114
+}

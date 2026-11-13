@@ -1,0 +1,132 @@
+{
+  "id": "2027-01-03",
+  "date": "2027-01-03",
+  "number": 267,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "F",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 9,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "TSYLIVU",
+      "bestWord": {
+        "word": "STYLUS",
+        "score": 27
+      }
+    },
+    {
+      "rack": "OWEOAIE",
+      "bestWord": {
+        "word": "WOO",
+        "score": 35
+      }
+    },
+    {
+      "rack": "YFPWNOA",
+      "bestWord": {
+        "word": "SWAP",
+        "score": 32
+      }
+    }
+  ],
+  "par": 61
+}

@@ -1,0 +1,127 @@
+{
+  "id": "2026-12-26",
+  "date": "2026-12-26",
+  "number": 259,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "K",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "D",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "YAGOIQE",
+      "bestWord": {
+        "word": "YOGA",
+        "score": 30
+      }
+    },
+    {
+      "rack": "TYAALRN",
+      "bestWord": {
+        "word": "YARD",
+        "score": 24
+      }
+    },
+    {
+      "rack": "REEEIPT",
+      "bestWord": {
+        "word": "PIES",
+        "score": 28
+      }
+    }
+  ],
+  "par": 53
+}

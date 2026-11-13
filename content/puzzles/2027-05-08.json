@@ -1,0 +1,132 @@
+{
+  "id": "2027-05-08",
+  "date": "2027-05-08",
+  "number": 392,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "K",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "V",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 0,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 0,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 0,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 0,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EGOOLIM",
+      "bestWord": {
+        "word": "GEM",
+        "score": 36
+      }
+    },
+    {
+      "rack": "UOWBOHE",
+      "bestWord": {
+        "word": "WHO",
+        "score": 23
+      }
+    },
+    {
+      "rack": "XOBDETN",
+      "bestWord": {
+        "word": "BOXED",
+        "score": 69
+      }
+    }
+  ],
+  "par": 83
+}

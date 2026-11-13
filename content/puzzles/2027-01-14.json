@@ -1,0 +1,132 @@
+{
+  "id": "2027-01-14",
+  "date": "2027-01-14",
+  "number": 278,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "V",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "PLKATEO",
+      "bestWord": {
+        "word": "PEAK",
+        "score": 40
+      }
+    },
+    {
+      "rack": "EMOGCAU",
+      "bestWord": {
+        "word": "ACME",
+        "score": 30
+      }
+    },
+    {
+      "rack": "TSIIFNR",
+      "bestWord": {
+        "word": "FIRST",
+        "score": 38
+      }
+    }
+  ],
+  "par": 70
+}

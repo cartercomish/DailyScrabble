@@ -1,0 +1,117 @@
+{
+  "id": "2026-11-17",
+  "date": "2026-11-17",
+  "number": 220,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "F",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "D",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "TUINUAB",
+      "bestWord": {
+        "word": "BAIT",
+        "score": 60
+      }
+    },
+    {
+      "rack": "ECTSWOD",
+      "bestWord": {
+        "word": "WED",
+        "score": 31
+      }
+    },
+    {
+      "rack": "MOHPOGR",
+      "bestWord": {
+        "word": "HOMO",
+        "score": 53
+      }
+    }
+  ],
+  "par": 94
+}

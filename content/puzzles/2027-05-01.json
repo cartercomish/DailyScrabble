@@ -1,0 +1,132 @@
+{
+  "id": "2027-05-01",
+  "date": "2027-05-01",
+  "number": 385,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "M",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "K",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 9,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 9,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "FTIAPGG",
+      "bestWord": {
+        "word": "FAT",
+        "score": 29
+      }
+    },
+    {
+      "rack": "AUPJTOO",
+      "bestWord": {
+        "word": "OP",
+        "score": 20
+      }
+    },
+    {
+      "rack": "EHRMNLA",
+      "bestWord": {
+        "word": "HEN",
+        "score": 26
+      }
+    }
+  ],
+  "par": 49
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2027-02-22",
+  "date": "2027-02-22",
+  "number": 317,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IMRIMAD",
+      "bestWord": {
+        "word": "MID",
+        "score": 33
+      }
+    },
+    {
+      "rack": "SOIJNND",
+      "bestWord": {
+        "word": "JOIN",
+        "score": 30
+      }
+    },
+    {
+      "rack": "HUPRBOL",
+      "bestWord": {
+        "word": "PESO",
+        "score": 24
+      }
+    }
+  ],
+  "par": 57
+}

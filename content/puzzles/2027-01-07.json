@@ -1,0 +1,132 @@
+{
+  "id": "2027-01-07",
+  "date": "2027-01-07",
+  "number": 271,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "H",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EYMEIJO",
+      "bestWord": {
+        "word": "JAY",
+        "score": 50
+      }
+    },
+    {
+      "rack": "XCOTLUL",
+      "bestWord": {
+        "word": "SOX",
+        "score": 30
+      }
+    },
+    {
+      "rack": "IWOTBNR",
+      "bestWord": {
+        "word": "BROWN",
+        "score": 38
+      }
+    }
+  ],
+  "par": 77
+}

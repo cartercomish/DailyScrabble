@@ -1,0 +1,132 @@
+{
+  "id": "2027-02-16",
+  "date": "2027-02-16",
+  "number": 311,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "U",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "F",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 9
+    },
+    {
+      "letter": "O",
+      "row": 8,
+      "col": 10
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 9,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "HVFATEI",
+      "bestWord": {
+        "word": "HATE",
+        "score": 52
+      }
+    },
+    {
+      "rack": "RUNENIO",
+      "bestWord": {
+        "word": "URINE",
+        "score": 21
+      }
+    },
+    {
+      "rack": "EHYBDIV",
+      "bestWord": {
+        "word": "VERY",
+        "score": 36
+      }
+    }
+  ],
+  "par": 71
+}

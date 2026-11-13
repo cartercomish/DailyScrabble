@@ -1,0 +1,137 @@
+{
+  "id": "2027-03-06",
+  "date": "2027-03-06",
+  "number": 329,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "F",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "M",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 10
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "TAEVGUG",
+      "bestWord": {
+        "word": "GAUGE",
+        "score": 35
+      }
+    },
+    {
+      "rack": "HYAKDUE",
+      "bestWord": {
+        "word": "HAY",
+        "score": 69
+      }
+    },
+    {
+      "rack": "ODZIIMR",
+      "bestWord": {
+        "word": "MIDI",
+        "score": 22
+      }
+    }
+  ],
+  "par": 82
+}

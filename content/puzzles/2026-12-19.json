@@ -1,0 +1,132 @@
+{
+  "id": "2026-12-19",
+  "date": "2026-12-19",
+  "number": 252,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "G",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "XIFLSRE",
+      "bestWord": {
+        "word": "ITSELF",
+        "score": 90
+      }
+    },
+    {
+      "rack": "AODIMOU",
+      "bestWord": {
+        "word": "MOOD",
+        "score": 22
+      }
+    },
+    {
+      "rack": "SOPAEOE",
+      "bestWord": {
+        "word": "SNOOP",
+        "score": 26
+      }
+    }
+  ],
+  "par": 90
+}

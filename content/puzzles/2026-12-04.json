@@ -1,0 +1,122 @@
+{
+  "id": "2026-12-04",
+  "date": "2026-12-04",
+  "number": 237,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "K",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 0
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IEHOAIA",
+      "bestWord": {
+        "word": "HOSE",
+        "score": 33
+      }
+    },
+    {
+      "rack": "CTBUMFI",
+      "bestWord": {
+        "word": "MOTIF",
+        "score": 32
+      }
+    },
+    {
+      "rack": "FPDILAI",
+      "bestWord": {
+        "word": "FAILED",
+        "score": 44
+      }
+    }
+  ],
+  "par": 71
+}

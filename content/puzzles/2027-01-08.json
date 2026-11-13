@@ -1,0 +1,132 @@
+{
+  "id": "2027-01-08",
+  "date": "2027-01-08",
+  "number": 272,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "P",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "K",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 1,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OBUUVHE",
+      "bestWord": {
+        "word": "HUB",
+        "score": 32
+      }
+    },
+    {
+      "rack": "YTYWOPO",
+      "bestWord": {
+        "word": "POW",
+        "score": 48
+      }
+    },
+    {
+      "rack": "AXUBEEE",
+      "bestWord": {
+        "word": "TAX",
+        "score": 24
+      }
+    }
+  ],
+  "par": 68
+}

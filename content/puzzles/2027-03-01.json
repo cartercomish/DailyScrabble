@@ -1,0 +1,132 @@
+{
+  "id": "2027-03-01",
+  "date": "2027-03-01",
+  "number": 324,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "Y",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AROVOFI",
+      "bestWord": {
+        "word": "FLARE",
+        "score": 37
+      }
+    },
+    {
+      "rack": "BIXCIEU",
+      "bestWord": {
+        "word": "CUBE",
+        "score": 24
+      }
+    },
+    {
+      "rack": "ATIRADP",
+      "bestWord": {
+        "word": "PACT",
+        "score": 24
+      }
+    }
+  ],
+  "par": 55
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2026-12-10",
+  "date": "2026-12-10",
+  "number": 243,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "V",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "F",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "Y",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "D",
+      "row": 4,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "TRIREMN",
+      "bestWord": {
+        "word": "TIMED",
+        "score": 33
+      }
+    },
+    {
+      "rack": "XLTEDLO",
+      "bestWord": {
+        "word": "EX",
+        "score": 38
+      }
+    },
+    {
+      "rack": "ACBAILF",
+      "bestWord": {
+        "word": "FAIL",
+        "score": 30
+      }
+    }
+  ],
+  "par": 66
+}

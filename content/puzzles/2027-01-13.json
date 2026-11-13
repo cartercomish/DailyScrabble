@@ -1,0 +1,132 @@
+{
+  "id": "2027-01-13",
+  "date": "2027-01-13",
+  "number": 277,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "M",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "FVEENBO",
+      "bestWord": {
+        "word": "BEFORE",
+        "score": 50
+      }
+    },
+    {
+      "rack": "EGDHIEY",
+      "bestWord": {
+        "word": "EYED",
+        "score": 40
+      }
+    },
+    {
+      "rack": "GJIUDAT",
+      "bestWord": {
+        "word": "JUDGE",
+        "score": 28
+      }
+    }
+  ],
+  "par": 77
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2027-04-14",
+  "date": "2027-04-14",
+  "number": 368,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "P",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IUWYMAD",
+      "bestWord": {
+        "word": "MIDWAY",
+        "score": 41
+      }
+    },
+    {
+      "rack": "OOFBICE",
+      "bestWord": {
+        "word": "EF",
+        "score": 30
+      }
+    },
+    {
+      "rack": "XAELVIT",
+      "bestWord": {
+        "word": "LEX",
+        "score": 53
+      }
+    }
+  ],
+  "par": 81
+}

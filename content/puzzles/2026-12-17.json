@@ -1,0 +1,137 @@
+{
+  "id": "2026-12-17",
+  "date": "2026-12-17",
+  "number": 250,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "U",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "D",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "MIAERYD",
+      "bestWord": {
+        "word": "MARRIED",
+        "score": 99
+      }
+    },
+    {
+      "rack": "OLVGIZA",
+      "bestWord": {
+        "word": "OVAL",
+        "score": 35
+      }
+    },
+    {
+      "rack": "OPAOIOB",
+      "bestWord": {
+        "word": "PA",
+        "score": 22
+      }
+    }
+  ],
+  "par": 101
+}

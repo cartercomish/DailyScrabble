@@ -1,0 +1,132 @@
+{
+  "id": "2027-01-15",
+  "date": "2027-01-15",
+  "number": 279,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "USFRSOD",
+      "bestWord": {
+        "word": "SURF",
+        "score": 42
+      }
+    },
+    {
+      "rack": "OBNIXAK",
+      "bestWord": {
+        "word": "BOX",
+        "score": 32
+      }
+    },
+    {
+      "rack": "ARBDYLI",
+      "bestWord": {
+        "word": "BADLY",
+        "score": 30
+      }
+    }
+  ],
+  "par": 68
+}

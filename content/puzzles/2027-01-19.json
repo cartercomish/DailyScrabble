@@ -1,0 +1,132 @@
+{
+  "id": "2027-01-19",
+  "date": "2027-01-19",
+  "number": 283,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "P",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "K",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NIGFEUN",
+      "bestWord": {
+        "word": "FUNDING",
+        "score": 39
+      }
+    },
+    {
+      "rack": "MJOOZXE",
+      "bestWord": {
+        "word": "OZONE",
+        "score": 68
+      }
+    },
+    {
+      "rack": "HSAITTD",
+      "bestWord": {
+        "word": "DASH",
+        "score": 45
+      }
+    }
+  ],
+  "par": 99
+}

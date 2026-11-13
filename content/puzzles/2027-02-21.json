@@ -1,0 +1,132 @@
+{
+  "id": "2027-02-21",
+  "date": "2027-02-21",
+  "number": 316,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "K",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "H",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "L",
+      "row": 1,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "LJOUFSM",
+      "bestWord": {
+        "word": "JO",
+        "score": 25
+      }
+    },
+    {
+      "rack": "AZEALXT",
+      "bestWord": {
+        "word": "REX",
+        "score": 45
+      }
+    },
+    {
+      "rack": "OOENRWY",
+      "bestWord": {
+        "word": "YO",
+        "score": 24
+      }
+    }
+  ],
+  "par": 61
+}

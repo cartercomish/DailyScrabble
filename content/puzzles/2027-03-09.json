@@ -1,0 +1,132 @@
+{
+  "id": "2027-03-09",
+  "date": "2027-03-09",
+  "number": 332,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "D",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "VGOMLLA",
+      "bestWord": {
+        "word": "MAG",
+        "score": 27
+      }
+    },
+    {
+      "rack": "APAOLOS",
+      "bestWord": {
+        "word": "SOAP",
+        "score": 39
+      }
+    },
+    {
+      "rack": "QMHTIOI",
+      "bestWord": {
+        "word": "HAM",
+        "score": 24
+      }
+    }
+  ],
+  "par": 59
+}

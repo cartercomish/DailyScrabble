@@ -1,0 +1,117 @@
+{
+  "id": "2026-11-24",
+  "date": "2026-11-24",
+  "number": 227,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "B",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "DIJAVEE",
+      "bestWord": {
+        "word": "JADE",
+        "score": 50
+      }
+    },
+    {
+      "rack": "TOAGFED",
+      "bestWord": {
+        "word": "FOG",
+        "score": 34
+      }
+    },
+    {
+      "rack": "AGOSEDI",
+      "bestWord": {
+        "word": "DOSE",
+        "score": 29
+      }
+    }
+  ],
+  "par": 73
+}

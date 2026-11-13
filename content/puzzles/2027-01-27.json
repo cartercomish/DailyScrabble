@@ -1,0 +1,137 @@
+{
+  "id": "2027-01-27",
+  "date": "2027-01-27",
+  "number": 291,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "V",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "P",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "CJAIYKQ",
+      "bestWord": {
+        "word": "JACK",
+        "score": 51
+      }
+    },
+    {
+      "rack": "AUWGFDL",
+      "bestWord": {
+        "word": "AWFUL",
+        "score": 35
+      }
+    },
+    {
+      "rack": "BEOTMSN",
+      "bestWord": {
+        "word": "SOME",
+        "score": 29
+      }
+    }
+  ],
+  "par": 75
+}

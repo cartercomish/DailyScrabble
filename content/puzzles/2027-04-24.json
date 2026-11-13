@@ -1,0 +1,117 @@
+{
+  "id": "2027-04-24",
+  "date": "2027-04-24",
+  "number": 378,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "F",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "M",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "B",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "GOTYYOE",
+      "bestWord": {
+        "word": "YET",
+        "score": 29
+      }
+    },
+    {
+      "rack": "GVFIXUA",
+      "bestWord": {
+        "word": "AX",
+        "score": 55
+      }
+    },
+    {
+      "rack": "TNRIREP",
+      "bestWord": {
+        "word": "PRINTER",
+        "score": 146
+      }
+    }
+  ],
+  "par": 150
+}

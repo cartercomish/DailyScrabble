@@ -1,0 +1,132 @@
+{
+  "id": "2027-04-25",
+  "date": "2027-04-25",
+  "number": 379,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "Y",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EYEOGDF",
+      "bestWord": {
+        "word": "EYE",
+        "score": 23
+      }
+    },
+    {
+      "rack": "DTTCEOA",
+      "bestWord": {
+        "word": "DOCTORATE",
+        "score": 64
+      }
+    },
+    {
+      "rack": "AEILZTV",
+      "bestWord": {
+        "word": "ZETA",
+        "score": 69
+      }
+    }
+  ],
+  "par": 101
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2027-05-09",
+  "date": "2027-05-09",
+  "number": 393,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "G",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "ZSBPIRO",
+      "bestWord": {
+        "word": "BIZ",
+        "score": 38
+      }
+    },
+    {
+      "rack": "BRAPVWE",
+      "bestWord": {
+        "word": "WEAR",
+        "score": 49
+      }
+    },
+    {
+      "rack": "JALEIAO",
+      "bestWord": {
+        "word": "JOE",
+        "score": 40
+      }
+    }
+  ],
+  "par": 83
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2027-03-08",
+  "date": "2027-03-08",
+  "number": 331,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "C",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OWNRATE",
+      "bestWord": {
+        "word": "ROTTEN",
+        "score": 54
+      }
+    },
+    {
+      "rack": "OAEKHPR",
+      "bestWord": {
+        "word": "PARKER",
+        "score": 51
+      }
+    },
+    {
+      "rack": "JHMREEE",
+      "bestWord": {
+        "word": "HEM",
+        "score": 37
+      }
+    }
+  ],
+  "par": 92
+}

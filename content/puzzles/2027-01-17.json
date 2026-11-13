@@ -1,0 +1,137 @@
+{
+  "id": "2027-01-17",
+  "date": "2027-01-17",
+  "number": 281,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "G",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "TEOKTMH",
+      "bestWord": {
+        "word": "THEM",
+        "score": 45
+      }
+    },
+    {
+      "rack": "IAWIAOM",
+      "bestWord": {
+        "word": "AIM",
+        "score": 23
+      }
+    },
+    {
+      "rack": "ILYTDRA",
+      "bestWord": {
+        "word": "LADY",
+        "score": 32
+      }
+    }
+  ],
+  "par": 65
+}

@@ -1,0 +1,117 @@
+{
+  "id": "2027-05-11",
+  "date": "2027-05-11",
+  "number": 395,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "K",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NIGREAR",
+      "bestWord": {
+        "word": "STREAMING",
+        "score": 39
+      }
+    },
+    {
+      "rack": "VUGIJPB",
+      "bestWord": {
+        "word": "BI",
+        "score": 22
+      }
+    },
+    {
+      "rack": "ECEOWAL",
+      "bestWord": {
+        "word": "CLAW",
+        "score": 38
+      }
+    }
+  ],
+  "par": 64
+}

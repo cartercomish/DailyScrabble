@@ -1,0 +1,117 @@
+{
+  "id": "2027-03-15",
+  "date": "2027-03-15",
+  "number": 338,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "K",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "Y",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 9
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OPENTIS",
+      "bestWord": {
+        "word": "POINTS",
+        "score": 33
+      }
+    },
+    {
+      "rack": "ERRIOSN",
+      "bestWord": {
+        "word": "RESIN",
+        "score": 26
+      }
+    },
+    {
+      "rack": "AMVUHLL",
+      "bestWord": {
+        "word": "HM",
+        "score": 32
+      }
+    }
+  ],
+  "par": 59
+}

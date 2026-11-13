@@ -1,0 +1,137 @@
+{
+  "id": "2026-12-16",
+  "date": "2026-12-16",
+  "number": 249,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "V",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "F",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "M",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 0
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NITETNC",
+      "bestWord": {
+        "word": "SCENT",
+        "score": 30
+      }
+    },
+    {
+      "rack": "UEHIGMV",
+      "bestWord": {
+        "word": "HEM",
+        "score": 37
+      }
+    },
+    {
+      "rack": "XLPUBAJ",
+      "bestWord": {
+        "word": "PAX",
+        "score": 30
+      }
+    }
+  ],
+  "par": 63
+}

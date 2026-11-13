@@ -1,0 +1,127 @@
+{
+  "id": "2026-12-08",
+  "date": "2026-12-08",
+  "number": 241,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "REPOUIB",
+      "bestWord": {
+        "word": "RIPE",
+        "score": 32
+      }
+    },
+    {
+      "rack": "SIITRRA",
+      "bestWord": {
+        "word": "ARREST",
+        "score": 54
+      }
+    },
+    {
+      "rack": "MIYELBY",
+      "bestWord": {
+        "word": "EYE",
+        "score": 29
+      }
+    }
+  ],
+  "par": 75
+}

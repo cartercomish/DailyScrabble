@@ -1,0 +1,132 @@
+{
+  "id": "2027-01-25",
+  "date": "2027-01-25",
+  "number": 289,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NTOAUYE",
+      "bestWord": {
+        "word": "YUAN",
+        "score": 28
+      }
+    },
+    {
+      "rack": "UOFAOLG",
+      "bestWord": {
+        "word": "FLAG",
+        "score": 28
+      }
+    },
+    {
+      "rack": "HZKTIIA",
+      "bestWord": {
+        "word": "KAY",
+        "score": 30
+      }
+    }
+  ],
+  "par": 56
+}

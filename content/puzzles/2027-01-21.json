@@ -1,0 +1,127 @@
+{
+  "id": "2027-01-21",
+  "date": "2027-01-21",
+  "number": 285,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "U",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 10
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AUOONEJ",
+      "bestWord": {
+        "word": "JOIN",
+        "score": 57
+      }
+    },
+    {
+      "rack": "BDOEAFL",
+      "bestWord": {
+        "word": "FABLE",
+        "score": 49
+      }
+    },
+    {
+      "rack": "NRDNXIE",
+      "bestWord": {
+        "word": "DINNER",
+        "score": 72
+      }
+    }
+  ],
+  "par": 116
+}

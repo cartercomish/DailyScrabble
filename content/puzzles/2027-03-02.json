@@ -1,0 +1,132 @@
+{
+  "id": "2027-03-02",
+  "date": "2027-03-02",
+  "number": 325,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 3
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "YURNDTI",
+      "bestWord": {
+        "word": "NUDITY",
+        "score": 108
+      }
+    },
+    {
+      "rack": "UAAGRXY",
+      "bestWord": {
+        "word": "AX",
+        "score": 31
+      }
+    },
+    {
+      "rack": "ALEOOOW",
+      "bestWord": {
+        "word": "WET",
+        "score": 23
+      }
+    }
+  ],
+  "par": 105
+}

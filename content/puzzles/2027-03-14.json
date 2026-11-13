@@ -1,0 +1,132 @@
+{
+  "id": "2027-03-14",
+  "date": "2027-03-14",
+  "number": 337,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "G",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "G",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "MONONLE",
+      "bestWord": {
+        "word": "LEMON",
+        "score": 35
+      }
+    },
+    {
+      "rack": "WKINOYO",
+      "bestWord": {
+        "word": "OKAY",
+        "score": 38
+      }
+    },
+    {
+      "rack": "VAROEUD",
+      "bestWord": {
+        "word": "GRAVE",
+        "score": 20
+      }
+    }
+  ],
+  "par": 60
+}

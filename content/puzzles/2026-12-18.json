@@ -1,0 +1,117 @@
+{
+  "id": "2026-12-18",
+  "date": "2026-12-18",
+  "number": 251,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "H",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "G",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "ABUEOMI",
+      "bestWord": {
+        "word": "MOB",
+        "score": 24
+      }
+    },
+    {
+      "rack": "GNIUZAE",
+      "bestWord": {
+        "word": "NAZI",
+        "score": 30
+      }
+    },
+    {
+      "rack": "UVAKTOC",
+      "bestWord": {
+        "word": "AUTO",
+        "score": 29
+      }
+    }
+  ],
+  "par": 54
+}

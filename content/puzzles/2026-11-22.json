@@ -1,0 +1,122 @@
+{
+  "id": "2026-11-22",
+  "date": "2026-11-22",
+  "number": 225,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "Y",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EUNBNBA",
+      "bestWord": {
+        "word": "BEEN",
+        "score": 24
+      }
+    },
+    {
+      "rack": "ECOIJID",
+      "bestWord": {
+        "word": "JOINED",
+        "score": 36
+      }
+    },
+    {
+      "rack": "GETOAZI",
+      "bestWord": {
+        "word": "GAZE",
+        "score": 32
+      }
+    }
+  ],
+  "par": 60
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2027-04-09",
+  "date": "2027-04-09",
+  "number": 363,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "KWIQUES",
+      "bestWord": {
+        "word": "KRIS",
+        "score": 28
+      }
+    },
+    {
+      "rack": "NOUOCHI",
+      "bestWord": {
+        "word": "HON",
+        "score": 26
+      }
+    },
+    {
+      "rack": "ASXVION",
+      "bestWord": {
+        "word": "AXIS",
+        "score": 31
+      }
+    }
+  ],
+  "par": 55
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2027-02-10",
+  "date": "2027-02-10",
+  "number": 305,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "HUOGIAG",
+      "bestWord": {
+        "word": "HUG",
+        "score": 21
+      }
+    },
+    {
+      "rack": "PWEQROI",
+      "bestWord": {
+        "word": "POWER",
+        "score": 29
+      }
+    },
+    {
+      "rack": "HUESIYN",
+      "bestWord": {
+        "word": "HYPE",
+        "score": 40
+      }
+    }
+  ],
+  "par": 59
+}

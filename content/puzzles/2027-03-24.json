@@ -1,0 +1,122 @@
+{
+  "id": "2027-03-24",
+  "date": "2027-03-24",
+  "number": 347,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 10
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 0
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "FUARNRE",
+      "bestWord": {
+        "word": "FUSE",
+        "score": 28
+      }
+    },
+    {
+      "rack": "EDVANNI",
+      "bestWord": {
+        "word": "DRIVEN",
+        "score": 126
+      }
+    },
+    {
+      "rack": "EAIIUXE",
+      "bestWord": {
+        "word": "XU",
+        "score": 38
+      }
+    }
+  ],
+  "par": 125
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2026-12-06",
+  "date": "2026-12-06",
+  "number": 239,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "W",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 0
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "ZTOWULH",
+      "bestWord": {
+        "word": "HAUL",
+        "score": 31
+      }
+    },
+    {
+      "rack": "IUYMERI",
+      "bestWord": {
+        "word": "MISERY",
+        "score": 36
+      }
+    },
+    {
+      "rack": "IPAIINN",
+      "bestWord": {
+        "word": "PAN",
+        "score": 22
+      }
+    }
+  ],
+  "par": 58
+}

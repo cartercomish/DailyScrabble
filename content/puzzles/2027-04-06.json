@@ -1,0 +1,122 @@
+{
+  "id": "2027-04-06",
+  "date": "2027-04-06",
+  "number": 360,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "MOCNARN",
+      "bestWord": {
+        "word": "MOC",
+        "score": 31
+      }
+    },
+    {
+      "rack": "IUEWFSR",
+      "bestWord": {
+        "word": "WISE",
+        "score": 33
+      }
+    },
+    {
+      "rack": "REGTIDA",
+      "bestWord": {
+        "word": "GRADE",
+        "score": 22
+      }
+    }
+  ],
+  "par": 56
+}

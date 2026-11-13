@@ -1,0 +1,132 @@
+{
+  "id": "2027-04-20",
+  "date": "2027-04-20",
+  "number": 374,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "LGEOOTN",
+      "bestWord": {
+        "word": "GENTLE",
+        "score": 22
+      }
+    },
+    {
+      "rack": "FHUDNAR",
+      "bestWord": {
+        "word": "FRAUD",
+        "score": 35
+      }
+    },
+    {
+      "rack": "GUVNBOE",
+      "bestWord": {
+        "word": "BEN",
+        "score": 22
+      }
+    }
+  ],
+  "par": 51
+}

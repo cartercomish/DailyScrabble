@@ -1,0 +1,132 @@
+{
+  "id": "2027-02-08",
+  "date": "2027-02-08",
+  "number": 303,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "W",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 1,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "ETUIOIT",
+      "bestWord": {
+        "word": "TOUT",
+        "score": 22
+      }
+    },
+    {
+      "rack": "MOIIFPO",
+      "bestWord": {
+        "word": "MOTIF",
+        "score": 30
+      }
+    },
+    {
+      "rack": "SUOJOND",
+      "bestWord": {
+        "word": "SOUND",
+        "score": 26
+      }
+    }
+  ],
+  "par": 51
+}

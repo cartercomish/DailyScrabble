@@ -1,0 +1,132 @@
+{
+  "id": "2026-11-25",
+  "date": "2026-11-25",
+  "number": 228,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "W",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "K",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 9,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IJOPTIA",
+      "bestWord": {
+        "word": "TAJ",
+        "score": 38
+      }
+    },
+    {
+      "rack": "UBRUODT",
+      "bestWord": {
+        "word": "BROAD",
+        "score": 28
+      }
+    },
+    {
+      "rack": "OMOFGNI",
+      "bestWord": {
+        "word": "STREAMING",
+        "score": 39
+      }
+    }
+  ],
+  "par": 68
+}

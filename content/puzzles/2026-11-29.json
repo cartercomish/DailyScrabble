@@ -1,0 +1,132 @@
+{
+  "id": "2026-11-29",
+  "date": "2026-11-29",
+  "number": 232,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "C",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "H",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 1,
+      "col": 0
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 3
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "BIENJED",
+      "bestWord": {
+        "word": "BEND",
+        "score": 41
+      }
+    },
+    {
+      "rack": "RNIQZMO",
+      "bestWord": {
+        "word": "NAZI",
+        "score": 35
+      }
+    },
+    {
+      "rack": "IFAGREI",
+      "bestWord": {
+        "word": "ANGER",
+        "score": 24
+      }
+    }
+  ],
+  "par": 65
+}

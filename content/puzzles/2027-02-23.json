@@ -1,0 +1,132 @@
+{
+  "id": "2027-02-23",
+  "date": "2027-02-23",
+  "number": 318,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 10
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AZELAEX",
+      "bestWord": {
+        "word": "SEX",
+        "score": 30
+      }
+    },
+    {
+      "rack": "YARVEGE",
+      "bestWord": {
+        "word": "VARY",
+        "score": 28
+      }
+    },
+    {
+      "rack": "INYTGIG",
+      "bestWord": {
+        "word": "YIN",
+        "score": 24
+      }
+    }
+  ],
+  "par": 53
+}

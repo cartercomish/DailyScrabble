@@ -1,0 +1,132 @@
+{
+  "id": "2027-02-07",
+  "date": "2027-02-07",
+  "number": 302,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "GFEGAOP",
+      "bestWord": {
+        "word": "GAP",
+        "score": 28
+      }
+    },
+    {
+      "rack": "WTISAOH",
+      "bestWord": {
+        "word": "WHAT",
+        "score": 51
+      }
+    },
+    {
+      "rack": "BZRJIIT",
+      "bestWord": {
+        "word": "RITZ",
+        "score": 66
+      }
+    }
+  ],
+  "par": 94
+}

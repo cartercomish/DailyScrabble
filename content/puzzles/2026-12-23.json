@@ -1,0 +1,137 @@
+{
+  "id": "2026-12-23",
+  "date": "2026-12-23",
+  "number": 256,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 10
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 0
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AIEKETA",
+      "bestWord": {
+        "word": "KARATE",
+        "score": 40
+      }
+    },
+    {
+      "rack": "ABRPRDI",
+      "bestWord": {
+        "word": "BIRD",
+        "score": 38
+      }
+    },
+    {
+      "rack": "NOIIELC",
+      "bestWord": {
+        "word": "CLIENT",
+        "score": 27
+      }
+    }
+  ],
+  "par": 68
+}

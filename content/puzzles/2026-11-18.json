@@ -1,0 +1,132 @@
+{
+  "id": "2026-11-18",
+  "date": "2026-11-18",
+  "number": 221,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "P",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "G",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EYMEKAS",
+      "bestWord": {
+        "word": "SEEK",
+        "score": 36
+      }
+    },
+    {
+      "rack": "SONTAPO",
+      "bestWord": {
+        "word": "TAPS",
+        "score": 26
+      }
+    },
+    {
+      "rack": "TENOGHV",
+      "bestWord": {
+        "word": "THEN",
+        "score": 33
+      }
+    }
+  ],
+  "par": 62
+}

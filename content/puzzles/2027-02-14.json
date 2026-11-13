@@ -1,0 +1,132 @@
+{
+  "id": "2027-02-14",
+  "date": "2027-02-14",
+  "number": 309,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EVMAPAB",
+      "bestWord": {
+        "word": "BEAM",
+        "score": 36
+      }
+    },
+    {
+      "rack": "NVSDEWE",
+      "bestWord": {
+        "word": "WIDE",
+        "score": 40
+      }
+    },
+    {
+      "rack": "ISWJYUA",
+      "bestWord": {
+        "word": "WAS",
+        "score": 29
+      }
+    }
+  ],
+  "par": 68
+}

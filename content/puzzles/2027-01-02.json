@@ -1,0 +1,127 @@
+{
+  "id": "2027-01-02",
+  "date": "2027-01-02",
+  "number": 266,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "G",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OTFIHEA",
+      "bestWord": {
+        "word": "FAITH",
+        "score": 47
+      }
+    },
+    {
+      "rack": "OPMZECO",
+      "bestWord": {
+        "word": "PROMO",
+        "score": 30
+      }
+    },
+    {
+      "rack": "LIANMEW",
+      "bestWord": {
+        "word": "LAWN",
+        "score": 42
+      }
+    }
+  ],
+  "par": 77
+}

@@ -1,0 +1,137 @@
+{
+  "id": "2027-02-13",
+  "date": "2027-02-13",
+  "number": 308,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "U",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 0
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 1,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "LRZHSIE",
+      "bestWord": {
+        "word": "SIZE",
+        "score": 38
+      }
+    },
+    {
+      "rack": "DIBHIWV",
+      "bestWord": {
+        "word": "HID",
+        "score": 30
+      }
+    },
+    {
+      "rack": "YRAGXBE",
+      "bestWord": {
+        "word": "AXE",
+        "score": 51
+      }
+    }
+  ],
+  "par": 77
+}

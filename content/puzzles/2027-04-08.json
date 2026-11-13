@@ -1,0 +1,127 @@
+{
+  "id": "2027-04-08",
+  "date": "2027-04-08",
+  "number": 362,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "MNLEEYM",
+      "bestWord": {
+        "word": "MEM",
+        "score": 37
+      }
+    },
+    {
+      "rack": "WEADICT",
+      "bestWord": {
+        "word": "DEW",
+        "score": 34
+      }
+    },
+    {
+      "rack": "LNOKYIE",
+      "bestWord": {
+        "word": "ELK",
+        "score": 24
+      }
+    }
+  ],
+  "par": 62
+}

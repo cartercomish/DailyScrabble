@@ -1,0 +1,127 @@
+{
+  "id": "2027-03-25",
+  "date": "2027-03-25",
+  "number": 348,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "SZHOEGJ",
+      "bestWord": {
+        "word": "JOE",
+        "score": 37
+      }
+    },
+    {
+      "rack": "IMAEIUR",
+      "bestWord": {
+        "word": "EMU",
+        "score": 21
+      }
+    },
+    {
+      "rack": "RPEDIAT",
+      "bestWord": {
+        "word": "TRAPPED",
+        "score": 30
+      }
+    }
+  ],
+  "par": 57
+}

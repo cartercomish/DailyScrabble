@@ -1,0 +1,132 @@
+{
+  "id": "2027-01-09",
+  "date": "2027-01-09",
+  "number": 273,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "DDIFIAT",
+      "bestWord": {
+        "word": "FIAT",
+        "score": 22
+      }
+    },
+    {
+      "rack": "WIIIABY",
+      "bestWord": {
+        "word": "WAIT",
+        "score": 22
+      }
+    },
+    {
+      "rack": "RUEODFL",
+      "bestWord": {
+        "word": "FLOWER",
+        "score": 108
+      }
+    }
+  ],
+  "par": 99
+}

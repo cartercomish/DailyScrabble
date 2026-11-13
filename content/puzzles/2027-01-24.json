@@ -1,0 +1,117 @@
+{
+  "id": "2027-01-24",
+  "date": "2027-01-24",
+  "number": 288,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "V",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "C",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "H",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "QOEGRWE",
+      "bestWord": {
+        "word": "WHORE",
+        "score": 30
+      }
+    },
+    {
+      "rack": "UUAPSOT",
+      "bestWord": {
+        "word": "OPUS",
+        "score": 34
+      }
+    },
+    {
+      "rack": "BAOTTNI",
+      "bestWord": {
+        "word": "BAIT",
+        "score": 22
+      }
+    }
+  ],
+  "par": 56
+}

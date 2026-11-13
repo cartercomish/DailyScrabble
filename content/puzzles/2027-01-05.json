@@ -1,0 +1,132 @@
+{
+  "id": "2027-01-05",
+  "date": "2027-01-05",
+  "number": 269,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "B",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "LEMUOOW",
+      "bestWord": {
+        "word": "WORM",
+        "score": 34
+      }
+    },
+    {
+      "rack": "CIEEZEB",
+      "bestWord": {
+        "word": "ZINC",
+        "score": 54
+      }
+    },
+    {
+      "rack": "IENTQYP",
+      "bestWord": {
+        "word": "YEP",
+        "score": 42
+      }
+    }
+  ],
+  "par": 85
+}

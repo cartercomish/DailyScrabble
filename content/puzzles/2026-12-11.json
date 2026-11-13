@@ -1,0 +1,137 @@
+{
+  "id": "2026-12-11",
+  "date": "2026-12-11",
+  "number": 244,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "F",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IRINUTT",
+      "bestWord": {
+        "word": "RUIN",
+        "score": 20
+      }
+    },
+    {
+      "rack": "BUOYPBW",
+      "bestWord": {
+        "word": "OBEY",
+        "score": 39
+      }
+    },
+    {
+      "rack": "TXCEEDR",
+      "bestWord": {
+        "word": "DEXTER",
+        "score": 45
+      }
+    }
+  ],
+  "par": 68
+}

@@ -1,0 +1,117 @@
+{
+  "id": "2027-02-04",
+  "date": "2027-02-04",
+  "number": 299,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "F",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "B",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "YASUESL",
+      "bestWord": {
+        "word": "ESSAY",
+        "score": 45
+      }
+    },
+    {
+      "rack": "EIRPEGA",
+      "bestWord": {
+        "word": "REAP",
+        "score": 36
+      }
+    },
+    {
+      "rack": "ICEDYAE",
+      "bestWord": {
+        "word": "DECAY",
+        "score": 29
+      }
+    }
+  ],
+  "par": 72
+}

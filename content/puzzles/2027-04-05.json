@@ -1,0 +1,132 @@
+{
+  "id": "2027-04-05",
+  "date": "2027-04-05",
+  "number": 359,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "F",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OTWVNYE",
+      "bestWord": {
+        "word": "YET",
+        "score": 41
+      }
+    },
+    {
+      "rack": "IMTQISP",
+      "bestWord": {
+        "word": "TIP",
+        "score": 26
+      }
+    },
+    {
+      "rack": "UOCOEDI",
+      "bestWord": {
+        "word": "CODE",
+        "score": 36
+      }
+    }
+  ],
+  "par": 67
+}

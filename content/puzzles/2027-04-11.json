@@ -1,0 +1,132 @@
+{
+  "id": "2027-04-11",
+  "date": "2027-04-11",
+  "number": 365,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "H",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "FOESLEA",
+      "bestWord": {
+        "word": "FEES",
+        "score": 36
+      }
+    },
+    {
+      "rack": "CGVNOOY",
+      "bestWord": {
+        "word": "COLONY",
+        "score": 108
+      }
+    },
+    {
+      "rack": "AUOECIJ",
+      "bestWord": {
+        "word": "JOE",
+        "score": 30
+      }
+    }
+  ],
+  "par": 113
+}

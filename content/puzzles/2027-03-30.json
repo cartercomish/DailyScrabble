@@ -1,0 +1,132 @@
+{
+  "id": "2027-03-30",
+  "date": "2027-03-30",
+  "number": 353,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "F",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "letter": "D",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EHBEEST",
+      "bestWord": {
+        "word": "SHEET",
+        "score": 27
+      }
+    },
+    {
+      "rack": "AEUVOQD",
+      "bestWord": {
+        "word": "QUOTED",
+        "score": 144
+      }
+    },
+    {
+      "rack": "IJTTSEG",
+      "bestWord": {
+        "word": "TITS",
+        "score": 25
+      }
+    }
+  ],
+  "par": 127
+}

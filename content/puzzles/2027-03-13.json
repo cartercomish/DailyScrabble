@@ -1,0 +1,127 @@
+{
+  "id": "2027-03-13",
+  "date": "2027-03-13",
+  "number": 336,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "FOARFVM",
+      "bestWord": {
+        "word": "FARM",
+        "score": 52
+      }
+    },
+    {
+      "rack": "EREOJSR",
+      "bestWord": {
+        "word": "POINTERS",
+        "score": 33
+      }
+    },
+    {
+      "rack": "TNTAUSM",
+      "bestWord": {
+        "word": "MAST",
+        "score": 23
+      }
+    }
+  ],
+  "par": 70
+}

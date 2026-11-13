@@ -1,0 +1,132 @@
+{
+  "id": "2027-04-17",
+  "date": "2027-04-17",
+  "number": 371,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "M",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "LLMCEAT",
+      "bestWord": {
+        "word": "MAC",
+        "score": 37
+      }
+    },
+    {
+      "rack": "WVEIEDN",
+      "bestWord": {
+        "word": "DRIVEN",
+        "score": 40
+      }
+    },
+    {
+      "rack": "KNDEREN",
+      "bestWord": {
+        "word": "RANKED",
+        "score": 42
+      }
+    }
+  ],
+  "par": 77
+}

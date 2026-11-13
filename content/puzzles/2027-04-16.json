@@ -1,0 +1,127 @@
+{
+  "id": "2027-04-16",
+  "date": "2027-04-16",
+  "number": 370,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 10
+    },
+    {
+      "letter": "D",
+      "row": 1,
+      "col": 9
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "HSEIOYN",
+      "bestWord": {
+        "word": "SHE",
+        "score": 35
+      }
+    },
+    {
+      "rack": "SAQYDUC",
+      "bestWord": {
+        "word": "SQUARED",
+        "score": 52
+      }
+    },
+    {
+      "rack": "LUTAGOT",
+      "bestWord": {
+        "word": "GOALS",
+        "score": 24
+      }
+    }
+  ],
+  "par": 72
+}

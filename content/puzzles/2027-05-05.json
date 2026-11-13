@@ -1,0 +1,127 @@
+{
+  "id": "2027-05-05",
+  "date": "2027-05-05",
+  "number": 389,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "G",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 0
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 3
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "FVOGRRI",
+      "bestWord": {
+        "word": "FROGS",
+        "score": 39
+      }
+    },
+    {
+      "rack": "ZIYAOQV",
+      "bestWord": {
+        "word": "IVY",
+        "score": 27
+      }
+    },
+    {
+      "rack": "EUYTOLN",
+      "bestWord": {
+        "word": "YIN",
+        "score": 30
+      }
+    }
+  ],
+  "par": 62
+}

@@ -1,0 +1,127 @@
+{
+  "id": "2027-03-19",
+  "date": "2027-03-19",
+  "number": 342,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "CEASGEE",
+      "bestWord": {
+        "word": "CEASE",
+        "score": 25
+      }
+    },
+    {
+      "rack": "MIEDIAD",
+      "bestWord": {
+        "word": "MIDI",
+        "score": 33
+      }
+    },
+    {
+      "rack": "LROEIYR",
+      "bestWord": {
+        "word": "RARELY",
+        "score": 34
+      }
+    }
+  ],
+  "par": 60
+}

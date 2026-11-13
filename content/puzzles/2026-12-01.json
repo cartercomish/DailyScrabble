@@ -1,0 +1,117 @@
+{
+  "id": "2026-12-01",
+  "date": "2026-12-01",
+  "number": 234,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NQJIUAV",
+      "bestWord": {
+        "word": "NINJA",
+        "score": 39
+      }
+    },
+    {
+      "rack": "EEROCBH",
+      "bestWord": {
+        "word": "HERB",
+        "score": 51
+      }
+    },
+    {
+      "rack": "ROREVDE",
+      "bestWord": {
+        "word": "DEV",
+        "score": 32
+      }
+    }
+  ],
+  "par": 79
+}

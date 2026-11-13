@@ -1,0 +1,137 @@
+{
+  "id": "2027-05-10",
+  "date": "2027-05-10",
+  "number": 394,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "V",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "Y",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 1,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "TIDZAAN",
+      "bestWord": {
+        "word": "NAZI",
+        "score": 44
+      }
+    },
+    {
+      "rack": "IOAKNLI",
+      "bestWord": {
+        "word": "KNOW",
+        "score": 25
+      }
+    },
+    {
+      "rack": "FNAWIVE",
+      "bestWord": {
+        "word": "AVE",
+        "score": 24
+      }
+    }
+  ],
+  "par": 60
+}

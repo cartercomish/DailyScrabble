@@ -1,0 +1,132 @@
+{
+  "id": "2027-01-23",
+  "date": "2027-01-23",
+  "number": 287,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "M",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 0
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 3
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NIELEOB",
+      "bestWord": {
+        "word": "BEEN",
+        "score": 40
+      }
+    },
+    {
+      "rack": "UASEURN",
+      "bestWord": {
+        "word": "UNSURE",
+        "score": 29
+      }
+    },
+    {
+      "rack": "FSKNIIL",
+      "bestWord": {
+        "word": "LIFT",
+        "score": 33
+      }
+    }
+  ],
+  "par": 66
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2027-05-12",
+  "date": "2027-05-12",
+  "number": 396,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "B",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "H",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OOWSCNE",
+      "bestWord": {
+        "word": "OWNS",
+        "score": 36
+      }
+    },
+    {
+      "rack": "OATEOSI",
+      "bestWord": {
+        "word": "STORE",
+        "score": 24
+      }
+    },
+    {
+      "rack": "AOEMGEO",
+      "bestWord": {
+        "word": "MOO",
+        "score": 21
+      }
+    }
+  ],
+  "par": 53
+}

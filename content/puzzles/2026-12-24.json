@@ -1,0 +1,137 @@
+{
+  "id": "2026-12-24",
+  "date": "2026-12-24",
+  "number": 257,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 1
+    },
+    {
+      "letter": "O",
+      "row": 9,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AVIFNDR",
+      "bestWord": {
+        "word": "AVID",
+        "score": 39
+      }
+    },
+    {
+      "rack": "GUSOOEY",
+      "bestWord": {
+        "word": "GUYS",
+        "score": 29
+      }
+    },
+    {
+      "rack": "AEZNMDQ",
+      "bestWord": {
+        "word": "MAZE",
+        "score": 37
+      }
+    }
+  ],
+  "par": 68
+}

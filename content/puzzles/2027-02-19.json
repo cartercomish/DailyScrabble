@@ -1,0 +1,127 @@
+{
+  "id": "2027-02-19",
+  "date": "2027-02-19",
+  "number": 314,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 10
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "GCAEFEU",
+      "bestWord": {
+        "word": "FENCE",
+        "score": 36
+      }
+    },
+    {
+      "rack": "UIXBTOM",
+      "bestWord": {
+        "word": "BOX",
+        "score": 28
+      }
+    },
+    {
+      "rack": "IVUIIDB",
+      "bestWord": {
+        "word": "DEV",
+        "score": 27
+      }
+    }
+  ],
+  "par": 59
+}

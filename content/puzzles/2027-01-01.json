@@ -1,0 +1,137 @@
+{
+  "id": "2027-01-01",
+  "date": "2027-01-01",
+  "number": 265,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "K",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EEPHTBF",
+      "bestWord": {
+        "word": "FEET",
+        "score": 39
+      }
+    },
+    {
+      "rack": "OBIAOEA",
+      "bestWord": {
+        "word": "BOA",
+        "score": 28
+      }
+    },
+    {
+      "rack": "NGAZERT",
+      "bestWord": {
+        "word": "ZETA",
+        "score": 26
+      }
+    }
+  ],
+  "par": 60
+}

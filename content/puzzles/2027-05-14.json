@@ -1,0 +1,137 @@
+{
+  "id": "2027-05-14",
+  "date": "2027-05-14",
+  "number": 398,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "M",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AOSPEFY",
+      "bestWord": {
+        "word": "YEP",
+        "score": 34
+      }
+    },
+    {
+      "rack": "SRTDNEI",
+      "bestWord": {
+        "word": "MARKETERS",
+        "score": 48
+      }
+    },
+    {
+      "rack": "PUGELEI",
+      "bestWord": {
+        "word": "PEE",
+        "score": 26
+      }
+    }
+  ],
+  "par": 70
+}

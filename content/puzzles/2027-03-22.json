@@ -1,0 +1,132 @@
+{
+  "id": "2027-03-22",
+  "date": "2027-03-22",
+  "number": 345,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "G",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "F",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "TSRRPAI",
+      "bestWord": {
+        "word": "PARTS",
+        "score": 35
+      }
+    },
+    {
+      "rack": "XAASADB",
+      "bestWord": {
+        "word": "SAX",
+        "score": 40
+      }
+    },
+    {
+      "rack": "AEPVQER",
+      "bestWord": {
+        "word": "VERSE",
+        "score": 24
+      }
+    }
+  ],
+  "par": 64
+}

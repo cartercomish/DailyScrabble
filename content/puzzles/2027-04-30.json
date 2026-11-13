@@ -1,0 +1,132 @@
+{
+  "id": "2027-04-30",
+  "date": "2027-04-30",
+  "number": 384,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "V",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "H",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "M",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "INPDAOS",
+      "bestWord": {
+        "word": "POND",
+        "score": 32
+      }
+    },
+    {
+      "rack": "OJPMAAR",
+      "bestWord": {
+        "word": "JO",
+        "score": 28
+      }
+    },
+    {
+      "rack": "LAETVNL",
+      "bestWord": {
+        "word": "VALE",
+        "score": 24
+      }
+    }
+  ],
+  "par": 55
+}

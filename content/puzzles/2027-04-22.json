@@ -1,0 +1,132 @@
+{
+  "id": "2027-04-22",
+  "date": "2027-04-22",
+  "number": 376,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "B",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 10
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "TGEGEVD",
+      "bestWord": {
+        "word": "VET",
+        "score": 30
+      }
+    },
+    {
+      "rack": "ROFNAIY",
+      "bestWord": {
+        "word": "FRY",
+        "score": 30
+      }
+    },
+    {
+      "rack": "OCEIEMM",
+      "bestWord": {
+        "word": "MEMO",
+        "score": 23
+      }
+    }
+  ],
+  "par": 54
+}

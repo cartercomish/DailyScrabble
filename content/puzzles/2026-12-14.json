@@ -1,0 +1,132 @@
+{
+  "id": "2026-12-14",
+  "date": "2026-12-14",
+  "number": 247,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "M",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "P",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "D",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 10
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 9,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NEAYBNB",
+      "bestWord": {
+        "word": "ABBEY",
+        "score": 45
+      }
+    },
+    {
+      "rack": "JALWENU",
+      "bestWord": {
+        "word": "LEAN",
+        "score": 25
+      }
+    },
+    {
+      "rack": "OSDEUOG",
+      "bestWord": {
+        "word": "SOLE",
+        "score": 23
+      }
+    }
+  ],
+  "par": 60
+}

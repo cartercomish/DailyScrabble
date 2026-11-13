@@ -1,0 +1,127 @@
+{
+  "id": "2027-03-28",
+  "date": "2027-03-28",
+  "number": 351,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 1,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "SAUEBLI",
+      "bestWord": {
+        "word": "BEAU",
+        "score": 41
+      }
+    },
+    {
+      "rack": "ODAAVID",
+      "bestWord": {
+        "word": "AVID",
+        "score": 22
+      }
+    },
+    {
+      "rack": "MKENFDE",
+      "bestWord": {
+        "word": "KNIFE",
+        "score": 44
+      }
+    }
+  ],
+  "par": 70
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2026-12-05",
+  "date": "2026-12-05",
+  "number": 238,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "G",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "GSICUVY",
+      "bestWord": {
+        "word": "GUYS",
+        "score": 31
+      }
+    },
+    {
+      "rack": "ELOGIRZ",
+      "bestWord": {
+        "word": "ZONE",
+        "score": 23
+      }
+    },
+    {
+      "rack": "OAHJEIT",
+      "bestWord": {
+        "word": "HONEY",
+        "score": 38
+      }
+    }
+  ],
+  "par": 60
+}

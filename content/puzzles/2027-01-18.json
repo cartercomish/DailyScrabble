@@ -1,0 +1,117 @@
+{
+  "id": "2027-01-18",
+  "date": "2027-01-18",
+  "number": 282,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "F",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "U",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "COVVACY",
+      "bestWord": {
+        "word": "COCA",
+        "score": 35
+      }
+    },
+    {
+      "rack": "ZKWEEBO",
+      "bestWord": {
+        "word": "WEEK",
+        "score": 38
+      }
+    },
+    {
+      "rack": "EOLEDAO",
+      "bestWord": {
+        "word": "LAKE",
+        "score": 24
+      }
+    }
+  ],
+  "par": 63
+}

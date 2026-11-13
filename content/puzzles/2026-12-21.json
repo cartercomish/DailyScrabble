@@ -1,0 +1,127 @@
+{
+  "id": "2026-12-21",
+  "date": "2026-12-21",
+  "number": 254,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "G",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "PAJTDNA",
+      "bestWord": {
+        "word": "JAPAN",
+        "score": 32
+      }
+    },
+    {
+      "rack": "DAEEVNF",
+      "bestWord": {
+        "word": "DEAF",
+        "score": 47
+      }
+    },
+    {
+      "rack": "LEZNGMO",
+      "bestWord": {
+        "word": "ZONE",
+        "score": 37
+      }
+    }
+  ],
+  "par": 75
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2027-04-12",
+  "date": "2027-04-12",
+  "number": 366,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IOAMNGT",
+      "bestWord": {
+        "word": "MAIN",
+        "score": 38
+      }
+    },
+    {
+      "rack": "LLYAPEO",
+      "bestWord": {
+        "word": "PLAY",
+        "score": 41
+      }
+    },
+    {
+      "rack": "EYKQAIO",
+      "bestWord": {
+        "word": "YEA",
+        "score": 23
+      }
+    }
+  ],
+  "par": 66
+}

@@ -1,0 +1,132 @@
+{
+  "id": "2027-03-31",
+  "date": "2027-03-31",
+  "number": 354,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "C",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "G",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "BNADAEU",
+      "bestWord": {
+        "word": "BAND",
+        "score": 36
+      }
+    },
+    {
+      "rack": "FEHUTME",
+      "bestWord": {
+        "word": "FEET",
+        "score": 45
+      }
+    },
+    {
+      "rack": "AXOEION",
+      "bestWord": {
+        "word": "AXES",
+        "score": 33
+      }
+    }
+  ],
+  "par": 74
+}

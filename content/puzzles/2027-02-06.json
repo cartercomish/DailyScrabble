@@ -1,0 +1,127 @@
+{
+  "id": "2027-02-06",
+  "date": "2027-02-06",
+  "number": 301,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EANONYO",
+      "bestWord": {
+        "word": "YEA",
+        "score": 26
+      }
+    },
+    {
+      "rack": "OBHRNRA",
+      "bestWord": {
+        "word": "BARON",
+        "score": 29
+      }
+    },
+    {
+      "rack": "RISEPUU",
+      "bestWord": {
+        "word": "PURSUE",
+        "score": 24
+      }
+    }
+  ],
+  "par": 51
+}

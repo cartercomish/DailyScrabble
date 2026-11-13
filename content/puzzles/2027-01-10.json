@@ -1,0 +1,117 @@
+{
+  "id": "2027-01-10",
+  "date": "2027-01-10",
+  "number": 274,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "F",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "M",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "DEIEOYT",
+      "bestWord": {
+        "word": "TOY",
+        "score": 26
+      }
+    },
+    {
+      "rack": "ISACUWE",
+      "bestWord": {
+        "word": "AWE",
+        "score": 32
+      }
+    },
+    {
+      "rack": "ADIVEBG",
+      "bestWord": {
+        "word": "BE",
+        "score": 34
+      }
+    }
+  ],
+  "par": 60
+}

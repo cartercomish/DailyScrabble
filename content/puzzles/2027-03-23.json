@@ -1,0 +1,127 @@
+{
+  "id": "2027-03-23",
+  "date": "2027-03-23",
+  "number": 346,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "B",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "YGVAOIE",
+      "bestWord": {
+        "word": "VOYAGE",
+        "score": 45
+      }
+    },
+    {
+      "rack": "ILMSRUE",
+      "bestWord": {
+        "word": "ELM",
+        "score": 27
+      }
+    },
+    {
+      "rack": "DOFNCOE",
+      "bestWord": {
+        "word": "FED",
+        "score": 23
+      }
+    }
+  ],
+  "par": 62
+}

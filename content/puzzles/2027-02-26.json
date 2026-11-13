@@ -1,0 +1,132 @@
+{
+  "id": "2027-02-26",
+  "date": "2027-02-26",
+  "number": 321,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 10
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NEOELGH",
+      "bestWord": {
+        "word": "HOLE",
+        "score": 23
+      }
+    },
+    {
+      "rack": "IXEHDML",
+      "bestWord": {
+        "word": "HELIX",
+        "score": 92
+      }
+    },
+    {
+      "rack": "ENVIRAO",
+      "bestWord": {
+        "word": "RHINO",
+        "score": 27
+      }
+    }
+  ],
+  "par": 92
+}

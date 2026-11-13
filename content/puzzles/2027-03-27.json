@@ -1,0 +1,132 @@
+{
+  "id": "2027-03-27",
+  "date": "2027-03-27",
+  "number": 350,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "V",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 10
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "LEIEDBA",
+      "bestWord": {
+        "word": "DISABLE",
+        "score": 39
+      }
+    },
+    {
+      "rack": "NVODIWT",
+      "bestWord": {
+        "word": "VIEW",
+        "score": 36
+      }
+    },
+    {
+      "rack": "IFSTACL",
+      "bestWord": {
+        "word": "FITS",
+        "score": 29
+      }
+    }
+  ],
+  "par": 68
+}

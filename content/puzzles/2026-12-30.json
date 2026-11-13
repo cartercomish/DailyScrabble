@@ -1,0 +1,132 @@
+{
+  "id": "2026-12-30",
+  "date": "2026-12-30",
+  "number": 263,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "FITENMI",
+      "bestWord": {
+        "word": "FINITE",
+        "score": 105
+      }
+    },
+    {
+      "rack": "LONEPEB",
+      "bestWord": {
+        "word": "OPEN",
+        "score": 23
+      }
+    },
+    {
+      "rack": "IEYTUUS",
+      "bestWord": {
+        "word": "YET",
+        "score": 41
+      }
+    }
+  ],
+  "par": 110
+}

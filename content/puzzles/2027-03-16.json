@@ -1,0 +1,127 @@
+{
+  "id": "2027-03-16",
+  "date": "2027-03-16",
+  "number": 339,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "G",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 3
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "UOLEROT",
+      "bestWord": {
+        "word": "RESULT",
+        "score": 21
+      }
+    },
+    {
+      "rack": "UPEDHDO",
+      "bestWord": {
+        "word": "HOPED",
+        "score": 40
+      }
+    },
+    {
+      "rack": "NUEKMEI",
+      "bestWord": {
+        "word": "MIKE",
+        "score": 32
+      }
+    }
+  ],
+  "par": 60
+}
