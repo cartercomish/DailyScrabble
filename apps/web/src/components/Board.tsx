@@ -41,46 +41,189 @@ function premiumLabel(p: BoardCell["premium"]): string {
 const PLAYER_ACCENT = "#7ec8e3";
 const SOLUTION_ACCENT = "#ffcc33";
 
+/** Conservative tag size in board-cell units (no layout measurement). */
+const TAG_W = 2.6;
+const TAG_H = 0.75;
+const TAG_GAP = 0.08;
+
+type TagSide = "above" | "below" | "left" | "right";
+
+interface TagBox {
+  x0: number;
+  y0: number;
+  x1: number;
+  y1: number;
+}
+
+interface TagPlacement {
+  side: TagSide;
+  cx: number;
+  cy: number;
+  box: TagBox;
+}
+
+function boxesOverlap(a: TagBox, b: TagBox): boolean {
+  return a.x0 < b.x1 && a.x1 > b.x0 && a.y0 < b.y1 && a.y1 > b.y0;
+}
+
+function tagOverlapsLetters(box: TagBox, occupied: Set<string>): number {
+  const c0 = Math.floor(box.x0);
+  const c1 = Math.ceil(box.x1) - 1;
+  const r0 = Math.floor(box.y0);
+  const r1 = Math.ceil(box.y1) - 1;
+  let hits = 0;
+  for (let r = r0; r <= r1; r++) {
+    for (let c = c0; c <= c1; c++) {
+      if (!occupied.has(`${r},${c}`)) continue;
+      if (boxesOverlap(box, { x0: c, y0: r, x1: c + 1, y1: r + 1 })) hits++;
+    }
+  }
+  return hits;
+}
+
+function tagOverlapsReserved(box: TagBox, reserved: TagBox[]): boolean {
+  return reserved.some((r) => boxesOverlap(box, r));
+}
+
+function candidatesForPlay(
+  minR: number,
+  maxR: number,
+  minC: number,
+  maxC: number,
+): TagPlacement[] {
+  const midC = (minC + maxC + 1) / 2;
+  const midR = (minR + maxR + 1) / 2;
+  return [
+    {
+      side: "above",
+      cx: midC,
+      cy: minR - TAG_GAP,
+      box: {
+        x0: midC - TAG_W / 2,
+        y0: minR - TAG_GAP - TAG_H,
+        x1: midC + TAG_W / 2,
+        y1: minR - TAG_GAP,
+      },
+    },
+    {
+      side: "below",
+      cx: midC,
+      cy: maxR + 1 + TAG_GAP,
+      box: {
+        x0: midC - TAG_W / 2,
+        y0: maxR + 1 + TAG_GAP,
+        x1: midC + TAG_W / 2,
+        y1: maxR + 1 + TAG_GAP + TAG_H,
+      },
+    },
+    {
+      side: "left",
+      cx: minC - TAG_GAP,
+      cy: midR,
+      box: {
+        x0: minC - TAG_GAP - TAG_W,
+        y0: midR - TAG_H / 2,
+        x1: minC - TAG_GAP,
+        y1: midR + TAG_H / 2,
+      },
+    },
+    {
+      side: "right",
+      cx: maxC + 1 + TAG_GAP,
+      cy: midR,
+      box: {
+        x0: maxC + 1 + TAG_GAP,
+        y0: midR - TAG_H / 2,
+        x1: maxC + 1 + TAG_GAP + TAG_W,
+        y1: midR + TAG_H / 2,
+      },
+    },
+  ];
+}
+
+function pickTagPlacement(
+  play: SolutionPlayView,
+  occupied: Set<string>,
+  reserved: TagBox[],
+): TagPlacement | null {
+  if (play.tiles.length === 0) return null;
+  const rows = play.tiles.map((t) => t.row);
+  const cols = play.tiles.map((t) => t.col);
+  const minR = Math.min(...rows);
+  const maxR = Math.max(...rows);
+  const minC = Math.min(...cols);
+  const maxC = Math.max(...cols);
+
+  const candidates = candidatesForPlay(minR, maxR, minC, maxC);
+  let best: TagPlacement | null = null;
+  let bestHits = Number.POSITIVE_INFINITY;
+
+  for (const candidate of candidates) {
+    if (tagOverlapsReserved(candidate.box, reserved)) continue;
+    const hits = tagOverlapsLetters(candidate.box, occupied);
+    if (hits === 0) return candidate;
+    if (hits < bestHits) {
+      bestHits = hits;
+      best = candidate;
+    }
+  }
+
+  return best ?? candidates[0] ?? null;
+}
+
+function tagTransform(side: TagSide): string {
+  switch (side) {
+    case "above":
+      return "translate(-50%, -100%)";
+    case "below":
+      return "translate(-50%, 0)";
+    case "left":
+      return "translate(-100%, -50%)";
+    case "right":
+      return "translate(0, -50%)";
+  }
+}
+
 function PlayLeaders({
   plays,
   size,
   accent,
+  occupied,
 }: {
   plays: SolutionPlayView[];
   size: number;
   accent: string;
+  occupied: Set<string>;
 }) {
   const pad = 4;
+  const reserved: TagBox[] = [];
+  const placed = plays.map((play, i) => {
+    const placement = pickTagPlacement(play, occupied, reserved);
+    if (placement) reserved.push(placement.box);
+    return { play, i, placement };
+  });
+
   return (
     <>
-      {plays.map((play, i) => {
-        if (play.tiles.length === 0) return null;
-        const rows = play.tiles.map((t) => t.row);
-        const cols = play.tiles.map((t) => t.col);
-        const minR = Math.min(...rows);
-        const minC = Math.min(...cols);
-        const maxC = Math.max(...cols);
-        const maxR = Math.max(...rows);
-        const horizontal = minR === maxR;
-        const leftPct = (minC / size) * 100;
-        const widthPct = horizontal
-          ? ((maxC - minC + 1) / size) * 100
-          : (1 / size) * 100;
-        const topPct = (minR / size) * 100;
+      {placed.map(({ play, i, placement }) => {
+        if (!placement) return null;
+        const left = `calc(${pad}px + (100% - ${pad * 2}px) * ${placement.cx / size})`;
+        const top = `calc(${pad}px + (100% - ${pad * 2}px) * ${placement.cy / size})`;
 
         return (
           <div
             key={`leader-${i}-${play.round}-${play.word}`}
-            className="pointer-events-none absolute z-30 flex justify-center"
+            className="pointer-events-none absolute z-30"
             style={{
-              left: `calc(${pad}px + (100% - ${pad * 2}px) * ${leftPct / 100})`,
-              width: `calc((100% - ${pad * 2}px) * ${widthPct / 100})`,
-              top: `calc(${pad}px + (100% - ${pad * 2}px) * ${topPct / 100} - 1.05rem)`,
+              left,
+              top,
+              transform: tagTransform(placement.side),
             }}
           >
             <span
               className="whitespace-nowrap px-1.5 py-0.5 font-[family-name:var(--font-display)] font-bold leading-none text-ink"
               style={{
+                display: "inline-block",
                 background: accent,
                 border: "2px solid #2a3340",
                 fontSize: "0.85rem",
@@ -125,6 +268,17 @@ export function Board({
   );
   const leaderPlays = showSolution ? solutionPlays : reviewPlays;
   const highlightAccent = showSolution ? SOLUTION_ACCENT : PLAYER_ACCENT;
+  const occupiedLetters = new Set<string>();
+  for (let r = 0; r < size; r++) {
+    for (let c = 0; c < size; c++) {
+      const key = `${r},${c}`;
+      if (showSolution) {
+        if (solutionMap.has(key) || board[r][c].letter) occupiedLetters.add(key);
+      } else if (board[r][c].letter || tentativeMap.has(key)) {
+        occupiedLetters.add(key);
+      }
+    }
+  }
 
   const dropRow =
     drag?.moved && drag.over?.type === "cell" ? drag.over.row : null;
@@ -279,6 +433,7 @@ export function Board({
             plays={leaderPlays}
             size={size}
             accent={highlightAccent}
+            occupied={occupiedLetters}
           />
         )}
       </div>
