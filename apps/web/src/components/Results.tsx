@@ -56,11 +56,15 @@ export function Results({
   const [copied, setCopied] = useState(false);
   const [sharingBoard, setSharingBoard] = useState(false);
   const emoji = resultEmoji(puzzle, result);
-  // Bare host (no https://) so chats don't unfurl a big link preview — MapTap-style.
-  const shareHost =
-    typeof window !== "undefined"
-      ? window.location.host
-      : "manifest.game";
+  // www.host without https:// — clickable in chats, skips rich link preview (MapTap-style).
+  const shareHost = (() => {
+    if (typeof window === "undefined") return "www.manifest.game";
+    const hostname = window.location.hostname;
+    if (hostname === "localhost" || /^\d+\.\d+\.\d+\.\d+$/.test(hostname)) {
+      return window.location.host;
+    }
+    return hostname.startsWith("www.") ? hostname : `www.${hostname}`;
+  })();
 
   const shareText = formatShare(
     result.puzzleNumber,

@@ -23,7 +23,7 @@ export function formatShare(
   totalScore: number,
   emoji: string,
   roundScores: number[],
-  /** Bare host preferred (e.g. manifest.game) so chats skip rich link previews. */
+  /** www.host preferred (e.g. www.manifest.game) — clickable, skips rich previews. */
   url: string,
 ): string {
   const rounds = roundScores.join(" · ");
