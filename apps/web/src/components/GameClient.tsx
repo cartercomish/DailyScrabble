@@ -363,14 +363,8 @@ export function GameClient({ puzzle }: GameClientProps) {
     }
 
     if (roundIndex >= 2) {
-      const bestPath = dict
-        ? findBestSolutionPath(puzzle, dict, rackMode)
-        : null;
-      const gameResult = buildGameResult(
-        puzzle,
-        nextResults,
-        bestPath?.total,
-      );
+      // Emoji vs stored normal-words best; "Show best solution" still uses the full play dict.
+      const gameResult = buildGameResult(puzzle, nextResults);
       const streakCount = updateStreakOnFinish(puzzle.id, puzzle.date);
       setBoard(nextBoard);
       setRoundResults(nextResults);

@@ -2,7 +2,7 @@ import type { DailyPuzzle } from "./types";
 
 export type ScoreEmoji = "🏆" | "⭐" | "📦" | "🌊";
 
-/** Sum of each round's precomputed top-mark score (canonical best line). */
+/** Sum of each round's normal-words top mark (gen dict). Used for score emoji. */
 export function puzzleBestTotal(puzzle: DailyPuzzle): number {
   return puzzle.rounds.reduce((sum, r) => sum + r.bestWord.score, 0);
 }
