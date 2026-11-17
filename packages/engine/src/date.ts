@@ -23,7 +23,6 @@ export function formatShare(
   totalScore: number,
   emoji: string,
   roundScores: number[],
-  /** Host without scheme preferred so chats stay clickable without rich previews. */
   url: string,
 ): string {
   const rounds = roundScores.join(" · ");

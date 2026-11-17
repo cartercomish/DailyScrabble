@@ -56,18 +56,17 @@ export function Results({
   const [copied, setCopied] = useState(false);
   const [sharingBoard, setSharingBoard] = useState(false);
   const emoji = resultEmoji(puzzle, result);
-  // Host only (no https://) so chats stay clickable without a rich preview — MapTap-style.
-  const shareHost =
+  const url =
     typeof window !== "undefined"
-      ? window.location.hostname
-      : "web-roan-tau-olqmqqh9f9.vercel.app";
+      ? window.location.origin
+      : "https://web-roan-tau-olqmqqh9f9.vercel.app";
 
   const shareText = formatShare(
     result.puzzleNumber,
     result.totalScore,
     emoji,
     result.rounds.map((r) => r.score),
-    shareHost,
+    url,
   );
 
   async function copyShare() {
