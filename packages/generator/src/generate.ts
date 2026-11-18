@@ -6,12 +6,15 @@ import {
   findBestPlay,
   letterValue,
   loadDictionaryFromText,
+  moveLetterToFront,
+  pickGoldLetter,
   placeTilesOnBoard,
   puzzleNumberForDate,
   scrambleRack,
   type BoardCell,
   type DailyPuzzle,
   type Dictionary,
+  type PlacedTile,
   type SeedTile,
 } from "@daily-rack/engine";
 import fs from "fs";
@@ -287,6 +290,7 @@ export function generatePuzzle(
   const roundMetrics: GenMetrics["rounds"] = [];
   let totalBest = 0;
   const lineScores: number[] = [];
+  let round2GoldTiles: PlacedTile[] = [];
 
   for (let round = 0; round < 3; round++) {
     let rack = "";
@@ -327,6 +331,7 @@ export function generatePuzzle(
           bestWord: best.mainWord,
         });
         totalBest += best.score;
+        if (round === 1) round2GoldTiles = best.tilesPlaced;
         // Advance board along canonical best path
         board = placeTilesOnBoard(board, best.tilesPlaced, true);
         acceptedRound = true;
@@ -356,6 +361,7 @@ export function generatePuzzle(
         bestWord: best.mainWord,
       });
       totalBest += best.score;
+      if (round === 1) round2GoldTiles = best.tilesPlaced;
       board = placeTilesOnBoard(board, best.tilesPlaced, true);
     }
 
@@ -402,6 +408,17 @@ export function generatePuzzle(
     reasons.length === 0 &&
     roundMetrics.every((m) => m.playCount >= 20 && m.bestScore >= 18);
 
+  // Round 2 gold crate: known-good letter from that round's best play, first in
+  // the rack so refill mode draws it as the first new tile.
+  let goldLetter: string | undefined;
+  if (roundData[1]) {
+    goldLetter = pickGoldLetter(round2GoldTiles, roundData[1].rack);
+    roundData[1] = {
+      ...roundData[1],
+      rack: moveLetterToFront(roundData[1].rack, goldLetter),
+    };
+  }
+
   const puzzle: DailyPuzzle = {
     id: options.date,
     date: options.date,
@@ -410,6 +427,7 @@ export function generatePuzzle(
     seed,
     rounds: roundData,
     par,
+    goldLetter,
   };
 
   void evaluateAcceptance;

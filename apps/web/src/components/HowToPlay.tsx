@@ -76,6 +76,9 @@ export function HowToPlay({ mode, onModeChange }: HowToPlayProps) {
                     ? "Letters you use get replaced for the following round."
                     : "After each submit you get a new rack — three rounds total."}
                 </li>
+                <li>
+                  In load 2, one golden crate scores double its letter value.
+                </li>
               </ol>
 
               <label className="mt-5 flex cursor-pointer items-center justify-between gap-3 border-2 border-ink px-3 py-3">

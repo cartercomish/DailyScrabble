@@ -7,12 +7,15 @@ export interface PlacedTile {
   row: number;
   col: number;
   isBlank?: boolean;
+  /** Round-2 golden crate — letter value scores double when newly placed. */
+  isGold?: boolean;
 }
 
 export interface BoardCell {
   letter: string | null;
   premium: Premium;
   locked: boolean;
+  gold?: boolean;
 }
 
 export interface Placement {
@@ -72,6 +75,8 @@ export interface DailyPuzzle {
   seed: SeedTile[];
   rounds: PuzzleRound[];
   par: number;
+  /** Known-good letter for the round-2 golden crate (same for everyone). */
+  goldLetter?: string;
 }
 
 export interface RoundResult {

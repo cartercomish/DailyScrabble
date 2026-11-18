@@ -1,5 +1,6 @@
 import { applySeed, createEmptyBoard, placeTilesOnBoard } from "./board";
 import type { Dictionary } from "./dictionary";
+import { puzzleGoldLetter, seatGoldTile } from "./gold";
 import { commitTentative } from "./play";
 import { puzzleBestTotal, scoreEmoji } from "./rating";
 import { findBestPlay } from "./solver";
@@ -86,9 +87,18 @@ export function findBestSolutionPath(
   let board = boardFromPuzzle(puzzle);
   const plays: SolutionPlay[] = [];
 
+  const gold = puzzleGoldLetter(puzzle);
+
   if (mode === "refresh") {
     for (let i = 0; i < puzzle.rounds.length; i++) {
-      const best = findBestPlay(board, puzzle.rounds[i].rack, dict);
+      let rack = puzzle.rounds[i].rack;
+      let roundGold: string | null = null;
+      if (i === 1 && gold) {
+        const seated = seatGoldTile(rack, gold, 0);
+        rack = seated.rack;
+        roundGold = gold;
+      }
+      const best = findBestPlay(board, rack, dict, roundGold);
       if (!best) break;
       plays.push({
         word: best.mainWord,
@@ -103,7 +113,8 @@ export function findBestSolutionPath(
     const bag = puzzleRefillBag(puzzle);
     let bagIndex = 0;
     for (let i = 0; i < puzzle.rounds.length; i++) {
-      const best = findBestPlay(board, rack, dict);
+      const roundGold = i === 1 ? gold : null;
+      const best = findBestPlay(board, rack, dict, roundGold);
       if (!best) break;
       plays.push({
         word: best.mainWord,
@@ -115,7 +126,11 @@ export function findBestSolutionPath(
       if (i < puzzle.rounds.length - 1) {
         const kept = remainingRack(rack, best.tilesPlaced);
         const next = refillRack(kept, bag, bagIndex, 7);
-        rack = next.rack;
+        let nextRack = next.rack;
+        if (i === 0 && gold) {
+          nextRack = seatGoldTile(nextRack, gold, kept.length).rack;
+        }
+        rack = nextRack;
         bagIndex = next.nextBagIndex;
       }
     }

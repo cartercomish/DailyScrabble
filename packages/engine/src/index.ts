@@ -10,3 +10,4 @@ export * from "./date";
 export * from "./loadDictionary";
 export * from "./boardWords";
 export * from "./rating";
+export * from "./gold";

@@ -21,6 +21,8 @@ export interface DayProgress {
   tentative: TentativeTile[];
   rackOrder: string;
   bagIndex?: number;
+  /** Rack slot of the round-2 golden crate, if any. */
+  goldRackIndex?: number | null;
   finished: boolean;
   result?: GameResult;
 }
@@ -54,6 +56,7 @@ export function normalizeTentative(
         row: t.row,
         col: t.col,
         rackIndex: t.rackIndex,
+        isGold: t.isGold,
       };
     }
     const idx = letters.findIndex(
@@ -65,6 +68,7 @@ export function normalizeTentative(
       row: t.row,
       col: t.col,
       rackIndex: idx,
+      isGold: t.isGold,
     };
   });
 }

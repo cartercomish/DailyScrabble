@@ -6,11 +6,12 @@ import {
   cloneBoard,
   evaluateRound,
   findBestSolutionPath,
+  puzzleGoldLetter,
   puzzleRefillBag,
   refillRack,
   remainingRack,
+  seatGoldTile,
   serializeBoard,
-  shuffleRack,
   type BoardCell,
   type DailyPuzzle,
   type GameResult,
@@ -80,8 +81,10 @@ export function GameClient({ puzzle }: GameClientProps) {
   const [solutionPlays, setSolutionPlays] = useState<SolutionPlayView[]>([]);
   const [rackMode, setRackMode] = useState<RackMode>("refill");
   const [bagIndex, setBagIndex] = useState(0);
+  const [goldRackIndex, setGoldRackIndex] = useState<number | null>(null);
   const suppressClickRef = useRef(false);
   const refillBag = useMemo(() => puzzleRefillBag(puzzle), [puzzle]);
+  const goldLetter = useMemo(() => puzzleGoldLetter(puzzle), [puzzle]);
 
   const usedRackIndices = useMemo(() => {
     const used = new Set<number>();
@@ -106,6 +109,7 @@ export function GameClient({ puzzle }: GameClientProps) {
     setShowSolution(false);
     setSolutionPlays([]);
     setBagIndex(0);
+    setGoldRackIndex(null);
     persistReset(start);
   }
 
@@ -118,6 +122,7 @@ export function GameClient({ puzzle }: GameClientProps) {
       tentative: [],
       rackOrder: puzzle.rounds[0].rack,
       bagIndex: 0,
+      goldRackIndex: null,
       finished: false,
     });
   }
@@ -150,6 +155,16 @@ export function GameClient({ puzzle }: GameClientProps) {
         };
       }
     }
+    for (const round of progress.roundResults) {
+      for (const t of round.tilesPlaced) {
+        if (t.isGold) {
+          restored[t.row][t.col] = {
+            ...restored[t.row][t.col],
+            gold: true,
+          };
+        }
+      }
+    }
     const rack =
       progress.rackOrder ||
       puzzle.rounds[Math.min(progress.roundIndex, 2)].rack;
@@ -158,6 +173,19 @@ export function GameClient({ puzzle }: GameClientProps) {
     setRoundResults(progress.roundResults);
     setRackOrder(rack);
     setBagIndex(progress.bagIndex ?? 0);
+    if (progress.roundIndex === 1) {
+      const saved = progress.goldRackIndex;
+      if (typeof saved === "number" && saved >= 0) {
+        setGoldRackIndex(saved);
+      } else if (goldLetter) {
+        const idx = rack.toUpperCase().indexOf(goldLetter);
+        setGoldRackIndex(idx >= 0 ? idx : null);
+      } else {
+        setGoldRackIndex(null);
+      }
+    } else {
+      setGoldRackIndex(null);
+    }
     setTentative(normalizeTentative(progress.tentative ?? [], rack));
     setFinished(progress.finished);
     if (progress.result) setResult(progress.result);
@@ -174,6 +202,10 @@ export function GameClient({ puzzle }: GameClientProps) {
         tentative: partial.tentative ?? tentative,
         rackOrder: partial.rackOrder ?? rackOrder,
         bagIndex: partial.bagIndex ?? bagIndex,
+        goldRackIndex:
+          partial.goldRackIndex !== undefined
+            ? partial.goldRackIndex
+            : goldRackIndex,
         finished: partial.finished ?? finished,
         result: partial.result ?? result ?? undefined,
       };
@@ -183,6 +215,7 @@ export function GameClient({ puzzle }: GameClientProps) {
       bagIndex,
       board,
       finished,
+      goldRackIndex,
       puzzle.id,
       rackOrder,
       result,
@@ -211,7 +244,13 @@ export function GameClient({ puzzle }: GameClientProps) {
     const letter = rackOrder[rackIndex];
     const next: TentativeTile[] = [
       ...tentative,
-      { letter, row, col, rackIndex },
+      {
+        letter,
+        row,
+        col,
+        rackIndex,
+        isGold: goldRackIndex === rackIndex,
+      },
     ];
     const nowUsed = new Set(usedRackIndices);
     nowUsed.add(rackIndex);
@@ -320,21 +359,33 @@ export function GameClient({ puzzle }: GameClientProps) {
   }
 
   function shuffle() {
-    const remaining = remainingRack(rackOrder, tentative);
-    // Keep placed mapping intact: rebuild rackOrder as placed letters (fixed slots) + shuffled remaining
-    // Simpler: shuffle only unused letters visually by rewriting rackOrder
     const letters = rackOrder.split("");
     const unused = letters
-      .map((l, i) => ({ l, i }))
+      .map((l, i) => ({
+        l,
+        i,
+        gold: goldRackIndex === i,
+      }))
       .filter((x) => !usedRackIndices.has(x.i));
-    const shuffled = shuffleRack(unused.map((x) => x.l).join("")).split("");
+    const order = unused.map((_, i) => i);
+    for (let i = order.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [order[i], order[j]] = [order[j], order[i]];
+    }
     let si = 0;
-    const next = letters.map((l, i) =>
-      usedRackIndices.has(i) ? l : shuffled[si++],
-    );
+    let nextGold: number | null = goldRackIndex;
+    const next = letters.map((l, i) => {
+      if (usedRackIndices.has(i)) return l;
+      const src = unused[order[si++]];
+      if (src.gold) nextGold = i;
+      return src.l;
+    });
     setRackOrder(next.join(""));
+    setGoldRackIndex(nextGold);
     setSelectedRackIndex(null);
-    void remaining;
+    if (roundIndex === 1) {
+      persist({ rackOrder: next.join(""), goldRackIndex: nextGold });
+    }
   }
 
   function submit() {
@@ -369,6 +420,7 @@ export function GameClient({ puzzle }: GameClientProps) {
       setBoard(nextBoard);
       setRoundResults(nextResults);
       setTentative([]);
+      setGoldRackIndex(null);
       setFinished(true);
       setResult(gameResult);
       setStreak(streakCount);
@@ -376,6 +428,7 @@ export function GameClient({ puzzle }: GameClientProps) {
         board: nextBoard,
         roundResults: nextResults,
         tentative: [],
+        goldRackIndex: null,
         finished: true,
         result: gameResult,
         roundIndex: 3,
@@ -386,12 +439,22 @@ export function GameClient({ puzzle }: GameClientProps) {
     const nextRound = roundIndex + 1;
     let nextRack = puzzle.rounds[nextRound].rack;
     let nextBagIndex = bagIndex;
+    let keptLen = 0;
 
     if (rackMode === "refill") {
       const kept = remainingRack(rackOrder, tentative);
+      keptLen = kept.length;
       const refilled = refillRack(kept, refillBag, bagIndex, 7);
       nextRack = refilled.rack;
       nextBagIndex = refilled.nextBagIndex;
+    }
+
+    let nextGoldIndex: number | null = null;
+    if (nextRound === 1 && goldLetter) {
+      const seated = seatGoldTile(nextRack, goldLetter, keptLen);
+      nextRack = seated.rack;
+      nextGoldIndex = seated.goldIndex;
+      window.setTimeout(() => flash("Golden crate aboard", "ok"), 900);
     }
 
     setBoard(nextBoard);
@@ -399,6 +462,7 @@ export function GameClient({ puzzle }: GameClientProps) {
     setRoundIndex(nextRound);
     setRackOrder(nextRack);
     setBagIndex(nextBagIndex);
+    setGoldRackIndex(nextGoldIndex);
     setTentative([]);
     setSelectedRackIndex(null);
     persist({
@@ -407,6 +471,7 @@ export function GameClient({ puzzle }: GameClientProps) {
       roundIndex: nextRound,
       rackOrder: nextRack,
       bagIndex: nextBagIndex,
+      goldRackIndex: nextGoldIndex,
       tentative: [],
     });
   }
@@ -493,9 +558,21 @@ export function GameClient({ puzzle }: GameClientProps) {
               selectedCell={null}
               onCellClick={onCellClick}
               drag={drag}
-              onPointerDownTentative={(row, col, letter, e) =>
-                startDrag({ type: "board", row, col, letter }, e)
-              }
+              onPointerDownTentative={(row, col, letter, e) => {
+                const tile = tentative.find(
+                  (t) => t.row === row && t.col === col,
+                );
+                startDrag(
+                  {
+                    type: "board",
+                    row,
+                    col,
+                    letter,
+                    gold: Boolean(tile?.isGold),
+                  },
+                  e,
+                );
+              }}
               seed={puzzle.seed}
             />
             <AnimatePresence>
@@ -524,9 +601,18 @@ export function GameClient({ puzzle }: GameClientProps) {
               letters={rackOrder.split("")}
               selectedIndex={selectedRackIndex}
               disabledIndices={usedRackIndices}
+              goldIndex={goldRackIndex}
               drag={drag}
               onPointerDownTile={(index, letter, e) =>
-                startDrag({ type: "rack", index, letter }, e)
+                startDrag(
+                  {
+                    type: "rack",
+                    index,
+                    letter,
+                    gold: goldRackIndex === index,
+                  },
+                  e,
+                )
               }
             />
             <AnimatePresence>

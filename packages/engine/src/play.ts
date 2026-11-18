@@ -1,5 +1,6 @@
 import { cloneBoard, boardHasTiles, centerOf } from "./board";
 import type { Dictionary } from "./dictionary";
+import { ensureGoldOnTiles } from "./gold";
 import { letterValue } from "./letters";
 import type {
   BoardCell,
@@ -180,6 +181,7 @@ function scoreWordOnBoard(
   startCol: number,
   direction: Direction,
   newTileKeys: Set<string>,
+  goldKeys: Set<string>,
 ): ScoredWord {
   const dRow = direction === "V" ? 1 : 0;
   const dCol = direction === "H" ? 1 : 0;
@@ -196,6 +198,7 @@ function scoreWordOnBoard(
     const isNew = newTileKeys.has(key);
     const premium = isNew ? boardBefore[r][c].premium : null;
     let lv = letterValue(letter);
+    if (isNew && goldKeys.has(key)) lv *= 2;
     if (premium === "DL") lv *= 2;
     if (premium === "TL") lv *= 3;
     letterScore += lv;
@@ -219,13 +222,16 @@ export function applyPlayFromTiles(
   tiles: PlacedTile[],
   dict: Dictionary,
   rackLength: number,
+  goldLetter?: string | null,
 ): PlayOutcome {
   if (tiles.length === 0) {
     return { ok: false, error: "Place at least one tile" };
   }
 
+  const scoredTiles = ensureGoldOnTiles(tiles, goldLetter);
+
   // Occupied check
-  for (const t of tiles) {
+  for (const t of scoredTiles) {
     if (!inBounds(board, t.row, t.col)) {
       return { ok: false, error: "Tile out of bounds" };
     }
@@ -234,10 +240,10 @@ export function applyPlayFromTiles(
     }
   }
 
-  const aligned = tilesContiguousAndAligned(tiles);
+  const aligned = tilesContiguousAndAligned(scoredTiles);
   if (!aligned.ok) return { ok: false, error: aligned.error ?? "Invalid placement" };
 
-  if (!wordIsConnected(board, tiles)) {
+  if (!wordIsConnected(board, scoredTiles)) {
     return {
       ok: false,
       error: boardHasTiles(board)
@@ -248,23 +254,26 @@ export function applyPlayFromTiles(
 
   const boardAfter = cloneBoard(board);
   const newTileKeys = new Set<string>();
-  for (const t of tiles) {
+  const goldKeys = new Set<string>();
+  for (const t of scoredTiles) {
     boardAfter[t.row][t.col] = {
       ...boardAfter[t.row][t.col],
       letter: t.letter.toUpperCase(),
       locked: true,
+      gold: t.isGold ? true : undefined,
     };
     newTileKeys.add(`${t.row},${t.col}`);
+    if (t.isGold) goldKeys.add(`${t.row},${t.col}`);
   }
 
-  if (!noGapsInMainLine(boardAfter, tiles, aligned.direction)) {
+  if (!noGapsInMainLine(boardAfter, scoredTiles, aligned.direction)) {
     return { ok: false, error: "Tiles must form a continuous word" };
   }
 
   // Determine main word direction
   let mainDir: Direction = aligned.direction ?? "H";
-  if (tiles.length === 1) {
-    const t = tiles[0];
+  if (scoredTiles.length === 1) {
+    const t = scoredTiles[0];
     const horiz = readWordThrough(boardAfter, t.row, t.col, "H");
     const vert = readWordThrough(boardAfter, t.row, t.col, "V");
     if (horiz.word.length >= 2 && vert.word.length >= 2) {
@@ -279,8 +288,8 @@ export function applyPlayFromTiles(
 
   const main = readWordThrough(
     boardAfter,
-    tiles[0].row,
-    tiles[0].col,
+    scoredTiles[0].row,
+    scoredTiles[0].col,
     mainDir,
   );
   if (main.word.length < 2) {
@@ -295,12 +304,13 @@ export function applyPlayFromTiles(
     main.startCol,
     mainDir,
     newTileKeys,
+    goldKeys,
   );
   scoredWords.push(mainScored);
 
   // Cross words for each new tile
   const crossDir: Direction = mainDir === "H" ? "V" : "H";
-  for (const t of tiles) {
+  for (const t of scoredTiles) {
     const cross = readWordThrough(boardAfter, t.row, t.col, crossDir);
     if (cross.word.length >= 2) {
       // avoid duplicating main if somehow same
@@ -319,6 +329,7 @@ export function applyPlayFromTiles(
             cross.startCol,
             crossDir,
             newTileKeys,
+            goldKeys,
           ),
         );
       }
@@ -338,7 +349,7 @@ export function applyPlayFromTiles(
     }
   }
 
-  const bingo = tiles.length === rackLength && rackLength === 7;
+  const bingo = scoredTiles.length === rackLength && rackLength === 7;
   let score = words.reduce((s, w) => s + w.score, 0);
   if (bingo) score += 50;
 
@@ -348,7 +359,7 @@ export function applyPlayFromTiles(
     bingo,
     words,
     mainWord: mainScored.word,
-    tilesPlaced: tiles.map((t) => ({
+    tilesPlaced: scoredTiles.map((t) => ({
       ...t,
       letter: t.letter.toUpperCase(),
     })),

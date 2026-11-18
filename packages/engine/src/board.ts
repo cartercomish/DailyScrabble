@@ -49,6 +49,7 @@ export function placeTilesOnBoard(
       ...next[t.row][t.col],
       letter: t.letter.toUpperCase(),
       locked: lock,
+      gold: t.isGold ? true : next[t.row][t.col].gold,
     };
   }
   return next;

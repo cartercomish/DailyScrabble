@@ -3,8 +3,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 export type DragSource =
-  | { type: "rack"; index: number; letter: string }
-  | { type: "board"; row: number; col: number; letter: string };
+  | { type: "rack"; index: number; letter: string; gold?: boolean }
+  | { type: "board"; row: number; col: number; letter: string; gold?: boolean };
 
 export type DropTarget =
   | { type: "cell"; row: number; col: number }

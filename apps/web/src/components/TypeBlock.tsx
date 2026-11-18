@@ -8,6 +8,7 @@ interface TypeBlockProps {
   selected?: boolean;
   provisional?: boolean;
   dimmed?: boolean;
+  gold?: boolean;
   /** Highlight rim when selected/provisional (player blue vs solution yellow). */
   accent?: string;
   size?: "board" | "rack" | "ghost";
@@ -31,6 +32,7 @@ export function TypeBlock({
   selected = false,
   provisional = false,
   dimmed = false,
+  gold = false,
   accent = "#ffcc33",
   size = "rack",
   className = "",
@@ -40,21 +42,27 @@ export function TypeBlock({
   const isGhost = size === "ghost";
   const face = crateFor(letter);
   const highlight = selected || provisional;
+  const points = letterValue(letter) * (gold ? 2 : 1);
+  const rim = gold ? "#c9a227" : highlight ? accent : "#2a3340";
 
   return (
     <span
       className={`relative flex h-full w-full flex-col items-center justify-center overflow-hidden ${className}`}
       style={{
         containerType: isBoard ? "size" : undefined,
-        backgroundColor: "#f3e0b0",
+        backgroundColor: gold ? "#ffe566" : "#f3e0b0",
         backgroundImage: `url(${face})`,
         backgroundSize: "100% 100%",
         backgroundRepeat: "no-repeat",
         imageRendering: "pixelated",
-        border: highlight ? `2px solid ${accent}` : "2px solid #2a3340",
-        boxShadow: selected
-          ? `0 0 0 2px #fff8e8, 3px 3px 0 rgba(42,51,64,0.25)`
-          : "2px 2px 0 rgba(42,51,64,0.18)",
+        border: `2px solid ${rim}`,
+        boxShadow: gold
+          ? selected
+            ? `0 0 0 2px #fff8e8, 3px 3px 0 rgba(201,162,39,0.45)`
+            : `0 0 0 1px #fff3b0, 2px 2px 0 rgba(201,162,39,0.35)`
+          : selected
+            ? `0 0 0 2px #fff8e8, 3px 3px 0 rgba(42,51,64,0.25)`
+            : "2px 2px 0 rgba(42,51,64,0.18)",
         filter: dimmed ? "grayscale(0.55) brightness(1.08)" : undefined,
         opacity: dimmed ? 0.55 : undefined,
         ...style,
@@ -82,11 +90,11 @@ export function TypeBlock({
           bottom: isBoard ? "4%" : 2,
           right: isBoard ? "5%" : 3,
           fontSize: isBoard ? "clamp(0.34rem, 24cqmin, 0.58rem)" : "0.72rem",
-          color: "#1a2230",
+          color: gold ? "#7a5a00" : "#1a2230",
           lineHeight: 1,
         }}
       >
-        {letterValue(letter)}
+        {points}
       </span>
     </span>
   );

@@ -20,7 +20,12 @@ export function DragGhost({ drag }: { drag: DragState | null }) {
         boxShadow: "4px 4px 0 rgba(42,51,64,0.25)",
       }}
     >
-      <TypeBlock letter={drag.source.letter} selected size="ghost" />
+      <TypeBlock
+        letter={drag.source.letter}
+        selected
+        gold={Boolean(drag.source.gold)}
+        size="ghost"
+      />
     </motion.div>
   );
 }

@@ -1,3 +1,4 @@
+import { ensureGoldOnTiles } from "./gold";
 import { applyPlayFromTiles } from "./play";
 import type { Dictionary, TrieNode } from "./dictionary";
 import type { BoardCell, Direction, PlacedTile, PlayResult } from "./types";
@@ -17,7 +18,7 @@ export function findAllPlays(
   board: BoardCell[][],
   rack: string,
   dict: Dictionary,
-  opts: { limit?: number; minScore?: number } = {},
+  opts: { limit?: number; minScore?: number; goldLetter?: string | null } = {},
 ): FoundPlay[] {
   const size = board.length;
   const results: FoundPlay[] = [];
@@ -58,8 +59,30 @@ export function findAllPlays(
       .join("|");
     if (seen.has(key)) continue;
     seen.add(key);
-    if (opts.minScore !== undefined && play.score < opts.minScore) continue;
-    unique.push(play);
+
+    let next: FoundPlay = play;
+    if (opts.goldLetter) {
+      const tiles = ensureGoldOnTiles(play.tilesPlaced, opts.goldLetter);
+      const rescored = applyPlayFromTiles(
+        board,
+        tiles,
+        dict,
+        7,
+        opts.goldLetter,
+      );
+      if (rescored.ok) {
+        next = {
+          ...play,
+          ...rescored,
+          direction: play.direction,
+          startRow: play.startRow,
+          startCol: play.startCol,
+        };
+      }
+    }
+
+    if (opts.minScore !== undefined && next.score < opts.minScore) continue;
+    unique.push(next);
   }
 
   unique.sort((a, b) => b.score - a.score);
@@ -325,7 +348,11 @@ export function findBestPlay(
   board: BoardCell[][],
   rack: string,
   dict: Dictionary,
+  goldLetter?: string | null,
 ): FoundPlay | null {
-  const plays = findAllPlays(board, rack, dict, { limit: 2000 });
+  const plays = findAllPlays(board, rack, dict, {
+    limit: 2000,
+    goldLetter,
+  });
   return plays[0] ?? null;
 }

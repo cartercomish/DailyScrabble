@@ -8,6 +8,7 @@ interface RackProps {
   letters: string[];
   selectedIndex: number | null;
   disabledIndices: Set<number>;
+  goldIndex?: number | null;
   drag: DragState | null;
   onPointerDownTile: (index: number, letter: string, e: React.PointerEvent) => void;
 }
@@ -16,6 +17,7 @@ export function Rack({
   letters,
   selectedIndex,
   disabledIndices,
+  goldIndex = null,
   drag,
   onPointerDownTile,
 }: RackProps) {
@@ -28,6 +30,7 @@ export function Rack({
         {letters.map((letter, i) => {
           const used = disabledIndices.has(i);
           const selected = selectedIndex === i && !used;
+          const gold = goldIndex === i;
           const dragging =
             drag?.moved &&
             drag.source.type === "rack" &&
@@ -35,10 +38,11 @@ export function Rack({
 
           return (
             <motion.button
-              key={`rack-${i}-${letter}`}
+              key={`rack-${i}-${letter}${gold ? "-gold" : ""}`}
               type="button"
               layout
               aria-disabled={used}
+              aria-label={gold ? `Golden crate ${letter}` : undefined}
               onPointerDown={(e) => {
                 if (used) return;
                 e.preventDefault();
@@ -55,7 +59,12 @@ export function Rack({
                 filter: used ? "grayscale(0.35)" : undefined,
               }}
             >
-              <TypeBlock letter={letter} selected={selected} size="rack" />
+              <TypeBlock
+                letter={letter}
+                selected={selected}
+                gold={gold}
+                size="rack"
+              />
             </motion.button>
           );
         })}

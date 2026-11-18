@@ -468,14 +468,27 @@ export function Board({
   const tentativeMap = new Map<string, string>(
     tentative.map((t) => [`${t.row},${t.col}`, t.letter]),
   );
+  const tentativeGold = new Set(
+    tentative.filter((t) => t.isGold).map((t) => `${t.row},${t.col}`),
+  );
   const seedSet = new Set<string>(seed.map((t) => `${t.row},${t.col}`));
   const solutionMap = new Map<string, string>(
     solutionPlays.flatMap((p) =>
       p.tiles.map((t) => [`${t.row},${t.col}`, t.letter]),
     ),
   );
+  const solutionGold = new Set(
+    solutionPlays.flatMap((p) =>
+      p.tiles.filter((t) => t.isGold).map((t) => `${t.row},${t.col}`),
+    ),
+  );
   const reviewSet = new Set<string>(
     reviewPlays.flatMap((p) => p.tiles.map((t) => `${t.row},${t.col}`)),
+  );
+  const reviewGold = new Set(
+    reviewPlays.flatMap((p) =>
+      p.tiles.filter((t) => t.isGold).map((t) => `${t.row},${t.col}`),
+    ),
   );
   const leaderPlays = showSolution ? solutionPlays : reviewPlays;
   const highlightAccent = showSolution ? SOLUTION_ACCENT : PLAYER_ACCENT;
@@ -567,6 +580,11 @@ export function Board({
                 displayMode === "solution" ? SOLUTION_ACCENT : PLAYER_ACCENT;
               const highlighted =
                 displayMode === "solution" || displayMode === "review";
+              const isGoldTile =
+                tentativeGold.has(key) ||
+                Boolean(cell.gold) ||
+                (showSolution && solutionGold.has(key)) ||
+                (!showSolution && reviewGold.has(key));
 
               return (
                 <button
@@ -607,7 +625,9 @@ export function Board({
                   }}
                   aria-label={
                     displayLetter
-                      ? `Crate ${displayLetter}`
+                      ? isGoldTile
+                        ? `Golden crate ${displayLetter}`
+                        : `Crate ${displayLetter}`
                       : cell.premium
                         ? cell.premium
                         : isCenter
@@ -625,6 +645,7 @@ export function Board({
                         letter={displayLetter}
                         provisional={isTentative || highlighted}
                         dimmed={displayMode === "ghost"}
+                        gold={isGoldTile}
                         accent={tileAccent}
                         size="board"
                       />

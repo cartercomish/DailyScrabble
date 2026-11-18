@@ -1,5 +1,5 @@
 import type { DailyPuzzle } from "@daily-rack/engine";
-import { getPuzzleDate } from "@daily-rack/engine";
+import { getPuzzleDate, normalizePuzzleGold } from "@daily-rack/engine";
 import fs from "fs";
 import path from "path";
 
@@ -7,10 +7,16 @@ function puzzlesDir() {
   return path.join(process.cwd(), "../../content/puzzles");
 }
 
+function readPuzzle(file: string): DailyPuzzle {
+  return normalizePuzzleGold(
+    JSON.parse(fs.readFileSync(file, "utf8")) as DailyPuzzle,
+  );
+}
+
 export function loadPuzzleByDate(date: string): DailyPuzzle | null {
   const file = path.join(puzzlesDir(), `${date}.json`);
   if (!fs.existsSync(file)) return null;
-  return JSON.parse(fs.readFileSync(file, "utf8")) as DailyPuzzle;
+  return readPuzzle(file);
 }
 
 export function loadTodayPuzzle(): DailyPuzzle {
@@ -29,9 +35,7 @@ export function loadTodayPuzzle(): DailyPuzzle {
     .sort();
   if (files.length === 0) throw new Error("No puzzles available");
   const latest = files[files.length - 1];
-  return JSON.parse(
-    fs.readFileSync(path.join(dir, latest), "utf8"),
-  ) as DailyPuzzle;
+  return readPuzzle(path.join(dir, latest));
 }
 
 export function listPuzzleDates(): string[] {
