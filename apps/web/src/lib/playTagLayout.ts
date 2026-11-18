@@ -250,6 +250,19 @@ export function clampTagToCapture(
   };
 }
 
+export function placementCost(
+  box: TagBox,
+  size: number,
+  occupied: Set<string>,
+  stacked: boolean,
+): number {
+  const hits = tagOverlapsLetters(box, occupied);
+  const capture = tagCaptureOverhang(box, size);
+  const board = tagOverhang(box, size);
+  // Letters must stay readable: covering any tile beats stacking or board overhang.
+  return capture * 1000 + hits * 200 + (stacked ? 40 : 0) + board;
+}
+
 export function pickTagPlacement(
   play: PlayForTags,
   occupied: Set<string>,
@@ -257,7 +270,7 @@ export function pickTagPlacement(
   claimedAnchors: Set<string>,
   otherTiles: Set<string>,
   size: number,
-): TagPlacement | null {
+): { placement: TagPlacement; cost: number } | null {
   if (play.tiles.length === 0) return null;
 
   const anchors = orderedAnchorTiles(play, claimedAnchors, otherTiles);
@@ -283,15 +296,12 @@ export function pickTagPlacement(
       for (const candidate of candidates) {
         const clamped = clampTagToCapture(candidate, size);
         if (tagOverlapsReserved(clamped.box, reserved)) continue;
-        const hits = tagOverlapsLetters(clamped.box, occupied);
-        const capture = tagCaptureOverhang(clamped.box, size);
-        const board = tagOverhang(clamped.box, size);
-        // Prefer in-frame, then one-line, then fewer letter hits.
-        const cost =
-          capture * 1000 +
-          (mode.stacked ? 40 : 0) +
-          hits * 10 +
-          board;
+        const cost = placementCost(
+          clamped.box,
+          size,
+          occupied,
+          mode.stacked,
+        );
         if (cost < bestCost) {
           bestCost = cost;
           best = { ...clamped, stacked: mode.stacked };
@@ -300,7 +310,7 @@ export function pickTagPlacement(
     }
   }
 
-  return best;
+  return best ? { placement: best, cost: bestCost } : null;
 }
 
 export interface LaidOutTag {
@@ -308,23 +318,36 @@ export interface LaidOutTag {
   placement: TagPlacement;
 }
 
-/** Place all round score tags the same way the results board does. */
-export function layoutPlayTags(
+function permutations<T>(items: T[]): T[][] {
+  if (items.length <= 1) return [items.slice()];
+  const out: T[][] = [];
+  for (let i = 0; i < items.length; i++) {
+    const head = items[i]!;
+    const rest = items.slice(0, i).concat(items.slice(i + 1));
+    for (const tail of permutations(rest)) {
+      out.push([head, ...tail]);
+    }
+  }
+  return out;
+}
+
+function layoutPlayTagsInOrder(
   plays: PlayForTags[],
   size: number,
   occupied: Set<string>,
-): LaidOutTag[] {
+): { tags: LaidOutTag[]; cost: number } {
   const reserved: TagBox[] = [];
   const claimedAnchors = new Set<string>();
   const allTiles = plays.flatMap((p) =>
     p.tiles.map((t) => cellKey(t.row, t.col)),
   );
   const out: LaidOutTag[] = [];
+  let totalCost = 0;
 
   for (const play of plays) {
     const own = new Set(play.tiles.map((t) => cellKey(t.row, t.col)));
     const otherTiles = new Set(allTiles.filter((k) => !own.has(k)));
-    const placement = pickTagPlacement(
+    const picked = pickTagPlacement(
       play,
       occupied,
       reserved,
@@ -332,13 +355,46 @@ export function layoutPlayTags(
       otherTiles,
       size,
     );
-    if (!placement) continue;
-    reserved.push(placement.box);
-    claimedAnchors.add(cellKey(placement.anchorRow, placement.anchorCol));
-    out.push({ play, placement });
+    if (!picked) {
+      return { tags: out, cost: Number.POSITIVE_INFINITY };
+    }
+    reserved.push(picked.placement.box);
+    claimedAnchors.add(
+      cellKey(picked.placement.anchorRow, picked.placement.anchorCol),
+    );
+    out.push({ play, placement: picked.placement });
+    totalCost += picked.cost;
   }
 
-  return out;
+  return { tags: out, cost: totalCost };
+}
+
+/**
+ * Place all round score tags. Tries every placement order (not just R1→R2→R3)
+ * and keeps the layout with the lowest cost so later rounds can claim open
+ * space before earlier ones fence it off. Tags never prefer covering letters.
+ */
+export function layoutPlayTags(
+  plays: PlayForTags[],
+  size: number,
+  occupied: Set<string>,
+): LaidOutTag[] {
+  if (plays.length === 0) return [];
+
+  let bestTags: LaidOutTag[] = [];
+  let bestCost = Number.POSITIVE_INFINITY;
+
+  for (const order of permutations(plays)) {
+    const { tags, cost } = layoutPlayTagsInOrder(order, size, occupied);
+    if (tags.length < plays.length) continue;
+    if (cost < bestCost) {
+      bestCost = cost;
+      bestTags = tags;
+    }
+  }
+
+  // Stable visual order by round for callers that iterate in play sequence.
+  return bestTags.sort((a, b) => a.play.round - b.play.round);
 }
 
 /** SVG “screenshot” of sealed card + board + score tags for visual fixtures. */

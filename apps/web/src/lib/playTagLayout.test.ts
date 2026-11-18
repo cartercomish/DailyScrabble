@@ -6,6 +6,7 @@ import {
   layoutPlayTags,
   renderTagFixtureSvg,
   tagCaptureOverhang,
+  tagOverlapsLetters,
   type PlayForTags,
 } from "./playTagLayout";
 
@@ -95,6 +96,28 @@ describe("play tag layout fixtures", () => {
     const tags = layoutPlayTags(plays, size, occupied);
     expect(tags.every((t) => !t.placement.stacked)).toBe(true);
     assertTagsInCapture("mid-board-one-line", size, plays);
+  });
+
+  it("tries alternate round order so tags avoid covering letters", () => {
+    // R1 horizontal mid-board; R2 vertical through its center. Placing R1
+    // first often parks the R1 tag on R2's stem; placing R2 first frees a
+    // clear side for both.
+    const size = 11;
+    const plays = [
+      horizontal("CROSS", 5, 3, 1, 20),
+      vertical("POLE", 3, 5, 2, 18),
+      horizontal("END", 8, 4, 3, 12),
+    ];
+    const occupied = occupiedFromPlays(plays);
+    const tags = layoutPlayTags(plays, size, occupied);
+    expect(tags.length).toBe(3);
+    for (const { play, placement } of tags) {
+      expect(
+        tagOverlapsLetters(placement.box, occupied),
+        `R${play.round} "${play.word}" covers letters`,
+      ).toBe(0);
+    }
+    assertTagsInCapture("order-sensitive-cross", size, plays);
   });
 
   it("keeps a short right-edge word inside the sealed capture (Manifest 221-style)", () => {

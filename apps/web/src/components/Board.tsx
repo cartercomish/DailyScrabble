@@ -384,11 +384,13 @@ export function Board({
                 displayMode === "solution" ? SOLUTION_ACCENT : PLAYER_ACCENT;
               const highlighted =
                 displayMode === "solution" || displayMode === "review";
-              const isGoldTile =
-                tentativeGold.has(key) ||
-                Boolean(cell.gold) ||
-                (showSolution && solutionGold.has(key)) ||
-                (!showSolution && reviewGold.has(key));
+              // In "best solution" view ignore the player's board gold so we
+              // only show the solution's single golden crate (not both).
+              const isGoldTile = showSolution
+                ? solutionGold.has(key)
+                : tentativeGold.has(key) ||
+                  Boolean(cell.gold) ||
+                  reviewGold.has(key);
 
               return (
                 <button
