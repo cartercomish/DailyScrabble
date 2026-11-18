@@ -9,7 +9,6 @@ import {
   formatShare,
   puzzleBestTotal,
   scoreEmoji,
-  scoreEmojiLabel,
   type ScoreEmoji,
 } from "@daily-rack/engine";
 import { motion } from "framer-motion";
@@ -31,14 +30,19 @@ interface ResultsProps {
 
 function resultEmoji(puzzle: DailyPuzzle, result: GameResult): ScoreEmoji {
   if (
+    result.emoji === "🤯" ||
     result.emoji === "🏆" ||
     result.emoji === "⭐" ||
     result.emoji === "📦" ||
-    result.emoji === "🌊"
+    result.emoji === "🫠"
   ) {
     return result.emoji;
   }
-  return scoreEmoji(result.totalScore, puzzleBestTotal(puzzle));
+  return scoreEmoji(
+    result.totalScore,
+    puzzleBestTotal(puzzle),
+    result.solutionBestTotal,
+  );
 }
 
 export function Results({
@@ -162,14 +166,16 @@ export function Results({
               <span style={{ fontSize: "2.6rem", lineHeight: 1 }}>{emoji}</span>
             )}
           </h2>
-          <p
-            className="mt-2 text-center font-[family-name:var(--font-display)] font-bold text-ink"
-            style={{ fontSize: "1.1rem", letterSpacing: "0.05em" }}
-          >
-            {showingSolution
-              ? "Best solution"
-              : `${scoreEmojiLabel(emoji)}${streak > 0 ? ` · ${streak}-day streak` : ""}`}
-          </p>
+          {(showingSolution || streak > 0) && (
+            <p
+              className="mt-2 text-center font-[family-name:var(--font-display)] font-bold text-ink"
+              style={{ fontSize: "1.1rem", letterSpacing: "0.05em" }}
+            >
+              {showingSolution
+                ? "Best solution"
+                : `${streak}-day streak`}
+            </p>
+          )}
 
           <div
             className="mt-3 overflow-visible"

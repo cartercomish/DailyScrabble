@@ -1,6 +1,6 @@
 import type { DailyPuzzle } from "./types";
 
-export type ScoreEmoji = "🏆" | "⭐" | "📦" | "🌊";
+export type ScoreEmoji = "🤯" | "🏆" | "⭐" | "📦" | "🫠";
 
 /** Sum of each round's normal-words top mark (gen dict). Used for score emoji. */
 export function puzzleBestTotal(puzzle: DailyPuzzle): number {
@@ -8,27 +8,26 @@ export function puzzleBestTotal(puzzle: DailyPuzzle): number {
 }
 
 /**
- * Casual performance emoji vs the day's best line.
- * 🏆 crushed · ⭐ strong · 📦 solid · 🌊 rough
+ * Casual tiers vs normal-words best; 🤯 only for matching the full-dict best path.
+ * 🤯 matched solution · 🏆 crushed · ⭐ strong · 📦 solid · 🫠 sank
  */
-export function scoreEmoji(score: number, best: number): ScoreEmoji {
-  if (best <= 0) return "📦";
-  const ratio = score / best;
+export function scoreEmoji(
+  score: number,
+  casualBest: number,
+  solutionBest?: number | null,
+): ScoreEmoji {
+  if (
+    solutionBest != null &&
+    solutionBest > 0 &&
+    score === solutionBest
+  ) {
+    return "🤯";
+  }
+  if (casualBest <= 0) return "📦";
+  const ratio = score / casualBest;
   if (ratio >= 0.85) return "🏆";
   if (ratio >= 0.65) return "⭐";
   if (ratio >= 0.45) return "📦";
-  return "🌊";
+  return "🫠";
 }
 
-export function scoreEmojiLabel(emoji: ScoreEmoji): string {
-  switch (emoji) {
-    case "🏆":
-      return "Crushed it";
-    case "⭐":
-      return "Strong run";
-    case "📦":
-      return "Solid load";
-    case "🌊":
-      return "Rough seas";
-  }
-}

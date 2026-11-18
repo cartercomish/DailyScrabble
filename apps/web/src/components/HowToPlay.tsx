@@ -64,8 +64,8 @@ export function HowToPlay() {
                   loads total.
                 </li>
                 <li>
-                  On round 2, a golden crate arrives. This tile scores double
-                  its normal value.
+                  On round 2, a golden crate arrives. That crate always scores
+                  double its normal value, including in later rounds.
                 </li>
               </ol>
 

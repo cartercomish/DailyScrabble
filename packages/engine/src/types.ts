@@ -7,7 +7,7 @@ export interface PlacedTile {
   row: number;
   col: number;
   isBlank?: boolean;
-  /** Round-2 golden crate — letter value scores double when newly placed. */
+  /** Round-2 golden crate — letter value scores double whenever it is in a word. */
   isGold?: boolean;
 }
 
@@ -94,7 +94,10 @@ export interface GameResult {
   totalScore: number;
   par: number;
   delta: number;
+  /** Normal-words best mark (emoji tiers below 🤯). */
   bestTotal: number;
+  /** Full-dict greedy best path total; 🤯 when totalScore equals this. */
+  solutionBestTotal?: number;
   emoji: string;
   rounds: RoundResult[];
   bestWordHits: number;

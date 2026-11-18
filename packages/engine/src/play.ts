@@ -181,7 +181,6 @@ function scoreWordOnBoard(
   startCol: number,
   direction: Direction,
   newTileKeys: Set<string>,
-  goldKeys: Set<string>,
 ): ScoredWord {
   const dRow = direction === "V" ? 1 : 0;
   const dCol = direction === "H" ? 1 : 0;
@@ -198,7 +197,8 @@ function scoreWordOnBoard(
     const isNew = newTileKeys.has(key);
     const premium = isNew ? boardBefore[r][c].premium : null;
     let lv = letterValue(letter);
-    if (isNew && goldKeys.has(key)) lv *= 2;
+    // Gold doubles every time this crate is in a scored word, not only the turn it lands.
+    if (boardAfter[r][c].gold) lv *= 2;
     if (premium === "DL") lv *= 2;
     if (premium === "TL") lv *= 3;
     letterScore += lv;
@@ -254,7 +254,6 @@ export function applyPlayFromTiles(
 
   const boardAfter = cloneBoard(board);
   const newTileKeys = new Set<string>();
-  const goldKeys = new Set<string>();
   for (const t of scoredTiles) {
     boardAfter[t.row][t.col] = {
       ...boardAfter[t.row][t.col],
@@ -263,7 +262,6 @@ export function applyPlayFromTiles(
       gold: t.isGold ? true : undefined,
     };
     newTileKeys.add(`${t.row},${t.col}`);
-    if (t.isGold) goldKeys.add(`${t.row},${t.col}`);
   }
 
   if (!noGapsInMainLine(boardAfter, scoredTiles, aligned.direction)) {
@@ -304,7 +302,6 @@ export function applyPlayFromTiles(
     main.startCol,
     mainDir,
     newTileKeys,
-    goldKeys,
   );
   scoredWords.push(mainScored);
 
@@ -329,7 +326,6 @@ export function applyPlayFromTiles(
             cross.startCol,
             crossDir,
             newTileKeys,
-            goldKeys,
           ),
         );
       }

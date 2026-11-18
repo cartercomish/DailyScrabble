@@ -406,8 +406,14 @@ export function GameClient({ puzzle }: GameClientProps) {
     }
 
     if (roundIndex >= 2) {
-      // Emoji vs stored normal-words best; "Show best solution" still uses the full play dict.
-      const gameResult = buildGameResult(puzzle, nextResults);
+      // Casual emoji tiers vs normal-words best; 🤯 only if you tie the full-dict path.
+      const solutionBest = findBestSolutionPath(puzzle, dict, rackMode).total;
+      const gameResult = buildGameResult(
+        puzzle,
+        nextResults,
+        undefined,
+        solutionBest,
+      );
       const streakCount = updateStreakOnFinish(puzzle.id, puzzle.date);
       setBoard(nextBoard);
       setRoundResults(nextResults);

@@ -59,6 +59,7 @@ export function buildGameResult(
   puzzle: DailyPuzzle,
   rounds: RoundResult[],
   bestTotal = puzzleBestTotal(puzzle),
+  solutionBestTotal?: number,
 ): GameResult {
   const totalScore = rounds.reduce((s, r) => s + r.score, 0);
   return {
@@ -68,7 +69,8 @@ export function buildGameResult(
     par: puzzle.par,
     delta: totalScore - puzzle.par,
     bestTotal,
-    emoji: scoreEmoji(totalScore, bestTotal),
+    solutionBestTotal,
+    emoji: scoreEmoji(totalScore, bestTotal, solutionBestTotal),
     rounds,
     bestWordHits: rounds.filter((r) => r.hitBestWord).length,
   };
