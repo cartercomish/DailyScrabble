@@ -114,8 +114,10 @@ export function findBestSolutionPath(
     let rack = puzzle.rounds[0].rack.toUpperCase();
     const bag = puzzleRefillBag(puzzle);
     let bagIndex = 0;
+    // Gold boards in round 2 and stays until the solver spends it.
+    let goldPending = Boolean(gold);
     for (let i = 0; i < puzzle.rounds.length; i++) {
-      const roundGold = i === 1 ? gold : null;
+      const roundGold = i >= 1 && goldPending ? gold : null;
       const best = findBestPlay(board, rack, dict, roundGold);
       if (!best) break;
       plays.push({
@@ -124,6 +126,9 @@ export function findBestSolutionPath(
         tiles: best.tilesPlaced,
         round: i + 1,
       });
+      if (roundGold && best.tilesPlaced.some((t) => t.isGold)) {
+        goldPending = false;
+      }
       board = placeTilesOnBoard(board, best.tilesPlaced, true);
       if (i < puzzle.rounds.length - 1) {
         const kept = remainingRack(rack, best.tilesPlaced);

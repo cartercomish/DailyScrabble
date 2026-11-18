@@ -170,15 +170,16 @@ export function GameClient({ puzzle }: GameClientProps) {
     setRoundResults(progress.roundResults);
     setRackOrder(rack);
     setBagIndex(progress.bagIndex ?? 0);
-    if (progress.roundIndex === 1) {
+    const goldAlreadyPlayed = progress.roundResults.some((r) =>
+      r.tilesPlaced.some((t) => t.isGold),
+    );
+    if (!goldAlreadyPlayed && goldLetter && progress.roundIndex >= 1) {
       const saved = progress.goldRackIndex;
-      if (typeof saved === "number" && saved >= 0) {
+      if (typeof saved === "number" && saved >= 0 && saved < rack.length) {
         setGoldRackIndex(saved);
-      } else if (goldLetter) {
+      } else {
         const idx = rack.toUpperCase().indexOf(goldLetter);
         setGoldRackIndex(idx >= 0 ? idx : null);
-      } else {
-        setGoldRackIndex(null);
       }
     } else {
       setGoldRackIndex(null);
@@ -447,12 +448,27 @@ export function GameClient({ puzzle }: GameClientProps) {
       nextBagIndex = refilled.nextBagIndex;
     }
 
+    const goldPlayed = tentative.some((t) => t.isGold);
     let nextGoldIndex: number | null = null;
     if (nextRound === 1 && goldLetter) {
       const seated = seatGoldTile(nextRack, goldLetter, keptLen);
       nextRack = seated.rack;
       nextGoldIndex = seated.goldIndex;
       window.setTimeout(() => flash("Golden crate aboard", "ok"), 900);
+    } else if (!goldPlayed && goldRackIndex != null && goldLetter) {
+      // Unused gold stays golden on the rack into later rounds.
+      const upper = nextRack.toUpperCase();
+      const g = goldLetter.toUpperCase();
+      const keptEnd = rackMode === "refill" ? keptLen : upper.length;
+      let idx = -1;
+      for (let i = 0; i < keptEnd; i++) {
+        if (upper[i] === g) {
+          idx = i;
+          break;
+        }
+      }
+      if (idx < 0) idx = upper.indexOf(g);
+      nextGoldIndex = idx >= 0 ? idx : null;
     }
 
     setBoard(nextBoard);
