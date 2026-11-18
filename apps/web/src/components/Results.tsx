@@ -138,16 +138,16 @@ export function Results({
     <motion.div
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
-      className="mx-auto w-full max-w-lg px-3 pb-8 sm:px-4"
+      className="mx-auto w-full max-w-lg px-2 pb-8 sm:px-3"
     >
       <div
-        className="pixel-panel overflow-visible p-3 text-ink sm:p-4"
+        className="pixel-panel overflow-visible p-2 text-ink sm:p-3"
         style={{ background: "#fff8e8" }}
       >
         <div
           ref={shareCardRef}
           className="overflow-visible"
-          style={{ background: "#fff8e8", padding: "4px 8px 12px" }}
+          style={{ background: "#fff8e8", padding: "4px 4px 12px" }}
         >
           <p className="font-[family-name:var(--font-ui)] text-center text-[0.7rem] font-extrabold uppercase tracking-[0.16em] text-ink-soft">
             Manifest {String(puzzle.number).padStart(3, "0")}
