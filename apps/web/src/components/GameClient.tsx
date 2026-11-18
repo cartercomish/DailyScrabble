@@ -454,7 +454,6 @@ export function GameClient({ puzzle }: GameClientProps) {
       const seated = seatGoldTile(nextRack, goldLetter, keptLen);
       nextRack = seated.rack;
       nextGoldIndex = seated.goldIndex;
-      window.setTimeout(() => flash("Golden crate aboard", "ok"), 900);
     } else if (!goldPlayed && goldRackIndex != null && goldLetter) {
       // Unused gold stays golden on the rack into later rounds.
       const upper = nextRack.toUpperCase();
