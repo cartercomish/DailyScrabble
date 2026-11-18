@@ -21,13 +21,11 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   loadProgress,
-  loadRackMode,
   loadStreak,
   normalizeTentative,
   saveProgress,
   updateStreakOnFinish,
   type DayProgress,
-  type RackMode,
   type TentativeTile,
 } from "../lib/storage";
 import { useDictionary } from "../lib/useDictionary";
@@ -79,7 +77,7 @@ export function GameClient({ puzzle }: GameClientProps) {
   const [hydrated, setHydrated] = useState(false);
   const [showSolution, setShowSolution] = useState(false);
   const [solutionPlays, setSolutionPlays] = useState<SolutionPlayView[]>([]);
-  const [rackMode, setRackMode] = useState<RackMode>("refill");
+  const rackMode = "refill" as const;
   const [bagIndex, setBagIndex] = useState(0);
   const [goldRackIndex, setGoldRackIndex] = useState<number | null>(null);
   const suppressClickRef = useRef(false);
@@ -129,7 +127,6 @@ export function GameClient({ puzzle }: GameClientProps) {
 
   // Hydrate from localStorage (ignore saves that don't match current seed)
   useEffect(() => {
-    setRackMode(loadRackMode());
     const progress = loadProgress(puzzle.id);
     if (progress && progressMatchesSeed(progress, puzzle)) {
       restoreProgress(progress);
@@ -224,11 +221,6 @@ export function GameClient({ puzzle }: GameClientProps) {
       tentative,
     ],
   );
-
-  function handleRackModeChange(mode: RackMode) {
-    setRackMode(mode);
-    resetPuzzle();
-  }
 
   function flash(msg: string, tone: "ok" | "err" = "err") {
     setMessageTone(tone);
@@ -522,7 +514,7 @@ export function GameClient({ puzzle }: GameClientProps) {
               </h1>
               <CargoShipMark />
               {!finished && (
-                <HowToPlay mode={rackMode} onModeChange={handleRackModeChange} />
+                <HowToPlay />
               )}
             </div>
             <p className="mt-1.5 font-[family-name:var(--font-ui)] text-[0.75rem] font-bold uppercase tracking-[0.14em] text-ink/45">
@@ -531,7 +523,7 @@ export function GameClient({ puzzle }: GameClientProps) {
           </div>
           {finished ? (
             <div className="pt-1">
-              <HowToPlay mode={rackMode} onModeChange={handleRackModeChange} />
+              <HowToPlay />
             </div>
           ) : (
             <div

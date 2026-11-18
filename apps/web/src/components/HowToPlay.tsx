@@ -2,16 +2,10 @@
 
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
-import { saveRackMode, type RackMode } from "../lib/storage";
 
 const KEY = "manifest-seen-howto";
 
-interface HowToPlayProps {
-  mode: RackMode;
-  onModeChange: (mode: RackMode) => void;
-}
-
-export function HowToPlay({ mode, onModeChange }: HowToPlayProps) {
+export function HowToPlay() {
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
@@ -23,12 +17,6 @@ export function HowToPlay({ mode, onModeChange }: HowToPlayProps) {
   function dismiss() {
     localStorage.setItem(KEY, "1");
     setOpen(false);
-  }
-
-  function toggleRefill(checked: boolean) {
-    const next: RackMode = checked ? "refill" : "refresh";
-    saveRackMode(next);
-    onModeChange(next);
   }
 
   return (
@@ -72,29 +60,21 @@ export function HowToPlay({ mode, onModeChange }: HowToPlayProps) {
                 <li>Tap or drag letters from your rack onto the board.</li>
                 <li>Make a valid connected word, then hit Submit.</li>
                 <li>
-                  {mode === "refill"
-                    ? "Letters you use get replaced for the following round."
-                    : "After each submit you get a new rack — three rounds total."}
-                </li>
-                <li>
-                  In load 2, one golden crate scores double its letter value.
+                  Letters you use get replaced for the following round — three
+                  loads total.
                 </li>
               </ol>
 
-              <label className="mt-5 flex cursor-pointer items-center justify-between gap-3 border-2 border-ink px-3 py-3">
-                <span className="font-[family-name:var(--font-ui)] text-sm font-extrabold text-ink">
-                  Refill used letters only
-                  <span className="mt-0.5 block text-xs font-bold text-ink-soft">
-                    Testing · restarts today&apos;s puzzle
-                  </span>
-                </span>
-                <input
-                  type="checkbox"
-                  checked={mode === "refill"}
-                  onChange={(e) => toggleRefill(e.target.checked)}
-                  className="h-5 w-5 accent-[#2a3340]"
-                />
-              </label>
+              <div className="mt-5 border-2 border-ink px-3 py-3">
+                <p className="font-[family-name:var(--font-ui)] text-sm font-extrabold text-ink">
+                  Golden crate
+                </p>
+                <p className="mt-1 font-[family-name:var(--font-ui)] text-sm font-semibold leading-relaxed text-ink-soft">
+                  In load 2, one crate arrives gold. Play it and that letter
+                  scores double its normal value. Same gold letter for everyone
+                  that day.
+                </p>
+              </div>
 
               <button
                 type="button"
