@@ -28,6 +28,11 @@ import {
   type DayProgress,
   type TentativeTile,
 } from "../lib/storage";
+import {
+  DESKTOP_RAIL_PX,
+  fitPlayLayout,
+  type PlayLayout,
+} from "../lib/playLayout";
 import { useDictionary } from "../lib/useDictionary";
 import {
   useTileDrag,
@@ -80,9 +85,71 @@ export function GameClient({ puzzle }: GameClientProps) {
   const rackMode = "refill" as const;
   const [bagIndex, setBagIndex] = useState(0);
   const [goldRackIndex, setGoldRackIndex] = useState<number | null>(null);
+  const [droppedRackIndex, setDroppedRackIndex] = useState<number | null>(
+    null,
+  );
+  const [playLayout, setPlayLayout] = useState<PlayLayout | null>(null);
+  const [playColumnEl, setPlayColumnEl] = useState<HTMLDivElement | null>(
+    null,
+  );
   const suppressClickRef = useRef(false);
   const refillBag = useMemo(() => puzzleRefillBag(puzzle), [puzzle]);
   const goldLetter = useMemo(() => puzzleGoldLetter(puzzle), [puzzle]);
+
+  useEffect(() => {
+    if (!playColumnEl) return;
+    const el = playColumnEl;
+    const desktop = window.matchMedia("(min-width: 1024px)");
+
+    const row = el.parentElement;
+
+    const measure = () => {
+      if (!row) return;
+      const s = getComputedStyle(row);
+      const rowWidth =
+        row.clientWidth - parseFloat(s.paddingLeft) - parseFloat(s.paddingRight);
+      const width = desktop.matches ? rowWidth - DESKTOP_RAIL_PX : rowWidth;
+      const height = desktop.matches
+        ? row.clientHeight - parseFloat(s.paddingTop) - parseFloat(s.paddingBottom)
+        : el.clientHeight;
+      if (width < 32 || height < 32) return;
+      const next = fitPlayLayout(
+        width,
+        height,
+        puzzle.size,
+        rackOrder.length,
+        desktop.matches,
+      );
+      setPlayLayout((prev) =>
+        prev &&
+        prev.boardPx === next.boardPx &&
+        prev.rackTile === next.rackTile &&
+        prev.desktop === next.desktop
+          ? prev
+          : next,
+      );
+    };
+
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    if (row) ro.observe(row);
+    window.addEventListener("resize", measure);
+    desktop.addEventListener("change", measure);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener("resize", measure);
+      desktop.removeEventListener("change", measure);
+    };
+  }, [playColumnEl, puzzle.size, rackOrder.length]);
+
+  const boardPx = playLayout?.boardPx ?? null;
+
+  useEffect(() => {
+    if (droppedRackIndex === null) return;
+    const t = window.setTimeout(() => setDroppedRackIndex(null), 450);
+    return () => window.clearTimeout(t);
+  }, [droppedRackIndex, rackOrder]);
 
   const usedRackIndices = useMemo(() => {
     const used = new Set<number>();
@@ -302,6 +369,8 @@ export function GameClient({ puzzle }: GameClientProps) {
       if (!didMove) return;
       if (target?.type === "cell") {
         placeFromRack(source.index, target.row, target.col);
+      } else if (target?.type === "rack" && target.index !== undefined) {
+        moveRackTile(source.index, target.index);
       }
       return;
     }
@@ -349,6 +418,35 @@ export function GameClient({ puzzle }: GameClientProps) {
     setSelectedRackIndex(null);
     // Explicit empty array so persist cannot fall back to a stale tentative
     persist({ tentative: [] as TentativeTile[] });
+  }
+
+  /** Moves a rack tile so it sits just before the tile at `before`. */
+  function moveRackTile(from: number, before: number) {
+    if (before === from || before === from + 1) return;
+    const order = rackOrder.split("").map((_, i) => i);
+    order.splice(from, 1);
+    order.splice(before > from ? before - 1 : before, 0, from);
+    const newIndexOf = new Map(order.map((oldIdx, newIdx) => [oldIdx, newIdx]));
+
+    const nextRack = order.map((i) => rackOrder[i]).join("");
+    const nextGold =
+      goldRackIndex === null ? null : (newIndexOf.get(goldRackIndex) ?? null);
+    const nextTentative = tentative.map((t) =>
+      t.rackIndex >= 0
+        ? { ...t, rackIndex: newIndexOf.get(t.rackIndex) ?? t.rackIndex }
+        : t,
+    );
+
+    setRackOrder(nextRack);
+    setGoldRackIndex(nextGold);
+    setTentative(nextTentative);
+    setSelectedRackIndex(null);
+    setDroppedRackIndex(newIndexOf.get(from) ?? null);
+    persist({
+      rackOrder: nextRack,
+      goldRackIndex: nextGold,
+      tentative: nextTentative,
+    });
   }
 
   function shuffle() {
@@ -521,10 +619,16 @@ export function GameClient({ puzzle }: GameClientProps) {
   }
 
   return (
-    <div className="relative mx-auto flex min-h-dvh w-full max-w-lg flex-col overflow-x-hidden">
+    <div
+      className={`relative mx-auto flex w-full max-w-lg flex-col ${
+        finished
+          ? "min-h-dvh overflow-x-hidden lg:max-w-6xl"
+          : "h-dvh max-h-dvh overflow-hidden lg:max-w-none"
+      }`}
+    >
       <DockScene />
 
-      <header className="relative z-10 px-4 pb-2 pt-[max(0.75rem,env(safe-area-inset-top))]">
+      <header className="relative z-10 mx-auto w-full shrink-0 px-4 pb-2 pt-[max(0.75rem,env(safe-area-inset-top))] lg:max-w-6xl lg:px-6">
         <div
           className={`flex justify-between gap-3 ${finished ? "items-start" : "items-end"}`}
         >
@@ -564,86 +668,146 @@ export function GameClient({ puzzle }: GameClientProps) {
 
       {!finished ? (
         <>
-          <div className="relative z-10 px-3 pt-2 sm:px-6">
-            <Board
-              board={board}
-              tentative={tentative}
-              selectedCell={null}
-              onCellClick={onCellClick}
-              drag={drag}
-              onPointerDownTentative={(row, col, letter, e) => {
-                const tile = tentative.find(
-                  (t) => t.row === row && t.col === col,
-                );
-                startDrag(
-                  {
-                    type: "board",
-                    row,
-                    col,
-                    letter,
-                    gold: Boolean(tile?.isGold),
-                  },
-                  e,
-                );
-              }}
-              seed={puzzle.seed}
-            />
-            <AnimatePresence>
-              {scorePopup !== null && (
-                <motion.div
-                  initial={{ opacity: 0, y: 8, scale: 0.9 }}
-                  animate={{ opacity: 1, y: -12, scale: 1 }}
-                  exit={{ opacity: 0 }}
-                  className="pointer-events-none absolute inset-x-0 top-1/3 z-20 text-center"
-                >
-                  <span
-                    className="pixel-btn inline-block px-4 py-2 font-[family-name:var(--font-display)] text-3xl font-bold tracking-wide text-ink"
-                    style={{ background: "#ffcc33" }}
+          <div className="relative z-10 flex min-h-0 w-full flex-1 flex-col gap-2 px-3 pt-2 sm:px-6 lg:flex-row lg:items-stretch lg:justify-center lg:gap-3 lg:px-6 lg:pb-3">
+            <div
+              ref={setPlayColumnEl}
+              className="flex min-h-0 w-full min-w-0 flex-1 flex-col items-center justify-center gap-[10px] overflow-hidden lg:flex-none lg:justify-start lg:overflow-visible"
+              style={playLayout?.desktop && boardPx ? { width: boardPx } : undefined}
+            >
+              <div
+                className="relative shrink-0"
+                style={
+                  boardPx
+                    ? { width: boardPx, height: boardPx }
+                    : { visibility: "hidden", width: "100%" }
+                }
+              >
+                <Board
+                  board={board}
+                  tentative={tentative}
+                  selectedCell={null}
+                  onCellClick={onCellClick}
+                  drag={drag}
+                  onPointerDownTentative={(row, col, letter, e) => {
+                    const tile = tentative.find(
+                      (t) => t.row === row && t.col === col,
+                    );
+                    startDrag(
+                      {
+                        type: "board",
+                        row,
+                        col,
+                        letter,
+                        gold: Boolean(tile?.isGold),
+                      },
+                      e,
+                    );
+                  }}
+                  seed={puzzle.seed}
+                />
+                <AnimatePresence>
+                  {scorePopup !== null && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 8, scale: 0.9 }}
+                      animate={{ opacity: 1, y: -12, scale: 1 }}
+                      exit={{ opacity: 0 }}
+                      className="pointer-events-none absolute inset-x-0 top-1/3 z-20 text-center"
+                    >
+                      <span
+                        className="pixel-btn inline-block px-4 py-2 font-[family-name:var(--font-display)] text-3xl font-bold tracking-wide text-ink"
+                        style={{ background: "#ffcc33" }}
+                      >
+                        +{scorePopup}
+                      </span>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              <Rack
+                letters={rackOrder.split("")}
+                selectedIndex={selectedRackIndex}
+                disabledIndices={usedRackIndices}
+                goldIndex={goldRackIndex}
+                droppedIndex={droppedRackIndex}
+                drag={drag}
+                tilePx={playLayout?.rackTile}
+                onPointerDownTile={(index, letter, e) =>
+                  startDrag(
+                    {
+                      type: "rack",
+                      index,
+                      letter,
+                      gold: goldRackIndex === index,
+                    },
+                    e,
+                  )
+                }
+              />
+            </div>
+
+            <aside
+              className="hidden w-44 shrink-0 flex-col justify-center gap-2 lg:flex lg:self-start"
+              style={boardPx ? { height: boardPx } : undefined}
+            >
+              <AnimatePresence>
+                {message && (
+                  <motion.p
+                    key={message}
+                    initial={{ opacity: 0, y: 4 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0 }}
+                    className={`font-[family-name:var(--font-ui)] text-sm font-extrabold ${
+                      messageTone === "err" ? "text-proof" : "text-ink"
+                    }`}
                   >
-                    +{scorePopup}
-                  </span>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
+                    {message}
+                  </motion.p>
+                )}
+              </AnimatePresence>
+              <button
+                type="button"
+                onClick={shuffle}
+                className="pixel-btn w-full bg-paper px-4 py-3 font-[family-name:var(--font-ui)] text-sm font-extrabold tracking-wide text-ink"
+              >
+                Shuffle
+              </button>
+              <button
+                type="button"
+                onClick={recall}
+                className="pixel-btn w-full bg-paper px-4 py-3 font-[family-name:var(--font-ui)] text-sm font-extrabold tracking-wide text-ink"
+              >
+                Return
+              </button>
+              <button
+                type="button"
+                onClick={submit}
+                className="pixel-btn w-full py-3 font-[family-name:var(--font-ui)] font-extrabold tracking-wide text-ink"
+                style={{ background: "#ffcc33" }}
+              >
+                Submit
+              </button>
+            </aside>
 
-          <DragGhost drag={drag} />
+            <div className="h-5 shrink-0 lg:hidden">
+              <AnimatePresence>
+                {message && (
+                  <motion.p
+                    key={message}
+                    initial={{ opacity: 0, y: 4 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0 }}
+                    className={`truncate px-2 text-center font-[family-name:var(--font-ui)] text-sm font-extrabold ${
+                      messageTone === "err" ? "text-proof" : "text-ink"
+                    }`}
+                  >
+                    {message}
+                  </motion.p>
+                )}
+              </AnimatePresence>
+            </div>
 
-          <div className="relative z-10 mt-auto space-y-3 px-2 pb-[max(1rem,env(safe-area-inset-bottom))] pt-2">
-            <Rack
-              letters={rackOrder.split("")}
-              selectedIndex={selectedRackIndex}
-              disabledIndices={usedRackIndices}
-              goldIndex={goldRackIndex}
-              drag={drag}
-              onPointerDownTile={(index, letter, e) =>
-                startDrag(
-                  {
-                    type: "rack",
-                    index,
-                    letter,
-                    gold: goldRackIndex === index,
-                  },
-                  e,
-                )
-              }
-            />
-            <AnimatePresence>
-              {message && (
-                <motion.p
-                  key={message}
-                  initial={{ opacity: 0, y: 4 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0 }}
-                  className={`px-2 text-center font-[family-name:var(--font-ui)] text-sm font-extrabold ${
-                    messageTone === "err" ? "text-proof" : "text-ink"
-                  }`}
-                >
-                  {message}
-                </motion.p>
-              )}
-            </AnimatePresence>
-            <div className="flex gap-2 px-2">
+            <div className="flex shrink-0 gap-2 pb-[max(1rem,env(safe-area-inset-bottom))] lg:hidden">
               <button
                 type="button"
                 onClick={shuffle}
@@ -668,6 +832,8 @@ export function GameClient({ puzzle }: GameClientProps) {
               </button>
             </div>
           </div>
+
+          <DragGhost drag={drag} tilePx={playLayout?.rackTile} />
         </>
       ) : result ? (
         <div className="relative z-10 mt-3">

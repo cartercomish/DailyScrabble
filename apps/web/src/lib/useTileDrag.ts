@@ -8,7 +8,7 @@ export type DragSource =
 
 export type DropTarget =
   | { type: "cell"; row: number; col: number }
-  | { type: "rack" }
+  | { type: "rack"; index?: number }
   | null;
 
 export interface DragState {
@@ -29,7 +29,19 @@ function readDropTarget(x: number, y: number): DropTarget {
     const [row, col] = cell.dataset.boardCell.split(",").map(Number);
     return { type: "cell", row, col };
   }
-  if (el.closest("[data-drop-rack]")) return { type: "rack" };
+  const slot = el.closest("[data-rack-slot]") as HTMLElement | null;
+  if (slot?.dataset.rackSlot) {
+    return { type: "rack", index: Number(slot.dataset.rackSlot) };
+  }
+  const rack = el.closest("[data-drop-rack]");
+  if (rack) {
+    const slots = rack.querySelectorAll<HTMLElement>("[data-rack-slot]");
+    const last = slots[slots.length - 1];
+    if (last && x > last.getBoundingClientRect().right) {
+      return { type: "rack", index: slots.length };
+    }
+    return { type: "rack" };
+  }
   return null;
 }
 

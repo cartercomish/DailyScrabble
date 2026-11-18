@@ -316,9 +316,9 @@ export function Board({
     drag?.moved && drag.over?.type === "cell" ? drag.over.col : null;
 
   const grid = (
-      <div className="relative overflow-visible">
+      <div className="relative h-full w-full overflow-visible">
         <div
-          className="grid gap-[3px] overflow-visible p-[4px]"
+          className="grid h-full w-full gap-[3px] overflow-visible p-[4px]"
           style={{
             gridTemplateColumns: `repeat(${size}, minmax(0, 1fr))`,
             background: "#a88858",
@@ -486,7 +486,7 @@ export function Board({
   }
 
   return (
-    <div className="pixel-panel relative mx-auto w-full max-w-[min(100%,520px)] overflow-visible p-2">
+    <div className="pixel-panel relative mx-auto h-full w-full overflow-visible p-2">
       {grid}
     </div>
   );

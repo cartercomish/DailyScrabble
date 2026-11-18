@@ -81,15 +81,6 @@ export function Results({
   }
 
   async function shareScore() {
-    if (typeof navigator.share === "function") {
-      try {
-        await navigator.share({ text: shareText });
-        return;
-      } catch {
-        /* cancelled */
-        return;
-      }
-    }
     await copyShare();
   }
 

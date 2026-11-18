@@ -1,11 +1,20 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { MOBILE_RACK_TILE_PX } from "../lib/playLayout";
 import type { DragState } from "../lib/useTileDrag";
 import { TypeBlock } from "./TypeBlock";
 
-export function DragGhost({ drag }: { drag: DragState | null }) {
+export function DragGhost({
+  drag,
+  tilePx = MOBILE_RACK_TILE_PX,
+}: {
+  drag: DragState | null;
+  tilePx?: number;
+}) {
   if (!drag?.moved) return null;
+
+  const size = tilePx;
 
   return (
     <motion.div
@@ -15,8 +24,8 @@ export function DragGhost({ drag }: { drag: DragState | null }) {
       style={{
         left: drag.x,
         top: drag.y,
-        width: "3.25rem",
-        height: "3.25rem",
+        width: size,
+        height: size,
         boxShadow: "4px 4px 0 rgba(42,51,64,0.25)",
       }}
     >

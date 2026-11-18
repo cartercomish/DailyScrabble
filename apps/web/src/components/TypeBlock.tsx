@@ -52,7 +52,7 @@ export function TypeBlock({
     <span
       className={`relative flex h-full w-full flex-col items-center justify-center overflow-hidden ${className}`}
       style={{
-        containerType: isBoard ? "size" : undefined,
+        containerType: isGhost ? undefined : "size",
         backgroundColor: gold ? "#e8c030" : "#f3e0b0",
         backgroundImage: `url(${face})`,
         backgroundSize: "100% 100%",
@@ -72,16 +72,14 @@ export function TypeBlock({
       }}
     >
       <span
-        className="relative font-[family-name:var(--font-ui)] font-extrabold leading-none"
+        className="relative font-[family-name:var(--font-ui)] font-black leading-none"
         style={{
-          fontSize: isBoard
-            ? "clamp(0.7rem, 48cqmin, 1.12rem)"
-            : isGhost
-              ? "1.55rem"
-              : "clamp(1.35rem, 4.6vw, 1.6rem)",
+          fontSize: isGhost
+            ? "1.55rem"
+            : "clamp(0.75rem, 55cqmin, 1.9rem)",
           color: ink,
           letterSpacing: "0.01em",
-          transform: isBoard ? "translateY(-8%)" : undefined,
+          transform: isBoard || !isGhost ? "translateY(-8%)" : undefined,
           textShadow: gold ? "0 1px 0 rgba(255,246,168,0.55)" : undefined,
         }}
       >
@@ -91,9 +89,11 @@ export function TypeBlock({
       <span
         className="absolute font-[family-name:var(--font-ui)] font-black"
         style={{
-          bottom: isBoard ? "4%" : 2,
-          right: isBoard ? "5%" : 3,
-          fontSize: isBoard ? "clamp(0.34rem, 24cqmin, 0.58rem)" : "0.72rem",
+          bottom: isGhost ? 2 : "4%",
+          right: isGhost ? 3 : "5%",
+          fontSize: isGhost
+            ? "0.72rem"
+            : "clamp(0.4rem, 28cqmin, 0.95rem)",
           color: ink,
           lineHeight: 1,
         }}
