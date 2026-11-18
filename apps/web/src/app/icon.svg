@@ -1,26 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="crispEdges">
-  <rect width="32" height="32" fill="#2a3340"/>
-  <rect x="2" y="2" width="28" height="28" fill="#C09858"/>
-  <rect x="3" y="3" width="26" height="26" fill="#EFCF8E"/>
-  <rect x="4" y="4" width="24" height="5" fill="#F5D9A0"/>
-  <rect x="4" y="9" width="24" height="5" fill="#E8C480"/>
-  <rect x="4" y="14" width="24" height="5" fill="#F5D9A0"/>
-  <rect x="4" y="19" width="24" height="5" fill="#E2BC78"/>
-  <rect x="4" y="24" width="24" height="5" fill="#F5D9A0"/>
-  <rect x="4" y="8" width="24" height="1" fill="#D0A868"/>
-  <rect x="4" y="13" width="24" height="1" fill="#D0A868"/>
-  <rect x="4" y="18" width="24" height="1" fill="#D0A868"/>
-  <rect x="4" y="23" width="24" height="1" fill="#D0A868"/>
-  <rect x="3" y="3" width="26" height="1" fill="#FFF0C8"/>
-  <rect x="3" y="3" width="1" height="26" fill="#FFF0C8"/>
-  <rect x="28" y="3" width="1" height="26" fill="#B88848"/>
-  <rect x="3" y="28" width="26" height="1" fill="#B88848"/>
-  <!-- pixel M -->
-  <rect x="8" y="8" width="3" height="16" fill="#1a2230"/>
-  <rect x="21" y="8" width="3" height="16" fill="#1a2230"/>
-  <rect x="11" y="10" width="2" height="3" fill="#1a2230"/>
-  <rect x="19" y="10" width="2" height="3" fill="#1a2230"/>
-  <rect x="13" y="12" width="2" height="3" fill="#1a2230"/>
-  <rect x="17" y="12" width="2" height="3" fill="#1a2230"/>
-  <rect x="15" y="14" width="2" height="4" fill="#1a2230"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <!-- 16×16 arcade crate + chunky M (true pixel grid) -->
+  <rect width="16" height="16" fill="#2a3340"/>
+  <rect x="1" y="1" width="14" height="14" fill="#EFCF8E"/>
+  <rect x="2" y="2" width="12" height="3" fill="#F5D9A0"/>
+  <rect x="2" y="5" width="12" height="3" fill="#E8C480"/>
+  <rect x="2" y="8" width="12" height="3" fill="#F5D9A0"/>
+  <rect x="2" y="11" width="12" height="3" fill="#E2BC78"/>
+  <rect x="2" y="4" width="12" height="1" fill="#D0A868"/>
+  <rect x="2" y="7" width="12" height="1" fill="#D0A868"/>
+  <rect x="2" y="10" width="12" height="1" fill="#D0A868"/>
+  <rect x="1" y="1" width="14" height="1" fill="#FFF0C8"/>
+  <rect x="1" y="1" width="1" height="14" fill="#FFF0C8"/>
+  <rect x="14" y="1" width="1" height="14" fill="#B88848"/>
+  <rect x="1" y="14" width="14" height="1" fill="#B88848"/>
+  <!-- chunky pixel M -->
+  <rect x="4" y="3" width="2" height="10" fill="#1a2230"/>
+  <rect x="10" y="3" width="2" height="10" fill="#1a2230"/>
+  <rect x="6" y="4" width="1" height="2" fill="#1a2230"/>
+  <rect x="9" y="4" width="1" height="2" fill="#1a2230"/>
+  <rect x="7" y="6" width="2" height="2" fill="#1a2230"/>
 </svg>
