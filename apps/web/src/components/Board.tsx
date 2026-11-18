@@ -3,6 +3,10 @@
 import type { BoardCell, PlacedTile, SeedTile } from "@daily-rack/engine";
 import { motion } from "framer-motion";
 import type { CSSProperties } from "react";
+import {
+  layoutPlayTags,
+  type TagSide,
+} from "../lib/playTagLayout";
 import type { DragState } from "../lib/useTileDrag";
 import { TypeBlock } from "./TypeBlock";
 
@@ -41,199 +45,10 @@ function premiumLabel(p: BoardCell["premium"]): string {
 
 const PLAYER_ACCENT = "#7ec8e3";
 const SOLUTION_ACCENT = "#ffcc33";
-
-/** Conservative tag size in board-cell units (no layout measurement). */
-const TAG_W = 2.6;
-const TAG_H = 0.75;
-const TAG_GAP = 0.08;
 const INK = "#2a3340";
-
-type TagSide = "above" | "below" | "left" | "right";
-
-interface TagBox {
-  x0: number;
-  y0: number;
-  x1: number;
-  y1: number;
-}
-
-interface TagPlacement {
-  side: TagSide;
-  /** Cell this tag points at — never shared across plays. */
-  anchorRow: number;
-  anchorCol: number;
-  cx: number;
-  cy: number;
-  box: TagBox;
-}
 
 function cellKey(row: number, col: number): string {
   return `${row},${col}`;
-}
-
-function boxesOverlap(a: TagBox, b: TagBox): boolean {
-  return a.x0 < b.x1 && a.x1 > b.x0 && a.y0 < b.y1 && a.y1 > b.y0;
-}
-
-function tagOverlapsLetters(box: TagBox, occupied: Set<string>): number {
-  const c0 = Math.floor(box.x0);
-  const c1 = Math.ceil(box.x1) - 1;
-  const r0 = Math.floor(box.y0);
-  const r1 = Math.ceil(box.y1) - 1;
-  let hits = 0;
-  for (let r = r0; r <= r1; r++) {
-    for (let c = c0; c <= c1; c++) {
-      if (!occupied.has(cellKey(r, c))) continue;
-      if (boxesOverlap(box, { x0: c, y0: r, x1: c + 1, y1: r + 1 })) hits++;
-    }
-  }
-  return hits;
-}
-
-function tagOverlapsReserved(box: TagBox, reserved: TagBox[]): boolean {
-  return reserved.some((r) => boxesOverlap(box, r));
-}
-
-/** How far a tag AABB sticks past the board in cell units. */
-function tagOverhang(box: TagBox, size: number): number {
-  let o = 0;
-  if (box.x0 < 0) o += -box.x0;
-  if (box.y0 < 0) o += -box.y0;
-  if (box.x1 > size) o += box.x1 - size;
-  if (box.y1 > size) o += box.y1 - size;
-  return o;
-}
-
-/** Candidates relative to one exclusive placed tile (not the word bbox mid). */
-function candidatesForAnchor(row: number, col: number): TagPlacement[] {
-  const midC = col + 0.5;
-  const midR = row + 0.5;
-  return [
-    {
-      side: "above",
-      anchorRow: row,
-      anchorCol: col,
-      cx: midC,
-      cy: row - TAG_GAP,
-      box: {
-        x0: midC - TAG_W / 2,
-        y0: row - TAG_GAP - TAG_H,
-        x1: midC + TAG_W / 2,
-        y1: row - TAG_GAP,
-      },
-    },
-    {
-      side: "below",
-      anchorRow: row,
-      anchorCol: col,
-      cx: midC,
-      cy: row + 1 + TAG_GAP,
-      box: {
-        x0: midC - TAG_W / 2,
-        y0: row + 1 + TAG_GAP,
-        x1: midC + TAG_W / 2,
-        y1: row + 1 + TAG_GAP + TAG_H,
-      },
-    },
-    {
-      side: "left",
-      anchorRow: row,
-      anchorCol: col,
-      cx: col - TAG_GAP,
-      cy: midR,
-      box: {
-        x0: col - TAG_GAP - TAG_W,
-        y0: midR - TAG_H / 2,
-        x1: col - TAG_GAP,
-        y1: midR + TAG_H / 2,
-      },
-    },
-    {
-      side: "right",
-      anchorRow: row,
-      anchorCol: col,
-      cx: col + 1 + TAG_GAP,
-      cy: midR,
-      box: {
-        x0: col + 1 + TAG_GAP,
-        y0: midR - TAG_H / 2,
-        x1: col + 1 + TAG_GAP + TAG_W,
-        y1: midR + TAG_H / 2,
-      },
-    },
-  ];
-}
-
-function minDistToOtherPlays(
-  row: number,
-  col: number,
-  otherTiles: Set<string>,
-): number {
-  if (otherTiles.size === 0) return Number.POSITIVE_INFINITY;
-  let best = Number.POSITIVE_INFINITY;
-  for (const key of otherTiles) {
-    const [or, oc] = key.split(",").map(Number);
-    const d = Math.abs(or - row) + Math.abs(oc - col);
-    if (d < best) best = d;
-  }
-  return best;
-}
-
-/**
- * Prefer this play's own placed tiles, never a letter already claimed by
- * another tag, and favor tiles farthest from other rounds' tiles.
- */
-function orderedAnchorTiles(
-  play: SolutionPlayView,
-  claimedAnchors: Set<string>,
-  otherTiles: Set<string>,
-): PlacedTile[] {
-  return [...play.tiles]
-    .filter((t) => !claimedAnchors.has(cellKey(t.row, t.col)))
-    .sort((a, b) => {
-      const da = minDistToOtherPlays(a.row, a.col, otherTiles);
-      const db = minDistToOtherPlays(b.row, b.col, otherTiles);
-      if (db !== da) return db - da;
-      if (a.row !== b.row) return a.row - b.row;
-      return a.col - b.col;
-    });
-}
-
-function pickTagPlacement(
-  play: SolutionPlayView,
-  occupied: Set<string>,
-  reserved: TagBox[],
-  claimedAnchors: Set<string>,
-  otherTiles: Set<string>,
-  size: number,
-): TagPlacement | null {
-  if (play.tiles.length === 0) return null;
-
-  const anchors = orderedAnchorTiles(play, claimedAnchors, otherTiles);
-  if (anchors.length === 0) return null;
-
-  let best: TagPlacement | null = null;
-  let bestHits = Number.POSITIVE_INFINITY;
-  let bestOverhang = Number.POSITIVE_INFINITY;
-
-  for (const tile of anchors) {
-    const candidates = candidatesForAnchor(tile.row, tile.col);
-    for (const candidate of candidates) {
-      if (tagOverlapsReserved(candidate.box, reserved)) continue;
-      const hits = tagOverlapsLetters(candidate.box, occupied);
-      const overhang = tagOverhang(candidate.box, size);
-      if (
-        hits < bestHits ||
-        (hits === bestHits && overhang < bestOverhang)
-      ) {
-        bestHits = hits;
-        bestOverhang = overhang;
-        best = candidate;
-      }
-    }
-  }
-
-  return best;
 }
 
 function tagTransform(side: TagSide): string {
@@ -390,34 +205,11 @@ function PlayLeaders({
   occupied: Set<string>;
 }) {
   const pad = 4;
-  const reserved: TagBox[] = [];
-  const claimedAnchors = new Set<string>();
-  const allTiles = plays.flatMap((p) =>
-    p.tiles.map((t) => cellKey(t.row, t.col)),
-  );
-
-  const placed = plays.map((play, i) => {
-    const own = new Set(play.tiles.map((t) => cellKey(t.row, t.col)));
-    const otherTiles = new Set(allTiles.filter((k) => !own.has(k)));
-    const placement = pickTagPlacement(
-      play,
-      occupied,
-      reserved,
-      claimedAnchors,
-      otherTiles,
-      size,
-    );
-    if (placement) {
-      reserved.push(placement.box);
-      claimedAnchors.add(cellKey(placement.anchorRow, placement.anchorCol));
-    }
-    return { play, i, placement };
-  });
+  const placed = layoutPlayTags(plays, size, occupied);
 
   return (
     <>
-      {placed.map(({ play, i, placement }) => {
-        if (!placement) return null;
+      {placed.map(({ play, placement }, i) => {
         const left = `calc(${pad}px + (100% - ${pad * 2}px) * ${placement.cx / size})`;
         const top = `calc(${pad}px + (100% - ${pad * 2}px) * ${placement.cy / size})`;
 
@@ -432,16 +224,19 @@ function PlayLeaders({
             }}
           >
             <span
-              className="relative inline-block whitespace-nowrap px-1.5 py-0.5 font-[family-name:var(--font-display)] font-bold leading-none text-ink"
+              className="relative inline-flex flex-col items-center justify-center px-1.5 py-0.5 font-[family-name:var(--font-display)] font-bold leading-none text-ink"
               style={{
                 background: accent,
                 border: `2px solid ${INK}`,
-                fontSize: "0.85rem",
+                fontSize: "0.78rem",
                 letterSpacing: "0.04em",
                 boxShadow: "2px 2px 0 rgba(42,51,64,0.2)",
+                minWidth: "2.4rem",
+                gap: "0.12rem",
               }}
             >
-              R{play.round} · {play.score} pts
+              <span>R{play.round}</span>
+              <span>{play.score} pts</span>
               <LeaderTriangle side={placement.side} fill={accent} />
             </span>
           </div>

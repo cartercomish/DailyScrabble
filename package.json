@@ -8,7 +8,8 @@
     "build": "pnpm -r build",
     "gen": "pnpm --filter @daily-rack/generator run gen",
     "craft": "pnpm --filter @daily-rack/generator exec tsx src/craftDemo.ts",
-    "typecheck": "pnpm -r typecheck"
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm --filter @daily-rack/web test"
   },
   "devDependencies": {
     "typescript": "^5.8.2"

@@ -174,10 +174,11 @@ export function Results({
           <div
             className="mt-3 overflow-visible"
             style={{
-              paddingTop: "1.35rem",
-              paddingLeft: "1.25rem",
-              paddingRight: "1.25rem",
-              paddingBottom: "1.25rem",
+              // Keep ≥ ~1.05 board-cell of room so edge score tags stay in the share crop.
+              paddingTop: "2.5rem",
+              paddingLeft: "2.5rem",
+              paddingRight: "2.5rem",
+              paddingBottom: "2.5rem",
             }}
           >
             <Board
