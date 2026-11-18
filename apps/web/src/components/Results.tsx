@@ -56,17 +56,12 @@ export function Results({
   const [copied, setCopied] = useState(false);
   const [sharingBoard, setSharingBoard] = useState(false);
   const emoji = resultEmoji(puzzle, result);
-  const url =
-    typeof window !== "undefined"
-      ? window.location.origin
-      : "https://web-roan-tau-olqmqqh9f9.vercel.app";
-
   const shareText = formatShare(
     result.puzzleNumber,
     result.totalScore,
     emoji,
     result.rounds.map((r) => r.score),
-    url,
+    "https://playmanifest.site",
   );
 
   async function copyShare() {
