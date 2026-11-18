@@ -63,18 +63,11 @@ export function HowToPlay() {
                   Letters you use get replaced for the following round — three
                   loads total.
                 </li>
+                <li>
+                  On round 2, a golden crate arrives. This tile scores double
+                  its normal value.
+                </li>
               </ol>
-
-              <div className="mt-5 border-2 border-ink px-3 py-3">
-                <p className="font-[family-name:var(--font-ui)] text-sm font-extrabold text-ink">
-                  Golden crate
-                </p>
-                <p className="mt-1 font-[family-name:var(--font-ui)] text-sm font-semibold leading-relaxed text-ink-soft">
-                  In load 2, one crate arrives gold. Play it and that letter
-                  scores double its normal value. Same gold letter for everyone
-                  that day.
-                </p>
-              </div>
 
               <button
                 type="button"
