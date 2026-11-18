@@ -7,16 +7,24 @@ export interface PlayForTags {
   round: number;
 }
 
-/** Two-line tag (RX / score) — keep narrow for edge plays. */
-export const TAG_W = 1.85;
-export const TAG_H = 1.35;
 export const TAG_GAP = 0.08;
+
+/** Prefer one line; stack only when needed to stay in the share crop. */
+export const SINGLE_TAG_W = 3.15;
+export const SINGLE_TAG_H = 0.72;
+export const STACKED_TAG_W = 1.85;
+export const STACKED_TAG_H = 1.2;
+
+/** @deprecated Use SINGLE_* / STACKED_* — kept for older call sites. */
+export const TAG_W = SINGLE_TAG_W;
+export const TAG_H = SINGLE_TAG_H;
 
 /**
  * How far a tag may stick past the grid into sealed-card padding (cell units).
- * Must stay inside the share screenshot; Results board padding matches this.
+ * Kept tight so the results board stays large; tags stack/clamp instead of
+ * eating layout with huge padding (~1.25rem ≈ 0.6–0.7 cells on phone).
  */
-export const CAPTURE_PAD = 1.05;
+export const CAPTURE_PAD = 0.65;
 
 export type TagSide = "above" | "below" | "left" | "right";
 
@@ -34,6 +42,8 @@ export interface TagPlacement {
   cx: number;
   cy: number;
   box: TagBox;
+  /** False = one line "R3 · 24 pts"; true = two lines. Never three. */
+  stacked: boolean;
 }
 
 export function cellKey(row: number, col: number): string {
@@ -90,60 +100,70 @@ export function tagCaptureOverhang(
   return o;
 }
 
-export function candidatesForAnchor(row: number, col: number): TagPlacement[] {
+export function candidatesForAnchor(
+  row: number,
+  col: number,
+  tagW: number,
+  tagH: number,
+  stacked: boolean,
+): TagPlacement[] {
   const midC = col + 0.5;
   const midR = row + 0.5;
   return [
     {
       side: "above",
+      stacked,
       anchorRow: row,
       anchorCol: col,
       cx: midC,
       cy: row - TAG_GAP,
       box: {
-        x0: midC - TAG_W / 2,
-        y0: row - TAG_GAP - TAG_H,
-        x1: midC + TAG_W / 2,
+        x0: midC - tagW / 2,
+        y0: row - TAG_GAP - tagH,
+        x1: midC + tagW / 2,
         y1: row - TAG_GAP,
       },
     },
     {
       side: "below",
+      stacked,
       anchorRow: row,
       anchorCol: col,
       cx: midC,
       cy: row + 1 + TAG_GAP,
       box: {
-        x0: midC - TAG_W / 2,
+        x0: midC - tagW / 2,
         y0: row + 1 + TAG_GAP,
-        x1: midC + TAG_W / 2,
-        y1: row + 1 + TAG_GAP + TAG_H,
+        x1: midC + tagW / 2,
+        y1: row + 1 + TAG_GAP + tagH,
       },
     },
     {
       side: "left",
+      stacked,
       anchorRow: row,
       anchorCol: col,
       cx: col - TAG_GAP,
       cy: midR,
       box: {
-        x0: col - TAG_GAP - TAG_W,
-        y0: midR - TAG_H / 2,
+        x0: col - TAG_GAP - tagW,
+        y0: midR - tagH / 2,
         x1: col - TAG_GAP,
-        y1: midR + TAG_H / 2,
+        y1: midR + tagH / 2,
       },
     },
     {
       side: "right",
+      stacked,
       anchorRow: row,
       anchorCol: col,
       cx: col + 1 + TAG_GAP,
       cy: midR,
       box: {
         x0: col + 1 + TAG_GAP,
-        y0: midR - TAG_H / 2,
-        x1: col + 1 + TAG_GAP + TAG_W,
-        y1: midR + TAG_H / 2,
+        y0: midR - tagH / 2,
+        x1: col + 1 + TAG_GAP + tagW,
+        y1: midR + tagH / 2,
       },
     },
   ];
@@ -246,20 +266,36 @@ export function pickTagPlacement(
   let best: TagPlacement | null = null;
   let bestCost = Number.POSITIVE_INFINITY;
 
+  const modes = [
+    { stacked: false, w: SINGLE_TAG_W, h: SINGLE_TAG_H },
+    { stacked: true, w: STACKED_TAG_W, h: STACKED_TAG_H },
+  ] as const;
+
   for (const tile of anchors) {
-    const candidates = candidatesForAnchor(tile.row, tile.col);
-    for (const candidate of candidates) {
-      const clamped = clampTagToCapture(candidate, size);
-      if (tagOverlapsReserved(clamped.box, reserved)) continue;
-      const hits = tagOverlapsLetters(clamped.box, occupied);
-      // Prefer staying inside the screenshot frame; letter overlap is secondary.
-      // Soft preference for less board overhang when capture cost ties.
-      const capture = tagCaptureOverhang(clamped.box, size);
-      const board = tagOverhang(clamped.box, size);
-      const cost = capture * 1000 + hits * 10 + board;
-      if (cost < bestCost) {
-        bestCost = cost;
-        best = clamped;
+    for (const mode of modes) {
+      const candidates = candidatesForAnchor(
+        tile.row,
+        tile.col,
+        mode.w,
+        mode.h,
+        mode.stacked,
+      );
+      for (const candidate of candidates) {
+        const clamped = clampTagToCapture(candidate, size);
+        if (tagOverlapsReserved(clamped.box, reserved)) continue;
+        const hits = tagOverlapsLetters(clamped.box, occupied);
+        const capture = tagCaptureOverhang(clamped.box, size);
+        const board = tagOverhang(clamped.box, size);
+        // Prefer in-frame, then one-line, then fewer letter hits.
+        const cost =
+          capture * 1000 +
+          (mode.stacked ? 40 : 0) +
+          hits * 10 +
+          board;
+        if (cost < bestCost) {
+          bestCost = cost;
+          best = { ...clamped, stacked: mode.stacked };
+        }
       }
     }
   }
@@ -360,9 +396,17 @@ export function renderTagFixtureSvg(
     const h = (placement.box.y1 - placement.box.y0) * cellPx;
     parts.push(
       `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#7ec8e3" stroke="#2a3340" stroke-width="2"/>`,
-      `<text x="${x + w / 2}" y="${y + h / 2 - 4}" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a2230">R${play.round}</text>`,
-      `<text x="${x + w / 2}" y="${y + h / 2 + 8}" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a2230">${play.score} pts</text>`,
     );
+    if (placement.stacked) {
+      parts.push(
+        `<text x="${x + w / 2}" y="${y + h / 2 - 4}" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a2230">R${play.round}</text>`,
+        `<text x="${x + w / 2}" y="${y + h / 2 + 8}" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a2230">${play.score} pts</text>`,
+      );
+    } else {
+      parts.push(
+        `<text x="${x + w / 2}" y="${y + h / 2 + 4}" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#1a2230">R${play.round} · ${play.score} pts</text>`,
+      );
+    }
   }
 
   parts.push(`</g></svg>`);

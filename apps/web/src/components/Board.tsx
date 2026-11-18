@@ -224,19 +224,28 @@ function PlayLeaders({
             }}
           >
             <span
-              className="relative inline-flex flex-col items-center justify-center px-1.5 py-0.5 font-[family-name:var(--font-display)] font-bold leading-none text-ink"
+              className={`relative inline-flex items-center justify-center px-1.5 py-0.5 font-[family-name:var(--font-display)] font-bold leading-none text-ink ${
+                placement.stacked ? "flex-col" : "flex-row whitespace-nowrap"
+              }`}
               style={{
                 background: accent,
                 border: `2px solid ${INK}`,
                 fontSize: "0.78rem",
                 letterSpacing: "0.04em",
                 boxShadow: "2px 2px 0 rgba(42,51,64,0.2)",
-                minWidth: "2.4rem",
-                gap: "0.12rem",
+                gap: placement.stacked ? "0.12rem" : undefined,
               }}
             >
-              <span>R{play.round}</span>
-              <span>{play.score} pts</span>
+              {placement.stacked ? (
+                <>
+                  <span className="whitespace-nowrap">R{play.round}</span>
+                  <span className="whitespace-nowrap">{play.score} pts</span>
+                </>
+              ) : (
+                <span className="whitespace-nowrap">
+                  R{play.round} · {play.score} pts
+                </span>
+              )}
               <LeaderTriangle side={placement.side} fill={accent} />
             </span>
           </div>

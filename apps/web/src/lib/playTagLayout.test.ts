@@ -84,6 +84,19 @@ function assertTagsInCapture(
 }
 
 describe("play tag layout fixtures", () => {
+  it("prefers one-line tags in open mid-board space", () => {
+    const size = 11;
+    const plays = [
+      horizontal("GAME", 5, 3, 1, 18),
+      vertical("PLAY", 3, 5, 2, 22),
+      horizontal("WORD", 7, 4, 3, 16),
+    ];
+    const occupied = occupiedFromPlays(plays);
+    const tags = layoutPlayTags(plays, size, occupied);
+    expect(tags.every((t) => !t.placement.stacked)).toBe(true);
+    assertTagsInCapture("mid-board-one-line", size, plays);
+  });
+
   it("keeps a short right-edge word inside the sealed capture (Manifest 221-style)", () => {
     const size = 11;
     const plays = [
