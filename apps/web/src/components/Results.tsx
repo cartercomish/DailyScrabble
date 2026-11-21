@@ -180,7 +180,7 @@ export function Results({
               style={{ fontSize: "1.1rem", letterSpacing: "0.05em" }}
             >
               {showingSolution
-                ? "The bot's line"
+                ? "Solution"
                 : `${streak}-day streak`}
             </p>
           )}
@@ -231,7 +231,7 @@ export function Results({
               onClick={onViewSolution}
               className="pixel-btn bg-paper py-3 text-center font-[family-name:var(--font-ui)] font-extrabold tracking-wide text-ink"
             >
-              {showingSolution ? "Hide bot's line" : "Show bot's line"}
+              {showingSolution ? "Hide solution" : "Show solution"}
             </button>
           )}
         </div>
