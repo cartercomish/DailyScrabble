@@ -1,0 +1,133 @@
+{
+  "id": "2027-08-27",
+  "date": "2027-08-27",
+  "number": 503,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "F",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "YESXOEA",
+      "bestWord": {
+        "word": "SAX",
+        "score": 51
+      }
+    },
+    {
+      "rack": "HAIGPUA",
+      "bestWord": {
+        "word": "HARP",
+        "score": 33
+      }
+    },
+    {
+      "rack": "LIFDENT",
+      "bestWord": {
+        "word": "FINEST",
+        "score": 38
+      }
+    }
+  ],
+  "par": 85,
+  "goldLetter": "H"
+}

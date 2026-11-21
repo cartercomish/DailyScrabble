@@ -1,0 +1,118 @@
+{
+  "id": "2027-12-01",
+  "date": "2027-12-01",
+  "number": 599,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "RSAFCEL",
+      "bestWord": {
+        "word": "FRANCS",
+        "score": 42
+      }
+    },
+    {
+      "rack": "XMEINRE",
+      "bestWord": {
+        "word": "MIXERS",
+        "score": 65
+      }
+    },
+    {
+      "rack": "DPGAHRI",
+      "bestWord": {
+        "word": "GRAD",
+        "score": 37
+      }
+    }
+  ],
+  "par": 101,
+  "goldLetter": "X"
+}

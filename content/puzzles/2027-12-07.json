@@ -1,0 +1,133 @@
+{
+  "id": "2027-12-07",
+  "date": "2027-12-07",
+  "number": 605,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "V",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "M",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "XAAGCTH",
+      "bestWord": {
+        "word": "AX",
+        "score": 40
+      }
+    },
+    {
+      "rack": "KNLUVEF",
+      "bestWord": {
+        "word": "KERN",
+        "score": 36
+      }
+    },
+    {
+      "rack": "WOUCARE",
+      "bestWord": {
+        "word": "CREW",
+        "score": 47
+      }
+    }
+  ],
+  "par": 86,
+  "goldLetter": "K"
+}

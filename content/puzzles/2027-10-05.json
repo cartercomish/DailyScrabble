@@ -1,0 +1,133 @@
+{
+  "id": "2027-10-05",
+  "date": "2027-10-05",
+  "number": 542,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "RIDMKRE",
+      "bestWord": {
+        "word": "DIME",
+        "score": 33
+      }
+    },
+    {
+      "rack": "CPEARCI",
+      "bestWord": {
+        "word": "RECIPE",
+        "score": 30
+      }
+    },
+    {
+      "rack": "AOMFAHY",
+      "bestWord": {
+        "word": "HM",
+        "score": 32
+      }
+    }
+  ],
+  "par": 67,
+  "goldLetter": "C"
+}

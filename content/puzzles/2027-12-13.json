@@ -1,0 +1,118 @@
+{
+  "id": "2027-12-13",
+  "date": "2027-12-13",
+  "number": 611,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "F",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "Y",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "RAEGEMW",
+      "bestWord": {
+        "word": "IMAGE",
+        "score": 28
+      }
+    },
+    {
+      "rack": "JSEHIWS",
+      "bestWord": {
+        "word": "JESS",
+        "score": 66
+      }
+    },
+    {
+      "rack": "TMAUBFR",
+      "bestWord": {
+        "word": "MET",
+        "score": 30
+      }
+    }
+  ],
+  "par": 87,
+  "goldLetter": "J"
+}

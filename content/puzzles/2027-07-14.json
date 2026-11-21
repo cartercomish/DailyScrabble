@@ -1,0 +1,138 @@
+{
+  "id": "2027-07-14",
+  "date": "2027-07-14",
+  "number": 459,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "C",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "WBENNIG",
+      "bestWord": {
+        "word": "BREW",
+        "score": 34
+      }
+    },
+    {
+      "rack": "DAQAEIR",
+      "bestWord": {
+        "word": "AIRED",
+        "score": 33
+      }
+    },
+    {
+      "rack": "OJRYEDL",
+      "bestWord": {
+        "word": "JOEY",
+        "score": 57
+      }
+    }
+  ],
+  "par": 87,
+  "goldLetter": "D"
+}

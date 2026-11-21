@@ -1,0 +1,118 @@
+{
+  "id": "2027-08-03",
+  "date": "2027-08-03",
+  "number": 479,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "V",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 9
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "WHIKAMD",
+      "bestWord": {
+        "word": "WIDTH",
+        "score": 42
+      }
+    },
+    {
+      "rack": "YHEMOFO",
+      "bestWord": {
+        "word": "YO",
+        "score": 28
+      }
+    },
+    {
+      "rack": "BNLEWRO",
+      "bestWord": {
+        "word": "BROWSE",
+        "score": 27
+      }
+    }
+  ],
+  "par": 68,
+  "goldLetter": "Y"
+}

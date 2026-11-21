@@ -1,0 +1,138 @@
+{
+  "id": "2027-09-01",
+  "date": "2027-09-01",
+  "number": 508,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OOREWND",
+      "bestWord": {
+        "word": "WONDER",
+        "score": 108
+      }
+    },
+    {
+      "rack": "WAAMGIU",
+      "bestWord": {
+        "word": "AW",
+        "score": 28
+      }
+    },
+    {
+      "rack": "OUCSTEZ",
+      "bestWord": {
+        "word": "ZERO",
+        "score": 28
+      }
+    }
+  ],
+  "par": 115,
+  "goldLetter": "W"
+}

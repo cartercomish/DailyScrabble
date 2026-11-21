@@ -1,0 +1,133 @@
+{
+  "id": "2027-09-28",
+  "date": "2027-09-28",
+  "number": 535,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "DIAAIVD",
+      "bestWord": {
+        "word": "ADD",
+        "score": 25
+      }
+    },
+    {
+      "rack": "PAEOLTL",
+      "bestWord": {
+        "word": "TABLETOP",
+        "score": 39
+      }
+    },
+    {
+      "rack": "OLPOUUA",
+      "bestWord": {
+        "word": "LAPS",
+        "score": 27
+      }
+    }
+  ],
+  "par": 64,
+  "goldLetter": "P"
+}

@@ -7,6 +7,11 @@
     {
       "letter": "P",
       "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 5,
       "col": 3
     },
     {
@@ -15,7 +20,7 @@
       "col": 4
     },
     {
-      "letter": "P",
+      "letter": "N",
       "row": 5,
       "col": 5
     },
@@ -25,108 +30,89 @@
       "col": 6
     },
     {
-      "letter": "R",
+      "letter": "T",
       "row": 5,
       "col": 7
     },
     {
-      "letter": "D",
-      "row": 2,
-      "col": 7
-    },
-    {
-      "letter": "O",
-      "row": 3,
-      "col": 7
-    },
-    {
-      "letter": "O",
+      "letter": "S",
       "row": 4,
       "col": 7
     },
     {
-      "letter": "A",
+      "letter": "E",
       "row": 6,
-      "col": 6
+      "col": 7
     },
     {
-      "letter": "C",
+      "letter": "P",
       "row": 7,
-      "col": 6
+      "col": 7
     },
     {
-      "letter": "H",
-      "row": 8,
+      "letter": "B",
+      "row": 2,
       "col": 6
     },
     {
       "letter": "L",
-      "row": 2,
-      "col": 2
+      "row": 3,
+      "col": 6
     },
     {
-      "letter": "A",
-      "row": 2,
-      "col": 3
+      "letter": "U",
+      "row": 4,
+      "col": 6
     },
     {
-      "letter": "S",
-      "row": 2,
-      "col": 4
-    },
-    {
-      "letter": "T",
-      "row": 2,
+      "letter": "D",
+      "row": 7,
       "col": 5
     },
     {
       "letter": "E",
-      "row": 2,
+      "row": 7,
       "col": 6
     },
     {
-      "letter": "N",
-      "row": 1,
-      "col": 0
-    },
-    {
-      "letter": "E",
-      "row": 1,
-      "col": 1
-    },
-    {
       "letter": "A",
-      "row": 1,
-      "col": 2
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 9
     },
     {
       "letter": "T",
-      "row": 1,
-      "col": 3
+      "row": 7,
+      "col": 10
     }
   ],
   "rounds": [
     {
-      "rack": "BIENJED",
+      "rack": "DIJAVEE",
       "bestWord": {
-        "word": "BEND",
-        "score": 41
+        "word": "JIVE",
+        "score": 31
       }
     },
     {
-      "rack": "RNIQZMO",
+      "rack": "FTOAGID",
       "bestWord": {
-        "word": "NAZI",
-        "score": 35
+        "word": "FROG",
+        "score": 32
       }
     },
     {
-      "rack": "IFAGREI",
+      "rack": "MEANASE",
       "bestWord": {
-        "word": "ANGER",
-        "score": 24
+        "word": "MEANS",
+        "score": 33
       }
     }
   ],
-  "par": 65
+  "par": 67,
+  "goldLetter": "F"
 }

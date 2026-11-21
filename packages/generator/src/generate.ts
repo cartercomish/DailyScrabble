@@ -37,6 +37,7 @@ export interface GenMetrics {
     playsOver20: number;
     bestScore: number;
     bestWord: string;
+    deepWords: number;
   }[];
   par: number;
   distinctGoodLines: number;
@@ -67,6 +68,30 @@ function shuffle<T>(rng: () => number, arr: T[]): T[] {
 }
 
 const MIN_SEED_TILES = 14;
+
+/** Every rack's best play must reach this, so no round feels flat. */
+const MIN_BEST_SCORE = 25;
+/**
+ * A rack needs MIN_DEEP_WORDS distinct words scoring DEPTH_SCORE or more. A
+ * fixed bar (not relative to the best) lets a real jackpot through as long as
+ * the rack also has several ordinary decent plays.
+ */
+const DEPTH_SCORE = 20;
+const MIN_DEEP_WORDS = 6;
+
+interface RackQuality {
+  deepWords: number;
+  ok: boolean;
+}
+
+/** Judge a rack by the spread of its good plays, not just its top spot. */
+function rackQuality(plays: { mainWord: string; score: number }[]): RackQuality {
+  const deep = new Set(
+    plays.filter((p) => p.score >= DEPTH_SCORE).map((p) => p.mainWord),
+  );
+  return { deepWords: deep.size, ok: deep.size >= MIN_DEEP_WORDS };
+}
+
 const MAX_SEED_TILES = 22;
 const TARGET_SEED_TILES = 17;
 
@@ -304,14 +329,16 @@ export function generatePuzzle(
       const vowels = rack.split("").filter((c) => "AEIOU".includes(c)).length;
       if (vowels < 2) continue;
 
-      plays = findAllPlays(board, rack, dict, { limit: 400 });
+      plays = findAllPlays(board, rack, dict, { limit: 2000 });
       const over20 = plays.filter((p) => p.score >= 20).length;
       const best = plays[0];
+      const quality = rackQuality(plays);
       if (
+        quality.ok &&
         plays.length >= 15 &&
         over20 >= 2 &&
         best &&
-        (best.score >= 18 || plays.length >= 25)
+        best.score >= MIN_BEST_SCORE
       ) {
         // commit bag draw
         for (const ch of rack) {
@@ -329,6 +356,7 @@ export function generatePuzzle(
           playsOver20: over20,
           bestScore: best.score,
           bestWord: best.mainWord,
+          deepWords: quality.deepWords,
         });
         totalBest += best.score;
         if (round === 1) round2GoldTiles = best.tilesPlaced;
@@ -359,6 +387,7 @@ export function generatePuzzle(
         playsOver20: best.score >= 20 ? 1 : 0,
         bestScore: best.score,
         bestWord: best.mainWord,
+        deepWords: 0,
       });
       totalBest += best.score;
       if (round === 1) round2GoldTiles = best.tilesPlaced;
@@ -393,7 +422,7 @@ export function generatePuzzle(
     }
   }
 
-  const par = Math.round(totalBest * 0.65);
+  const par = Math.round(totalBest * 0.7);
   const bestTotal = Math.max(...lineScores, totalBest);
   const goodLines = lineScores.filter((s) => s >= bestTotal * 0.85).length;
 
@@ -406,7 +435,7 @@ export function generatePuzzle(
 
   const accepted =
     reasons.length === 0 &&
-    roundMetrics.every((m) => m.playCount >= 20 && m.bestScore >= 18);
+    roundMetrics.every((m) => m.playCount >= 20 && m.bestScore >= MIN_BEST_SCORE);
 
   // Round 2 gold crate: known-good letter from that round's best play, first in
   // the rack so refill mode draws it as the first new tile.

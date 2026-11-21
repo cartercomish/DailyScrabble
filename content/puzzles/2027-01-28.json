@@ -5,63 +5,53 @@
   "size": 11,
   "seed": [
     {
-      "letter": "G",
+      "letter": "C",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "R",
+      "letter": "S",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "A",
+      "letter": "T",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "S",
+      "letter": "L",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "P",
+      "letter": "E",
       "row": 5,
       "col": 7
     },
     {
-      "letter": "S",
-      "row": 2,
-      "col": 7
-    },
-    {
-      "letter": "H",
+      "letter": "A",
       "row": 3,
       "col": 7
     },
     {
-      "letter": "I",
+      "letter": "L",
       "row": 4,
       "col": 7
     },
     {
       "letter": "E",
-      "row": 4,
-      "col": 5
-    },
-    {
-      "letter": "S",
       "row": 6,
       "col": 5
     },
     {
-      "letter": "Y",
-      "row": 7,
-      "col": 5
-    },
-    {
       "letter": "A",
-      "row": 2,
+      "row": 7,
       "col": 5
     },
     {
@@ -70,58 +60,74 @@
       "col": 6
     },
     {
-      "letter": "E",
-      "row": 2,
-      "col": 8
-    },
-    {
       "letter": "T",
       "row": 2,
-      "col": 9
-    },
-    {
-      "letter": "S",
-      "row": 6,
       "col": 7
     },
     {
-      "letter": "E",
-      "row": 6,
+      "letter": "A",
+      "row": 2,
       "col": 8
     },
     {
-      "letter": "A",
-      "row": 6,
+      "letter": "R",
+      "row": 2,
       "col": 9
     },
     {
-      "letter": "T",
-      "row": 6,
+      "letter": "E",
+      "row": 2,
       "col": 10
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "L",
+      "row": 8,
+      "col": 9
     }
   ],
   "rounds": [
     {
-      "rack": "CETIIOB",
+      "rack": "WIRPHEI",
       "bestWord": {
-        "word": "BRO",
-        "score": 27
+        "word": "WHILE",
+        "score": 38
       }
     },
     {
-      "rack": "NUTIEGA",
+      "rack": "MRNGIEA",
       "bestWord": {
-        "word": "EATING",
-        "score": 24
+        "word": "GEM",
+        "score": 40
       }
     },
     {
-      "rack": "ENLRNAM",
+      "rack": "TFOZERK",
       "bestWord": {
-        "word": "MATERNAL",
-        "score": 32
+        "word": "FORKS",
+        "score": 30
       }
     }
   ],
-  "par": 54
+  "par": 76,
+  "goldLetter": "M"
 }

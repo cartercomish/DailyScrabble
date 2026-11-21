@@ -1,0 +1,118 @@
+{
+  "id": "2027-06-21",
+  "date": "2027-06-21",
+  "number": 436,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "B",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "HATJCSA",
+      "bestWord": {
+        "word": "CHEAT",
+        "score": 32
+      }
+    },
+    {
+      "rack": "HSUEGWA",
+      "bestWord": {
+        "word": "WHATS",
+        "score": 36
+      }
+    },
+    {
+      "rack": "EYWDREO",
+      "bestWord": {
+        "word": "EYED",
+        "score": 29
+      }
+    }
+  ],
+  "par": 68,
+  "goldLetter": "H"
+}

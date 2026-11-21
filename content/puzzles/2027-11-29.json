@@ -1,0 +1,118 @@
+{
+  "id": "2027-11-29",
+  "date": "2027-11-29",
+  "number": 597,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "XTYJOOE",
+      "bestWord": {
+        "word": "YO",
+        "score": 28
+      }
+    },
+    {
+      "rack": "WELOLES",
+      "bestWord": {
+        "word": "SWELL",
+        "score": 35
+      }
+    },
+    {
+      "rack": "APTNHVE",
+      "bestWord": {
+        "word": "THAN",
+        "score": 36
+      }
+    }
+  ],
+  "par": 69,
+  "goldLetter": "W"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "2027-11-26",
+  "date": "2027-11-26",
+  "number": 594,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "C",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 10
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 10
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OENTTHU",
+      "bestWord": {
+        "word": "SHOT",
+        "score": 32
+      }
+    },
+    {
+      "rack": "WPEOBLD",
+      "bestWord": {
+        "word": "WED",
+        "score": 28
+      }
+    },
+    {
+      "rack": "RAYEDLJ",
+      "bestWord": {
+        "word": "LAWYER",
+        "score": 108
+      }
+    }
+  ],
+  "par": 118,
+  "goldLetter": "W"
+}

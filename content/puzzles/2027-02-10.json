@@ -10,17 +10,17 @@
       "col": 3
     },
     {
-      "letter": "L",
+      "letter": "T",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "A",
+      "letter": "O",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "T",
+      "letter": "N",
       "row": 5,
       "col": 6
     },
@@ -30,103 +30,104 @@
       "col": 7
     },
     {
-      "letter": "A",
-      "row": 6,
-      "col": 4
-    },
-    {
-      "letter": "N",
-      "row": 7,
-      "col": 4
-    },
-    {
-      "letter": "E",
-      "row": 8,
-      "col": 4
-    },
-    {
-      "letter": "L",
+      "letter": "Y",
       "row": 4,
       "col": 5
     },
     {
-      "letter": "T",
+      "letter": "U",
       "row": 6,
       "col": 5
     },
     {
-      "letter": "E",
+      "letter": "R",
       "row": 7,
       "col": 5
     },
     {
+      "letter": "I",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
       "letter": "R",
-      "row": 3,
+      "row": 7,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 9,
       "col": 3
     },
     {
       "letter": "I",
-      "row": 3,
+      "row": 9,
       "col": 4
     },
     {
-      "letter": "S",
-      "row": 3,
+      "letter": "N",
+      "row": 9,
       "col": 5
     },
     {
       "letter": "E",
-      "row": 3,
+      "row": 9,
       "col": 6
     },
     {
-      "letter": "N",
-      "row": 3,
-      "col": 7
-    },
-    {
       "letter": "R",
-      "row": 2,
-      "col": 1
-    },
-    {
-      "letter": "E",
-      "row": 2,
-      "col": 2
-    },
-    {
-      "letter": "A",
-      "row": 2,
-      "col": 3
-    },
-    {
-      "letter": "L",
-      "row": 2,
-      "col": 4
+      "row": 9,
+      "col": 7
     }
   ],
   "rounds": [
     {
-      "rack": "HUOGIAG",
+      "rack": "NULPMOD",
       "bestWord": {
-        "word": "HUG",
-        "score": 21
+        "word": "DORM",
+        "score": 30
       }
     },
     {
-      "rack": "PWEQROI",
+      "rack": "XRAOSTY",
       "bestWord": {
-        "word": "POWER",
-        "score": 29
+        "word": "OX",
+        "score": 42
       }
     },
     {
-      "rack": "HUESIYN",
+      "rack": "TVESCWA",
       "bestWord": {
-        "word": "HYPE",
-        "score": 40
+        "word": "WAVES",
+        "score": 31
       }
     }
   ],
-  "par": 59
+  "par": 72,
+  "goldLetter": "X"
 }

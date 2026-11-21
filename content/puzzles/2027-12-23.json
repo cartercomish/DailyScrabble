@@ -1,0 +1,128 @@
+{
+  "id": "2027-12-23",
+  "date": "2027-12-23",
+  "number": 621,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "TAREKJD",
+      "bestWord": {
+        "word": "JETS",
+        "score": 38
+      }
+    },
+    {
+      "rack": "HDIPIAC",
+      "bestWord": {
+        "word": "CHAD",
+        "score": 45
+      }
+    },
+    {
+      "rack": "GUEHOYV",
+      "bestWord": {
+        "word": "JOY",
+        "score": 39
+      }
+    }
+  ],
+  "par": 85,
+  "goldLetter": "H"
+}

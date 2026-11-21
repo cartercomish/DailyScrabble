@@ -5,17 +5,22 @@
   "size": 11,
   "seed": [
     {
-      "letter": "P",
+      "letter": "F",
       "row": 5,
-      "col": 3
+      "col": 2
     },
     {
       "letter": "A",
       "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
       "col": 4
     },
     {
-      "letter": "P",
+      "letter": "H",
       "row": 5,
       "col": 5
     },
@@ -28,105 +33,86 @@
       "letter": "R",
       "row": 5,
       "col": 7
-    },
-    {
-      "letter": "L",
-      "row": 6,
-      "col": 3
-    },
-    {
-      "letter": "A",
-      "row": 7,
-      "col": 3
-    },
-    {
-      "letter": "N",
-      "row": 8,
-      "col": 3
-    },
-    {
-      "letter": "L",
-      "row": 6,
-      "col": 5
-    },
-    {
-      "letter": "A",
-      "row": 7,
-      "col": 5
-    },
-    {
-      "letter": "Y",
-      "row": 8,
-      "col": 5
-    },
-    {
-      "letter": "S",
-      "row": 9,
-      "col": 3
-    },
-    {
-      "letter": "E",
-      "row": 9,
-      "col": 4
-    },
-    {
-      "letter": "A",
-      "row": 9,
-      "col": 5
-    },
-    {
-      "letter": "L",
-      "row": 9,
-      "col": 6
-    },
-    {
-      "letter": "R",
-      "row": 4,
-      "col": 6
-    },
-    {
-      "letter": "O",
-      "row": 4,
-      "col": 7
-    },
-    {
-      "letter": "A",
-      "row": 4,
-      "col": 8
-    },
-    {
-      "letter": "S",
-      "row": 4,
-      "col": 9
     },
     {
       "letter": "T",
       "row": 4,
-      "col": 10
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 9
     }
   ],
   "rounds": [
     {
-      "rack": "EYEOGDF",
+      "rack": "IOMASEU",
       "bestWord": {
-        "word": "EYE",
-        "score": 23
+        "word": "MISUSE",
+        "score": 32
       }
     },
     {
-      "rack": "DTTCEOA",
+      "rack": "BDEPADI",
       "bestWord": {
-        "word": "DOCTORATE",
-        "score": 64
+        "word": "BEAD",
+        "score": 33
       }
     },
     {
-      "rack": "AEILZTV",
+      "rack": "HXALEEL",
       "bestWord": {
-        "word": "ZETA",
-        "score": 69
+        "word": "HEX",
+        "score": 84
       }
     }
   ],
-  "par": 101
+  "par": 104,
+  "goldLetter": "B"
 }

@@ -1,0 +1,138 @@
+{
+  "id": "2027-11-28",
+  "date": "2027-11-28",
+  "number": 596,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "H",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "Y",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "L",
+      "row": 0,
+      "col": 10
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 10
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 10
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 10
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "YTSOTIK",
+      "bestWord": {
+        "word": "KITS",
+        "score": 26
+      }
+    },
+    {
+      "rack": "MGOARQU",
+      "bestWord": {
+        "word": "GRIM",
+        "score": 27
+      }
+    },
+    {
+      "rack": "DHZOATI",
+      "bestWord": {
+        "word": "AH",
+        "score": 30
+      }
+    }
+  ],
+  "par": 58,
+  "goldLetter": "M"
+}

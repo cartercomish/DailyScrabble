@@ -1,0 +1,133 @@
+{
+  "id": "2027-10-27",
+  "date": "2027-10-27",
+  "number": 564,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "K",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 9
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 9
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "I",
+      "row": 9,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 10,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NIAEWIO",
+      "bestWord": {
+        "word": "WINE",
+        "score": 29
+      }
+    },
+    {
+      "rack": "YSRRAAF",
+      "bestWord": {
+        "word": "ARRAY",
+        "score": 40
+      }
+    },
+    {
+      "rack": "JZOXAET",
+      "bestWord": {
+        "word": "TAX",
+        "score": 51
+      }
+    }
+  ],
+  "par": 84,
+  "goldLetter": "Y"
+}

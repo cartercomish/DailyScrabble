@@ -1,0 +1,128 @@
+{
+  "id": "2027-12-20",
+  "date": "2027-12-20",
+  "number": 618,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "RAOFGSM",
+      "bestWord": {
+        "word": "ORGASMS",
+        "score": 39
+      }
+    },
+    {
+      "rack": "KCRILAD",
+      "bestWord": {
+        "word": "SLICK",
+        "score": 42
+      }
+    },
+    {
+      "rack": "IGTMVAE",
+      "bestWord": {
+        "word": "MAGNET",
+        "score": 99
+      }
+    }
+  ],
+  "par": 126,
+  "goldLetter": "K"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "2027-07-17",
+  "date": "2027-07-17",
+  "number": 462,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "Y",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AHETWAN",
+      "bestWord": {
+        "word": "HANDED",
+        "score": 36
+      }
+    },
+    {
+      "rack": "KEEOSAE",
+      "bestWord": {
+        "word": "SEEK",
+        "score": 30
+      }
+    },
+    {
+      "rack": "BGOOTDS",
+      "bestWord": {
+        "word": "BOOST",
+        "score": 27
+      }
+    }
+  ],
+  "par": 65,
+  "goldLetter": "K"
+}

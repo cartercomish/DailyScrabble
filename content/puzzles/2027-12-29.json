@@ -1,0 +1,133 @@
+{
+  "id": "2027-12-29",
+  "date": "2027-12-29",
+  "number": 627,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "HIOYAQH",
+      "bestWord": {
+        "word": "HEY",
+        "score": 30
+      }
+    },
+    {
+      "rack": "FIALOEI",
+      "bestWord": {
+        "word": "LEAF",
+        "score": 30
+      }
+    },
+    {
+      "rack": "ZAPRETY",
+      "bestWord": {
+        "word": "PETTY",
+        "score": 36
+      }
+    }
+  ],
+  "par": 67,
+  "goldLetter": "F"
+}

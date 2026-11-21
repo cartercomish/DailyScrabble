@@ -1,0 +1,118 @@
+{
+  "id": "2027-06-24",
+  "date": "2027-06-24",
+  "number": 439,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "F",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "B",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "YCRIAOE",
+      "bestWord": {
+        "word": "EASY",
+        "score": 30
+      }
+    },
+    {
+      "rack": "HSEDUVN",
+      "bestWord": {
+        "word": "SHED",
+        "score": 32
+      }
+    },
+    {
+      "rack": "DEOTAQC",
+      "bestWord": {
+        "word": "ACTED",
+        "score": 35
+      }
+    }
+  ],
+  "par": 68,
+  "goldLetter": "H"
+}

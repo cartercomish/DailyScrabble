@@ -1,0 +1,138 @@
+{
+  "id": "2027-06-14",
+  "date": "2027-06-14",
+  "number": 429,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EWIIPOA",
+      "bestWord": {
+        "word": "WIPE",
+        "score": 36
+      }
+    },
+    {
+      "rack": "KENALSC",
+      "bestWord": {
+        "word": "KINASE",
+        "score": 44
+      }
+    },
+    {
+      "rack": "XTMIESU",
+      "bestWord": {
+        "word": "MIX",
+        "score": 48
+      }
+    }
+  ],
+  "par": 90,
+  "goldLetter": "K"
+}

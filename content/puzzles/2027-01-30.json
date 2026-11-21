@@ -10,17 +10,17 @@
       "col": 2
     },
     {
-      "letter": "I",
+      "letter": "U",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "L",
+      "letter": "M",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "V",
+      "letter": "M",
       "row": 5,
       "col": 5
     },
@@ -35,98 +35,104 @@
       "col": 7
     },
     {
-      "letter": "I",
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "E",
       "row": 6,
       "col": 4
     },
     {
-      "letter": "O",
-      "row": 7,
-      "col": 4
-    },
-    {
-      "letter": "N",
-      "row": 8,
-      "col": 4
-    },
-    {
-      "letter": "D",
-      "row": 2,
-      "col": 7
-    },
-    {
-      "letter": "O",
+      "letter": "I",
       "row": 3,
-      "col": 7
-    },
-    {
-      "letter": "O",
-      "row": 4,
-      "col": 7
-    },
-    {
-      "letter": "A",
-      "row": 2,
       "col": 3
     },
     {
-      "letter": "I",
-      "row": 2,
-      "col": 4
-    },
-    {
-      "letter": "R",
-      "row": 2,
+      "letter": "T",
+      "row": 3,
       "col": 5
     },
     {
       "letter": "E",
-      "row": 2,
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 8,
       "col": 6
     },
     {
       "letter": "T",
-      "row": 1,
-      "col": 1
+      "row": 8,
+      "col": 7
     },
     {
       "letter": "E",
-      "row": 1,
-      "col": 2
+      "row": 8,
+      "col": 8
     },
     {
-      "letter": "A",
-      "row": 1,
-      "col": 3
-    },
-    {
-      "letter": "S",
-      "row": 1,
-      "col": 4
+      "letter": "R",
+      "row": 8,
+      "col": 9
     }
   ],
   "rounds": [
     {
-      "rack": "LAHETUN",
+      "rack": "GDSSETE",
       "bestWord": {
-        "word": "HAUL",
-        "score": 32
+        "word": "GENES",
+        "score": 26
       }
     },
     {
-      "rack": "EUELDJI",
+      "rack": "VNBEUSL",
       "bestWord": {
-        "word": "LED",
-        "score": 25
+        "word": "VERBS",
+        "score": 36
       }
     },
     {
-      "rack": "NEPPCAD",
+      "rack": "OFAWUHH",
       "bestWord": {
-        "word": "PACED",
-        "score": 41
+        "word": "HASH",
+        "score": 33
       }
     }
   ],
-  "par": 64
+  "par": 67,
+  "goldLetter": "V"
 }

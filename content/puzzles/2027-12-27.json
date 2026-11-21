@@ -1,0 +1,138 @@
+{
+  "id": "2027-12-27",
+  "date": "2027-12-27",
+  "number": 625,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "F",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "F",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EOIHCIA",
+      "bestWord": {
+        "word": "HATE",
+        "score": 30
+      }
+    },
+    {
+      "rack": "WARJEUO",
+      "bestWord": {
+        "word": "WEAR",
+        "score": 30
+      }
+    },
+    {
+      "rack": "OHDONEV",
+      "bestWord": {
+        "word": "DOVE",
+        "score": 29
+      }
+    }
+  ],
+  "par": 62,
+  "goldLetter": "W"
+}

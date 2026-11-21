@@ -1,0 +1,128 @@
+{
+  "id": "2027-08-13",
+  "date": "2027-08-13",
+  "number": 489,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "Y",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "BOHIEPI",
+      "bestWord": {
+        "word": "BOTH",
+        "score": 30
+      }
+    },
+    {
+      "rack": "VORESRA",
+      "bestWord": {
+        "word": "ROVER",
+        "score": 30
+      }
+    },
+    {
+      "rack": "ZOEQATH",
+      "bestWord": {
+        "word": "HERTZ",
+        "score": 38
+      }
+    }
+  ],
+  "par": 69,
+  "goldLetter": "V"
+}

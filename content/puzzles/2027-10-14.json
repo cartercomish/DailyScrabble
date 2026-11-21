@@ -1,0 +1,118 @@
+{
+  "id": "2027-10-14",
+  "date": "2027-10-14",
+  "number": 551,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "C",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "BUTROAU",
+      "bestWord": {
+        "word": "HARBOR",
+        "score": 42
+      }
+    },
+    {
+      "rack": "ZDAIEYO",
+      "bestWord": {
+        "word": "ZOO",
+        "score": 34
+      }
+    },
+    {
+      "rack": "QSNBLIU",
+      "bestWord": {
+        "word": "QUILT",
+        "score": 36
+      }
+    }
+  ],
+  "par": 78,
+  "goldLetter": "Z"
+}

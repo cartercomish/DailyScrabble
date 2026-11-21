@@ -5,17 +5,17 @@
   "size": 11,
   "seed": [
     {
-      "letter": "V",
+      "letter": "M",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "O",
+      "letter": "A",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "I",
+      "letter": "T",
       "row": 5,
       "col": 5
     },
@@ -25,27 +25,17 @@
       "col": 6
     },
     {
-      "letter": "E",
+      "letter": "H",
       "row": 5,
       "col": 7
     },
     {
       "letter": "T",
       "row": 3,
-      "col": 7
+      "col": 3
     },
     {
-      "letter": "R",
-      "row": 4,
-      "col": 7
-    },
-    {
-      "letter": "E",
-      "row": 6,
-      "col": 7
-    },
-    {
-      "letter": "O",
+      "letter": "I",
       "row": 4,
       "col": 3
     },
@@ -55,78 +45,84 @@
       "col": 3
     },
     {
-      "letter": "R",
-      "row": 7,
-      "col": 3
+      "letter": "D",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 5
     },
     {
       "letter": "L",
       "row": 3,
       "col": 0
-    },
-    {
-      "letter": "E",
-      "row": 3,
-      "col": 1
     },
     {
       "letter": "A",
       "row": 3,
-      "col": 2
-    },
-    {
-      "letter": "R",
-      "row": 3,
-      "col": 3
-    },
-    {
-      "letter": "N",
-      "row": 3,
-      "col": 4
-    },
-    {
-      "letter": "R",
-      "row": 6,
-      "col": 0
-    },
-    {
-      "letter": "O",
-      "row": 6,
       "col": 1
     },
     {
-      "letter": "L",
-      "row": 6,
+      "letter": "S",
+      "row": 3,
       "col": 2
     },
     {
-      "letter": "S",
-      "row": 6,
+      "letter": "E",
+      "row": 3,
       "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 0
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 0
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 0
     }
   ],
   "rounds": [
     {
-      "rack": "FNIYYOU",
+      "rack": "NTGWIOU",
       "bestWord": {
-        "word": "FLOUR",
-        "score": 36
+        "word": "MATCHING",
+        "score": 51
       }
     },
     {
-      "rack": "MKANBWE",
+      "rack": "XRFKTUO",
       "bestWord": {
-        "word": "ACME",
-        "score": 30
+        "word": "OX",
+        "score": 27
       }
     },
     {
-      "rack": "FUNESII",
+      "rack": "OJRWGAD",
       "bestWord": {
-        "word": "FINS",
-        "score": 30
+        "word": "JAWS",
+        "score": 44
       }
     }
   ],
-  "par": 62
+  "par": 85,
+  "goldLetter": "X"
 }

@@ -1,0 +1,138 @@
+{
+  "id": "2027-11-11",
+  "date": "2027-11-11",
+  "number": 579,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "F",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "LGOINTI",
+      "bestWord": {
+        "word": "FIELDING",
+        "score": 42
+      }
+    },
+    {
+      "rack": "YEUEGTU",
+      "bestWord": {
+        "word": "GUYS",
+        "score": 36
+      }
+    },
+    {
+      "rack": "WXEJFDI",
+      "bestWord": {
+        "word": "FIX",
+        "score": 45
+      }
+    }
+  ],
+  "par": 86,
+  "goldLetter": "Y"
+}

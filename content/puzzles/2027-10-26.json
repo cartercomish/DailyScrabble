@@ -1,0 +1,133 @@
+{
+  "id": "2027-10-26",
+  "date": "2027-10-26",
+  "number": 563,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "F",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EANISGW",
+      "bestWord": {
+        "word": "FIELDING",
+        "score": 42
+      }
+    },
+    {
+      "rack": "CUGOPEL",
+      "bestWord": {
+        "word": "CLIP",
+        "score": 28
+      }
+    },
+    {
+      "rack": "ODOASOK",
+      "bestWord": {
+        "word": "ASK",
+        "score": 45
+      }
+    }
+  ],
+  "par": 81,
+  "goldLetter": "C"
+}

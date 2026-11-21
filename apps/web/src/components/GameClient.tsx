@@ -62,7 +62,7 @@ function progressMatchesSeed(
 }
 
 export function GameClient({ puzzle }: GameClientProps) {
-  const { dict, loading, error } = useDictionary();
+  const { dict, botDict, loading, error } = useDictionary();
   const [board, setBoard] = useState<BoardCell[][]>(() =>
     boardFromPuzzle(puzzle),
   );
@@ -480,7 +480,7 @@ export function GameClient({ puzzle }: GameClientProps) {
   }
 
   function submit() {
-    if (!dict || finished) return;
+    if (!dict || !botDict || finished) return;
     if (tentative.length === 0) {
       flash("Stow at least one crate on the dock");
       return;
@@ -505,8 +505,9 @@ export function GameClient({ puzzle }: GameClientProps) {
     }
 
     if (roundIndex >= 2) {
-      // Casual emoji tiers vs normal-words best; 🤯 only if you tie the full-dict path.
-      const solutionBest = findBestSolutionPath(puzzle, dict, rackMode).total;
+      // Casual emoji tiers vs normal-words best; 🤯 for tying or beating the bot,
+      // which only plays everyday words (players may use the full list).
+      const solutionBest = findBestSolutionPath(puzzle, botDict, rackMode).total;
       const gameResult = buildGameResult(
         puzzle,
         nextResults,
@@ -591,13 +592,13 @@ export function GameClient({ puzzle }: GameClientProps) {
   const solutionTotal = solutionPlays.reduce((s, p) => s + p.score, 0);
 
   async function revealBestSolution() {
-    if (!dict) return;
+    if (!botDict) return;
     if (showSolution) {
       setShowSolution(false);
       setSolutionPlays([]);
       return;
     }
-    const path = findBestSolutionPath(puzzle, dict, rackMode);
+    const path = findBestSolutionPath(puzzle, botDict, rackMode);
     setSolutionPlays(path.plays);
     setShowSolution(true);
   }

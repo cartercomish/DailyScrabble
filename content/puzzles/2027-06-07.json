@@ -1,0 +1,133 @@
+{
+  "id": "2027-06-07",
+  "date": "2027-06-07",
+  "number": 422,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "D",
+      "row": 3,
+      "col": 10
+    },
+    {
+      "letter": "L",
+      "row": 0,
+      "col": 10
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 10
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "RAERPIS",
+      "bestWord": {
+        "word": "SPIRAL",
+        "score": 27
+      }
+    },
+    {
+      "rack": "KGAWRLO",
+      "bestWord": {
+        "word": "WALK",
+        "score": 27
+      }
+    },
+    {
+      "rack": "LDSTFAI",
+      "bestWord": {
+        "word": "FAST",
+        "score": 37
+      }
+    }
+  ],
+  "par": 64,
+  "goldLetter": "K"
+}

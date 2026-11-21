@@ -1,0 +1,128 @@
+{
+  "id": "2027-06-26",
+  "date": "2027-06-26",
+  "number": 441,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "SASEDNY",
+      "bestWord": {
+        "word": "SANDY",
+        "score": 30
+      }
+    },
+    {
+      "rack": "XAZOVLE",
+      "bestWord": {
+        "word": "AXE",
+        "score": 30
+      }
+    },
+    {
+      "rack": "JQEPKMO",
+      "bestWord": {
+        "word": "JOY",
+        "score": 29
+      }
+    }
+  ],
+  "par": 62,
+  "goldLetter": "X"
+}

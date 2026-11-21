@@ -1,0 +1,138 @@
+{
+  "id": "2027-07-02",
+  "date": "2027-07-02",
+  "number": 447,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "V",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "B",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 10
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IAOEHER",
+      "bestWord": {
+        "word": "HEAR",
+        "score": 30
+      }
+    },
+    {
+      "rack": "ANITREU",
+      "bestWord": {
+        "word": "TRAINER",
+        "score": 29
+      }
+    },
+    {
+      "rack": "ATYGTSU",
+      "bestWord": {
+        "word": "TASTY",
+        "score": 35
+      }
+    }
+  ],
+  "par": 66,
+  "goldLetter": "A"
+}

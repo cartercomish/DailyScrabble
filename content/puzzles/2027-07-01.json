@@ -1,0 +1,133 @@
+{
+  "id": "2027-07-01",
+  "date": "2027-07-01",
+  "number": 446,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NOOATMR",
+      "bestWord": {
+        "word": "OTTOMAN",
+        "score": 90
+      }
+    },
+    {
+      "rack": "HVSUAEL",
+      "bestWord": {
+        "word": "SHAVE",
+        "score": 31
+      }
+    },
+    {
+      "rack": "FWMYEXE",
+      "bestWord": {
+        "word": "FEW",
+        "score": 26
+      }
+    }
+  ],
+  "par": 103,
+  "goldLetter": "H"
+}

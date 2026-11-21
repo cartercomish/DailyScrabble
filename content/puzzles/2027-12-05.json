@@ -1,0 +1,138 @@
+{
+  "id": "2027-12-05",
+  "date": "2027-12-05",
+  "number": 603,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "XORETIU",
+      "bestWord": {
+        "word": "REX",
+        "score": 35
+      }
+    },
+    {
+      "rack": "FUNLERA",
+      "bestWord": {
+        "word": "FLARE",
+        "score": 33
+      }
+    },
+    {
+      "rack": "ERBPROI",
+      "bestWord": {
+        "word": "BEAR",
+        "score": 28
+      }
+    }
+  ],
+  "par": 67,
+  "goldLetter": "F"
+}

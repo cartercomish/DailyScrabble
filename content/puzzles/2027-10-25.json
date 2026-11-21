@@ -1,0 +1,138 @@
+{
+  "id": "2027-10-25",
+  "date": "2027-10-25",
+  "number": 562,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "UUSPNDA",
+      "bestWord": {
+        "word": "UPSTREAM",
+        "score": 36
+      }
+    },
+    {
+      "rack": "YERACBO",
+      "bestWord": {
+        "word": "YA",
+        "score": 30
+      }
+    },
+    {
+      "rack": "BOIEKHR",
+      "bestWord": {
+        "word": "BIKER",
+        "score": 34
+      }
+    }
+  ],
+  "par": 70,
+  "goldLetter": "Y"
+}

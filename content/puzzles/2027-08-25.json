@@ -1,0 +1,138 @@
+{
+  "id": "2027-08-25",
+  "date": "2027-08-25",
+  "number": 501,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "TEEIIFX",
+      "bestWord": {
+        "word": "TEXT",
+        "score": 57
+      }
+    },
+    {
+      "rack": "CMREGEO",
+      "bestWord": {
+        "word": "CREME",
+        "score": 30
+      }
+    },
+    {
+      "rack": "HIRQNOS",
+      "bestWord": {
+        "word": "HORNS",
+        "score": 32
+      }
+    }
+  ],
+  "par": 83,
+  "goldLetter": "C"
+}

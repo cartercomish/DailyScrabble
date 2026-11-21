@@ -1,0 +1,133 @@
+{
+  "id": "2027-11-17",
+  "date": "2027-11-17",
+  "number": 585,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "P",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 0
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AISGBWO",
+      "bestWord": {
+        "word": "GROWS",
+        "score": 39
+      }
+    },
+    {
+      "rack": "HRUGETA",
+      "bestWord": {
+        "word": "HUGE",
+        "score": 35
+      }
+    },
+    {
+      "rack": "CIEXIME",
+      "bestWord": {
+        "word": "MIX",
+        "score": 35
+      }
+    }
+  ],
+  "par": 76,
+  "goldLetter": "H"
+}

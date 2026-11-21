@@ -1,0 +1,133 @@
+{
+  "id": "2027-06-17",
+  "date": "2027-06-17",
+  "number": 432,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "VUSOEHY",
+      "bestWord": {
+        "word": "YOUTHS",
+        "score": 40
+      }
+    },
+    {
+      "rack": "WQOBLLE",
+      "bestWord": {
+        "word": "BOW",
+        "score": 36
+      }
+    },
+    {
+      "rack": "KRAOMII",
+      "bestWord": {
+        "word": "OAK",
+        "score": 32
+      }
+    }
+  ],
+  "par": 76,
+  "goldLetter": "W"
+}

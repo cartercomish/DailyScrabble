@@ -1,0 +1,138 @@
+{
+  "id": "2027-05-26",
+  "date": "2027-05-26",
+  "number": 410,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "H",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 1
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 1
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IANTHSG",
+      "bestWord": {
+        "word": "ASH",
+        "score": 39
+      }
+    },
+    {
+      "rack": "KAEOQCX",
+      "bestWord": {
+        "word": "OAK",
+        "score": 30
+      }
+    },
+    {
+      "rack": "POEUYEI",
+      "bestWord": {
+        "word": "PEEK",
+        "score": 30
+      }
+    }
+  ],
+  "par": 69,
+  "goldLetter": "K"
+}

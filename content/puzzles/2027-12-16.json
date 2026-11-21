@@ -1,0 +1,118 @@
+{
+  "id": "2027-12-16",
+  "date": "2027-12-16",
+  "number": 614,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "HNIANKC",
+      "bestWord": {
+        "word": "CRANK",
+        "score": 42
+      }
+    },
+    {
+      "rack": "FDAERRO",
+      "bestWord": {
+        "word": "FEARED",
+        "score": 32
+      }
+    },
+    {
+      "rack": "ENOIBWA",
+      "bestWord": {
+        "word": "BOWL",
+        "score": 39
+      }
+    }
+  ],
+  "par": 79,
+  "goldLetter": "F"
+}

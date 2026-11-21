@@ -1,0 +1,138 @@
+{
+  "id": "2027-09-22",
+  "date": "2027-09-22",
+  "number": 529,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 10
+    },
+    {
+      "letter": "D",
+      "row": 0,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 2
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "BUEDIKY",
+      "bestWord": {
+        "word": "BUDDY",
+        "score": 36
+      }
+    },
+    {
+      "rack": "FYREILE",
+      "bestWord": {
+        "word": "FERRY",
+        "score": 33
+      }
+    },
+    {
+      "rack": "EZAGSOO",
+      "bestWord": {
+        "word": "ZOO",
+        "score": 41
+      }
+    }
+  ],
+  "par": 77,
+  "goldLetter": "F"
+}

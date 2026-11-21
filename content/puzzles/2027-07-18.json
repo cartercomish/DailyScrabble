@@ -1,0 +1,133 @@
+{
+  "id": "2027-07-18",
+  "date": "2027-07-18",
+  "number": 463,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "H",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "P",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 10
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 9
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 10,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "MDUOAKO",
+      "bestWord": {
+        "word": "MOOD",
+        "score": 30
+      }
+    },
+    {
+      "rack": "JCUEYEB",
+      "bestWord": {
+        "word": "JEEP",
+        "score": 34
+      }
+    },
+    {
+      "rack": "IAEVBTD",
+      "bestWord": {
+        "word": "AVID",
+        "score": 27
+      }
+    }
+  ],
+  "par": 64,
+  "goldLetter": "J"
+}

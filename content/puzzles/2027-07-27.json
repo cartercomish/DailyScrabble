@@ -1,0 +1,118 @@
+{
+  "id": "2027-07-27",
+  "date": "2027-07-27",
+  "number": 472,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "Y",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "XSGAHEE",
+      "bestWord": {
+        "word": "AXIS",
+        "score": 35
+      }
+    },
+    {
+      "rack": "CRMEABA",
+      "bestWord": {
+        "word": "CAMERA",
+        "score": 99
+      }
+    },
+    {
+      "rack": "CIKAOOH",
+      "bestWord": {
+        "word": "HACK",
+        "score": 41
+      }
+    }
+  ],
+  "par": 122,
+  "goldLetter": "C"
+}

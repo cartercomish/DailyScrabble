@@ -1,0 +1,138 @@
+{
+  "id": "2027-07-08",
+  "date": "2027-07-08",
+  "number": 453,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "K",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IXCIPEU",
+      "bestWord": {
+        "word": "EPIC",
+        "score": 33
+      }
+    },
+    {
+      "rack": "FOUSHGA",
+      "bestWord": {
+        "word": "FLASH",
+        "score": 30
+      }
+    },
+    {
+      "rack": "NITGEDA",
+      "bestWord": {
+        "word": "HEATING",
+        "score": 39
+      }
+    }
+  ],
+  "par": 71,
+  "goldLetter": "F"
+}

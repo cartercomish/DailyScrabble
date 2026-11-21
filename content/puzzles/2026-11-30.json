@@ -10,128 +10,109 @@
       "col": 2
     },
     {
-      "letter": "U",
+      "letter": "T",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "M",
+      "letter": "R",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "M",
+      "letter": "E",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "E",
+      "letter": "A",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "R",
+      "letter": "M",
       "row": 5,
       "col": 7
     },
     {
       "letter": "A",
       "row": 6,
-      "col": 2
+      "col": 3
     },
     {
-      "letter": "I",
+      "letter": "L",
       "row": 7,
-      "col": 2
+      "col": 3
     },
     {
-      "letter": "D",
+      "letter": "E",
       "row": 8,
-      "col": 2
+      "col": 3
+    },
+    {
+      "letter": "W",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "K",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 5
     },
     {
       "letter": "T",
-      "row": 4,
-      "col": 3
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 7
     },
     {
       "letter": "R",
-      "row": 6,
-      "col": 3
+      "row": 8,
+      "col": 8
     },
     {
       "letter": "N",
-      "row": 7,
-      "col": 3
-    },
-    {
-      "letter": "S",
-      "row": 6,
-      "col": 6
-    },
-    {
-      "letter": "E",
-      "row": 6,
-      "col": 7
-    },
-    {
-      "letter": "A",
-      "row": 6,
-      "col": 8
-    },
-    {
-      "letter": "T",
-      "row": 6,
+      "row": 8,
       "col": 9
-    },
-    {
-      "letter": "R",
-      "row": 4,
-      "col": 6
-    },
-    {
-      "letter": "O",
-      "row": 4,
-      "col": 7
-    },
-    {
-      "letter": "A",
-      "row": 4,
-      "col": 8
-    },
-    {
-      "letter": "S",
-      "row": 4,
-      "col": 9
-    },
-    {
-      "letter": "T",
-      "row": 4,
-      "col": 10
     }
   ],
   "rounds": [
     {
-      "rack": "NISGUJT",
+      "rack": "CEAHANI",
       "bestWord": {
-        "word": "JIN",
-        "score": 33
+        "word": "CHINA",
+        "score": 36
       }
     },
     {
-      "rack": "PADRRGA",
+      "rack": "WMNTDEI",
       "bestWord": {
-        "word": "DAG",
+        "word": "WED",
+        "score": 28
+      }
+    },
+    {
+      "rack": "NOOFEBH",
+      "bestWord": {
+        "word": "FOB",
         "score": 30
-      }
-    },
-    {
-      "rack": "VCHBAIG",
-      "bestWord": {
-        "word": "HABIT",
-        "score": 39
       }
     }
   ],
-  "par": 66
+  "par": 66,
+  "goldLetter": "W"
 }

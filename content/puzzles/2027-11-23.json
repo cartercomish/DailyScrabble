@@ -1,0 +1,133 @@
+{
+  "id": "2027-11-23",
+  "date": "2027-11-23",
+  "number": 591,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "M",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "Y",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "HTDEOLV",
+      "bestWord": {
+        "word": "LOVED",
+        "score": 42
+      }
+    },
+    {
+      "rack": "PNSIMEL",
+      "bestWord": {
+        "word": "PINS",
+        "score": 36
+      }
+    },
+    {
+      "rack": "GNTARZE",
+      "bestWord": {
+        "word": "ZETA",
+        "score": 43
+      }
+    }
+  ],
+  "par": 85,
+  "goldLetter": "P"
+}

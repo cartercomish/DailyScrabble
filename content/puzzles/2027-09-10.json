@@ -1,0 +1,133 @@
+{
+  "id": "2027-09-10",
+  "date": "2027-09-10",
+  "number": 517,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "P",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 10
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "UYBXYEA",
+      "bestWord": {
+        "word": "AXES",
+        "score": 33
+      }
+    },
+    {
+      "rack": "HACLEWT",
+      "bestWord": {
+        "word": "WHAT",
+        "score": 35
+      }
+    },
+    {
+      "rack": "IAMLCIO",
+      "bestWord": {
+        "word": "ALAMO",
+        "score": 33
+      }
+    }
+  ],
+  "par": 71,
+  "goldLetter": "H"
+}

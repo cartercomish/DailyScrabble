@@ -1,0 +1,133 @@
+{
+  "id": "2027-05-23",
+  "date": "2027-05-23",
+  "number": 407,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "V",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "P",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 10
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 10,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "RRWHUME",
+      "bestWord": {
+        "word": "METH",
+        "score": 39
+      }
+    },
+    {
+      "rack": "ZNDTCIA",
+      "bestWord": {
+        "word": "NAZIS",
+        "score": 42
+      }
+    },
+    {
+      "rack": "BADYMUI",
+      "bestWord": {
+        "word": "YUM",
+        "score": 25
+      }
+    }
+  ],
+  "par": 74,
+  "goldLetter": "Z"
+}

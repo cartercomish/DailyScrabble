@@ -1,0 +1,133 @@
+{
+  "id": "2027-06-09",
+  "date": "2027-06-09",
+  "number": 424,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "F",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "P",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "DHBOARY",
+      "bestWord": {
+        "word": "HARDY",
+        "score": 53
+      }
+    },
+    {
+      "rack": "VLAQOIE",
+      "bestWord": {
+        "word": "VITAE",
+        "score": 27
+      }
+    },
+    {
+      "rack": "ILAOUCM",
+      "bestWord": {
+        "word": "OHM",
+        "score": 33
+      }
+    }
+  ],
+  "par": 79,
+  "goldLetter": "V"
+}

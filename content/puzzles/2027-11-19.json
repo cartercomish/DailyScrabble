@@ -1,0 +1,133 @@
+{
+  "id": "2027-11-19",
+  "date": "2027-11-19",
+  "number": 587,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "H",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "P",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "ASODROP",
+      "bestWord": {
+        "word": "PORTABLE",
+        "score": 39
+      }
+    },
+    {
+      "rack": "XJEOFIQ",
+      "bestWord": {
+        "word": "FIX",
+        "score": 38
+      }
+    },
+    {
+      "rack": "WGOLISB",
+      "bestWord": {
+        "word": "SLOW",
+        "score": 29
+      }
+    }
+  ],
+  "par": 74,
+  "goldLetter": "X"
+}

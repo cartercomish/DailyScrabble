@@ -1,0 +1,138 @@
+{
+  "id": "2027-12-10",
+  "date": "2027-12-10",
+  "number": 608,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "M",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OIEANRH",
+      "bestWord": {
+        "word": "RASH",
+        "score": 33
+      }
+    },
+    {
+      "rack": "XFERTSI",
+      "bestWord": {
+        "word": "FIX",
+        "score": 58
+      }
+    },
+    {
+      "rack": "UEMAGPS",
+      "bestWord": {
+        "word": "MAPS",
+        "score": 27
+      }
+    }
+  ],
+  "par": 83,
+  "goldLetter": "X"
+}

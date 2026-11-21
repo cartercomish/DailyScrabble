@@ -1,0 +1,138 @@
+{
+  "id": "2027-09-29",
+  "date": "2027-09-29",
+  "number": 536,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "K",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "P",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "UMSIRID",
+      "bestWord": {
+        "word": "DRUMS",
+        "score": 31
+      }
+    },
+    {
+      "rack": "XGOOYRP",
+      "bestWord": {
+        "word": "PROXY",
+        "score": 40
+      }
+    },
+    {
+      "rack": "ESFQDAM",
+      "bestWord": {
+        "word": "AM",
+        "score": 31
+      }
+    }
+  ],
+  "par": 71,
+  "goldLetter": "X"
+}

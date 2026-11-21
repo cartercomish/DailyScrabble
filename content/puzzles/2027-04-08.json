@@ -10,12 +10,12 @@
       "col": 3
     },
     {
-      "letter": "H",
+      "letter": "C",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "A",
+      "letter": "O",
       "row": 5,
       "col": 5
     },
@@ -25,7 +25,7 @@
       "col": 6
     },
     {
-      "letter": "P",
+      "letter": "E",
       "row": 5,
       "col": 7
     },
@@ -35,7 +35,7 @@
       "col": 4
     },
     {
-      "letter": "P",
+      "letter": "M",
       "row": 7,
       "col": 4
     },
@@ -45,83 +45,89 @@
       "col": 4
     },
     {
-      "letter": "E",
-      "row": 3,
-      "col": 3
-    },
-    {
       "letter": "A",
       "row": 4,
-      "col": 3
+      "col": 6
     },
     {
       "letter": "T",
       "row": 6,
-      "col": 3
-    },
-    {
-      "letter": "T",
-      "row": 3,
-      "col": 2
-    },
-    {
-      "letter": "A",
-      "row": 3,
-      "col": 4
-    },
-    {
-      "letter": "S",
-      "row": 3,
-      "col": 5
-    },
-    {
-      "letter": "E",
-      "row": 3,
       "col": 6
     },
     {
       "letter": "S",
-      "row": 2,
-      "col": 1
-    },
-    {
-      "letter": "A",
-      "row": 2,
-      "col": 2
-    },
-    {
-      "letter": "L",
-      "row": 2,
-      "col": 3
+      "row": 9,
+      "col": 4
     },
     {
       "letter": "T",
-      "row": 2,
-      "col": 4
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 10
     }
   ],
   "rounds": [
     {
-      "rack": "MNLEEYM",
+      "rack": "CAFREDX",
       "bestWord": {
-        "word": "MEM",
-        "score": 37
+        "word": "EXEC",
+        "score": 48
       }
     },
     {
-      "rack": "WEADICT",
+      "rack": "WSRGUOA",
       "bestWord": {
-        "word": "DEW",
-        "score": 34
+        "word": "GROWS",
+        "score": 29
       }
     },
     {
-      "rack": "LNOKYIE",
+      "rack": "BTNROAE",
       "bestWord": {
-        "word": "ELK",
-        "score": 24
+        "word": "BEGAN",
+        "score": 28
       }
     }
   ],
-  "par": 62
+  "par": 74,
+  "goldLetter": "W"
 }

@@ -1,0 +1,138 @@
+{
+  "id": "2027-11-08",
+  "date": "2027-11-08",
+  "number": 576,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "QHLIIAO",
+      "bestWord": {
+        "word": "OATH",
+        "score": 33
+      }
+    },
+    {
+      "rack": "CGAUENL",
+      "bestWord": {
+        "word": "SCAN",
+        "score": 27
+      }
+    },
+    {
+      "rack": "IMICONE",
+      "bestWord": {
+        "word": "MICE",
+        "score": 28
+      }
+    }
+  ],
+  "par": 62,
+  "goldLetter": "C"
+}

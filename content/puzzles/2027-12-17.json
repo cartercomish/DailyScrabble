@@ -1,0 +1,138 @@
+{
+  "id": "2027-12-17",
+  "date": "2027-12-17",
+  "number": 615,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "B",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "M",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 0,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 3
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "ZFEORED",
+      "bestWord": {
+        "word": "FREED",
+        "score": 33
+      }
+    },
+    {
+      "rack": "PDAADTI",
+      "bestWord": {
+        "word": "PADS",
+        "score": 27
+      }
+    },
+    {
+      "rack": "FICENOL",
+      "bestWord": {
+        "word": "FIFE",
+        "score": 36
+      }
+    }
+  ],
+  "par": 67,
+  "goldLetter": "P"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "2027-10-20",
+  "date": "2027-10-20",
+  "number": 557,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "FEAUIWT",
+      "bestWord": {
+        "word": "TOW",
+        "score": 29
+      }
+    },
+    {
+      "rack": "FAENONC",
+      "bestWord": {
+        "word": "FENCE",
+        "score": 32
+      }
+    },
+    {
+      "rack": "RYDAKIM",
+      "bestWord": {
+        "word": "MYRIAD",
+        "score": 43
+      }
+    }
+  ],
+  "par": 73,
+  "goldLetter": "F"
+}

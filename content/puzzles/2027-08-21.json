@@ -1,0 +1,133 @@
+{
+  "id": "2027-08-21",
+  "date": "2027-08-21",
+  "number": 497,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IFYTBEU",
+      "bestWord": {
+        "word": "BUYS",
+        "score": 39
+      }
+    },
+    {
+      "rack": "VOETNDA",
+      "bestWord": {
+        "word": "DROVE",
+        "score": 33
+      }
+    },
+    {
+      "rack": "HZNEUBO",
+      "bestWord": {
+        "word": "HUB",
+        "score": 47
+      }
+    }
+  ],
+  "par": 83,
+  "goldLetter": "V"
+}

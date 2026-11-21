@@ -1,0 +1,128 @@
+{
+  "id": "2027-06-25",
+  "date": "2027-06-25",
+  "number": 440,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "ZNKMOIH",
+      "bestWord": {
+        "word": "ZOO",
+        "score": 36
+      }
+    },
+    {
+      "rack": "HEANVFN",
+      "bestWord": {
+        "word": "HEAVEN",
+        "score": 44
+      }
+    },
+    {
+      "rack": "ADEIUGM",
+      "bestWord": {
+        "word": "GUM",
+        "score": 28
+      }
+    }
+  ],
+  "par": 76,
+  "goldLetter": "H"
+}

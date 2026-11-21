@@ -5,17 +5,22 @@
   "size": 11,
   "seed": [
     {
-      "letter": "P",
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "U",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "A",
+      "letter": "M",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "P",
+      "letter": "M",
       "row": 5,
       "col": 5
     },
@@ -30,108 +35,104 @@
       "col": 7
     },
     {
-      "letter": "W",
-      "row": 4,
-      "col": 4
-    },
-    {
-      "letter": "V",
+      "letter": "A",
       "row": 6,
-      "col": 4
+      "col": 2
     },
     {
-      "letter": "E",
+      "letter": "N",
       "row": 7,
-      "col": 4
+      "col": 2
     },
     {
-      "letter": "Y",
-      "row": 2,
+      "letter": "D",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "G",
+      "row": 4,
       "col": 7
     },
     {
       "letter": "O",
-      "row": 3,
+      "row": 6,
       "col": 7
     },
     {
-      "letter": "U",
-      "row": 4,
+      "letter": "W",
+      "row": 7,
       "col": 7
     },
     {
       "letter": "S",
-      "row": 2,
-      "col": 4
-    },
-    {
-      "letter": "L",
-      "row": 2,
-      "col": 5
-    },
-    {
-      "letter": "A",
-      "row": 2,
+      "row": 7,
       "col": 6
     },
     {
       "letter": "E",
-      "row": 2,
+      "row": 7,
       "col": 8
     },
     {
-      "letter": "R",
-      "row": 2,
+      "letter": "A",
+      "row": 7,
       "col": 9
     },
     {
+      "letter": "R",
+      "row": 7,
+      "col": 10
+    },
+    {
       "letter": "S",
-      "row": 1,
+      "row": 9,
       "col": 2
     },
     {
-      "letter": "T",
-      "row": 1,
+      "letter": "O",
+      "row": 9,
       "col": 3
     },
     {
-      "letter": "E",
-      "row": 1,
+      "letter": "L",
+      "row": 9,
       "col": 4
     },
     {
       "letter": "A",
-      "row": 1,
+      "row": 9,
       "col": 5
     },
     {
-      "letter": "L",
-      "row": 1,
+      "letter": "R",
+      "row": 9,
       "col": 6
     }
   ],
   "rounds": [
     {
-      "rack": "TIDZAAN",
+      "rack": "IENJALG",
       "bestWord": {
-        "word": "NAZI",
-        "score": 44
+        "word": "JAIL",
+        "score": 54
       }
     },
     {
-      "rack": "IOAKNLI",
+      "rack": "VIIOTPN",
       "bestWord": {
-        "word": "KNOW",
-        "score": 25
+        "word": "VAT",
+        "score": 30
       }
     },
     {
-      "rack": "FNAWIVE",
+      "rack": "THUEHAO",
       "bestWord": {
-        "word": "AVE",
-        "score": 24
+        "word": "HA",
+        "score": 32
       }
     }
   ],
-  "par": 60
+  "par": 81,
+  "goldLetter": "V"
 }

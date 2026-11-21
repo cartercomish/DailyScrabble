@@ -1,0 +1,133 @@
+{
+  "id": "2027-07-25",
+  "date": "2027-07-25",
+  "number": 470,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "K",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 10
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "XELNVTE",
+      "bestWord": {
+        "word": "NEXT",
+        "score": 36
+      }
+    },
+    {
+      "rack": "GEITEAS",
+      "bestWord": {
+        "word": "GATE",
+        "score": 27
+      }
+    },
+    {
+      "rack": "PGMAFUF",
+      "bestWord": {
+        "word": "MAP",
+        "score": 27
+      }
+    }
+  ],
+  "par": 63,
+  "goldLetter": "G"
+}

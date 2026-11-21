@@ -1,0 +1,118 @@
+{
+  "id": "2027-11-14",
+  "date": "2027-11-14",
+  "number": 582,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "ABWXZNO",
+      "bestWord": {
+        "word": "BOX",
+        "score": 39
+      }
+    },
+    {
+      "rack": "DSINIEH",
+      "bestWord": {
+        "word": "INSIDE",
+        "score": 30
+      }
+    },
+    {
+      "rack": "VOCPTEM",
+      "bestWord": {
+        "word": "VETO",
+        "score": 41
+      }
+    }
+  ],
+  "par": 77,
+  "goldLetter": "D"
+}

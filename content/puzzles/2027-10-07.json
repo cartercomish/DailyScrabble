@@ -1,0 +1,118 @@
+{
+  "id": "2027-10-07",
+  "date": "2027-10-07",
+  "number": 544,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "MGNTOIA",
+      "bestWord": {
+        "word": "OMEGA",
+        "score": 28
+      }
+    },
+    {
+      "rack": "FSVLTUI",
+      "bestWord": {
+        "word": "FITS",
+        "score": 39
+      }
+    },
+    {
+      "rack": "OANUSEH",
+      "bestWord": {
+        "word": "HOUSE",
+        "score": 27
+      }
+    }
+  ],
+  "par": 66,
+  "goldLetter": "F"
+}

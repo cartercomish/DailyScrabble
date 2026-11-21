@@ -1,0 +1,118 @@
+{
+  "id": "2027-05-21",
+  "date": "2027-05-21",
+  "number": 405,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "K",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "ALESQAT",
+      "bestWord": {
+        "word": "TALES",
+        "score": 27
+      }
+    },
+    {
+      "rack": "HGIEECN",
+      "bestWord": {
+        "word": "THIN",
+        "score": 33
+      }
+    },
+    {
+      "rack": "ICDEEVO",
+      "bestWord": {
+        "word": "VOTED",
+        "score": 34
+      }
+    }
+  ],
+  "par": 66,
+  "goldLetter": "H"
+}

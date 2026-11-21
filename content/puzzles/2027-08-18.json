@@ -1,0 +1,138 @@
+{
+  "id": "2027-08-18",
+  "date": "2027-08-18",
+  "number": 494,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 0
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 0
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 0
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "KESVUXL",
+      "bestWord": {
+        "word": "SEX",
+        "score": 75
+      }
+    },
+    {
+      "rack": "JRYOSEF",
+      "bestWord": {
+        "word": "JOEY",
+        "score": 47
+      }
+    },
+    {
+      "rack": "HMEROSP",
+      "bestWord": {
+        "word": "HOMES",
+        "score": 35
+      }
+    }
+  ],
+  "par": 110,
+  "goldLetter": "J"
+}

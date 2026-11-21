@@ -1,0 +1,128 @@
+{
+  "id": "2027-06-20",
+  "date": "2027-06-20",
+  "number": 435,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "P",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "WHABOES",
+      "bestWord": {
+        "word": "SHOW",
+        "score": 45
+      }
+    },
+    {
+      "rack": "GNAEINL",
+      "bestWord": {
+        "word": "LING",
+        "score": 25
+      }
+    },
+    {
+      "rack": "JFRSOYA",
+      "bestWord": {
+        "word": "YEARS",
+        "score": 29
+      }
+    }
+  ],
+  "par": 69,
+  "goldLetter": "G"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "2027-06-11",
+  "date": "2027-06-11",
+  "number": 426,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "B",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "G",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 10
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "ODCOOFE",
+      "bestWord": {
+        "word": "FORCE",
+        "score": 36
+      }
+    },
+    {
+      "rack": "WOIIEUN",
+      "bestWord": {
+        "word": "NEW",
+        "score": 30
+      }
+    },
+    {
+      "rack": "AEJEHTZ",
+      "bestWord": {
+        "word": "HERTZ",
+        "score": 50
+      }
+    }
+  ],
+  "par": 81,
+  "goldLetter": "W"
+}

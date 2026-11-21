@@ -1,0 +1,128 @@
+{
+  "id": "2027-09-26",
+  "date": "2027-09-26",
+  "number": 533,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NEQAPRW",
+      "bestWord": {
+        "word": "WARP",
+        "score": 39
+      }
+    },
+    {
+      "rack": "YANADRI",
+      "bestWord": {
+        "word": "DIARY",
+        "score": 34
+      }
+    },
+    {
+      "rack": "XDHIMAV",
+      "bestWord": {
+        "word": "HIM",
+        "score": 35
+      }
+    }
+  ],
+  "par": 76,
+  "goldLetter": "Y"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "2027-10-06",
+  "date": "2027-10-06",
+  "number": 543,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "PXTODSE",
+      "bestWord": {
+        "word": "SHIPPED",
+        "score": 54
+      }
+    },
+    {
+      "rack": "AIISELO",
+      "bestWord": {
+        "word": "LADIES",
+        "score": 72
+      }
+    },
+    {
+      "rack": "AITCAHI",
+      "bestWord": {
+        "word": "ASH",
+        "score": 33
+      }
+    }
+  ],
+  "par": 111,
+  "goldLetter": "A"
+}

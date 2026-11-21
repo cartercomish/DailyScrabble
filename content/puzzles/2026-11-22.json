@@ -5,118 +5,114 @@
   "size": 11,
   "seed": [
     {
-      "letter": "T",
+      "letter": "F",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "R",
+      "letter": "T",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "A",
+      "letter": "H",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "I",
+      "letter": "E",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "N",
+      "letter": "R",
       "row": 5,
       "col": 7
     },
     {
       "letter": "E",
-      "row": 4,
-      "col": 7
-    },
-    {
-      "letter": "D",
-      "row": 6,
-      "col": 7
-    },
-    {
-      "letter": "Y",
       "row": 2,
-      "col": 4
-    },
-    {
-      "letter": "O",
-      "row": 3,
-      "col": 4
-    },
-    {
-      "letter": "U",
-      "row": 4,
-      "col": 4
-    },
-    {
-      "letter": "D",
-      "row": 2,
-      "col": 0
+      "col": 5
     },
     {
       "letter": "A",
-      "row": 2,
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "D",
+      "row": 1,
       "col": 1
     },
     {
       "letter": "I",
-      "row": 2,
+      "row": 1,
       "col": 2
     },
     {
-      "letter": "R",
-      "row": 2,
+      "letter": "N",
+      "row": 1,
       "col": 3
     },
     {
-      "letter": "R",
-      "row": 6,
-      "col": 2
-    },
-    {
-      "letter": "I",
-      "row": 6,
-      "col": 3
-    },
-    {
-      "letter": "S",
-      "row": 6,
+      "letter": "A",
+      "row": 1,
       "col": 4
     },
     {
-      "letter": "E",
-      "row": 6,
+      "letter": "R",
+      "row": 1,
       "col": 5
     }
   ],
   "rounds": [
     {
-      "rack": "EUNBNBA",
+      "rack": "GUIEDAB",
       "bestWord": {
-        "word": "BEEN",
-        "score": 24
+        "word": "BADGE",
+        "score": 72
       }
     },
     {
-      "rack": "ECOIJID",
+      "rack": "PSRHTEU",
       "bestWord": {
-        "word": "JOINED",
-        "score": 36
+        "word": "SUPER",
+        "score": 60
       }
     },
     {
-      "rack": "GETOAZI",
+      "rack": "NIYEKSM",
       "bestWord": {
-        "word": "GAZE",
-        "score": 32
+        "word": "KEYS",
+        "score": 38
       }
     }
   ],
-  "par": 60
+  "par": 119,
+  "goldLetter": "P"
 }

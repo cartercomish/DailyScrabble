@@ -5,12 +5,7 @@
   "size": 11,
   "seed": [
     {
-      "letter": "S",
-      "row": 5,
-      "col": 2
-    },
-    {
-      "letter": "I",
+      "letter": "P",
       "row": 5,
       "col": 3
     },
@@ -20,98 +15,119 @@
       "col": 4
     },
     {
-      "letter": "V",
+      "letter": "A",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "E",
+      "letter": "N",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "R",
+      "letter": "T",
       "row": 5,
       "col": 7
     },
     {
-      "letter": "R",
-      "row": 2,
-      "col": 4
+      "letter": "P",
+      "row": 4,
+      "col": 5
     },
     {
-      "letter": "E",
+      "letter": "R",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "K",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "P",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "L",
       "row": 3,
-      "col": 4
+      "col": 6
     },
     {
       "letter": "A",
       "row": 4,
-      "col": 4
-    },
-    {
-      "letter": "A",
-      "row": 6,
-      "col": 6
-    },
-    {
-      "letter": "C",
-      "row": 7,
-      "col": 6
-    },
-    {
-      "letter": "H",
-      "row": 8,
       "col": 6
     },
     {
       "letter": "R",
-      "row": 3,
+      "row": 6,
       "col": 3
     },
     {
-      "letter": "T",
+      "letter": "I",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "S",
       "row": 3,
       "col": 5
     },
     {
       "letter": "A",
       "row": 3,
-      "col": 6
-    },
-    {
-      "letter": "I",
-      "row": 3,
       "col": 7
     },
     {
-      "letter": "N",
+      "letter": "T",
       "row": 3,
       "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 10
     }
   ],
   "rounds": [
     {
-      "rack": "QOEGRWE",
+      "rack": "NIGFEEN",
       "bestWord": {
-        "word": "WHORE",
-        "score": 30
+        "word": "FRINGE",
+        "score": 42
       }
     },
     {
-      "rack": "UUAPSOT",
+      "rack": "HAFNWUS",
       "bestWord": {
-        "word": "OPUS",
-        "score": 34
+        "word": "SHAW",
+        "score": 35
       }
     },
     {
-      "rack": "BAOTTNI",
+      "rack": "CDMAIYE",
       "bestWord": {
-        "word": "BAIT",
-        "score": 22
+        "word": "IDEA",
+        "score": 29
       }
     }
   ],
-  "par": 56
+  "par": 74,
+  "goldLetter": "H"
 }

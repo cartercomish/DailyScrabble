@@ -1,0 +1,118 @@
+{
+  "id": "2027-09-30",
+  "date": "2027-09-30",
+  "number": 537,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "P",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "YIESZTC",
+      "bestWord": {
+        "word": "SIZE",
+        "score": 38
+      }
+    },
+    {
+      "rack": "BURXEGO",
+      "bestWord": {
+        "word": "BERG",
+        "score": 28
+      }
+    },
+    {
+      "rack": "KOFEJDU",
+      "bestWord": {
+        "word": "JERK",
+        "score": 27
+      }
+    }
+  ],
+  "par": 65,
+  "goldLetter": "B"
+}

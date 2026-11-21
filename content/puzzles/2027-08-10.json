@@ -1,0 +1,118 @@
+{
+  "id": "2027-08-10",
+  "date": "2027-08-10",
+  "number": 486,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EODAIBF",
+      "bestWord": {
+        "word": "BIASED",
+        "score": 34
+      }
+    },
+    {
+      "rack": "VWEIEDM",
+      "bestWord": {
+        "word": "VIEWED",
+        "score": 47
+      }
+    },
+    {
+      "rack": "NOIYERR",
+      "bestWord": {
+        "word": "YIN",
+        "score": 42
+      }
+    }
+  ],
+  "par": 86,
+  "goldLetter": "V"
+}

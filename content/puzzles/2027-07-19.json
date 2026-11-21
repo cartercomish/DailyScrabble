@@ -1,0 +1,133 @@
+{
+  "id": "2027-07-19",
+  "date": "2027-07-19",
+  "number": 464,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 10
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EOVBNEU",
+      "bestWord": {
+        "word": "VERB",
+        "score": 39
+      }
+    },
+    {
+      "rack": "MNEIIRA",
+      "bestWord": {
+        "word": "MERIDIAN",
+        "score": 80
+      }
+    },
+    {
+      "rack": "ELEHAOJ",
+      "bestWord": {
+        "word": "HALE",
+        "score": 45
+      }
+    }
+  ],
+  "par": 115,
+  "goldLetter": "M"
+}

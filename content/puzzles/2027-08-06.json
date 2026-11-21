@@ -1,0 +1,133 @@
+{
+  "id": "2027-08-06",
+  "date": "2027-08-06",
+  "number": 482,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "C",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "F",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "DINWLEO",
+      "bestWord": {
+        "word": "WON",
+        "score": 26
+      }
+    },
+    {
+      "rack": "DEITTNS",
+      "bestWord": {
+        "word": "DENTIST",
+        "score": 28
+      }
+    },
+    {
+      "rack": "OKREWFS",
+      "bestWord": {
+        "word": "STROKE",
+        "score": 99
+      }
+    }
+  ],
+  "par": 107,
+  "goldLetter": "D"
+}

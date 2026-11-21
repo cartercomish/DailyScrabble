@@ -1,0 +1,133 @@
+{
+  "id": "2027-07-15",
+  "date": "2027-07-15",
+  "number": 460,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EXYDRTA",
+      "bestWord": {
+        "word": "READY",
+        "score": 54
+      }
+    },
+    {
+      "rack": "VCEYEGL",
+      "bestWord": {
+        "word": "EVERY",
+        "score": 36
+      }
+    },
+    {
+      "rack": "IMBOUCN",
+      "bestWord": {
+        "word": "CRIB",
+        "score": 28
+      }
+    }
+  ],
+  "par": 83,
+  "goldLetter": "V"
+}

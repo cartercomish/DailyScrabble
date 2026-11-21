@@ -5,7 +5,7 @@
   "size": 11,
   "seed": [
     {
-      "letter": "V",
+      "letter": "B",
       "row": 5,
       "col": 3
     },
@@ -15,108 +15,124 @@
       "col": 4
     },
     {
-      "letter": "I",
+      "letter": "A",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "C",
+      "letter": "R",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "E",
+      "letter": "D",
       "row": 5,
       "col": 7
     },
     {
-      "letter": "G",
+      "letter": "S",
       "row": 3,
-      "col": 3
+      "col": 4
     },
     {
-      "letter": "I",
+      "letter": "H",
       "row": 4,
-      "col": 3
+      "col": 4
+    },
+    {
+      "letter": "P",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "V",
+      "row": 3,
+      "col": 6
     },
     {
       "letter": "E",
-      "row": 6,
-      "col": 3
+      "row": 4,
+      "col": 6
     },
     {
-      "letter": "F",
-      "row": 4,
-      "col": 4
+      "letter": "T",
+      "row": 1,
+      "col": 5
     },
     {
       "letter": "R",
-      "row": 6,
-      "col": 4
+      "row": 1,
+      "col": 6
     },
     {
-      "letter": "M",
+      "letter": "A",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 1,
+      "col": 9
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "S",
       "row": 7,
       "col": 4
     },
     {
-      "letter": "I",
-      "row": 5,
-      "col": 1
-    },
-    {
-      "letter": "N",
-      "row": 5,
-      "col": 2
-    },
-    {
-      "letter": "S",
-      "row": 8,
-      "col": 4
-    },
-    {
-      "letter": "T",
-      "row": 8,
+      "letter": "E",
+      "row": 7,
       "col": 5
     },
     {
-      "letter": "A",
-      "row": 8,
-      "col": 6
-    },
-    {
-      "letter": "I",
-      "row": 8,
-      "col": 7
-    },
-    {
       "letter": "R",
-      "row": 8,
-      "col": 8
+      "row": 7,
+      "col": 6
     }
   ],
   "rounds": [
     {
-      "rack": "DEHJUYA",
+      "rack": "ISOORNW",
       "bestWord": {
-        "word": "JIHAD",
-        "score": 40
+        "word": "SWORN",
+        "score": 42
       }
     },
     {
-      "rack": "IORSAAT",
+      "rack": "FETOWAD",
       "bestWord": {
-        "word": "RATIOS",
-        "score": 30
+        "word": "WIFE",
+        "score": 28
       }
     },
     {
-      "rack": "MOUSABN",
+      "rack": "OIDESLL",
       "bestWord": {
-        "word": "BANS",
-        "score": 32
+        "word": "DELI",
+        "score": 27
       }
     }
   ],
-  "par": 66
+  "par": 68,
+  "goldLetter": "F"
 }

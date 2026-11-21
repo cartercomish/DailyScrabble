@@ -5,123 +5,114 @@
   "size": 11,
   "seed": [
     {
-      "letter": "H",
+      "letter": "W",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "O",
+      "letter": "N",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "U",
+      "letter": "D",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "S",
+      "letter": "O",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "E",
+      "letter": "W",
       "row": 5,
       "col": 7
     },
     {
-      "letter": "A",
+      "letter": "E",
       "row": 6,
-      "col": 3
-    },
-    {
-      "letter": "N",
-      "row": 7,
-      "col": 3
-    },
-    {
-      "letter": "D",
-      "row": 8,
-      "col": 3
-    },
-    {
-      "letter": "H",
-      "row": 6,
-      "col": 6
-    },
-    {
-      "letter": "O",
-      "row": 7,
-      "col": 6
-    },
-    {
-      "letter": "P",
-      "row": 8,
-      "col": 6
-    },
-    {
-      "letter": "R",
-      "row": 8,
-      "col": 0
+      "col": 2
     },
     {
       "letter": "E",
-      "row": 8,
-      "col": 1
+      "row": 7,
+      "col": 2
     },
     {
-      "letter": "A",
+      "letter": "K",
       "row": 8,
       "col": 2
     },
     {
-      "letter": "S",
-      "row": 8,
+      "letter": "O",
+      "row": 4,
       "col": 4
     },
     {
-      "letter": "A",
-      "row": 4,
-      "col": 7
+      "letter": "L",
+      "row": 6,
+      "col": 4
     },
     {
-      "letter": "N",
-      "row": 4,
+      "letter": "Y",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 5,
       "col": 8
     },
     {
       "letter": "T",
-      "row": 4,
-      "col": 9
+      "row": 6,
+      "col": 8
     },
     {
-      "letter": "S",
-      "row": 4,
-      "col": 10
+      "letter": "A",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 8
     }
   ],
   "rounds": [
     {
-      "rack": "EDVIUAI",
+      "rack": "HOUFDGR",
       "bestWord": {
-        "word": "ADVISE",
-        "score": 126
+        "word": "FORGED",
+        "score": 42
       }
     },
     {
-      "rack": "RVETMYE",
+      "rack": "DOLGAXY",
       "bestWord": {
-        "word": "EVERY",
+        "word": "DOG",
         "score": 33
       }
     },
     {
-      "rack": "IGEIYDM",
+      "rack": "RBSOEHP",
       "bestWord": {
-        "word": "MIND",
-        "score": 30
+        "word": "HOP",
+        "score": 36
       }
     }
   ],
-  "par": 123
+  "par": 78,
+  "goldLetter": "D"
 }

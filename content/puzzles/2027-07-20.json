@@ -1,0 +1,133 @@
+{
+  "id": "2027-07-20",
+  "date": "2027-07-20",
+  "number": 465,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "Y",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 0
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "XWLEMEI",
+      "bestWord": {
+        "word": "MAXI",
+        "score": 48
+      }
+    },
+    {
+      "rack": "VLSUEIG",
+      "bestWord": {
+        "word": "GIVE",
+        "score": 41
+      }
+    },
+    {
+      "rack": "UBFDNET",
+      "bestWord": {
+        "word": "FEED",
+        "score": 33
+      }
+    }
+  ],
+  "par": 85,
+  "goldLetter": "V"
+}

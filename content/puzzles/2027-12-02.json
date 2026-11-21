@@ -1,0 +1,138 @@
+{
+  "id": "2027-12-02",
+  "date": "2027-12-02",
+  "number": 600,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "C",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EIXGTTK",
+      "bestWord": {
+        "word": "TIKI",
+        "score": 39
+      }
+    },
+    {
+      "rack": "PEOFEAG",
+      "bestWord": {
+        "word": "PAGE",
+        "score": 30
+      }
+    },
+    {
+      "rack": "UAFSRBQ",
+      "bestWord": {
+        "word": "BASQUE",
+        "score": 74
+      }
+    }
+  ],
+  "par": 100,
+  "goldLetter": "P"
+}

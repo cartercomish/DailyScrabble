@@ -1,0 +1,138 @@
+{
+  "id": "2027-09-08",
+  "date": "2027-09-08",
+  "number": 515,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 0,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NRIIEMG",
+      "bestWord": {
+        "word": "MIGRAINE",
+        "score": 80
+      }
+    },
+    {
+      "rack": "WUROMOE",
+      "bestWord": {
+        "word": "MORROW",
+        "score": 42
+      }
+    },
+    {
+      "rack": "RYNAIUV",
+      "bestWord": {
+        "word": "VARY",
+        "score": 37
+      }
+    }
+  ],
+  "par": 111,
+  "goldLetter": "W"
+}

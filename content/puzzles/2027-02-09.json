@@ -5,123 +5,114 @@
   "size": 11,
   "seed": [
     {
-      "letter": "H",
+      "letter": "W",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "E",
+      "letter": "N",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "A",
+      "letter": "D",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "R",
+      "letter": "O",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "T",
+      "letter": "W",
       "row": 5,
       "col": 7
     },
     {
-      "letter": "A",
+      "letter": "F",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "N",
       "row": 6,
       "col": 3
     },
     {
-      "letter": "R",
+      "letter": "E",
       "row": 7,
       "col": 3
     },
     {
-      "letter": "D",
-      "row": 8,
-      "col": 3
-    },
-    {
-      "letter": "H",
+      "letter": "B",
       "row": 2,
-      "col": 4
+      "col": 5
     },
     {
-      "letter": "O",
+      "letter": "I",
       "row": 3,
-      "col": 4
+      "col": 5
     },
     {
-      "letter": "P",
+      "letter": "R",
       "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 2,
       "col": 4
     },
     {
       "letter": "S",
       "row": 2,
-      "col": 3
-    },
-    {
-      "letter": "A",
-      "row": 2,
-      "col": 5
-    },
-    {
-      "letter": "L",
-      "row": 2,
       "col": 6
     },
     {
-      "letter": "T",
+      "letter": "E",
       "row": 2,
       "col": 7
     },
     {
       "letter": "N",
-      "row": 1,
-      "col": 5
-    },
-    {
-      "letter": "E",
-      "row": 1,
-      "col": 6
-    },
-    {
-      "letter": "A",
-      "row": 1,
-      "col": 7
-    },
-    {
-      "letter": "R",
-      "row": 1,
+      "row": 2,
       "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 9
     }
   ],
   "rounds": [
     {
-      "rack": "EOAWDND",
+      "rack": "YASUESL",
       "bestWord": {
-        "word": "WADE",
-        "score": 40
+        "word": "ESSAY",
+        "score": 45
       }
     },
     {
-      "rack": "YGCEEFR",
+      "rack": "HERTOAO",
       "bestWord": {
-        "word": "FRY",
-        "score": 30
+        "word": "HEATER",
+        "score": 90
       }
     },
     {
-      "rack": "AURJBEA",
+      "rack": "OMEXIRC",
       "bestWord": {
-        "word": "BEAD",
-        "score": 29
+        "word": "OX",
+        "score": 52
       }
     }
   ],
-  "par": 64
+  "par": 131,
+  "goldLetter": "H"
 }

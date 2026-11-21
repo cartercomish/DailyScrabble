@@ -1,0 +1,133 @@
+{
+  "id": "2027-07-28",
+  "date": "2027-07-28",
+  "number": 473,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 0,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "DCNOARM",
+      "bestWord": {
+        "word": "MOD",
+        "score": 36
+      }
+    },
+    {
+      "rack": "HDOTSGI",
+      "bestWord": {
+        "word": "DISH",
+        "score": 38
+      }
+    },
+    {
+      "rack": "IEICKTA",
+      "bestWord": {
+        "word": "CAKE",
+        "score": 35
+      }
+    }
+  ],
+  "par": 76,
+  "goldLetter": "H"
+}

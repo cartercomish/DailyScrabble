@@ -1,0 +1,138 @@
+{
+  "id": "2027-06-16",
+  "date": "2027-06-16",
+  "number": 431,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "RKXEIWJ",
+      "bestWord": {
+        "word": "WAX",
+        "score": 38
+      }
+    },
+    {
+      "rack": "FEOILWT",
+      "bestWord": {
+        "word": "ITSELF",
+        "score": 81
+      }
+    },
+    {
+      "rack": "VABYSAE",
+      "bestWord": {
+        "word": "BAYS",
+        "score": 26
+      }
+    }
+  ],
+  "par": 102,
+  "goldLetter": "F"
+}

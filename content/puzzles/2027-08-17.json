@@ -1,0 +1,138 @@
+{
+  "id": "2027-08-17",
+  "date": "2027-08-17",
+  "number": 493,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "F",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "ZKRANID",
+      "bestWord": {
+        "word": "KIND",
+        "score": 44
+      }
+    },
+    {
+      "rack": "HOMSAOT",
+      "bestWord": {
+        "word": "MATHS",
+        "score": 52
+      }
+    },
+    {
+      "rack": "POWOYGE",
+      "bestWord": {
+        "word": "PREY",
+        "score": 34
+      }
+    }
+  ],
+  "par": 91,
+  "goldLetter": "H"
+}

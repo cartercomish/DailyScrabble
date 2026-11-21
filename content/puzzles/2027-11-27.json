@@ -1,0 +1,133 @@
+{
+  "id": "2027-11-27",
+  "date": "2027-11-27",
+  "number": 595,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "B",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "F",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "L",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 9,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EITARDL",
+      "bestWord": {
+        "word": "DELTA",
+        "score": 27
+      }
+    },
+    {
+      "rack": "FBOCMDA",
+      "bestWord": {
+        "word": "CALF",
+        "score": 30
+      }
+    },
+    {
+      "rack": "EXNALIS",
+      "bestWord": {
+        "word": "NEXT",
+        "score": 56
+      }
+    }
+  ],
+  "par": 79,
+  "goldLetter": "F"
+}

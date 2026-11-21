@@ -1,0 +1,138 @@
+{
+  "id": "2027-05-31",
+  "date": "2027-05-31",
+  "number": 415,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "C",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "P",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "MFISEPE",
+      "bestWord": {
+        "word": "ELF",
+        "score": 30
+      }
+    },
+    {
+      "rack": "XUBAIEV",
+      "bestWord": {
+        "word": "AX",
+        "score": 35
+      }
+    },
+    {
+      "rack": "EGYOEAH",
+      "bestWord": {
+        "word": "YOGA",
+        "score": 32
+      }
+    }
+  ],
+  "par": 68,
+  "goldLetter": "X"
+}

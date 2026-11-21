@@ -1,0 +1,138 @@
+{
+  "id": "2027-09-19",
+  "date": "2027-09-19",
+  "number": 526,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 9,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "DSOOCMR",
+      "bestWord": {
+        "word": "SODA",
+        "score": 26
+      }
+    },
+    {
+      "rack": "HUIZISR",
+      "bestWord": {
+        "word": "RUSH",
+        "score": 39
+      }
+    },
+    {
+      "rack": "EGHIWAF",
+      "bestWord": {
+        "word": "WHARF",
+        "score": 45
+      }
+    }
+  ],
+  "par": 77,
+  "goldLetter": "H"
+}

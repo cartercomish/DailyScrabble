@@ -1,0 +1,138 @@
+{
+  "id": "2027-08-12",
+  "date": "2027-08-12",
+  "number": 488,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "V",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 0
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 1,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NBERCMU",
+      "bestWord": {
+        "word": "CURB",
+        "score": 35
+      }
+    },
+    {
+      "rack": "YDBEIOI",
+      "bestWord": {
+        "word": "BYE",
+        "score": 40
+      }
+    },
+    {
+      "rack": "EARRSWE",
+      "bestWord": {
+        "word": "SWEAR",
+        "score": 36
+      }
+    }
+  ],
+  "par": 78,
+  "goldLetter": "Y"
+}

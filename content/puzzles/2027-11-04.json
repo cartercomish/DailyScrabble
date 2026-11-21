@@ -1,0 +1,138 @@
+{
+  "id": "2027-11-04",
+  "date": "2027-11-04",
+  "number": 572,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NUAIADH",
+      "bestWord": {
+        "word": "HAND",
+        "score": 45
+      }
+    },
+    {
+      "rack": "FIAEIEB",
+      "bestWord": {
+        "word": "BEEF",
+        "score": 30
+      }
+    },
+    {
+      "rack": "YFUISEM",
+      "bestWord": {
+        "word": "MY",
+        "score": 33
+      }
+    }
+  ],
+  "par": 76,
+  "goldLetter": "F"
+}

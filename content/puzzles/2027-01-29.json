@@ -5,128 +5,114 @@
   "size": 11,
   "seed": [
     {
-      "letter": "C",
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "R",
+      "letter": "L",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "O",
+      "letter": "V",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "W",
+      "letter": "E",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "N",
+      "letter": "R",
       "row": 5,
       "col": 7
     },
     {
-      "letter": "G",
+      "letter": "R",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "E",
       "row": 3,
       "col": 4
     },
     {
-      "letter": "I",
+      "letter": "A",
       "row": 4,
       "col": 4
     },
     {
-      "letter": "L",
+      "letter": "A",
       "row": 6,
-      "col": 4
+      "col": 6
     },
     {
-      "letter": "D",
-      "row": 4,
-      "col": 5
-    },
-    {
-      "letter": "O",
-      "row": 6,
-      "col": 5
-    },
-    {
-      "letter": "R",
+      "letter": "C",
       "row": 7,
-      "col": 5
+      "col": 6
     },
     {
-      "letter": "S",
-      "row": 8,
-      "col": 5
-    },
-    {
-      "letter": "O",
+      "letter": "H",
       "row": 8,
       "col": 6
     },
     {
-      "letter": "L",
-      "row": 8,
-      "col": 7
-    },
-    {
-      "letter": "A",
-      "row": 8,
-      "col": 8
+      "letter": "T",
+      "row": 7,
+      "col": 3
     },
     {
       "letter": "R",
-      "row": 8,
-      "col": 9
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 5
     },
     {
       "letter": "E",
-      "row": 4,
+      "row": 7,
       "col": 7
     },
     {
-      "letter": "A",
-      "row": 4,
+      "letter": "S",
+      "row": 7,
       "col": 8
-    },
-    {
-      "letter": "R",
-      "row": 4,
-      "col": 9
-    },
-    {
-      "letter": "N",
-      "row": 4,
-      "col": 10
     }
   ],
   "rounds": [
     {
-      "rack": "EHKTFET",
+      "rack": "EYOOWLF",
       "bestWord": {
-        "word": "KENT",
-        "score": 39
+        "word": "FLYER",
+        "score": 30
       }
     },
     {
-      "rack": "SEAYSIR",
+      "rack": "DRNOSUA",
       "bestWord": {
-        "word": "RISES",
+        "word": "ADS",
+        "score": 28
+      }
+    },
+    {
+      "rack": "EIXTGOM",
+      "bestWord": {
+        "word": "REX",
         "score": 26
-      }
-    },
-    {
-      "rack": "DNISEVZ",
-      "bestWord": {
-        "word": "SIZED",
-        "score": 52
       }
     }
   ],
-  "par": 76
+  "par": 59,
+  "goldLetter": "D"
 }

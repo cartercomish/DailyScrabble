@@ -1,0 +1,133 @@
+{
+  "id": "2027-08-09",
+  "date": "2027-08-09",
+  "number": 485,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "B",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "UUIEXLN",
+      "bestWord": {
+        "word": "UNISEX",
+        "score": 117
+      }
+    },
+    {
+      "rack": "DREUIEN",
+      "bestWord": {
+        "word": "RUINED",
+        "score": 28
+      }
+    },
+    {
+      "rack": "CMDCEVA",
+      "bestWord": {
+        "word": "DAM",
+        "score": 33
+      }
+    }
+  ],
+  "par": 125,
+  "goldLetter": "D"
+}

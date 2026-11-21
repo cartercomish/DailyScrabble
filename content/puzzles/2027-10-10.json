@@ -1,0 +1,138 @@
+{
+  "id": "2027-10-10",
+  "date": "2027-10-10",
+  "number": 547,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "B",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "V",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "FBURCAD",
+      "bestWord": {
+        "word": "BARD",
+        "score": 26
+      }
+    },
+    {
+      "rack": "PGNENIS",
+      "bestWord": {
+        "word": "PEG",
+        "score": 35
+      }
+    },
+    {
+      "rack": "ETOACHI",
+      "bestWord": {
+        "word": "HAT",
+        "score": 39
+      }
+    }
+  ],
+  "par": 70,
+  "goldLetter": "P"
+}

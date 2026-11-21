@@ -1,0 +1,133 @@
+{
+  "id": "2027-11-25",
+  "date": "2027-11-25",
+  "number": 593,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "V",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IYGEINR",
+      "bestWord": {
+        "word": "RISING",
+        "score": 63
+      }
+    },
+    {
+      "rack": "FBASHED",
+      "bestWord": {
+        "word": "BEEF",
+        "score": 39
+      }
+    },
+    {
+      "rack": "LORCAUS",
+      "bestWord": {
+        "word": "CURSOR",
+        "score": 27
+      }
+    }
+  ],
+  "par": 90,
+  "goldLetter": "F"
+}

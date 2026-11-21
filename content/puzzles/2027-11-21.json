@@ -1,0 +1,123 @@
+{
+  "id": "2027-11-21",
+  "date": "2027-11-21",
+  "number": 589,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "M",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 3
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OHTENSI",
+      "bestWord": {
+        "word": "SHOE",
+        "score": 34
+      }
+    },
+    {
+      "rack": "VNDAOTL",
+      "bestWord": {
+        "word": "VOTED",
+        "score": 26
+      }
+    },
+    {
+      "rack": "WANBNES",
+      "bestWord": {
+        "word": "WAVES",
+        "score": 33
+      }
+    }
+  ],
+  "par": 65,
+  "goldLetter": "V"
+}

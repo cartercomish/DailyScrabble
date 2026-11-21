@@ -1,0 +1,133 @@
+{
+  "id": "2027-08-23",
+  "date": "2027-08-23",
+  "number": 499,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 10,
+      "col": 2
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IOYEPCD",
+      "bestWord": {
+        "word": "COPIED",
+        "score": 39
+      }
+    },
+    {
+      "rack": "HIAGCMA",
+      "bestWord": {
+        "word": "HEM",
+        "score": 45
+      }
+    },
+    {
+      "rack": "QDMUEOF",
+      "bestWord": {
+        "word": "MOSQUE",
+        "score": 38
+      }
+    }
+  ],
+  "par": 85,
+  "goldLetter": "H"
+}

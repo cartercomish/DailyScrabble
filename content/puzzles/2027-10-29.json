@@ -1,0 +1,138 @@
+{
+  "id": "2027-10-29",
+  "date": "2027-10-29",
+  "number": 566,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "F",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 1
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "WSYEETI",
+      "bestWord": {
+        "word": "SWEET",
+        "score": 28
+      }
+    },
+    {
+      "rack": "VSSATIR",
+      "bestWord": {
+        "word": "VISTA",
+        "score": 37
+      }
+    },
+    {
+      "rack": "FNUPSEI",
+      "bestWord": {
+        "word": "FUSE",
+        "score": 27
+      }
+    }
+  ],
+  "par": 64,
+  "goldLetter": "V"
+}

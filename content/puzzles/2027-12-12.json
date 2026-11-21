@@ -1,0 +1,138 @@
+{
+  "id": "2027-12-12",
+  "date": "2027-12-12",
+  "number": 610,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "F",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 0,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NWDIOCE",
+      "bestWord": {
+        "word": "CROWD",
+        "score": 45
+      }
+    },
+    {
+      "rack": "VILAAIS",
+      "bestWord": {
+        "word": "SILVA",
+        "score": 63
+      }
+    },
+    {
+      "rack": "UEHTDGO",
+      "bestWord": {
+        "word": "HUGE",
+        "score": 33
+      }
+    }
+  ],
+  "par": 99,
+  "goldLetter": "V"
+}

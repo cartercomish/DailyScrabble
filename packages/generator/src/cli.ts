@@ -1,3 +1,4 @@
+import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { generatePuzzle, loadDictFromRepo, writePuzzle } from "./generate";
@@ -36,6 +37,13 @@ async function main() {
   console.log("Loading dictionary…");
   const dict = loadDictFromRepo(path.join(repoRoot, "content/words-gen.txt"));
   console.log(`Gen dictionary: ${dict.size} words`);
+  if (!opts.dryRun) {
+    // The web app's bot solves with this same list, so keep its copy in sync.
+    fs.copyFileSync(
+      path.join(repoRoot, "content/words-gen.txt"),
+      path.join(repoRoot, "apps/web/public/words-gen.txt"),
+    );
+  }
 
   const outDir = path.join(repoRoot, "content/puzzles");
   const start = opts.date ?? new Date().toISOString().slice(0, 10);
@@ -75,7 +83,7 @@ async function main() {
     console.log(`  seed tiles: ${metrics.seedTiles}`);
     for (const r of metrics.rounds) {
       console.log(
-        `  rack ${r.rack}: ${r.playCount} plays, ${r.playsOver20}≥20, best ${r.bestWord} (${r.bestScore})`,
+        `  rack ${r.rack}: ${r.playCount} plays, ${r.playsOver20}≥20, best ${r.bestWord} (${r.bestScore}), ${r.deepWords} deep words`,
       );
     }
     console.log(`  par: ${metrics.par}  goodLines≈${metrics.distinctGoodLines}`);

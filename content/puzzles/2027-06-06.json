@@ -1,0 +1,118 @@
+{
+  "id": "2027-06-06",
+  "date": "2027-06-06",
+  "number": 421,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "M",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "H",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 3
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NSOIYLE",
+      "bestWord": {
+        "word": "NOISY",
+        "score": 34
+      }
+    },
+    {
+      "rack": "FTRACSO",
+      "bestWord": {
+        "word": "FORECAST",
+        "score": 64
+      }
+    },
+    {
+      "rack": "NTEEOAS",
+      "bestWord": {
+        "word": "NOTES",
+        "score": 34
+      }
+    }
+  ],
+  "par": 92,
+  "goldLetter": "F"
+}

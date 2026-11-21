@@ -5,12 +5,12 @@
   "size": 11,
   "seed": [
     {
-      "letter": "M",
+      "letter": "F",
       "row": 5,
       "col": 2
     },
     {
-      "letter": "O",
+      "letter": "A",
       "row": 5,
       "col": 3
     },
@@ -35,88 +35,84 @@
       "col": 7
     },
     {
-      "letter": "T",
-      "row": 2,
-      "col": 6
-    },
-    {
-      "letter": "I",
-      "row": 3,
-      "col": 6
-    },
-    {
-      "letter": "M",
-      "row": 4,
-      "col": 6
-    },
-    {
-      "letter": "E",
+      "letter": "O",
       "row": 6,
-      "col": 4
-    },
-    {
-      "letter": "N",
-      "row": 7,
-      "col": 4
+      "col": 2
     },
     {
       "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "M",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "B",
       "row": 2,
-      "col": 7
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 2
     },
     {
       "letter": "A",
       "row": 2,
-      "col": 8
+      "col": 3
     },
     {
-      "letter": "I",
+      "letter": "L",
       "row": 2,
-      "col": 9
-    },
-    {
-      "letter": "N",
-      "row": 2,
-      "col": 10
-    },
-    {
-      "letter": "T",
-      "row": 3,
       "col": 5
     },
     {
       "letter": "E",
-      "row": 3,
-      "col": 7
+      "row": 2,
+      "col": 6
     },
     {
-      "letter": "R",
-      "row": 3,
-      "col": 8
+      "letter": "S",
+      "row": 2,
+      "col": 7
     }
   ],
   "rounds": [
     {
-      "rack": "LPIILWA",
+      "rack": "EAXIWNE",
       "bestWord": {
-        "word": "WIPE",
-        "score": 25
+        "word": "AX",
+        "score": 55
       }
     },
     {
-      "rack": "DOIZEEB",
+      "rack": "KROMOEH",
       "bestWord": {
-        "word": "ZONE",
-        "score": 39
+        "word": "HOOK",
+        "score": 52
       }
     },
     {
-      "rack": "CDAUTSN",
+      "rack": "IUYSADE",
       "bestWord": {
-        "word": "ACTS",
-        "score": 29
+        "word": "DAISY",
+        "score": 42
       }
     }
   ],
-  "par": 60
+  "par": 104,
+  "goldLetter": "K"
 }

@@ -1,0 +1,128 @@
+{
+  "id": "2027-09-18",
+  "date": "2027-09-18",
+  "number": 525,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "K",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "MEOYRIO",
+      "bestWord": {
+        "word": "MISERY",
+        "score": 42
+      }
+    },
+    {
+      "rack": "XOGAMUY",
+      "bestWord": {
+        "word": "ONYX",
+        "score": 36
+      }
+    },
+    {
+      "rack": "LTHAFUD",
+      "bestWord": {
+        "word": "UH",
+        "score": 26
+      }
+    }
+  ],
+  "par": 73,
+  "goldLetter": "X"
+}

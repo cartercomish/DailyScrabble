@@ -1,0 +1,133 @@
+{
+  "id": "2027-06-29",
+  "date": "2027-06-29",
+  "number": 444,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "Y",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 0
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 3
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "SAICBOA",
+      "bestWord": {
+        "word": "BASICS",
+        "score": 90
+      }
+    },
+    {
+      "rack": "HDFPITO",
+      "bestWord": {
+        "word": "HIP",
+        "score": 31
+      }
+    },
+    {
+      "rack": "NTSIEOE",
+      "bestWord": {
+        "word": "NOISE",
+        "score": 25
+      }
+    }
+  ],
+  "par": 102,
+  "goldLetter": "H"
+}

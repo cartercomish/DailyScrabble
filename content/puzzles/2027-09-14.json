@@ -1,0 +1,118 @@
+{
+  "id": "2027-09-14",
+  "date": "2027-09-14",
+  "number": 521,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "F",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "B",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "V",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "D",
+      "row": 1,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "WCDUNIP",
+      "bestWord": {
+        "word": "WIN",
+        "score": 42
+      }
+    },
+    {
+      "rack": "YSERLEL",
+      "bestWord": {
+        "word": "RELY",
+        "score": 39
+      }
+    },
+    {
+      "rack": "ONSKTIA",
+      "bestWord": {
+        "word": "TANKS",
+        "score": 35
+      }
+    }
+  ],
+  "par": 81,
+  "goldLetter": "Y"
+}

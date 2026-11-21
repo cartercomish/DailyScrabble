@@ -1,0 +1,133 @@
+{
+  "id": "2027-10-13",
+  "date": "2027-10-13",
+  "number": 550,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "F",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "P",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "Y",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "G",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OSROWIE",
+      "bestWord": {
+        "word": "WIRES",
+        "score": 30
+      }
+    },
+    {
+      "rack": "YBONIAI",
+      "bestWord": {
+        "word": "BOTANY",
+        "score": 99
+      }
+    },
+    {
+      "rack": "OLCNEMP",
+      "bestWord": {
+        "word": "COMPILE",
+        "score": 50
+      }
+    }
+  ],
+  "par": 125,
+  "goldLetter": "Y"
+}

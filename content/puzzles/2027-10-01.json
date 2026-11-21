@@ -1,0 +1,138 @@
+{
+  "id": "2027-10-01",
+  "date": "2027-10-01",
+  "number": 538,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "BONOFTE",
+      "bestWord": {
+        "word": "FRONT",
+        "score": 32
+      }
+    },
+    {
+      "rack": "KOCAUAD",
+      "bestWord": {
+        "word": "CAKE",
+        "score": 45
+      }
+    },
+    {
+      "rack": "YOQWWHO",
+      "bestWord": {
+        "word": "SHOW",
+        "score": 42
+      }
+    }
+  ],
+  "par": 83,
+  "goldLetter": "K"
+}

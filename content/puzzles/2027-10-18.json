@@ -1,0 +1,138 @@
+{
+  "id": "2027-10-18",
+  "date": "2027-10-18",
+  "number": 555,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "M",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "TPOEERK",
+      "bestWord": {
+        "word": "PORK",
+        "score": 40
+      }
+    },
+    {
+      "rack": "BESUNUO",
+      "bestWord": {
+        "word": "BISON",
+        "score": 27
+      }
+    },
+    {
+      "rack": "YVCATAG",
+      "bestWord": {
+        "word": "YOGA",
+        "score": 32
+      }
+    }
+  ],
+  "par": 69,
+  "goldLetter": "B"
+}

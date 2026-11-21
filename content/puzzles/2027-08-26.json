@@ -1,0 +1,133 @@
+{
+  "id": "2027-08-26",
+  "date": "2027-08-26",
+  "number": 502,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 1
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 1
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AHIYTDO",
+      "bestWord": {
+        "word": "TIDY",
+        "score": 40
+      }
+    },
+    {
+      "rack": "XIODSDF",
+      "bestWord": {
+        "word": "SIX",
+        "score": 34
+      }
+    },
+    {
+      "rack": "EAYFRLL",
+      "bestWord": {
+        "word": "ALLEY",
+        "score": 41
+      }
+    }
+  ],
+  "par": 81,
+  "goldLetter": "X"
+}

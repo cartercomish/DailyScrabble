@@ -1,0 +1,133 @@
+{
+  "id": "2027-06-08",
+  "date": "2027-06-08",
+  "number": 423,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "P",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "Y",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "U",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NEEDFHS",
+      "bestWord": {
+        "word": "FRESH",
+        "score": 30
+      }
+    },
+    {
+      "rack": "QUTSCEL",
+      "bestWord": {
+        "word": "QUEST",
+        "score": 45
+      }
+    },
+    {
+      "rack": "MSNLEGA",
+      "bestWord": {
+        "word": "SHAME",
+        "score": 30
+      }
+    }
+  ],
+  "par": 74,
+  "goldLetter": "Q"
+}

@@ -1,0 +1,133 @@
+{
+  "id": "2027-10-24",
+  "date": "2027-10-24",
+  "number": 561,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "V",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "F",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "M",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 8,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "PZATIHX",
+      "bestWord": {
+        "word": "PIX",
+        "score": 31
+      }
+    },
+    {
+      "rack": "VESANBI",
+      "bestWord": {
+        "word": "VIBE",
+        "score": 27
+      }
+    },
+    {
+      "rack": "RPGSDOI",
+      "bestWord": {
+        "word": "PERIODS",
+        "score": 33
+      }
+    }
+  ],
+  "par": 64,
+  "goldLetter": "V"
+}

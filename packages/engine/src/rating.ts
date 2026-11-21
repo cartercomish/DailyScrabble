@@ -8,8 +8,8 @@ export function puzzleBestTotal(puzzle: DailyPuzzle): number {
 }
 
 /**
- * Casual tiers vs normal-words best; 🤯 only for matching the full-dict best path.
- * 🤯 matched solution · 🏆 crushed · ⭐ strong · 📦 solid · 🫠 sank
+ * Casual tiers vs normal-words best; 🤯 for tying or beating the bot's line.
+ * 🤯 beat the bot · 🏆 crushed · ⭐ strong · 📦 solid · 🫠 sank
  */
 export function scoreEmoji(
   score: number,
@@ -19,14 +19,14 @@ export function scoreEmoji(
   if (
     solutionBest != null &&
     solutionBest > 0 &&
-    score === solutionBest
+    score >= solutionBest
   ) {
     return "🤯";
   }
   if (casualBest <= 0) return "📦";
   const ratio = score / casualBest;
-  if (ratio >= 0.85) return "🏆";
-  if (ratio >= 0.65) return "⭐";
+  if (ratio >= 0.9) return "🏆";
+  if (ratio >= 0.7) return "⭐";
   if (ratio >= 0.45) return "📦";
   return "🫠";
 }

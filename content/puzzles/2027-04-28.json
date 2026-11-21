@@ -5,12 +5,12 @@
   "size": 11,
   "seed": [
     {
-      "letter": "B",
+      "letter": "H",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "O",
+      "letter": "E",
       "row": 5,
       "col": 4
     },
@@ -25,113 +25,104 @@
       "col": 6
     },
     {
-      "letter": "D",
+      "letter": "T",
       "row": 5,
       "col": 7
     },
     {
-      "letter": "E",
-      "row": 6,
-      "col": 6
-    },
-    {
-      "letter": "A",
-      "row": 7,
-      "col": 6
-    },
-    {
-      "letter": "D",
-      "row": 8,
-      "col": 6
-    },
-    {
-      "letter": "A",
+      "letter": "S",
       "row": 4,
       "col": 3
     },
     {
-      "letter": "L",
+      "letter": "O",
       "row": 6,
       "col": 3
     },
     {
-      "letter": "E",
+      "letter": "P",
       "row": 7,
       "col": 3
     },
     {
-      "letter": "A",
-      "row": 3,
-      "col": 1
-    },
-    {
-      "letter": "L",
-      "row": 3,
-      "col": 2
-    },
-    {
-      "letter": "T",
-      "row": 3,
-      "col": 3
-    },
-    {
-      "letter": "E",
-      "row": 3,
+      "letter": "R",
+      "row": 6,
       "col": 4
     },
     {
-      "letter": "R",
-      "row": 3,
-      "col": 5
+      "letter": "A",
+      "row": 7,
+      "col": 4
     },
     {
-      "letter": "E",
-      "row": 2,
-      "col": 5
+      "letter": "T",
+      "row": 4,
+      "col": 6
     },
     {
       "letter": "A",
-      "row": 2,
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
       "col": 6
     },
     {
       "letter": "R",
-      "row": 2,
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 9,
       "col": 7
     },
     {
-      "letter": "N",
-      "row": 2,
+      "letter": "T",
+      "row": 9,
       "col": 8
     },
     {
-      "letter": "S",
-      "row": 2,
+      "letter": "E",
+      "row": 9,
       "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 10
     }
   ],
   "rounds": [
     {
-      "rack": "UMTGOGL",
+      "rack": "WIUTDED",
       "bestWord": {
-        "word": "MO",
-        "score": 22
+        "word": "WIDEST",
+        "score": 99
       }
     },
     {
-      "rack": "QIEILSC",
+      "rack": "GAOEESS",
       "bestWord": {
-        "word": "SLICE",
-        "score": 26
+        "word": "GASES",
+        "score": 32
       }
     },
     {
-      "rack": "EEERZOR",
+      "rack": "AIOZWFH",
       "bestWord": {
-        "word": "RAZOR",
-        "score": 36
+        "word": "OH",
+        "score": 31
       }
     }
   ],
-  "par": 55
+  "par": 113,
+  "goldLetter": "G"
 }

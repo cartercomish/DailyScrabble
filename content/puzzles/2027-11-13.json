@@ -1,0 +1,128 @@
+{
+  "id": "2027-11-13",
+  "date": "2027-11-13",
+  "number": 581,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 9
+    },
+    {
+      "letter": "T",
+      "row": 10,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "TJSBANI",
+      "bestWord": {
+        "word": "BINS",
+        "score": 33
+      }
+    },
+    {
+      "rack": "HKVNEOR",
+      "bestWord": {
+        "word": "THEN",
+        "score": 33
+      }
+    },
+    {
+      "rack": "OTXACPI",
+      "bestWord": {
+        "word": "CAPITA",
+        "score": 41
+      }
+    }
+  ],
+  "par": 75,
+  "goldLetter": "H"
+}

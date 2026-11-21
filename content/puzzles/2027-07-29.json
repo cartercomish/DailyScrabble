@@ -1,0 +1,133 @@
+{
+  "id": "2027-07-29",
+  "date": "2027-07-29",
+  "number": 474,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "F",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "VEVGRYE",
+      "bestWord": {
+        "word": "EVERY",
+        "score": 54
+      }
+    },
+    {
+      "rack": "HEAPMAN",
+      "bestWord": {
+        "word": "HEAP",
+        "score": 37
+      }
+    },
+    {
+      "rack": "GEROFAR",
+      "bestWord": {
+        "word": "REFER",
+        "score": 36
+      }
+    }
+  ],
+  "par": 89,
+  "goldLetter": "H"
+}

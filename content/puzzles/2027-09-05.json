@@ -1,0 +1,133 @@
+{
+  "id": "2027-09-05",
+  "date": "2027-09-05",
+  "number": 512,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OXRKYED",
+      "bestWord": {
+        "word": "KEYSTONE",
+        "score": 57
+      }
+    },
+    {
+      "rack": "FVOATOC",
+      "bestWord": {
+        "word": "FAVE",
+        "score": 28
+      }
+    },
+    {
+      "rack": "WDIELNS",
+      "bestWord": {
+        "word": "TWIN",
+        "score": 33
+      }
+    }
+  ],
+  "par": 83,
+  "goldLetter": "F"
+}

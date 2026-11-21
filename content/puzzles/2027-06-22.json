@@ -1,0 +1,118 @@
+{
+  "id": "2027-06-22",
+  "date": "2027-06-22",
+  "number": 437,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "W",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "YSVOELC",
+      "bestWord": {
+        "word": "VERY",
+        "score": 36
+      }
+    },
+    {
+      "rack": "HTIMMEN",
+      "bestWord": {
+        "word": "THEM",
+        "score": 50
+      }
+    },
+    {
+      "rack": "PAOUDSO",
+      "bestWord": {
+        "word": "SOAP",
+        "score": 30
+      }
+    }
+  ],
+  "par": 81,
+  "goldLetter": "H"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "2027-06-05",
+  "date": "2027-06-05",
+  "number": 420,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "P",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 10
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "QARNUYJ",
+      "bestWord": {
+        "word": "QUAY",
+        "score": 40
+      }
+    },
+    {
+      "rack": "BLEOGRI",
+      "bestWord": {
+        "word": "BOILER",
+        "score": 81
+      }
+    },
+    {
+      "rack": "WOVUDNB",
+      "bestWord": {
+        "word": "WOUND",
+        "score": 29
+      }
+    }
+  ],
+  "par": 105,
+  "goldLetter": "B"
+}

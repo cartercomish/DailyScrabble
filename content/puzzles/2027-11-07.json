@@ -1,0 +1,138 @@
+{
+  "id": "2027-11-07",
+  "date": "2027-11-07",
+  "number": 575,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "B",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EPHVIMD",
+      "bestWord": {
+        "word": "AVID",
+        "score": 36
+      }
+    },
+    {
+      "rack": "YERTNGO",
+      "bestWord": {
+        "word": "ENERGY",
+        "score": 90
+      }
+    },
+    {
+      "rack": "IOXESCD",
+      "bestWord": {
+        "word": "EXCISE",
+        "score": 48
+      }
+    }
+  ],
+  "par": 122,
+  "goldLetter": "Y"
+}

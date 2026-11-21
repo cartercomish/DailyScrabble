@@ -1,0 +1,128 @@
+{
+  "id": "2027-08-14",
+  "date": "2027-08-14",
+  "number": 490,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "P",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "SIPUUNG",
+      "bestWord": {
+        "word": "MARKETING",
+        "score": 51
+      }
+    },
+    {
+      "rack": "JYVDARE",
+      "bestWord": {
+        "word": "JAY",
+        "score": 34
+      }
+    },
+    {
+      "rack": "GXYNUAH",
+      "bestWord": {
+        "word": "AXE",
+        "score": 26
+      }
+    }
+  ],
+  "par": 78,
+  "goldLetter": "J"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "2027-11-16",
+  "date": "2027-11-16",
+  "number": 584,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "H",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "CLWATOE",
+      "bestWord": {
+        "word": "ORACLE",
+        "score": 99
+      }
+    },
+    {
+      "rack": "FNWEGIL",
+      "bestWord": {
+        "word": "FLOW",
+        "score": 40
+      }
+    },
+    {
+      "rack": "MRAHIDE",
+      "bestWord": {
+        "word": "ADHERE",
+        "score": 90
+      }
+    }
+  ],
+  "par": 160,
+  "goldLetter": "F"
+}

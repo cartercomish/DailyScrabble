@@ -1,0 +1,133 @@
+{
+  "id": "2027-12-26",
+  "date": "2027-12-26",
+  "number": 624,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "W",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 10
+    },
+    {
+      "letter": "T",
+      "row": 0,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "DNEDEOR",
+      "bestWord": {
+        "word": "DENOTED",
+        "score": 81
+      }
+    },
+    {
+      "rack": "FLUPOGH",
+      "bestWord": {
+        "word": "FLUSH",
+        "score": 30
+      }
+    },
+    {
+      "rack": "HILKEVE",
+      "bestWord": {
+        "word": "EH",
+        "score": 33
+      }
+    }
+  ],
+  "par": 101,
+  "goldLetter": "F"
+}

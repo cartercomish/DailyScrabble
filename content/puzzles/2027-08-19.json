@@ -1,0 +1,133 @@
+{
+  "id": "2027-08-19",
+  "date": "2027-08-19",
+  "number": 495,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 1
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AHOEWLG",
+      "bestWord": {
+        "word": "AH",
+        "score": 28
+      }
+    },
+    {
+      "rack": "GNRDSIA",
+      "bestWord": {
+        "word": "PLANTING",
+        "score": 36
+      }
+    },
+    {
+      "rack": "EUCNTOY",
+      "bestWord": {
+        "word": "COUNTY",
+        "score": 45
+      }
+    }
+  ],
+  "par": 76,
+  "goldLetter": "G"
+}

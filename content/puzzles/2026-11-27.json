@@ -5,7 +5,7 @@
   "size": 11,
   "seed": [
     {
-      "letter": "D",
+      "letter": "T",
       "row": 5,
       "col": 3
     },
@@ -15,113 +15,104 @@
       "col": 4
     },
     {
-      "letter": "E",
+      "letter": "A",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "A",
+      "letter": "I",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "M",
+      "letter": "N",
       "row": 5,
       "col": 7
     },
     {
-      "letter": "F",
-      "row": 2,
+      "letter": "E",
+      "row": 4,
       "col": 7
     },
     {
-      "letter": "A",
+      "letter": "D",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "Y",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "T",
       "row": 3,
       "col": 7
     },
     {
-      "letter": "R",
-      "row": 4,
+      "letter": "E",
+      "row": 7,
       "col": 7
     },
     {
-      "letter": "O",
-      "row": 4,
-      "col": 4
-    },
-    {
-      "letter": "E",
-      "row": 6,
-      "col": 4
-    },
-    {
       "letter": "R",
-      "row": 4,
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 2,
       "col": 0
     },
     {
       "letter": "A",
-      "row": 4,
+      "row": 2,
       "col": 1
     },
     {
-      "letter": "T",
-      "row": 4,
+      "letter": "S",
+      "row": 2,
       "col": 2
     },
     {
-      "letter": "I",
-      "row": 4,
-      "col": 3
-    },
-    {
-      "letter": "S",
-      "row": 3,
-      "col": 5
-    },
-    {
-      "letter": "L",
-      "row": 3,
-      "col": 6
-    },
-    {
       "letter": "T",
-      "row": 3,
-      "col": 8
-    },
-    {
-      "letter": "E",
-      "row": 3,
-      "col": 9
-    },
-    {
-      "letter": "R",
-      "row": 3,
-      "col": 10
+      "row": 2,
+      "col": 3
     }
   ],
   "rounds": [
     {
-      "rack": "TIMETAY",
+      "rack": "ZLVWETI",
       "bestWord": {
-        "word": "TREATY",
-        "score": 39
+        "word": "WAIVE",
+        "score": 38
       }
     },
     {
-      "rack": "UOHKIUQ",
+      "rack": "YGDEEAO",
       "bestWord": {
-        "word": "HO",
-        "score": 28
+        "word": "YOGA",
+        "score": 42
       }
     },
     {
-      "rack": "INEBAUT",
+      "rack": "UCORDSM",
       "bestWord": {
-        "word": "TRIBUNE",
-        "score": 33
+        "word": "MODS",
+        "score": 25
       }
     }
   ],
-  "par": 65
+  "par": 74,
+  "goldLetter": "Y"
 }

@@ -1,0 +1,133 @@
+{
+  "id": "2027-07-07",
+  "date": "2027-07-07",
+  "number": 452,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "D",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AEONITH",
+      "bestWord": {
+        "word": "THETA",
+        "score": 32
+      }
+    },
+    {
+      "rack": "XHABAEE",
+      "bestWord": {
+        "word": "AXE",
+        "score": 26
+      }
+    },
+    {
+      "rack": "EPJRDAE",
+      "bestWord": {
+        "word": "PARADE",
+        "score": 90
+      }
+    }
+  ],
+  "par": 104,
+  "goldLetter": "X"
+}

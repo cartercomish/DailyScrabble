@@ -1,0 +1,128 @@
+{
+  "id": "2027-12-31",
+  "date": "2027-12-31",
+  "number": 629,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "M",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 0
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OFEOPXC",
+      "bestWord": {
+        "word": "FLEX",
+        "score": 66
+      }
+    },
+    {
+      "rack": "VBSEUAG",
+      "bestWord": {
+        "word": "SAVAGE",
+        "score": 33
+      }
+    },
+    {
+      "rack": "NENDRAG",
+      "bestWord": {
+        "word": "AGED",
+        "score": 28
+      }
+    }
+  ],
+  "par": 89,
+  "goldLetter": "V"
+}

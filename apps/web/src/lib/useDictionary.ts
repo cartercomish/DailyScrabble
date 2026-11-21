@@ -3,32 +3,48 @@
 import { Dictionary, loadDictionaryFromText } from "@daily-rack/engine";
 import { useEffect, useState } from "react";
 
-let shared: Dictionary | null = null;
-let sharedPromise: Promise<Dictionary> | null = null;
+export interface Dictionaries {
+  /** Wide list: decides whether a player's word is legal. */
+  dict: Dictionary;
+  /** Everyday list (content/words-gen.txt): the bot only plays these. */
+  botDict: Dictionary;
+}
 
-async function fetchDictionary(): Promise<Dictionary> {
+let shared: Dictionaries | null = null;
+let sharedPromise: Promise<Dictionaries> | null = null;
+
+function fetchWords(url: string): Promise<Dictionary> {
+  return fetch(url)
+    .then((r) => {
+      if (!r.ok) throw new Error(`Failed to load ${url}`);
+      return r.text();
+    })
+    .then(loadDictionaryFromText);
+}
+
+async function fetchDictionaries(): Promise<Dictionaries> {
   if (shared) return shared;
   if (!sharedPromise) {
-    // Play acceptance list (wide). Generation uses content/words-gen.txt separately.
-    sharedPromise = fetch("/words.txt?v=play-1")
-      .then((r) => r.text())
-      .then((text) => {
-        shared = loadDictionaryFromText(text);
-        return shared;
-      });
+    sharedPromise = Promise.all([
+      fetchWords("/words.txt?v=play-1"),
+      fetchWords("/words-gen.txt?v=gen-1"),
+    ]).then(([dict, botDict]) => {
+      shared = { dict, botDict };
+      return shared;
+    });
   }
   return sharedPromise;
 }
 
 export function useDictionary() {
-  const [dict, setDict] = useState<Dictionary | null>(shared);
+  const [dicts, setDicts] = useState<Dictionaries | null>(shared);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     let alive = true;
-    fetchDictionary()
+    fetchDictionaries()
       .then((d) => {
-        if (alive) setDict(d);
+        if (alive) setDicts(d);
       })
       .catch((e) => {
         if (alive) setError(e instanceof Error ? e.message : "Failed to load dictionary");
@@ -38,5 +54,10 @@ export function useDictionary() {
     };
   }, []);
 
-  return { dict, error, loading: !dict && !error };
+  return {
+    dict: dicts?.dict ?? null,
+    botDict: dicts?.botDict ?? null,
+    error,
+    loading: !dicts && !error,
+  };
 }

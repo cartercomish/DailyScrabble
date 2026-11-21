@@ -1,0 +1,118 @@
+{
+  "id": "2027-11-20",
+  "date": "2027-11-20",
+  "number": 588,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "B",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 1,
+      "col": 10
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "DURIUHL",
+      "bestWord": {
+        "word": "HI",
+        "score": 32
+      }
+    },
+    {
+      "rack": "FGOLTDE",
+      "bestWord": {
+        "word": "FED",
+        "score": 28
+      }
+    },
+    {
+      "rack": "TFNINGI",
+      "bestWord": {
+        "word": "INNING",
+        "score": 72
+      }
+    }
+  ],
+  "par": 92,
+  "goldLetter": "F"
+}

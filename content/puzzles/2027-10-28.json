@@ -1,0 +1,138 @@
+{
+  "id": "2027-10-28",
+  "date": "2027-10-28",
+  "number": 565,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "Y",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "F",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 10
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 9
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 9
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 10,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "RILSEOO",
+      "bestWord": {
+        "word": "ORIOLES",
+        "score": 72
+      }
+    },
+    {
+      "rack": "KEEAWOC",
+      "bestWord": {
+        "word": "WOKE",
+        "score": 53
+      }
+    },
+    {
+      "rack": "INOWGAO",
+      "bestWord": {
+        "word": "WAGON",
+        "score": 47
+      }
+    }
+  ],
+  "par": 120,
+  "goldLetter": "K"
+}

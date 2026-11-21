@@ -5,7 +5,7 @@
   "size": 11,
   "seed": [
     {
-      "letter": "C",
+      "letter": "M",
       "row": 5,
       "col": 2
     },
@@ -15,103 +15,124 @@
       "col": 3
     },
     {
-      "letter": "S",
+      "letter": "R",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "T",
+      "letter": "K",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "L",
+      "letter": "E",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "E",
+      "letter": "T",
       "row": 5,
       "col": 7
     },
     {
+      "letter": "W",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 5
+    },
+    {
       "letter": "A",
       "row": 6,
-      "col": 2
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 4
     },
     {
       "letter": "R",
-      "row": 7,
-      "col": 2
-    },
-    {
-      "letter": "E",
-      "row": 8,
-      "col": 2
-    },
-    {
-      "letter": "A",
-      "row": 6,
+      "row": 3,
       "col": 6
     },
     {
       "letter": "T",
-      "row": 7,
-      "col": 6
+      "row": 3,
+      "col": 7
     },
     {
-      "letter": "E",
+      "letter": "S",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
       "row": 8,
       "col": 6
     },
     {
-      "letter": "S",
-      "row": 4,
-      "col": 6
-    },
-    {
       "letter": "A",
-      "row": 4,
+      "row": 8,
       "col": 7
     },
     {
       "letter": "T",
-      "row": 4,
+      "row": 8,
       "col": 8
     },
     {
       "letter": "I",
-      "row": 4,
+      "row": 8,
       "col": 9
     },
     {
       "letter": "N",
-      "row": 4,
+      "row": 8,
       "col": 10
     }
   ],
   "rounds": [
     {
-      "rack": "NQJIUAV",
+      "rack": "WGMUOAP",
       "bestWord": {
-        "word": "NINJA",
-        "score": 39
+        "word": "WOMAN",
+        "score": 30
       }
     },
     {
-      "rack": "EEROCBH",
+      "rack": "JTUEXAF",
       "bestWord": {
-        "word": "HERB",
-        "score": 51
+        "word": "JETS",
+        "score": 38
       }
     },
     {
-      "rack": "ROREVDE",
+      "rack": "UANRVOE",
       "bestWord": {
-        "word": "DEV",
-        "score": 32
+        "word": "JAR",
+        "score": 30
       }
     }
   ],
-  "par": 79
+  "par": 69,
+  "goldLetter": "J"
 }

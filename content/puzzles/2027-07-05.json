@@ -1,0 +1,138 @@
+{
+  "id": "2027-07-05",
+  "date": "2027-07-05",
+  "number": 450,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 9,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 9,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 9,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OTRHEVB",
+      "bestWord": {
+        "word": "TEETH",
+        "score": 27
+      }
+    },
+    {
+      "rack": "FNIOULS",
+      "bestWord": {
+        "word": "FOSSIL",
+        "score": 45
+      }
+    },
+    {
+      "rack": "EZLOWDM",
+      "bestWord": {
+        "word": "MOLD",
+        "score": 30
+      }
+    }
+  ],
+  "par": 71,
+  "goldLetter": "F"
+}

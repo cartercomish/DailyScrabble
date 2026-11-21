@@ -1,0 +1,133 @@
+{
+  "id": "2027-08-29",
+  "date": "2027-08-29",
+  "number": 505,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 10
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 0
+    },
+    {
+      "letter": "I",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "YTSORUE",
+      "bestWord": {
+        "word": "STOREY",
+        "score": 90
+      }
+    },
+    {
+      "rack": "EIBOSLR",
+      "bestWord": {
+        "word": "LINERS",
+        "score": 54
+      }
+    },
+    {
+      "rack": "AXPDIEF",
+      "bestWord": {
+        "word": "APEX",
+        "score": 31
+      }
+    }
+  ],
+  "par": 122,
+  "goldLetter": "E"
+}

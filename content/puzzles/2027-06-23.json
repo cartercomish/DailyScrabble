@@ -1,0 +1,133 @@
+{
+  "id": "2027-06-23",
+  "date": "2027-06-23",
+  "number": 438,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "U",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 0
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 9,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EEQRVLI",
+      "bestWord": {
+        "word": "RELIEVE",
+        "score": 90
+      }
+    },
+    {
+      "rack": "YEEOBAD",
+      "bestWord": {
+        "word": "BODY",
+        "score": 41
+      }
+    },
+    {
+      "rack": "TOGANDI",
+      "bestWord": {
+        "word": "DOG",
+        "score": 30
+      }
+    }
+  ],
+  "par": 113,
+  "goldLetter": "Y"
+}

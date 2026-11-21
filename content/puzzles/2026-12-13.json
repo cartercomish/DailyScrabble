@@ -5,123 +5,114 @@
   "size": 11,
   "seed": [
     {
-      "letter": "T",
+      "letter": "W",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "A",
+      "letter": "N",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "B",
+      "letter": "D",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "L",
+      "letter": "O",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "E",
+      "letter": "W",
       "row": 5,
       "col": 7
     },
     {
-      "letter": "A",
-      "row": 4,
-      "col": 5
-    },
-    {
-      "letter": "L",
-      "row": 6,
-      "col": 5
-    },
-    {
-      "letter": "E",
-      "row": 7,
-      "col": 5
-    },
-    {
-      "letter": "B",
+      "letter": "R",
       "row": 2,
-      "col": 3
+      "col": 5
     },
     {
       "letter": "E",
       "row": 3,
-      "col": 3
+      "col": 5
     },
     {
       "letter": "A",
       "row": 4,
-      "col": 3
-    },
-    {
-      "letter": "E",
-      "row": 3,
-      "col": 0
+      "col": 5
     },
     {
       "letter": "A",
-      "row": 3,
-      "col": 1
-    },
-    {
-      "letter": "T",
-      "row": 3,
+      "row": 6,
       "col": 2
     },
     {
-      "letter": "N",
-      "row": 3,
+      "letter": "V",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 1,
       "col": 4
     },
     {
-      "letter": "T",
-      "row": 6,
-      "col": 0
-    },
-    {
-      "letter": "E",
-      "row": 6,
-      "col": 1
-    },
-    {
-      "letter": "A",
-      "row": 6,
-      "col": 2
-    },
-    {
-      "letter": "S",
-      "row": 6,
-      "col": 3
+      "letter": "D",
+      "row": 1,
+      "col": 5
     }
   ],
   "rounds": [
     {
-      "rack": "ANSHFTU",
+      "rack": "MEYOSLG",
       "bestWord": {
-        "word": "FEAST",
+        "word": "GYMS",
+        "score": 37
+      }
+    },
+    {
+      "rack": "HAAPOEN",
+      "bestWord": {
+        "word": "HOPE",
         "score": 36
       }
     },
     {
-      "rack": "AMEXROL",
+      "rack": "IBRDAFG",
       "bestWord": {
-        "word": "RELAX",
-        "score": 33
-      }
-    },
-    {
-      "rack": "SEDTIIT",
-      "bestWord": {
-        "word": "TIDES",
-        "score": 23
+        "word": "BIRD",
+        "score": 28
       }
     }
   ],
-  "par": 60
+  "par": 71,
+  "goldLetter": "H"
 }

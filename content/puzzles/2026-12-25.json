@@ -5,78 +5,83 @@
   "size": 11,
   "seed": [
     {
-      "letter": "S",
+      "letter": "C",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "C",
+      "letter": "S",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "O",
+      "letter": "T",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "R",
+      "letter": "L",
       "row": 5,
       "col": 6
     },
     {
       "letter": "E",
       "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 2,
       "col": 7
     },
     {
       "letter": "N",
-      "row": 6,
-      "col": 5
-    },
-    {
-      "letter": "C",
-      "row": 7,
-      "col": 5
-    },
-    {
-      "letter": "E",
-      "row": 8,
-      "col": 5
-    },
-    {
-      "letter": "A",
-      "row": 6,
-      "col": 3
-    },
-    {
-      "letter": "M",
-      "row": 7,
-      "col": 3
-    },
-    {
-      "letter": "E",
-      "row": 8,
-      "col": 3
-    },
-    {
-      "letter": "E",
-      "row": 4,
-      "col": 6
-    },
-    {
-      "letter": "A",
-      "row": 4,
-      "col": 7
-    },
-    {
-      "letter": "R",
-      "row": 4,
+      "row": 2,
       "col": 8
     },
     {
-      "letter": "L",
-      "row": 4,
+      "letter": "S",
+      "row": 2,
       "col": 9
     },
     {
@@ -85,48 +90,49 @@
       "col": 2
     },
     {
-      "letter": "L",
+      "letter": "O",
       "row": 8,
-      "col": 4
+      "col": 3
     },
     {
       "letter": "A",
       "row": 8,
-      "col": 6
+      "col": 4
     },
     {
       "letter": "S",
       "row": 8,
-      "col": 7
+      "col": 5
     },
     {
-      "letter": "E",
+      "letter": "T",
       "row": 8,
-      "col": 8
+      "col": 6
     }
   ],
   "rounds": [
     {
-      "rack": "IMTDEKA",
+      "rack": "TEOVXII",
       "bestWord": {
-        "word": "MEDIA",
+        "word": "EXOTIC",
+        "score": 32
+      }
+    },
+    {
+      "rack": "BRDNAEI",
+      "bestWord": {
+        "word": "BAD",
         "score": 37
       }
     },
     {
-      "rack": "ANUNYWV",
+      "rack": "EBODYAI",
       "bestWord": {
-        "word": "AWAY",
-        "score": 42
-      }
-    },
-    {
-      "rack": "EESTROH",
-      "bestWord": {
-        "word": "HORSE",
-        "score": 31
+        "word": "EASY",
+        "score": 34
       }
     }
   ],
-  "par": 72
+  "par": 72,
+  "goldLetter": "B"
 }

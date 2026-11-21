@@ -1,0 +1,138 @@
+{
+  "id": "2027-11-09",
+  "date": "2027-11-09",
+  "number": 577,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "C",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "M",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 0
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "XELYAOE",
+      "bestWord": {
+        "word": "OX",
+        "score": 31
+      }
+    },
+    {
+      "rack": "VOLHENE",
+      "bestWord": {
+        "word": "NERVE",
+        "score": 36
+      }
+    },
+    {
+      "rack": "HZJIAUE",
+      "bestWord": {
+        "word": "HAZE",
+        "score": 43
+      }
+    }
+  ],
+  "par": 77,
+  "goldLetter": "V"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "2027-05-18",
+  "date": "2027-05-18",
+  "number": 402,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "Y",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 6,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "DFOIAEN",
+      "bestWord": {
+        "word": "FINED",
+        "score": 34
+      }
+    },
+    {
+      "rack": "HAOPEWO",
+      "bestWord": {
+        "word": "POOH",
+        "score": 51
+      }
+    },
+    {
+      "rack": "DWEEINI",
+      "bestWord": {
+        "word": "WIFE",
+        "score": 36
+      }
+    }
+  ],
+  "par": 85,
+  "goldLetter": "H"
+}

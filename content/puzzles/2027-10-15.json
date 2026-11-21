@@ -1,0 +1,138 @@
+{
+  "id": "2027-10-15",
+  "date": "2027-10-15",
+  "number": 552,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "Y",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "C",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 8
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 8
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 9,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AOIUENV",
+      "bestWord": {
+        "word": "VERA",
+        "score": 30
+      }
+    },
+    {
+      "rack": "VGTIDEN",
+      "bestWord": {
+        "word": "VEGAN",
+        "score": 30
+      }
+    },
+    {
+      "rack": "ZIRTAHA",
+      "bestWord": {
+        "word": "HAIR",
+        "score": 26
+      }
+    }
+  ],
+  "par": 60,
+  "goldLetter": "V"
+}

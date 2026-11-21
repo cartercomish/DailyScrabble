@@ -1,0 +1,118 @@
+{
+  "id": "2027-12-28",
+  "date": "2027-12-28",
+  "number": 626,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "OEAIBSR",
+      "bestWord": {
+        "word": "BASE",
+        "score": 32
+      }
+    },
+    {
+      "rack": "VTSWANE",
+      "bestWord": {
+        "word": "WAVES",
+        "score": 43
+      }
+    },
+    {
+      "rack": "CYWEDEF",
+      "bestWord": {
+        "word": "FEW",
+        "score": 36
+      }
+    }
+  ],
+  "par": 78,
+  "goldLetter": "V"
+}

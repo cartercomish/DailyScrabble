@@ -1,0 +1,138 @@
+{
+  "id": "2027-10-19",
+  "date": "2027-10-19",
+  "number": 556,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "D",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "Y",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "D",
+      "row": 2,
+      "col": 6
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EATFHDC",
+      "bestWord": {
+        "word": "HATRED",
+        "score": 40
+      }
+    },
+    {
+      "rack": "CLONOTA",
+      "bestWord": {
+        "word": "COAT",
+        "score": 38
+      }
+    },
+    {
+      "rack": "FEIATLG",
+      "bestWord": {
+        "word": "FLAG",
+        "score": 27
+      }
+    }
+  ],
+  "par": 74,
+  "goldLetter": "C"
+}

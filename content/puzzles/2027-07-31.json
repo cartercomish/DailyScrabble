@@ -1,0 +1,118 @@
+{
+  "id": "2027-07-31",
+  "date": "2027-07-31",
+  "number": 476,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "P",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 9
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EOIMCOE",
+      "bestWord": {
+        "word": "MOUSE",
+        "score": 25
+      }
+    },
+    {
+      "rack": "KUUESNA",
+      "bestWord": {
+        "word": "KEEN",
+        "score": 36
+      }
+    },
+    {
+      "rack": "EENSARX",
+      "bestWord": {
+        "word": "EXTRAS",
+        "score": 42
+      }
+    }
+  ],
+  "par": 72,
+  "goldLetter": "K"
+}

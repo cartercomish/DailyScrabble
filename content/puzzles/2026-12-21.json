@@ -5,123 +5,114 @@
   "size": 11,
   "seed": [
     {
-      "letter": "P",
+      "letter": "S",
       "row": 5,
-      "col": 3
-    },
-    {
-      "letter": "O",
-      "row": 5,
-      "col": 4
+      "col": 2
     },
     {
       "letter": "I",
       "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "V",
+      "row": 5,
       "col": 5
     },
     {
-      "letter": "N",
+      "letter": "E",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "T",
+      "letter": "R",
       "row": 5,
       "col": 7
     },
     {
-      "letter": "O",
-      "row": 6,
-      "col": 3
+      "letter": "F",
+      "row": 2,
+      "col": 6
     },
     {
-      "letter": "S",
-      "row": 7,
-      "col": 3
-    },
-    {
-      "letter": "T",
-      "row": 8,
-      "col": 3
-    },
-    {
-      "letter": "G",
-      "row": 4,
-      "col": 5
+      "letter": "I",
+      "row": 3,
+      "col": 6
     },
     {
       "letter": "R",
-      "row": 6,
-      "col": 5
-    },
-    {
-      "letter": "L",
-      "row": 7,
-      "col": 5
-    },
-    {
-      "letter": "T",
-      "row": 8,
-      "col": 0
+      "row": 4,
+      "col": 6
     },
     {
       "letter": "A",
-      "row": 8,
-      "col": 1
+      "row": 6,
+      "col": 2
     },
     {
-      "letter": "S",
-      "row": 8,
+      "letter": "M",
+      "row": 7,
       "col": 2
     },
     {
       "letter": "E",
       "row": 8,
-      "col": 4
-    },
-    {
-      "letter": "S",
-      "row": 9,
-      "col": 3
+      "col": 2
     },
     {
       "letter": "T",
-      "row": 9,
+      "row": 3,
       "col": 4
     },
     {
-      "letter": "I",
-      "row": 9,
+      "letter": "R",
+      "row": 3,
       "col": 5
     },
     {
-      "letter": "R",
-      "row": 9,
-      "col": 6
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 9
     }
   ],
   "rounds": [
     {
-      "rack": "PAJTDNA",
+      "rack": "RWEXAUO",
       "bestWord": {
-        "word": "JAPAN",
-        "score": 32
+        "word": "WAX",
+        "score": 31
       }
     },
     {
-      "rack": "DAEEVNF",
+      "rack": "CPESLAO",
       "bestWord": {
-        "word": "DEAF",
-        "score": 47
+        "word": "SCOPE",
+        "score": 68
       }
     },
     {
-      "rack": "LEZNGMO",
+      "rack": "AOHWYDV",
       "bestWord": {
-        "word": "ZONE",
-        "score": 37
+        "word": "WASH",
+        "score": 36
       }
     }
   ],
-  "par": 75
+  "par": 95,
+  "goldLetter": "C"
 }

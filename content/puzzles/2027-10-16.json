@@ -1,0 +1,118 @@
+{
+  "id": "2027-10-16",
+  "date": "2027-10-16",
+  "number": 553,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "V",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 8,
+      "col": 3
+    },
+    {
+      "letter": "B",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 0,
+      "col": 2
+    },
+    {
+      "letter": "I",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "letter": "N",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 2
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "DSIUGNO",
+      "bestWord": {
+        "word": "SIDING",
+        "score": 28
+      }
+    },
+    {
+      "rack": "FTROEWA",
+      "bestWord": {
+        "word": "FOOTWEAR",
+        "score": 122
+      }
+    },
+    {
+      "rack": "MIMOHPS",
+      "bestWord": {
+        "word": "HIPS",
+        "score": 32
+      }
+    }
+  ],
+  "par": 127,
+  "goldLetter": "F"
+}

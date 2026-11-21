@@ -1,0 +1,133 @@
+{
+  "id": "2027-05-30",
+  "date": "2027-05-30",
+  "number": 414,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "B",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "C",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "O",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 9
+    },
+    {
+      "letter": "S",
+      "row": 0,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "GLPILEA",
+      "bestWord": {
+        "word": "LISP",
+        "score": 27
+      }
+    },
+    {
+      "rack": "WEYSAOI",
+      "bestWord": {
+        "word": "WAYS",
+        "score": 49
+      }
+    },
+    {
+      "rack": "OHCEGYP",
+      "bestWord": {
+        "word": "EPOCH",
+        "score": 31
+      }
+    }
+  ],
+  "par": 75,
+  "goldLetter": "W"
+}

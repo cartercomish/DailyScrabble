@@ -1,0 +1,128 @@
+{
+  "id": "2027-08-30",
+  "date": "2027-08-30",
+  "number": 506,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 0
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 7
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "RHEMUFR",
+      "bestWord": {
+        "word": "HEM",
+        "score": 45
+      }
+    },
+    {
+      "rack": "XNINWOJ",
+      "bestWord": {
+        "word": "WAX",
+        "score": 37
+      }
+    },
+    {
+      "rack": "ERWBEBO",
+      "bestWord": {
+        "word": "BOW",
+        "score": 34
+      }
+    }
+  ],
+  "par": 81,
+  "goldLetter": "X"
+}

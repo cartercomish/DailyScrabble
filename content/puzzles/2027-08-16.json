@@ -1,0 +1,138 @@
+{
+  "id": "2027-08-16",
+  "date": "2027-08-16",
+  "number": 492,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "H",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "U",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "O",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "C",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "I",
+      "row": 2,
+      "col": 6
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 4,
+      "col": 1
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "D",
+      "row": 4,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "IEESBQR",
+      "bestWord": {
+        "word": "BITES",
+        "score": 30
+      }
+    },
+    {
+      "rack": "XRAMEIW",
+      "bestWord": {
+        "word": "AXE",
+        "score": 37
+      }
+    },
+    {
+      "rack": "DTGYIHA",
+      "bestWord": {
+        "word": "HAY",
+        "score": 34
+      }
+    }
+  ],
+  "par": 71,
+  "goldLetter": "X"
+}

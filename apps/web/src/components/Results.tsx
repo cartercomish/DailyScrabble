@@ -60,6 +60,15 @@ export function Results({
   const [copied, setCopied] = useState(false);
   const [sharingBoard, setSharingBoard] = useState(false);
   const emoji = resultEmoji(puzzle, result);
+  const botTotal = result.solutionBestTotal;
+  const botMargin =
+    botTotal != null && botTotal > 0 ? result.totalScore - botTotal : null;
+  const botLine =
+    botMargin == null || botMargin < 0
+      ? null
+      : botMargin === 0
+        ? "Tied the bot"
+        : `Beat the bot by ${botMargin}`;
   const shareText = formatShare(
     result.puzzleNumber,
     result.totalScore,
@@ -157,13 +166,21 @@ export function Results({
               <span style={{ fontSize: "2.6rem", lineHeight: 1 }}>{emoji}</span>
             )}
           </h2>
+          {!showingSolution && botLine && (
+            <p
+              className="mt-2 text-center font-[family-name:var(--font-display)] font-bold text-ink"
+              style={{ fontSize: "1.1rem", letterSpacing: "0.05em" }}
+            >
+              🤖 {botLine}
+            </p>
+          )}
           {(showingSolution || streak > 0) && (
             <p
               className="mt-2 text-center font-[family-name:var(--font-display)] font-bold text-ink"
               style={{ fontSize: "1.1rem", letterSpacing: "0.05em" }}
             >
               {showingSolution
-                ? "Best solution"
+                ? "The bot's line"
                 : `${streak}-day streak`}
             </p>
           )}
@@ -214,7 +231,7 @@ export function Results({
               onClick={onViewSolution}
               className="pixel-btn bg-paper py-3 text-center font-[family-name:var(--font-ui)] font-extrabold tracking-wide text-ink"
             >
-              {showingSolution ? "Hide solution" : "Show best solution"}
+              {showingSolution ? "Hide bot's line" : "Show bot's line"}
             </button>
           )}
         </div>

@@ -5,123 +5,114 @@
   "size": 11,
   "seed": [
     {
-      "letter": "B",
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "I",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "R",
+      "letter": "L",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "I",
+      "letter": "V",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "C",
+      "letter": "E",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "K",
+      "letter": "R",
       "row": 5,
       "col": 7
     },
     {
-      "letter": "W",
-      "row": 2,
-      "col": 7
+      "letter": "O",
+      "row": 4,
+      "col": 5
     },
     {
       "letter": "E",
-      "row": 3,
-      "col": 7
-    },
-    {
-      "letter": "E",
-      "row": 4,
-      "col": 7
-    },
-    {
-      "letter": "D",
-      "row": 3,
-      "col": 4
-    },
-    {
-      "letter": "A",
-      "row": 4,
-      "col": 4
-    },
-    {
-      "letter": "K",
       "row": 6,
-      "col": 4
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 5
     },
     {
       "letter": "A",
-      "row": 3,
-      "col": 0
+      "row": 6,
+      "col": 2
     },
     {
-      "letter": "I",
-      "row": 3,
-      "col": 1
-    },
-    {
-      "letter": "D",
-      "row": 3,
+      "letter": "M",
+      "row": 7,
       "col": 2
     },
     {
       "letter": "E",
-      "row": 3,
-      "col": 3
+      "row": 8,
+      "col": 2
     },
     {
-      "letter": "R",
-      "row": 3,
+      "letter": "T",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 7,
       "col": 6
     },
     {
-      "letter": "S",
-      "row": 3,
+      "letter": "D",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 7,
       "col": 8
     },
     {
-      "letter": "I",
-      "row": 3,
+      "letter": "R",
+      "row": 7,
       "col": 9
-    },
-    {
-      "letter": "N",
-      "row": 3,
-      "col": 10
     }
   ],
   "rounds": [
     {
-      "rack": "YAGOIQE",
+      "rack": "EFZCIAX",
       "bestWord": {
-        "word": "YOGA",
-        "score": 30
+        "word": "AXE",
+        "score": 51
       }
     },
     {
-      "rack": "TYAALRN",
+      "rack": "BGLYION",
       "bestWord": {
-        "word": "YARD",
-        "score": 24
-      }
-    },
-    {
-      "rack": "REEEIPT",
-      "bestWord": {
-        "word": "PIES",
+        "word": "BRING",
         "score": 28
+      }
+    },
+    {
+      "rack": "ENANYIR",
+      "bestWord": {
+        "word": "RAINY",
+        "score": 34
       }
     }
   ],
-  "par": 53
+  "par": 79,
+  "goldLetter": "B"
 }

@@ -1,0 +1,138 @@
+{
+  "id": "2027-09-11",
+  "date": "2027-09-11",
+  "number": 518,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "S",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 6,
+      "col": 2
+    },
+    {
+      "letter": "M",
+      "row": 7,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 2
+    },
+    {
+      "letter": "P",
+      "row": 2,
+      "col": 3
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 2,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "letter": "L",
+      "row": 1,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 1,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 1,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 1,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "EEIROBW",
+      "bestWord": {
+        "word": "WEBER",
+        "score": 37
+      }
+    },
+    {
+      "rack": "FENHKED",
+      "bestWord": {
+        "word": "FENDER",
+        "score": 33
+      }
+    },
+    {
+      "rack": "VAEYLII",
+      "bestWord": {
+        "word": "EARLY",
+        "score": 32
+      }
+    }
+  ],
+  "par": 71,
+  "goldLetter": "F"
+}

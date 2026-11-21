@@ -1,0 +1,128 @@
+{
+  "id": "2027-07-11",
+  "date": "2027-07-11",
+  "number": 456,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "D",
+      "row": 8,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "AVSOFPO",
+      "bestWord": {
+        "word": "FAVE",
+        "score": 30
+      }
+    },
+    {
+      "rack": "XDHYENA",
+      "bestWord": {
+        "word": "HEX",
+        "score": 34
+      }
+    },
+    {
+      "rack": "CIPCSOR",
+      "bestWord": {
+        "word": "CISCO",
+        "score": 35
+      }
+    }
+  ],
+  "par": 69,
+  "goldLetter": "X"
+}

@@ -5,12 +5,12 @@
   "size": 11,
   "seed": [
     {
-      "letter": "P",
+      "letter": "C",
       "row": 5,
       "col": 3
     },
     {
-      "letter": "L",
+      "letter": "R",
       "row": 5,
       "col": 4
     },
@@ -25,39 +25,44 @@
       "col": 6
     },
     {
-      "letter": "T",
+      "letter": "E",
       "row": 5,
       "col": 7
     },
     {
-      "letter": "O",
+      "letter": "E",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "H",
       "row": 6,
       "col": 3
     },
     {
-      "letter": "S",
-      "row": 7,
-      "col": 3
-    },
-    {
-      "letter": "T",
-      "row": 8,
-      "col": 3
+      "letter": "D",
+      "row": 4,
+      "col": 5
     },
     {
       "letter": "R",
+      "row": 6,
+      "col": 5
+    },
+    {
+      "letter": "K",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "S",
       "row": 2,
-      "col": 4
-    },
-    {
-      "letter": "A",
-      "row": 3,
-      "col": 4
-    },
-    {
-      "letter": "I",
-      "row": 4,
-      "col": 4
+      "col": 2
     },
     {
       "letter": "T",
@@ -66,67 +71,63 @@
     },
     {
       "letter": "A",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "R",
       "row": 2,
       "col": 5
     },
     {
-      "letter": "I",
+      "letter": "E",
       "row": 2,
       "col": 6
-    },
-    {
-      "letter": "N",
-      "row": 2,
-      "col": 7
-    },
-    {
-      "letter": "S",
-      "row": 2,
-      "col": 8
     },
     {
       "letter": "E",
-      "row": 4,
-      "col": 6
+      "row": 6,
+      "col": 2
     },
     {
       "letter": "A",
-      "row": 4,
-      "col": 7
+      "row": 7,
+      "col": 2
     },
     {
-      "letter": "R",
-      "row": 4,
-      "col": 8
+      "letter": "T",
+      "row": 8,
+      "col": 2
     },
     {
-      "letter": "N",
-      "row": 4,
-      "col": 9
+      "letter": "S",
+      "row": 9,
+      "col": 2
     }
   ],
   "rounds": [
     {
-      "rack": "IOAMNGT",
+      "rack": "DMARBVE",
       "bestWord": {
-        "word": "MAIN",
-        "score": 38
+        "word": "BRAVE",
+        "score": 42
       }
     },
     {
-      "rack": "LLYAPEO",
+      "rack": "MNSITIG",
       "bestWord": {
-        "word": "PLAY",
-        "score": 41
+        "word": "MISSING",
+        "score": 32
       }
     },
     {
-      "rack": "EYKQAIO",
+      "rack": "TLAEUDE",
       "bestWord": {
-        "word": "YEA",
-        "score": 23
+        "word": "DELETE",
+        "score": 72
       }
     }
   ],
-  "par": 66
+  "par": 102,
+  "goldLetter": "M"
 }

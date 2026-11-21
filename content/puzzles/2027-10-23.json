@@ -1,0 +1,118 @@
+{
+  "id": "2027-10-23",
+  "date": "2027-10-23",
+  "number": 560,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "B",
+      "row": 2,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "B",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "I",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "D",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "N",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "D",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 5
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "NURARPO",
+      "bestWord": {
+        "word": "PEAR",
+        "score": 29
+      }
+    },
+    {
+      "rack": "XDICYEM",
+      "bestWord": {
+        "word": "EXEC",
+        "score": 38
+      }
+    },
+    {
+      "rack": "YNDESZE",
+      "bestWord": {
+        "word": "DYES",
+        "score": 38
+      }
+    }
+  ],
+  "par": 74,
+  "goldLetter": "X"
+}

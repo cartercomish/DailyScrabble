@@ -1,0 +1,133 @@
+{
+  "id": "2027-06-15",
+  "date": "2027-06-15",
+  "number": 430,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "G",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "C",
+      "row": 2,
+      "col": 5
+    },
+    {
+      "letter": "O",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "M",
+      "row": 4,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "U",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "T",
+      "row": 2,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "N",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 8
+    },
+    {
+      "letter": "I",
+      "row": 7,
+      "col": 9
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "UERLSBV",
+      "bestWord": {
+        "word": "BECOME",
+        "score": 36
+      }
+    },
+    {
+      "rack": "MJRPOSE",
+      "bestWord": {
+        "word": "PROMISE",
+        "score": 38
+      }
+    },
+    {
+      "rack": "TDHCEHI",
+      "bestWord": {
+        "word": "HIDE",
+        "score": 40
+      }
+    }
+  ],
+  "par": 80,
+  "goldLetter": "M"
+}

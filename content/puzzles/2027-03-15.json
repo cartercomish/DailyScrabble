@@ -7,111 +7,127 @@
     {
       "letter": "W",
       "row": 5,
-      "col": 2
-    },
-    {
-      "letter": "I",
-      "row": 5,
       "col": 3
     },
     {
-      "letter": "N",
+      "letter": "A",
       "row": 5,
       "col": 4
     },
     {
-      "letter": "D",
+      "letter": "T",
       "row": 5,
       "col": 5
     },
     {
-      "letter": "O",
+      "letter": "E",
       "row": 5,
       "col": 6
     },
     {
-      "letter": "W",
+      "letter": "R",
       "row": 5,
       "col": 7
     },
     {
       "letter": "E",
       "row": 6,
-      "col": 2
+      "col": 3
     },
     {
       "letter": "E",
       "row": 7,
-      "col": 2
+      "col": 3
     },
     {
       "letter": "K",
       "row": 8,
-      "col": 2
+      "col": 3
     },
     {
-      "letter": "O",
+      "letter": "T",
       "row": 4,
-      "col": 4
-    },
-    {
-      "letter": "L",
-      "row": 6,
-      "col": 4
-    },
-    {
-      "letter": "Y",
-      "row": 7,
-      "col": 4
-    },
-    {
-      "letter": "R",
-      "row": 6,
       "col": 6
-    },
-    {
-      "letter": "O",
-      "row": 6,
-      "col": 7
     },
     {
       "letter": "A",
       "row": 6,
-      "col": 8
+      "col": 6
+    },
+    {
+      "letter": "M",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 5
     },
     {
       "letter": "S",
-      "row": 6,
-      "col": 9
+      "row": 3,
+      "col": 6
     },
     {
       "letter": "T",
-      "row": 6,
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "S",
+      "row": 4,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 4,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 4,
       "col": 10
     }
   ],
   "rounds": [
     {
-      "rack": "OPENTIS",
+      "rack": "IPCBOUO",
       "bestWord": {
-        "word": "POINTS",
-        "score": 33
+        "word": "BUCK",
+        "score": 30
       }
     },
     {
-      "rack": "ERRIOSN",
+      "rack": "HNOASGG",
       "bestWord": {
-        "word": "RESIN",
-        "score": 26
+        "word": "HANG",
+        "score": 34
       }
     },
     {
-      "rack": "AMVUHLL",
+      "rack": "RLFBNIO",
       "bestWord": {
-        "word": "HM",
-        "score": 32
+        "word": "RIBBON",
+        "score": 90
       }
     }
   ],
-  "par": 59
+  "par": 108,
+  "goldLetter": "H"
 }

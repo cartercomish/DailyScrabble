@@ -1,0 +1,118 @@
+{
+  "id": "2027-06-19",
+  "date": "2027-06-19",
+  "number": 434,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "P",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "L",
+      "row": 4,
+      "col": 4
+    },
+    {
+      "letter": "N",
+      "row": 6,
+      "col": 4
+    },
+    {
+      "letter": "E",
+      "row": 7,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 2,
+      "col": 2
+    },
+    {
+      "letter": "H",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "O",
+      "row": 4,
+      "col": 2
+    },
+    {
+      "letter": "L",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 5
+    },
+    {
+      "letter": "R",
+      "row": 7,
+      "col": 6
+    },
+    {
+      "letter": "N",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 7,
+      "col": 8
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "UTDIRBO",
+      "bestWord": {
+        "word": "BIRD",
+        "score": 29
+      }
+    },
+    {
+      "rack": "CIDHUAX",
+      "bestWord": {
+        "word": "ACID",
+        "score": 30
+      }
+    },
+    {
+      "rack": "SAEUVNG",
+      "bestWord": {
+        "word": "VASE",
+        "score": 41
+      }
+    }
+  ],
+  "par": 70,
+  "goldLetter": "C"
+}

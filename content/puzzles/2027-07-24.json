@@ -1,0 +1,118 @@
+{
+  "id": "2027-07-24",
+  "date": "2027-07-24",
+  "number": 469,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "P",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 6,
+      "col": 3
+    },
+    {
+      "letter": "K",
+      "row": 7,
+      "col": 3
+    },
+    {
+      "letter": "P",
+      "row": 3,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 4,
+      "col": 7
+    },
+    {
+      "letter": "H",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 0
+    },
+    {
+      "letter": "R",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "I",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "MALTNCO",
+      "bestWord": {
+        "word": "CALM",
+        "score": 33
+      }
+    },
+    {
+      "rack": "WIIUBSN",
+      "bestWord": {
+        "word": "WINS",
+        "score": 36
+      }
+    },
+    {
+      "rack": "AZDLXFE",
+      "bestWord": {
+        "word": "FLEX",
+        "score": 45
+      }
+    }
+  ],
+  "par": 80,
+  "goldLetter": "W"
+}

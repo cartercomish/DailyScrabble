@@ -1,0 +1,138 @@
+{
+  "id": "2027-05-19",
+  "date": "2027-05-19",
+  "number": 403,
+  "size": 11,
+  "seed": [
+    {
+      "letter": "M",
+      "row": 5,
+      "col": 2
+    },
+    {
+      "letter": "A",
+      "row": 5,
+      "col": 3
+    },
+    {
+      "letter": "R",
+      "row": 5,
+      "col": 4
+    },
+    {
+      "letter": "K",
+      "row": 5,
+      "col": 5
+    },
+    {
+      "letter": "E",
+      "row": 5,
+      "col": 6
+    },
+    {
+      "letter": "T",
+      "row": 5,
+      "col": 7
+    },
+    {
+      "letter": "E",
+      "row": 6,
+      "col": 7
+    },
+    {
+      "letter": "A",
+      "row": 7,
+      "col": 7
+    },
+    {
+      "letter": "M",
+      "row": 8,
+      "col": 7
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 3
+    },
+    {
+      "letter": "E",
+      "row": 4,
+      "col": 3
+    },
+    {
+      "letter": "L",
+      "row": 3,
+      "col": 1
+    },
+    {
+      "letter": "A",
+      "row": 3,
+      "col": 2
+    },
+    {
+      "letter": "E",
+      "row": 3,
+      "col": 4
+    },
+    {
+      "letter": "S",
+      "row": 3,
+      "col": 5
+    },
+    {
+      "letter": "T",
+      "row": 3,
+      "col": 6
+    },
+    {
+      "letter": "I",
+      "row": 8,
+      "col": 5
+    },
+    {
+      "letter": "N",
+      "row": 8,
+      "col": 6
+    },
+    {
+      "letter": "A",
+      "row": 8,
+      "col": 8
+    },
+    {
+      "letter": "T",
+      "row": 8,
+      "col": 9
+    },
+    {
+      "letter": "E",
+      "row": 8,
+      "col": 10
+    }
+  ],
+  "rounds": [
+    {
+      "rack": "VOSOEFU",
+      "bestWord": {
+        "word": "VOTES",
+        "score": 32
+      }
+    },
+    {
+      "rack": "ESRTDNI",
+      "bestWord": {
+        "word": "RESIST",
+        "score": 63
+      }
+    },
+    {
+      "rack": "PCAELEI",
+      "bestWord": {
+        "word": "CAPS",
+        "score": 33
+      }
+    }
+  ],
+  "par": 90,
+  "goldLetter": "E"
+}
