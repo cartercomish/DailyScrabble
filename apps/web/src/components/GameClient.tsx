@@ -23,7 +23,7 @@ import {
   loadProgress,
   loadStreak,
   normalizeTentative,
-  saveProgress,
+  saveProgress as saveDayProgress,
   updateStreakOnFinish,
   type DayProgress,
   type TentativeTile,
@@ -48,6 +48,11 @@ import { Rack } from "./Rack";
 
 interface GameClientProps {
   puzzle: DailyPuzzle;
+  /**
+   * Future-day preview: nothing is saved and the streak is untouched, so the
+   * real day still plays fresh and reloading replays from scratch.
+   */
+  preview?: boolean;
 }
 
 function progressMatchesSeed(
@@ -61,7 +66,10 @@ function progressMatchesSeed(
   });
 }
 
-export function GameClient({ puzzle }: GameClientProps) {
+export function GameClient({ puzzle, preview = false }: GameClientProps) {
+  const saveProgress = (progress: DayProgress) => {
+    if (!preview) saveDayProgress(progress);
+  };
   const { dict, botDict, loading, error } = useDictionary();
   const [board, setBoard] = useState<BoardCell[][]>(() =>
     boardFromPuzzle(puzzle),
@@ -194,7 +202,7 @@ export function GameClient({ puzzle }: GameClientProps) {
 
   // Hydrate from localStorage (ignore saves that don't match current seed)
   useEffect(() => {
-    const progress = loadProgress(puzzle.id);
+    const progress = preview ? null : loadProgress(puzzle.id);
     if (progress && progressMatchesSeed(progress, puzzle)) {
       restoreProgress(progress);
       if (progress.finished && progress.result) {
@@ -514,7 +522,9 @@ export function GameClient({ puzzle }: GameClientProps) {
         undefined,
         solutionBest,
       );
-      const streakCount = updateStreakOnFinish(puzzle.id, puzzle.date);
+      const streakCount = preview
+        ? 0
+        : updateStreakOnFinish(puzzle.id, puzzle.date);
       setBoard(nextBoard);
       setRoundResults(nextResults);
       setTentative([]);
@@ -645,6 +655,7 @@ export function GameClient({ puzzle }: GameClientProps) {
             </div>
             <p className="mt-1.5 font-[family-name:var(--font-ui)] text-[0.75rem] font-bold uppercase tracking-[0.14em] text-ink/45">
               #{String(puzzle.number).padStart(3, "0")} · {puzzle.date}
+              {preview && <span className="text-proof"> · Preview</span>}
             </p>
           </div>
           {finished ? (
